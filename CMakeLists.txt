@@ -52,6 +52,7 @@ set(LIBRARIES
 	openal
 	GLEW
 	GL
+	${CMAKE_DL_LIBS}
 )
 endif(WIN32)
 
