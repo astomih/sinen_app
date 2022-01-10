@@ -30,14 +30,19 @@ set(LIBRARIES
 	${Vulkan_LIBRARIES}	
 	SDL2
 	SDL2main
-	SDL2.dll
 	SDL2_image
 	SDL2_mixer
 	SDL2_ttf
 	SDL2_net
 	openal
-	glew32
-	opengl32
+	if(LINUX)
+		glew
+		gl
+	else()
+		glew32
+		opengl32
+	endif(LINUX)
+	
 )
 
 add_executable(sinen_game
