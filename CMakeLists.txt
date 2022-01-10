@@ -25,7 +25,21 @@ include_directories(
 link_directories(
 	./external/sinen/build
 )
-	if(LINUX)
+if(WIN32)
+set(LIBRARIES
+	nen
+	${Vulkan_LIBRARIES}	
+	SDL2
+	SDL2main
+	SDL2_image
+	SDL2_mixer
+	SDL2_ttf
+	SDL2_net
+	openal
+	glew32
+	opengl32
+)
+else()
 set(LIBRARIES
 	nen
 	${Vulkan_LIBRARIES}	
@@ -39,21 +53,7 @@ set(LIBRARIES
 	glew
 	gl
 )
-	else()
-set(LIBRARIES
-	nen
-	${Vulkan_LIBRARIES}	
-	SDL2
-	SDL2main
-	SDL2_image
-	SDL2_mixer
-	SDL2_ttf
-	SDL2_net
-	openal
-		glew32
-		opengl32
-)
-	endif(LINUX)
+endif(WIN32)
 
 add_executable(sinen_game
 	${SOURCE_FILES}
