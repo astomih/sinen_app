@@ -19,7 +19,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - run: git submodule update --remote --recursive
+    - run: git submodule
 
       
     - name: Setup Vulkan SDK
