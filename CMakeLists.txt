@@ -25,6 +25,35 @@ include_directories(
 link_directories(
 	./external/sinen/build
 )
+	if(LINUX)
+set(LIBRARIES
+	nen
+	${Vulkan_LIBRARIES}	
+	SDL2
+	SDL2main
+	SDL2_image
+	SDL2_mixer
+	SDL2_ttf
+	SDL2_net
+	openal
+	glew
+	gl
+)
+	else()
+set(LIBRARIES
+	nen
+	${Vulkan_LIBRARIES}	
+	SDL2
+	SDL2main
+	SDL2_image
+	SDL2_mixer
+	SDL2_ttf
+	SDL2_net
+	openal
+		glew32
+		opengl32
+)
+	endif(LINUX)
 set(LIBRARIES
 	nen
 	${Vulkan_LIBRARIES}	
@@ -36,12 +65,7 @@ set(LIBRARIES
 	SDL2_net
 	openal
 	if(LINUX)
-		glew
-		gl
 	else()
-		glew32
-		opengl32
-	endif(LINUX)
 	
 )
 
