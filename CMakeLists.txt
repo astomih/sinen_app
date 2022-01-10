@@ -50,8 +50,8 @@ set(LIBRARIES
 	SDL2_ttf
 	SDL2_net
 	openal
-	glew
-	gl
+	GLEW
+	GL
 )
 endif(WIN32)
 
