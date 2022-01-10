@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.7)
 project(sinen_game)
 
 
-set(CMAKE_CXX_FLAGS "-std=c++20 -Wno-subobject-linkage")
+set(CMAKE_CXX_FLAGS "-std=c++2a -Wno-subobject-linkage")
 set(CMAKE_CXX_FLAGS_DEBUG "-g3 -O0 -pg")
 set(CMAKE_CXX_FLAGS_RELEASE "-O2 -s -DNDEBUG -march=native")
 set(CMAKE_EXPORT_COMPILE_COMMANDS true)
