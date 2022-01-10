@@ -54,20 +54,6 @@ set(LIBRARIES
 		opengl32
 )
 	endif(LINUX)
-set(LIBRARIES
-	nen
-	${Vulkan_LIBRARIES}	
-	SDL2
-	SDL2main
-	SDL2_image
-	SDL2_mixer
-	SDL2_ttf
-	SDL2_net
-	openal
-	if(LINUX)
-	else()
-	
-)
 
 add_executable(sinen_game
 	${SOURCE_FILES}
