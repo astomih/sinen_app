@@ -1,7 +1,16 @@
-cmake_minimum_required(VERSION 3.7)
+cmake_minimum_required(VERSION 3.6)
 project(utilis)
-
-
+if(ANDROID)
+	set(CMAKE_CXX_FLAGS "-std=c++20")
+	file(GLOB SOURCE_FILES
+			./src/*/*.cpp
+			./src/*.cpp
+			)
+	add_library(main STATIC ${SOURCE_FILES})
+	find_library(nen nen)
+	target_link_libraries(main nen)
+	target_include_directories(main PUBLIC ./external/sinen/include)
+	else()
 set(CMAKE_CXX_FLAGS "-std=c++2a -Wno-subobject-linkage")
 set(CMAKE_CXX_FLAGS_DEBUG "-g3 -O0 -pg")
 set(CMAKE_CXX_FLAGS_RELEASE "-O2 -s -DNDEBUG -march=native")
@@ -62,3 +71,4 @@ add_executable(sinen_game
 target_link_libraries(sinen_game 
 	${LIBRARIES}
 )
+endif()
