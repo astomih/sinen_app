@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.6)
+cmake_minimum_required(VERSION 3.7)
 project(utilis)
 if(ANDROID)
 	set(CMAKE_CXX_FLAGS "-std=c++20")
@@ -10,7 +10,44 @@ if(ANDROID)
 	find_library(nen nen)
 	target_link_libraries(main nen)
 	target_include_directories(main PUBLIC ./external/sinen/include)
-	else()
+elseif(EMSCRIPTEN)
+	set(CMAKE_BUILD_TYPE_INIT "Release")
+	set(CMAKE_C_COMPILER "emcc")
+	file(GLOB SOURCE_FILES
+			src/*/*.cpp
+			src/*.cpp
+	)
+	add_executable(main ${SOURCE_FILES})
+	target_link_directories(main PUBLIC
+		.
+		external/sinen/build/build
+	)
+	target_link_libraries(main nen lua)
+	file(GLOB INCLUDE_DIRS
+		external/sinen/include
+		external/sinen/include/Nen
+		)
+	target_include_directories(main PUBLIC
+		${INCLUDE_DIRS}
+	)
+	set(CMAKE_CXX_FLAGS
+		"${CMAKE_CXX_FLAGS} -O2 \
+		-s USE_SDL=2 \
+		-s USE_SDL_IMAGE=2 \
+		-s USE_WEBGL2=1 \
+		-s FULL_ES3=1 \
+		-s MIN_WEBGL_VERSION=2 \
+		-s MAX_WEBGL_VERSION=2 \
+		-s SDL2_IMAGE_FORMATS=\"\"[\"png\"]\"\" \
+		-s USE_SDL_TTF=2 \
+		-s USE_SDL_MIXER=2 \
+		-s USE_SDL_NET=2 \
+		--preload-file Assets \
+		-s ALLOW_MEMORY_GROWTH \
+		-std=c++20"
+	)
+	set(CMAKE_EXECUTABLE_SUFFIX ".html")
+else()
 set(CMAKE_CXX_FLAGS "-std=c++2a -Wno-subobject-linkage")
 set(CMAKE_CXX_FLAGS_DEBUG "-g3 -O0 -pg")
 set(CMAKE_CXX_FLAGS_RELEASE "-O2 -s -DNDEBUG -march=native")
