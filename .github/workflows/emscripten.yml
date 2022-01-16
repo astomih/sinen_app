@@ -27,6 +27,6 @@ jobs:
       - name: sinen build
         run: cd external/sinen && emcmake cmake -B build && cd build && make -j2 && cd ../../../
       - name: CMake
-        run: emcmake cmake .
+        run: emcmake cmake -B build
       - name: Build
         run: make -j2
