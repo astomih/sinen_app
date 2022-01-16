@@ -90,7 +90,6 @@ set(LIBRARIES
 else()
 set(LIBRARIES
 	nen
-	boost
 	${Vulkan_LIBRARIES}	
 	SDL2
 	SDL2main

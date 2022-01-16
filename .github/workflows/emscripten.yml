@@ -22,7 +22,7 @@ jobs:
       - run: git submodule update --init --recursive
       
       - name: Lua build
-        run: wget https://www.lua.org/ftp/lua-5.4.3.tar.gz && tar -zxvf lua-5.4.3.tar.gz && cd lua-5.4.3 && make generic CC="emcc -s WASM=1" && cd ..
+        run: wget https://www.lua.org/ftp/lua-5.4.3.tar.gz && tar -zxvf lua-5.4.3.tar.gz && cd lua-5.4.3 && make generic CC="emcc -s WASM=1" && mv liblua.a .. && cd ..
       
       - name: sinen build
         run: cd external/sinen && emcmake cmake -B build && cd build && make -j2 && cd ../../../
