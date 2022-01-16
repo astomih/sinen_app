@@ -1,8 +1,8 @@
-﻿#include <Nen/Nen.hpp>
-#include "Scene/Title.hpp"
+﻿#include "Scene/Title.hpp"
+#include <Nen/Nen.hpp>
+
 
 int main(int argc, char *argv[]) {
-    nen::Launch(std::make_shared<Title>());
-    nen::singleton_finalizer::Finalize();
-    return 0;
+  nen::Launch(std::make_shared<Title>());
+  return 0;
 }

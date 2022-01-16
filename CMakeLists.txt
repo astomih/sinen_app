@@ -39,6 +39,7 @@ elseif(EMSCRIPTEN)
 		-s MIN_WEBGL_VERSION=2 \
 		-s MAX_WEBGL_VERSION=2 \
 		-s SDL2_IMAGE_FORMATS=\"\"[\"png\"]\"\" \
+		-s USE_BOOST=1 \
 		-s USE_SDL_TTF=2 \
 		-s USE_SDL_MIXER=2 \
 		-s USE_SDL_NET=2 \
@@ -53,6 +54,7 @@ set(CMAKE_CXX_FLAGS_DEBUG "-g3 -O0 -pg")
 set(CMAKE_CXX_FLAGS_RELEASE "-O2 -s -DNDEBUG -march=native")
 set(CMAKE_EXPORT_COMPILE_COMMANDS true)
 
+find_package(Boost REQUIRED)
 find_package(Vulkan REQUIRED)
 find_package(OpenGL REQUIRED)
 find_package(GLEW REQUIRED)
@@ -88,6 +90,7 @@ set(LIBRARIES
 else()
 set(LIBRARIES
 	nen
+	boost
 	${Vulkan_LIBRARIES}	
 	SDL2
 	SDL2main
