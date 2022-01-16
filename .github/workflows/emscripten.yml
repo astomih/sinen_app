@@ -29,4 +29,4 @@ jobs:
       - name: CMake
         run: emcmake cmake -B build
       - name: Build
-        run: make -j2
+        run: cd build && make -j2
