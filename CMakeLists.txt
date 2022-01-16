@@ -38,8 +38,8 @@ elseif(EMSCRIPTEN)
 		-s FULL_ES3=1 \
 		-s MIN_WEBGL_VERSION=2 \
 		-s MAX_WEBGL_VERSION=2 \
-		-s SDL2_IMAGE_FORMATS=\"\"[\"png\"]\"\" \
-		-s USE_BOOST=1 \
+		-s SDL2_IMAGE_FORMATS='[\"png\"]' \
+		-s USE_BOOST_HEADERS=1 \
 		-s USE_SDL_TTF=2 \
 		-s USE_SDL_MIXER=2 \
 		-s USE_SDL_NET=2 \
