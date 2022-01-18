@@ -28,7 +28,7 @@ jobs:
       run: |
           cd external/sinen
           mkdir build
-          cmake -G "Ninja" build
+          cmake -G "Ninja" -B build
           cd build
           ninja
           cd ../../../
@@ -37,7 +37,7 @@ jobs:
       # See https://cmake.org/cmake/help/latest/variable/CMAKE_BUILD_TYPE.html?highlight=cmake_build_type
       run: |
           mkdir build
-          cmake -G "Ninja" build
+          cmake -G "Ninja" -B build
 
     - name: Build
       # Build your program with the given configuration
