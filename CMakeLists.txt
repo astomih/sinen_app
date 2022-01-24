@@ -50,7 +50,7 @@ elseif(EMSCRIPTEN)
 	set(CMAKE_EXECUTABLE_SUFFIX ".html")
 else()
 set(CMAKE_CXX_FLAGS "-std=c++2a -Wno-subobject-linkage")
-set(CMAKE_CXX_FLAGS_DEBUG "-g3 -O0 -pg")
+set(CMAKE_CXX_FLAGS_DEBUG "-g -O0")
 set(CMAKE_CXX_FLAGS_RELEASE "-O2 -s -DNDEBUG -march=native")
 set(CMAKE_EXPORT_COMPILE_COMMANDS true)
 
@@ -69,6 +69,7 @@ file(GLOB SOURCE_FILES
 
 include_directories(
 	./external/sinen/include
+	./external/DTL/include
 )
 link_directories(
 	./external/sinen/build
@@ -103,6 +104,7 @@ set(LIBRARIES
 	${CMAKE_DL_LIBS}
 )
 endif(WIN32)
+add_subdirectory(./external/sinen)
 
 add_executable(sinen_game
 	${SOURCE_FILES}

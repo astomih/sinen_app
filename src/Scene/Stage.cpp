@@ -1,27 +1,28 @@
 #include "Stage.hpp"
-
+#include "../Actor/Camera.hpp"
+#include "Actor/Actor.hpp"
+#include "Component/Draw2DComponent.hpp"
+#include "Component/Draw3DComponent.hpp"
+#include "Vertex/Vertex.hpp"
+#include "Vertex/VertexArray.hpp"
+#include <DTL/DTL.hpp>
 #include <Nen/Nen.hpp>
 #include <memory>
-
-#include "../Actor/Camera.hpp"
+#include <string>
 
 const float scale = 5.f;
 
 Stage::Stage() {}
 
 void Stage::Setup() {
+  white_tex = std::make_shared<nen::texture>();
+  white_tex->CreateFromColor(nen::palette::Blue, "White");
+
   player = AddActor<nen::base_actor>();
   player->SetPosition(nen::vector3(10, 0, 10));
 
-  map = {{1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 0, 0, 0, 0, 0, 0, 0, 0, 1},
-         {1, 0, 1, 0, 0, 0, 0, 0, 0, 1}, {1, 0, 0, 0, 0, 0, 0, 0, 0, 1},
-         {1, 0, 0, 0, 0, 0, 0, 0, 0, 1}, {1, 0, 0, 0, 0, 0, 0, 0, 0, 1},
-         {1, 0, 0, 0, 0, 0, 0, 0, 0, 1}, {1, 0, 0, 0, 0, 0, 0, 0, 0, 1},
-         {1, 0, 0, 0, 0, 0, 0, 0, 0, 1}, {1, 0, 0, 0, 0, 0, 0, 0, 0, 1}};
-  map_actors.resize(map.size());
-  for (int i = 0; i < map_actors.size(); i++) {
-    map_actors[i].resize(map[i].size());
-  }
+  dtl::shape::SimpleRogueLike<uint32_t>(1, 1, 3, 4, 5, 2, 5, 2).draw(map);
+
   auto t = std::make_shared<nen::texture>();
   t->Load("rect.png");
 
@@ -33,9 +34,6 @@ void Stage::Setup() {
   pc->Create(pt);
   pc->Register();
 
-  white_tex = std::make_shared<nen::texture>();
-  white_tex->CreateFromColor(nen::palette::Blue, "White");
-
   auto act2 = AddActor<nen::base_actor>();
   act2->SetScale(nen::vector3(10.f, 10.f, 0.f));
   auto test = act2->AddComponent<nen::draw_2d_component>();
@@ -43,8 +41,8 @@ void Stage::Setup() {
   test->Register();
 
   for (int i = 0; i < map.size(); i++) {
-    for (int j = 0; j < map.size(); j++) {
-      if (map[i][j] == 0) {
+    for (int j = 0; j < map[i].size(); j++) {
+      if (map[i][j] == 1) {
         auto a = AddActor<nen::base_actor>();
         a->SetPosition(
             nen::vector3(j * scale * 2.f, -scale * 1.5f, i * scale * 2.f));
@@ -56,7 +54,7 @@ void Stage::Setup() {
         c->Register();
         map_actors[i][j] = a;
       }
-      if (map[i][j] == 1) {
+      if (map[i][j] == 0) {
         auto a = AddActor<nen::base_actor>();
         a->SetPosition(nen::vector3(j * scale * 2.f, 0, i * scale * 2.f));
         a->SetScale(nen::vector3(scale));

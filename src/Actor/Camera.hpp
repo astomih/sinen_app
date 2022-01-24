@@ -7,6 +7,7 @@ public:
   void Update(float deltaTime) override;
   std::string GetID() override { return "Camera"; }
   nen::vector3 initial_pos;
+  nen::vector2 initial_mouse_pos;
   nen::vector3 initial_lookAt;
   nen::vector3 lookAt;
   nen::vector3 direction;
