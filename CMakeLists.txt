@@ -26,6 +26,7 @@ elseif(EMSCRIPTEN)
 	file(GLOB INCLUDE_DIRS
 		external/sinen/include
 		external/sinen/include/Nen
+		external/DTL/include
 		)
 	target_include_directories(main PUBLIC
 		${INCLUDE_DIRS}
