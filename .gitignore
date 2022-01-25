@@ -49,6 +49,7 @@ CMakeCache.txt
 *.js
 *.wasm
 *.cap
+model_converter/build
 cmake_install.cmake
 Makefile
 *.ninja
