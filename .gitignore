@@ -50,6 +50,10 @@ CMakeCache.txt
 *.wasm
 *.cap
 model_converter/build
+build/Assets/Font
+build/Assets/Model
+build/Assets/Shader
+build/Assets/Texture
 cmake_install.cmake
 Makefile
 *.ninja

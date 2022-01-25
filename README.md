@@ -1,3 +1,7 @@
-[![CMake](https://github.com/astomih/utilis/actions/workflows/cmake.yml/badge.svg)](https://github.com/astomih/utilis/actions/workflows/cmake.yml)
 # utilis
-sinen製ゲーム
+made with sinen
+## Supported platforms
+[![Windows(MinGW)](https://github.com/astomih/utilis/actions/workflows/mingw.yml/badge.svg)](https://github.com/astomih/utilis/actions/workflows/mingw.yml)
+[![Linux](https://github.com/astomih/utilis/actions/workflows/linux.yml/badge.svg)](https://github.com/astomih/utilis/actions/workflows/linux.yml)
+[![Emscripten](https://github.com/astomih/utilis/actions/workflows/emscripten.yml/badge.svg)](https://github.com/astomih/utilis/actions/workflows/emscripten.yml)
+[![Android](https://github.com/astomih/utilis/actions/workflows/android.yml/badge.svg)](https://github.com/astomih/utilis/actions/workflows/android.yml)
