@@ -4,7 +4,7 @@
 #include <string>
 
 const std::string version = "0.0.1";
-
+bool z_mode = false;
 inline std::string get_file_name(const std::string &path) {
   std::size_t pos;
   pos = path.rfind('\\');
@@ -35,10 +35,15 @@ void write_vertex(std::string &write_data, nen::Model &model);
 void write_indices(std::string &write_data, nen::Model &model);
 
 int main(int argc, char *argv[]) {
-  if (argc < 2)
+  if (argc < 2) {
     std::cout << "Please input model." << std::endl;
+    return -1;
+  }
   nen::Model model;
   model.LoadFromFile(argv[1]);
+  if (argc > 2 && std::string(argv[2]) == "z") {
+    z_mode = true;
+  }
 
   std::string write_data;
 
@@ -66,12 +71,24 @@ void write_vertex(std::string &write_data, nen::Model &model) {
   for (auto &i : model.node_list) {
     for (auto &j : i->mesh) {
       for (auto &v : j.body.vertices) {
-        write_data +=
-            std::to_string(v.position.x) + " " + std::to_string(v.position.y) +
-            " " + std::to_string(v.position.z) + " " +
-            std::to_string(v.normal.x) + " " + std::to_string(v.normal.y) +
-            " " + std::to_string(v.normal.z) + " " + std::to_string(v.uv.x) +
-            " " + std::to_string(v.uv.y) + "\n";
+        if (z_mode) {
+          write_data +=
+              std::to_string(v.position.x) + " " +
+              std::to_string(v.position.z) + " " +
+              std::to_string(v.position.y) + " " + std::to_string(v.normal.x) +
+              " " + std::to_string(v.normal.z) + " " +
+              std::to_string(v.normal.x) + " " + std::to_string(v.uv.x) + " " +
+              std::to_string(v.uv.y) + "\n";
+
+        } else {
+          write_data +=
+              std::to_string(v.position.x) + " " +
+              std::to_string(v.position.y) + " " +
+              std::to_string(v.position.z) + " " + std::to_string(v.normal.x) +
+              " " + std::to_string(v.normal.y) + " " +
+              std::to_string(v.normal.z) + " " + std::to_string(v.uv.x) + " " +
+              std::to_string(v.uv.y) + "\n";
+        }
       }
     }
   }
