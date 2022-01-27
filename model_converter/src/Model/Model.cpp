@@ -1,10 +1,12 @@
 ﻿#include "Model.hpp"
 #include "../Animation/FromAssimp.hpp"
+#include "Color/Color.hpp"
 #include <Nen.hpp>
 #include <assimp/DefaultLogger.hpp>
 #include <assimp/Importer.hpp>
 #include <assimp/LogStream.hpp>
 #include <assimp/cimport.h>
+#include <assimp/color4.h>
 #include <assimp/postprocess.h>
 #include <assimp/scene.h>
 #include <map>
@@ -213,6 +215,12 @@ Mesh createMesh(const aiMesh *const m) {
     const aiVector3D *uv = m->mTextureCoords[0];
     for (uint32_t h = 0; h < num_vtx; ++h) {
       v[h].uv = vector2(uv[h].x, uv[h].y);
+    }
+  }
+  if (m->HasVertexColors(0)) {
+    const aiColor4D *color = m->mColors[0];
+    for (uint32_t h = 0; h < num_vtx; ++h) {
+      v[h].color = nen::color{color[h].r, color[h].g, color[h].b, color[h].a};
     }
   }
 

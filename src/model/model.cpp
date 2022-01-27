@@ -35,9 +35,10 @@ void model::load(std::string_view str) {
         state = load_state::indices;
 
       nen::vertex v;
-      sscanf(line.data(), "%f %f %f %f %f %f %f %f\n", &v.position.x,
-             &v.position.y, &v.position.z, &v.normal.x, &v.normal.y,
-             &v.normal.z, &v.uv.x, &v.uv.y);
+      sscanf(line.data(), "%f %f %f %f %f %f %f %f %f %f %f %f\n",
+             &v.position.x, &v.position.y, &v.position.z, &v.normal.x,
+             &v.normal.y, &v.normal.z, &v.uv.x, &v.uv.y, &v.color.r, &v.color.g,
+             &v.color.b, &v.color.a);
 
       m_array.vertices.push_back(v);
     } break;

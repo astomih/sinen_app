@@ -78,7 +78,9 @@ void write_vertex(std::string &write_data, nen::Model &model) {
               std::to_string(v.position.y) + " " + std::to_string(v.normal.x) +
               " " + std::to_string(v.normal.z) + " " +
               std::to_string(v.normal.x) + " " + std::to_string(v.uv.x) + " " +
-              std::to_string(v.uv.y) + "\n";
+              std::to_string(v.uv.y) + " " + std::to_string(v.color.r) + " " +
+              std::to_string(v.color.g) + " " + std::to_string(v.color.b) +
+              " " + std::to_string(v.color.a) + "\n";
 
         } else {
           write_data +=
@@ -87,7 +89,9 @@ void write_vertex(std::string &write_data, nen::Model &model) {
               std::to_string(v.position.z) + " " + std::to_string(v.normal.x) +
               " " + std::to_string(v.normal.y) + " " +
               std::to_string(v.normal.z) + " " + std::to_string(v.uv.x) + " " +
-              std::to_string(v.uv.y) + "\n";
+              std::to_string(v.uv.y) + " " + std::to_string(v.color.r) + " " +
+              std::to_string(v.color.g) + " " + std::to_string(v.color.b) +
+              " " + std::to_string(v.color.a) + "\n";
         }
       }
     }
