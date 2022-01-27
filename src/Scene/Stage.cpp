@@ -2,6 +2,7 @@
 #include "../Actor/Camera.hpp"
 #include "../model/model.hpp"
 #include "Actor/Actor.hpp"
+#include "Color/Color.hpp"
 #include "Component/Draw2DComponent.hpp"
 #include "Component/Draw3DComponent.hpp"
 #include "Logger/Logger.hpp"
@@ -11,6 +12,7 @@
 #include "Math/Vector3.hpp"
 #include "Scene/Scene.hpp"
 #include "Script/Script.hpp"
+#include "Texture/Texture.hpp"
 #include "Vertex/Vertex.hpp"
 #include "Vertex/VertexArray.hpp"
 #include <DTL/DTL.hpp>
@@ -28,7 +30,8 @@ void Stage::Setup() {
   _model.load("player.sim");
   _model.set(GetRenderer(), "player");
   auto pt = std::make_shared<nen::texture>();
-  pt->Load("base.png");
+
+  pt->CreateFromColor(nen::color(1, 1, 1, 1), "none");
   {
     auto c =
         AddActor<nen::base_actor>()->AddComponent<nen::draw_3d_component>();
@@ -46,7 +49,7 @@ void Stage::Setup() {
   };
   while (!decide_ppos()) {
   }
-  player->SetPosition(nen::vector3(scale * 2 * r2, 0, scale * 2 * r1));
+  player->SetPosition(nen::vector3(scale * 2 * r2, -scale * 2 * r1, 0));
 
   auto t = std::make_shared<nen::texture>();
   t->Load("rect.png");
@@ -58,14 +61,14 @@ void Stage::Setup() {
   pc->Register();
 
   auto act2 = AddActor<nen::base_actor>();
-  act2->SetScale(nen::vector3(10.f, 10.f, 0.f));
+  act2->SetScale(nen::vector3(10.f, 0.f, 10.f));
 
   for (int i = 0; i < map.size(); i++) {
     for (int j = 0; j < map[i].size(); j++) {
       if (map[i][j] == 1) {
         auto a = AddActor<nen::base_actor>();
         a->SetPosition(
-            nen::vector3(j * scale * 2.f, -scale * 1.5f, i * scale * 2.f));
+            nen::vector3(j * scale * 2.f, -i * scale * 2.f, -scale * 1.5f));
         a->SetScale(nen::vector3(scale));
         a->SetRotation(
             nen::quaternion(nen::vector3::UnitX, -nen::Math::PiOver2));
@@ -76,7 +79,7 @@ void Stage::Setup() {
       }
       if (map[i][j] == 0) {
         auto a = AddActor<nen::base_actor>();
-        a->SetPosition(nen::vector3(j * scale * 2.f, 0, i * scale * 2.f));
+        a->SetPosition(nen::vector3(j * scale * 2.f, -i * scale * 2.f, 0.f));
         a->SetScale(nen::vector3(scale));
         auto c = a->AddComponent<nen::draw_3d_component>();
         c->Create(t, "BOX");
@@ -102,24 +105,18 @@ nen::vector3 screen_to_world(nen::base_scene *scene,
 }
 
 void Stage::Update(float deltaTime) {
-  {
-    auto pos_mouse = GetInput().Mouse.GetPosition();
-    auto world = screen_to_world(this, pos_mouse);
-    nen::logger::Info("%f %f %f", world.x, world.y, world.z);
-    GetActor<nen::base_actor>(0)->SetPosition(world);
-  }
   if (GetInput().Keyboard.GetKeyState(nen::key_code::UP) ==
           nen::button_state::Held ||
       GetInput().Keyboard.GetKeyState((nen::key_code::K)) ==
           nen::button_state::Held) {
     auto before = player->GetPosition();
-    player->Move(0, 0, -scale * 2.f * deltaTime);
+    player->Move(0, scale * 2.f * deltaTime, 0);
     for (int i = 0; i < map.size(); i++) {
       for (int j = 0; j < map[i].size(); j++) {
         if (map[i][j] == 0 &&
             nen::collision::IntersectAABB(
                 player->GetPosition(), map_actors[i][j]->GetPosition(),
-                nen::vector3(scale * 1.5f, 0, scale))) {
+                nen::vector3(scale * 1.5f, scale, 0))) {
           player->SetPosition(before);
         }
       }
@@ -130,13 +127,13 @@ void Stage::Update(float deltaTime) {
       GetInput().Keyboard.GetKeyState((nen::key_code::J)) ==
           nen::button_state::Held) {
     auto before = player->GetPosition();
-    player->Move(0, 0, scale * 2.f * deltaTime);
+    player->Move(0, -scale * 2.f * deltaTime, 0);
     for (int i = 0; i < map.size(); i++) {
       for (int j = 0; j < map[i].size(); j++) {
         if (map[i][j] == 0 &&
             nen::collision::IntersectAABB(
                 player->GetPosition(), map_actors[i][j]->GetPosition(),
-                nen::vector3(scale * 1.5f, 0, scale))) {
+                nen::vector3(scale * 1.5f, scale, 0))) {
           player->SetPosition(before);
         }
       }
@@ -153,7 +150,7 @@ void Stage::Update(float deltaTime) {
         if (map[i][j] == 0 &&
             nen::collision::IntersectAABB(
                 player->GetPosition(), map_actors[i][j]->GetPosition(),
-                nen::vector3(scale * 1.5f, 0, scale))) {
+                nen::vector3(scale * 1.5f, scale, 0))) {
           player->SetPosition(before);
         }
       }
@@ -170,7 +167,7 @@ void Stage::Update(float deltaTime) {
         if (map[i][j] == 0 &&
             nen::collision::IntersectAABB(
                 player->GetPosition(), map_actors[i][j]->GetPosition(),
-                nen::vector3(scale * 1.5f, 0, scale))) {
+                nen::vector3(scale * 1.5f, scale, 0))) {
           player->SetPosition(before);
         }
       }
@@ -181,7 +178,7 @@ void Stage::Update(float deltaTime) {
       if (map[i][j] == 0 &&
           nen::collision::IntersectAABB(player->GetPosition(),
                                         map_actors[i][j]->GetPosition(),
-                                        nen::vector3(scale, 0, scale))) {
+                                        nen::vector3(scale, scale, 0))) {
         map_actors[i][j]
             ->GetComponent<nen::draw_3d_component>()
             ->GetSprite()
@@ -190,6 +187,6 @@ void Stage::Update(float deltaTime) {
     }
   }
   camera->SetPosition(player->GetPosition() + camera->initial_pos);
-  camera->lookAt = player->GetPosition() + camera->initial_lookAt;
+  camera->lookAt = player->GetPosition() - camera->initial_lookAt;
   camera->Update(deltaTime);
 }

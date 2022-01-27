@@ -220,7 +220,7 @@ Mesh createMesh(const aiMesh *const m) {
   if (m->HasVertexColors(0)) {
     const aiColor4D *color = m->mColors[0];
     for (uint32_t h = 0; h < num_vtx; ++h) {
-      v[h].color = nen::color{color[h].r, color[h].g, color[h].b, color[h].a};
+      v[h].rgba = nen::color{color[h].r, color[h].g, color[h].b, color[h].a};
     }
   }
 

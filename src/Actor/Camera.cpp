@@ -2,19 +2,20 @@
 #include "GUI/Button.hpp"
 #include "Input/InputSystem.hpp"
 #include "Input/MouseCode.hpp"
+#include "Math/Transform.hpp"
 #include "Math/Vector3.hpp"
 #include "Window/Window.hpp"
 #include "Window/WindowState.hpp"
 #include <Nen/Nen.hpp>
 
 CameraActor::CameraActor(nen::base_scene &scene)
-    : base_actor(scene), verticalAngle(-nen::Math::Pi / 4.f), isfocusing(true) {
-  initial_pos = nen::vector3(0, 20.f, 15.f);
+    : base_actor(scene), verticalAngle(nen::Math::Pi / 4.f), isfocusing(true) {
+  initial_pos = nen::vector3(0, -15.f, 20.f);
   SetPosition(initial_pos);
-  lookAt = nen::vector3(0.f, 0, -5.f);
-  nen::transform trans(*this);
-  trans.LookAt(lookAt, nen::vector3::UnitY);
-  auto view = nen::matrix4::LookAt(GetPosition(), lookAt, nen::vector3::UnitY);
+  initial_lookAt = nen::vector3(0.f, 5.f, 0);
+  lookAt = initial_lookAt;
+
+  auto view = nen::matrix4::LookAt(GetPosition(), lookAt, nen::vector3::UnitZ);
   GetScene().GetRenderer()->SetViewMatrix(view);
 }
 
