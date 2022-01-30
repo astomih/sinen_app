@@ -18,15 +18,15 @@ include_directories(
 link_directories(
 	../external/sinen/build
 )
-find_package(Boost REQUIRED)
 find_package(Vulkan REQUIRED)
 find_package(OpenGL REQUIRED)
 find_package(GLEW REQUIRED)
 find_package(SDL2 REQUIRED)
 find_package(OpenAL REQUIRED)
 find_package(assimp REQUIRED)
+add_subdirectory(./external/sinen)
 set(LIBRARIES
-    nen
+	nen
     assimp
 	${Vulkan_LIBRARIES}	
 	SDL2

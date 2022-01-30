@@ -1,4 +1,4 @@
-#include "Title.hpp"
+﻿#include "Title.hpp"
 #include "Stage.hpp"
 #include <Nen/Nen.hpp>
 
@@ -14,7 +14,7 @@ void Title::Setup() {
   auto titleText =
       AddActor<nen::base_actor>()->AddComponent<nen::text_component>();
   titleText->SetFont(mplus_72);
-  titleText->SetString("思念大陸ユーティリス", nen::palette::White);
+  titleText->SetString("UTILIS", nen::palette::White);
   titleText->Register();
 
   auto act1 = AddActor<nen::base_actor>();
@@ -22,7 +22,7 @@ void Title::Setup() {
 
   auto playtext = act1->AddComponent<nen::text_component>();
   playtext->SetFont(mplus_);
-  playtext->SetString("起動");
+  playtext->SetString("START");
   playtext->Register();
 }
 

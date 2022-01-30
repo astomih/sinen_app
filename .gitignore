@@ -50,10 +50,7 @@ CMakeCache.txt
 *.wasm
 *.cap
 model_converter/build
-build/Assets/Font
-build/Assets/Model
-build/Assets/Shader
-build/Assets/Texture
+build
 cmake_install.cmake
 Makefile
 *.ninja
@@ -69,3 +66,4 @@ android-project/gradle/wrapper/gradle - ショートカット.lnk
 *.obj
 .clang-format
 *.lua
+build/Assets/.gitkeep

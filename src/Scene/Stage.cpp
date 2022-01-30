@@ -26,7 +26,6 @@ Stage::Stage() {}
 
 void Stage::Setup() {
   model _model;
-  nen::script::DoScript("test.lua");
   _model.load("player.sim");
   _model.set(GetRenderer(), "player");
   auto pt = std::make_shared<nen::texture>();
