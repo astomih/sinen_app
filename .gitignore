@@ -67,3 +67,5 @@ android-project/gradle/wrapper/gradle - ショートカット.lnk
 *.png
 *.mtl
 *.obj
+.clang-format
+*.lua

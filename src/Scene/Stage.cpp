@@ -70,8 +70,8 @@ void Stage::Setup() {
         a->SetPosition(
             nen::vector3(j * scale * 2.f, -i * scale * 2.f, -scale * 1.5f));
         a->SetScale(nen::vector3(scale));
-        a->SetRotation(
-            nen::quaternion(nen::vector3::UnitX, -nen::Math::PiOver2));
+        // a->SetRotation(
+        //    nen::quaternion(nen::vector3::UnitX, -nen::Math::PiOver2));
         auto c = a->AddComponent<nen::draw_3d_component>();
         c->Create(t);
         c->Register();
@@ -88,6 +88,9 @@ void Stage::Setup() {
       }
     }
   }
+  camera->SetPosition(player->GetPosition() + camera->initial_pos);
+  camera->lookAt = player->GetPosition() - camera->initial_lookAt;
+  camera->Update(0.f);
 }
 
 nen::vector3 screen_to_world(nen::base_scene *scene,
@@ -105,6 +108,17 @@ nen::vector3 screen_to_world(nen::base_scene *scene,
 }
 
 void Stage::Update(float deltaTime) {
+  camera->SetPosition(player->GetPosition() + camera->initial_pos);
+  camera->lookAt = player->GetPosition() - camera->initial_lookAt;
+  camera->Update(deltaTime);
+
+#if 1
+
+  {
+    auto pos = player->GetPosition();
+    nen::logger::Info("%f %f %f", pos.x, pos.y, pos.z);
+  }
+
   if (GetInput().Keyboard.GetKeyState(nen::key_code::UP) ==
           nen::button_state::Held ||
       GetInput().Keyboard.GetKeyState((nen::key_code::K)) ==
@@ -186,7 +200,5 @@ void Stage::Update(float deltaTime) {
       }
     }
   }
-  camera->SetPosition(player->GetPosition() + camera->initial_pos);
-  camera->lookAt = player->GetPosition() - camera->initial_lookAt;
-  camera->Update(deltaTime);
+#endif
 }
