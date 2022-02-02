@@ -5,6 +5,7 @@
 
 const std::string version = "0.0.1";
 bool z_mode = false;
+bool cpp_mode = false;
 inline std::string get_file_name(const std::string &path) {
   std::size_t pos;
   pos = path.rfind('\\');
@@ -30,6 +31,9 @@ inline std::string extract_path_without_extension(const std::string &fn) {
 void write_version(std::string &write_data) {
   write_data += "version " + version + "\n";
 }
+void write_vertex_cpp(const std::string &name, std::string &write_data,
+                      nen::Model &model);
+void write_indices_cpp(std::string &write_data, nen::Model &model);
 
 void write_vertex(std::string &write_data, nen::Model &model);
 void write_indices(std::string &write_data, nen::Model &model);
@@ -44,16 +48,28 @@ int main(int argc, char *argv[]) {
   if (argc > 2 && std::string(argv[2]) == "z") {
     z_mode = true;
   }
+  if (argc > 2 && std::string(argv[2]) == "cpp") {
+    cpp_mode = true;
+  }
 
   std::string write_data;
-
-  write_version(write_data);
-  write_vertex(write_data, model);
-  write_indices(write_data, model);
-
   std::string file_name =
       extract_path_without_extension(get_file_name(std::string(argv[1])));
-  file_name += ".sim";
+
+  if (cpp_mode) {
+    write_vertex_cpp(file_name, write_data, model);
+    write_indices_cpp(write_data, model);
+
+  } else {
+    write_version(write_data);
+    write_vertex(write_data, model);
+    write_indices(write_data, model);
+  }
+
+  if (cpp_mode)
+    file_name += ".cpp";
+  else
+    file_name += ".sim";
   auto *file = SDL_RWFromFile(file_name.data(), "w");
   if (file != NULL) {
     auto len = write_data.size();
@@ -79,8 +95,8 @@ void write_vertex(std::string &write_data, nen::Model &model) {
               " " + std::to_string(v.normal.z) + " " +
               std::to_string(v.normal.x) + " " + std::to_string(v.uv.x) + " " +
               std::to_string(v.uv.y) + " " + std::to_string(v.rgba.r) + " " +
-              std::to_string(v.rgba.g) + " " + std::to_string(v.rgba.b) +
-              " " + std::to_string(v.rgba.a) + "\n";
+              std::to_string(v.rgba.g) + " " + std::to_string(v.rgba.b) + " " +
+              std::to_string(v.rgba.a) + "\n";
 
         } else {
           write_data +=
@@ -90,8 +106,8 @@ void write_vertex(std::string &write_data, nen::Model &model) {
               " " + std::to_string(v.normal.y) + " " +
               std::to_string(v.normal.z) + " " + std::to_string(v.uv.x) + " " +
               std::to_string(v.uv.y) + " " + std::to_string(v.rgba.r) + " " +
-              std::to_string(v.rgba.g) + " " + std::to_string(v.rgba.b) +
-              " " + std::to_string(v.rgba.a) + "\n";
+              std::to_string(v.rgba.g) + " " + std::to_string(v.rgba.b) + " " +
+              std::to_string(v.rgba.a) + "\n";
         }
       }
     }
@@ -108,4 +124,39 @@ void write_indices(std::string &write_data, nen::Model &model) {
     }
   }
   write_data += "end indices\n";
+}
+void write_vertex_cpp(const std::string &name, std::string &write_data,
+                      nen::Model &model) {
+  write_data += "#include <Nen.hpp>\n";
+  write_data += "nen::vertex_array create_" + name + "_vertices(){\n";
+  write_data += "nen::vertex_array v_array;\n";
+  for (auto &i : model.node_list) {
+    for (auto &j : i->mesh) {
+      for (auto &v : j.body.vertices) {
+        write_data +=
+            "v_array.vertices.push_back({nen::vector3(" +
+            std::to_string(v.position.x) + "," + std::to_string(v.position.y) +
+            "," + std::to_string(v.position.z) + "),nen::vector3(" +
+            std::to_string(v.normal.x) + "," + std::to_string(v.normal.y) +
+            "," + std::to_string(v.normal.z) + "),nen::vector2(" +
+            std::to_string(v.uv.x) + "," + std::to_string(v.uv.y) +
+            "),nen::color{" + std::to_string(v.rgba.r) + "," +
+            std::to_string(v.rgba.g) + "," + std::to_string(v.rgba.b) + "," +
+            std::to_string(v.rgba.a) + "}});\n";
+      }
+    }
+  }
+}
+void write_indices_cpp(std::string &write_data, nen::Model &model) {
+  write_data += "uint32_t indices[] = {\n";
+  for (auto &i : model.node_list) {
+    for (auto &j : i->mesh) {
+      for (auto &v : j.body.indices) {
+        write_data += std::to_string(v) + ",\n";
+      }
+    }
+  }
+  write_data +=
+      "};\n v_array.indexCount = sizeof(indices) / sizeof(uint32_t);\n "
+      "v_array.push_indices(indices, v_array.indexCount);return v_array;}\n";
 }
