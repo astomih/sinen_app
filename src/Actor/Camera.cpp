@@ -21,7 +21,6 @@ CameraActor::CameraActor(nen::base_scene &scene)
 
 void CameraActor::Update(float deltaTime) {
   float mouseSpeed = 0.5f;
-  auto winsize = GetScene().GetRenderer()->GetWindow()->Size();
   auto current_window = GetScene().GetRenderer()->GetWindow();
   if (current_window->GetState() == nen::window_state::LEAVE)
     isfocusing = false;
@@ -33,14 +32,7 @@ void CameraActor::Update(float deltaTime) {
   if (isfocusing && GetInput().Mouse.GetButtonState(nen::mouse_code::RIGHT) ==
                         nen::button_state::Held) {
     mouse = GetInput().Mouse.GetPosition();
-    auto horizon =
-        mouseSpeed * deltaTime * float(initial_mouse_pos.x - mouse.x);
     const float s = 0.05f;
-    if (horizon > s)
-      horizon = s;
-    if (horizon < -s)
-      horizon = -s;
-    // horizontalAngle += horizon;
     auto vertical =
         mouseSpeed * deltaTime * float(initial_mouse_pos.y - mouse.y);
     if (vertical > s)

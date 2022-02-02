@@ -39,14 +39,14 @@ void Stage::Setup() {
   };
   while (!decide_ppos()) {
   }
-  m_player = std::make_unique<player_actor>(*this);
-  m_player->SetPosition(nen::vector3(scale * 2 * r2, -scale * 2 * r1, 0));
+  auto &player = add_actor2<player_actor>(handle_player);
+  player.SetPosition(nen::vector3(scale * 2 * r2, -scale * 2 * r1, 0));
 
   auto t = std::make_shared<nen::texture>();
   t->Load("rect.png");
 
-  auto pc = m_player->AddComponent<nen::draw_3d_component>();
-  m_player->SetScale(nen::vector3(scale / 2.f));
+  auto pc = player.AddComponent<nen::draw_3d_component>();
+  player.SetScale(nen::vector3(scale / 2.f));
   pc->Create(pt, "player");
   pc->Register();
 
@@ -56,39 +56,38 @@ void Stage::Setup() {
   for (int i = 0; i < map.size(); i++) {
     for (int j = 0; j < map[i].size(); j++) {
       if (map[i][j] == 1) {
-        auto a = AddActor<nen::base_actor>();
-        a->SetPosition(
-            nen::vector3(j * scale * 2.f, -i * scale * 2.f, -scale * 1.5f));
-        a->SetScale(nen::vector3(scale));
-        auto c = a->AddComponent<nen::draw_3d_component>();
+        std::uint16_t k;
+        auto &a = add_actor2<nen::base_actor>(k);
+        a.SetPosition(nen::vector3(j * scale * 2.f, -i * scale * 2.f, 0.f));
+        a.SetScale(nen::vector3(scale));
+        auto c = a.AddComponent<nen::draw_3d_component>();
         c->Create(t);
         c->Register();
-        map_actors[i][j] = a;
+        map_actors[i][j] = k;
       }
       if (map[i][j] == 0) {
-        auto a = AddActor<nen::base_actor>();
-        a->SetPosition(nen::vector3(j * scale * 2.f, -i * scale * 2.f, 0.f));
-        a->SetScale(nen::vector3(scale));
-        auto c = a->AddComponent<nen::draw_3d_component>();
+        std::uint16_t k;
+        auto &a = add_actor2<nen::base_actor>(k);
+        a.SetPosition(nen::vector3(j * scale * 2.f, -i * scale * 2.f, 0.f));
+        a.SetScale(nen::vector3(scale));
+        auto c = a.AddComponent<nen::draw_3d_component>();
         c->Create(t, "BOX");
         c->Register();
-        map_actors[i][j] = a;
+        map_actors[i][j] = k;
       }
     }
   }
-  auto camera = add_actor2<CameraActor>(camera_handle);
-  camera.SetPosition(m_player->GetPosition() + camera.initial_pos);
-  camera.lookAt = m_player->GetPosition() - camera.initial_lookAt;
+  auto &camera = add_actor2<CameraActor>(handle_camera);
+  camera.SetPosition(player.GetPosition() + camera.initial_pos);
+  camera.lookAt = player.GetPosition() - camera.initial_lookAt;
   camera.Update(0.f);
 }
 
 void Stage::Update(float deltaTime) {
-#if 1
-  static nen::quaternion init_rotate = m_player->GetRotation();
-  auto camera = get_actor2<CameraActor>(camera_handle);
-  camera.SetPosition(m_player->GetPosition() + camera.initial_pos);
-  camera.lookAt = m_player->GetPosition() - camera.initial_lookAt;
-  m_player->update_move(deltaTime, map, map_actors);
-  m_player->UpdateActor(deltaTime);
-#endif
+  auto &camera = get_actor2<CameraActor>(handle_camera);
+  auto &player = get_actor2<player_actor>(handle_player);
+  camera.SetPosition(player.GetPosition() + camera.initial_pos);
+  camera.lookAt = player.GetPosition() - camera.initial_lookAt;
+  camera.Update(deltaTime);
+  player.update_move(deltaTime, map, map_actors);
 }

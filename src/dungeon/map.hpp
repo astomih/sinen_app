@@ -8,8 +8,7 @@
 constexpr std::pair<std::size_t, std::size_t> map_size = std::make_pair(48, 36);
 using map_t = std::array<std::array<uint32_t, map_size.first>, map_size.second>;
 using map_actors_t =
-    std::array<std::array<std::shared_ptr<nen::base_actor>, map_size.first>,
-               map_size.second>;
+    std::array<std::array<std::uint16_t, map_size.first>, map_size.second>;
 
 enum class map_type : uint32_t {
   wall = 0,
