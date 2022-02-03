@@ -25,6 +25,24 @@ nen::vector2 player_actor::get_input_vector() {
 
   return input_vector;
 }
+void player_actor::collision(const nen::vector3 &before_pos, const map_t &map,
+                             const map_actors_t &map_actors) {
+  for (int i = 0; i < map.size(); i++) {
+    for (int j = 0; j < map[i].size(); j++) {
+      if (map[i][j] == 0) {
+        int value = nen::collision::IntersectAABB(
+            GetPosition(),
+            GetScene()
+                .get_actor2<nen::base_actor>(map_actors[i][j])
+                .GetPosition(),
+            nen::vector3(GetScale().x * 3.f, GetScale().x * 3.f, 0));
+        if (value == 0b111) {
+          SetPosition(before_pos);
+        }
+      }
+    }
+  }
+}
 
 void player_actor::update_move(float delta_time, const map_t &map,
                                const map_actors_t &map_actors) {
@@ -33,24 +51,18 @@ void player_actor::update_move(float delta_time, const map_t &map,
   auto input_vector = get_input_vector();
   auto before_pos = GetPosition();
   if (input_vector.x != 0.f && input_vector.y != 0.f)
-    Move(input_vector.x * scale * 2.f * delta_time / nen::Math::Sqrt(2.f),
-         input_vector.y * scale * 2.f * delta_time / nen::Math::Sqrt(2.f), 0);
+    Move(input_vector.x * scale * 2.f * delta_time / nen::Math::Sqrt(2.f), 0,
+         0);
   else
-    Move(input_vector.x * scale * 2.f * delta_time,
-         input_vector.y * scale * 2.f * delta_time, 0);
-  for (int i = 0; i < map.size(); i++) {
-    for (int j = 0; j < map[i].size(); j++) {
-      if (map[i][j] == 0 &&
-          nen::collision::IntersectAABB(
-              GetPosition(),
-              GetScene()
-                  .get_actor2<nen::base_actor>(map_actors[i][j])
-                  .GetPosition(),
-              nen::vector3(scale * 1.5f, scale, 0)) == 0b111) {
-        SetPosition(before_pos);
-      }
-    }
-  }
+    Move(input_vector.x * scale * 2.f * delta_time, 0, 0);
+  collision(before_pos, map, map_actors);
+  before_pos = GetPosition();
+  if (input_vector.x != 0.f && input_vector.y != 0.f)
+    Move(0, input_vector.y * scale * 2.f * delta_time / nen::Math::Sqrt(2.f),
+         0);
+  else
+    Move(0, input_vector.y * scale * 2.f * delta_time, 0);
+  collision(before_pos, map, map_actors);
   if (input_vector.x != 0 || input_vector.y != 0)
     SetRotation(nen::quaternion::Concatenate(
         init_rotate,

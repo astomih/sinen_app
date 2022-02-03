@@ -8,6 +8,9 @@ public:
   void update_move(float delta_time, const map_t &map,
                    const map_actors_t &map_actors);
 
+  void collision(const nen::vector3 &before_pos, const map_t &map,
+                 const map_actors_t &map_actors);
+
 private:
   nen::vector2 get_input_vector();
 };
