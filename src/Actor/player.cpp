@@ -36,7 +36,7 @@ void player_actor::collision(const nen::vector3 &before_pos, const map_t &map,
                 .get_actor2<nen::base_actor>(map_actors[i][j])
                 .GetPosition(),
             nen::vector3(GetScale().x * 3.f, GetScale().x * 3.f, 0));
-        if (value == 0b111) {
+        if (value == 7) {
           SetPosition(before_pos);
         }
       }
