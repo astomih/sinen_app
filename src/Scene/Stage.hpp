@@ -12,7 +12,7 @@ public:
 private:
   map_t map{};
   map_actors_t map_actors;
-  std::uint16_t handle_camera;
-  std::uint16_t handle_player;
+  std::uint32_t handle_camera;
+  std::uint32_t handle_player;
   std::shared_ptr<nen::texture> white_tex;
 };

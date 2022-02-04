@@ -11,24 +11,24 @@ void Title::Setup() {
   auto mplus_ = std::make_shared<nen::font>();
   if (!mplus_->LoadFromFile("mplus/mplus-1p-medium.ttf", 50))
     return;
-  auto titleText =
-      AddActor<nen::base_actor>()->AddComponent<nen::text_component>();
-  titleText->SetFont(mplus_72);
-  titleText->SetString("UTILIS", nen::palette::White);
-  titleText->Register();
+  auto &titleText =
+      add_actor<nen::base_actor>().add_component<nen::text_component>();
+  titleText.SetFont(mplus_72);
+  titleText.SetString("UTILIS", nen::palette::White);
+  titleText.Register();
 
-  auto act1 = AddActor<nen::base_actor>();
-  act1->SetPosition(nen::vector3(0, -50, 0));
+  auto &act1 = add_actor<nen::base_actor>();
+  act1.SetPosition(nen::vector3(0, -50, 0));
 
-  auto playtext = act1->AddComponent<nen::text_component>();
-  playtext->SetFont(mplus_);
-  playtext->SetString("START");
-  playtext->Register();
+  auto &playtext = act1.add_component<nen::text_component>();
+  playtext.SetFont(mplus_);
+  playtext.SetString("START");
+  playtext.Register();
 }
 
 void Title::Update(float deltaTime) {
   if (GetInput().Keyboard.GetKeyState(nen::key_code::SPACE) ==
       nen::button_state::Pressed) {
-    nen::ChangeScene(std::make_shared<Stage>());
+    nen::ChangeScene(std::make_unique<Stage>());
   }
 }
