@@ -1,3 +1,3 @@
 #include "enemy.hpp"
 
-void enemy::Update(float delta_time) {}
+void enemy_actor::Update(float delta_time) {}

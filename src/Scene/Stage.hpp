@@ -14,5 +14,6 @@ private:
   map_actors_t map_actors;
   std::uint32_t handle_camera;
   std::uint32_t handle_player;
+  std::uint32_t handle_enemy;
   std::shared_ptr<nen::texture> white_tex;
 };

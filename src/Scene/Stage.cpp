@@ -43,6 +43,9 @@ void Stage::Setup() {
   model _model;
   _model.load("player.sim");
   _model.set(GetRenderer(), "player");
+  model spider;
+  spider.load("spider.sim");
+  spider.set(GetRenderer(), "spider");
   auto pt = std::make_shared<nen::texture>();
   pt->CreateFromColor(nen::color(1, 1, 1, 1), "none");
 
@@ -56,6 +59,15 @@ void Stage::Setup() {
   }
   auto &player = add_actor<player_actor>(handle_player, 1, 2);
   player.SetPosition(nen::vector3(scale * 2 * r2, -scale * 2 * r1, 0));
+
+  auto &enemy = add_actor<enemy_actor>(handle_enemy, map, map_actors);
+  while (!decide_ppos()) {
+  }
+  enemy.SetPosition(nen::vector3(scale * 2 * r2, -scale * 2 * r1, 0));
+  enemy.SetScale(nen::vector3(scale / 2.f));
+  auto &enemy_draw3d = enemy.add_component<nen::draw_3d_component>();
+  enemy_draw3d.Create(pt, "spider");
+  enemy_draw3d.Register();
 
   auto t = std::make_shared<nen::texture>();
   t->Load("rect.png");
