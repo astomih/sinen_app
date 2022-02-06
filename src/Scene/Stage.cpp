@@ -1,5 +1,7 @@
 #include "Stage.hpp"
 #include "../Actor/Camera.hpp"
+#include "../Actor/enemy.hpp"
+#include "../dungeon/generator.hpp"
 #include "../model/model.hpp"
 #include "Actor/Actor.hpp"
 #include "Color/Color.hpp"
@@ -15,7 +17,6 @@
 #include "Texture/Texture.hpp"
 #include "Vertex/Vertex.hpp"
 #include "Vertex/VertexArray.hpp"
-#include <DTL/DTL.hpp>
 #include <Nen/Nen.hpp>
 #include <memory>
 #include <string>
@@ -25,12 +26,26 @@ const float scale = 5.f;
 Stage::Stage() {}
 
 void Stage::Setup() {
+  nen::random::Init();
+  map.resize(map_size.second);
+  for (size_t i = 0; i < map.size(); i++) {
+    map[i].resize(map_size.first);
+  }
+  dungeon_generator<uint32_t> generator;
+  generator.generate(map);
+  for (size_t i = 0; i < map.size(); i++) {
+    for (size_t j = 0; j < map[i].size(); j++) {
+      std::cout << map[i][j];
+    }
+    std::cout << std::endl;
+  }
+
   model _model;
   _model.load("player.sim");
   _model.set(GetRenderer(), "player");
   auto pt = std::make_shared<nen::texture>();
   pt->CreateFromColor(nen::color(1, 1, 1, 1), "none");
-  dtl::shape::SimpleRogueLike<uint32_t>(1, 1, 3, 4, 5, 2, 5, 2).draw(map);
+
   int r1, r2;
   auto decide_ppos = [&]() {
     r1 = nen::random::GetIntRange(0, map_size.first - 1);
@@ -55,7 +70,7 @@ void Stage::Setup() {
       if (map[i][j] == 1) {
         std::uint32_t k;
         auto &a = add_actor<nen::base_actor>(k);
-        a.SetPosition(nen::vector3(j * scale * 2.f, -i * scale * 2.f, 0.f));
+        a.SetPosition(nen::vector3(j * scale * 2.f, -i * scale * 2.f, -scale));
         a.SetScale(nen::vector3(scale));
         auto &c = a.add_component<nen::draw_3d_component>();
         c.Create(t);

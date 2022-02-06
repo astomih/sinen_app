@@ -24,6 +24,11 @@ nen::vector2 player_actor::get_input_vector() {
     input_vector.y += 1.0f;
   }
 
+  if (GetInput().Keyboard.GetKeyState(nen::key_code::LSHIFT) ==
+      nen::button_state::Held) {
+    input_vector *= 2.f;
+  }
+
   return input_vector;
 }
 bool player_actor::collision(const nen::vector3 &before_pos, const map_t &map,
@@ -74,6 +79,8 @@ void player_actor::update_move(float delta_time, const map_t &map,
         Move(input_vector.x * scale * 2.f * delta_time, 0, 0);
         collision(GetPosition(), map, map_actors);
       }
+    } else if (x && y) {
+      SetPosition(before_pos);
     }
   } else {
     Move(input_vector.x * scale * 2.f * delta_time, 0, 0);
