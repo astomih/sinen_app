@@ -2,6 +2,7 @@
 #include <Nen/Nen.hpp>
 
 int main(int argc, char *argv[]) {
-  nen::Launch(std::make_unique<Title>());
+  nen::manager manager;
+  manager.launch(std::make_unique<Title>());
   return 0;
 }

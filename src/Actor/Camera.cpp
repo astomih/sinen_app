@@ -1,6 +1,7 @@
 #include "Camera.hpp"
 #include "GUI/Button.hpp"
 #include "Input/InputSystem.hpp"
+#include "Input/KeyCode.hpp"
 #include "Input/MouseCode.hpp"
 #include "Math/Transform.hpp"
 #include "Math/Vector3.hpp"
@@ -20,33 +21,27 @@ CameraActor::CameraActor(nen::base_scene &scene)
 }
 
 void CameraActor::Update(float deltaTime) {
-  float mouseSpeed = 0.5f;
+  constexpr float speed = 0.1f;
   auto current_window = GetScene().GetRenderer()->GetWindow();
-  if (current_window->GetState() == nen::window_state::LEAVE)
-    isfocusing = false;
-  if (current_window->GetState() == nen::window_state::ENTER)
-    isfocusing = true;
-  if (GetInput().Mouse.GetButtonState(nen::mouse_code::RIGHT) ==
-      nen::button_state::Pressed)
-    initial_mouse_pos = GetInput().Mouse.GetPosition();
-  if (isfocusing && GetInput().Mouse.GetButtonState(nen::mouse_code::RIGHT) ==
-                        nen::button_state::Held) {
-    mouse = GetInput().Mouse.GetPosition();
-    const float s = 0.05f;
-    auto vertical =
-        mouseSpeed * deltaTime * float(initial_mouse_pos.y - mouse.y);
-    if (vertical > s)
-      vertical = s;
-    if (vertical < -s)
-      vertical = -s;
-    verticalAngle += vertical;
-    /*
-    GetInput().Mouse.SetPosition(
-        nen::vector2(winsize.x / 2.f, winsize.y / 2.f));
-        */
+  if (GetInput().Keyboard.GetKeyState(nen::key_code::LCTRL) ==
+      nen::button_state::Held) {
+    if (GetInput().Keyboard.GetKeyState(nen::key_code::UP) ==
+        nen::button_state::Held) {
 
-  } else {
-    mouse = nen::vector2::Zero;
+      verticalAngle += speed * deltaTime;
+    }
+    if (GetInput().Keyboard.GetKeyState(nen::key_code::DOWN) ==
+        nen::button_state::Held) {
+      verticalAngle -= speed * deltaTime;
+    }
+    if (GetInput().Keyboard.GetKeyState(nen::key_code::LEFT) ==
+        nen::button_state::Held) {
+      horizontalAngle += speed * deltaTime;
+    }
+    if (GetInput().Keyboard.GetKeyState(nen::key_code::RIGHT) ==
+        nen::button_state::Held) {
+      horizontalAngle -= speed * deltaTime;
+    }
   }
   direction = nen::vector3{
       nen::Math::Cos(verticalAngle) * nen::Math::Sin(horizontalAngle),

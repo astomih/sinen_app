@@ -1,4 +1,5 @@
 #include "player.hpp"
+#include "Math/Vector3.hpp"
 #include <Nen.hpp>
 
 player_actor::player_actor(nen::base_scene &scene, int x, int y)
@@ -27,6 +28,10 @@ nen::vector2 player_actor::get_input_vector() {
   if (GetInput().Keyboard.GetKeyState(nen::key_code::LSHIFT) ==
       nen::button_state::Held) {
     input_vector *= 2.f;
+  }
+  if (GetInput().Keyboard.GetKeyState(nen::key_code::LCTRL) ==
+      nen::button_state::Held) {
+    input_vector = nen::vector2::Zero;
   }
 
   return input_vector;

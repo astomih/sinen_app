@@ -28,20 +28,20 @@ public:
   dungeon_generator() = default;
   ~dungeon_generator() = default;
   void generate(std::vector<std::vector<T>> &map) {
-    map_size_x = static_cast<T>(map.size());
-    map_size_y = static_cast<T>(map[0].size());
+    map_size_x = static_cast<T>(map.size() - 1);
+    map_size_y = static_cast<T>(map[0].size() - 1);
     division(map);
     make_room(map);
     make_corridor(map);
     connect_corridor(map);
-    fill_around(map);
+    // fill_around(map);
   }
 
 private:
   void division(std::vector<std::vector<T>> &map) {
     int randomized =
         nen::random::GetIntRange(division_min_number, division_max_number);
-    int x = 0, y = 0, w = map_size_x - 1, h = map_size_y - 1;
+    int x = 1, y = 1, w = map_size_x - 1, h = map_size_y - 1;
     bool is_horizontal = true;
     for (size_t i = 0; i < randomized - 1; i++) {
       if (is_horizontal)
