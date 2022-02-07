@@ -1,6 +1,7 @@
 #version 300 es
 precision mediump float;
 in vec2 outUV;
+in vec4 outRgba;
 // Normal (in world space)
 in vec3 fragNormal;
 // Position (in world space)
@@ -40,7 +41,7 @@ void main()
 		Phong += Diffuse + Specular;
 	}
 
-	vec4 color = texture(diffuseMap,outUV);
+	vec4 color = outRgba* texture(diffuseMap,outUV);
 	if(color.a < 0.5)
 	{ 
 		discard;
