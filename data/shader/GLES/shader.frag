@@ -40,7 +40,7 @@ void main()
 		Phong += Diffuse + Specular;
 	}
 
-	vec4 color = vec4(Phong, 1.0)*texture(diffuseMap,outUV);
+	vec4 color = vec4(Phong, 1.0)*outRgba*texture(diffuseMap,outUV);
 	if(color.a < 0.5)
 	{ 
 		discard;
