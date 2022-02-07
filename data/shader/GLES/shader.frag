@@ -1,6 +1,7 @@
 #version 300 es
 precision mediump float;
 in vec2 outUV;
+in vec4 outRgba;
 // Normal (in world space)
 in vec3 fragNormal;
 // Position (in world space)
