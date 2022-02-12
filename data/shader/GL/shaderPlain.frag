@@ -1,4 +1,3 @@
-#version 330 core
 precision mediump float;
 in vec2 outUV;
 in vec4 outRgba;
@@ -18,7 +17,7 @@ void main()
 	// Specular color
 	vec3 mSpecColor = vec3(1,1,1);
 	// Specular power for this surface
-	float uSpecPower = 100;
+	float uSpecPower = 100.0;
 	// Ambient light level
 	vec3 uAmbientLight = vec3(0.5,0.5,0.5);
 	// Surface normal
@@ -33,7 +32,7 @@ void main()
 	// Compute phong reflection
 	vec3 Phong = uAmbientLight;
 	float NdotL = dot(N, L);
-	if (NdotL > 0)
+	if (NdotL > 0.0)
 	{
 
 		vec3 Diffuse = mDiffuseColor * NdotL;
