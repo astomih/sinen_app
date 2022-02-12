@@ -1,4 +1,3 @@
-#version 330 core
 precision mediump float;
 in vec2 outUV;
 in vec4 outRgba;

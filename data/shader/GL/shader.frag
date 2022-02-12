@@ -1,4 +1,3 @@
-#version 330 core
 precision mediump float;
 in vec2 outUV;
 in vec4 outRgba;
@@ -10,15 +9,15 @@ out vec4 outColor;
 uniform sampler2D diffuseMap;
 void main()
 {
-	vec3 uCameraPos = vec3(0,0,0);
+	vec3 uCameraPos = vec3(0.0,0.0,0.0);
 	// Direction of light
 	vec3 mDirection = vec3(0.0,-0.25,-0.25);
 	// Diffuse color
-	vec3 mDiffuseColor = vec3(1,1,1);
+	vec3 mDiffuseColor = vec3(1.0,1.0,1.0);
 	// Specular color
-	vec3 mSpecColor = vec3(1,1,1);
+	vec3 mSpecColor = vec3(1.0,1.0,1.0);
 	// Specular power for this surface
-	float uSpecPower = 100;
+	float uSpecPower = 100.0;
 	// Ambient light level
 	vec3 uAmbientLight = vec3(0.5,0.5,0.5);
 	// Surface normal
@@ -33,7 +32,7 @@ void main()
 	// Compute phong reflection
 	vec3 Phong = uAmbientLight;
 	float NdotL = dot(N, L);
-	if (NdotL > 0)
+	if (NdotL > 0.0)
 	{
 
 		vec3 Diffuse = mDiffuseColor * NdotL;
@@ -41,7 +40,7 @@ void main()
 		Phong += Diffuse + Specular;
 	}
 
-	vec4 color = vec4(Phong, 1.0)*outRgba* texture(diffuseMap,outUV);
+	vec4 color = vec4(Phong, 1.0)*outRgba*texture(diffuseMap,outUV);
 	if(color.a < 0.5)
 	{ 
 		discard;
