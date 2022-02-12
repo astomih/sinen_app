@@ -26,7 +26,7 @@ void main()
   inworldmat[1] = m2;
   inworldmat[2] = m3;
   inworldmat[3] = m4;
-  inworldmat=world; 
+  //inworldmat=world; 
   vec4 worldpos = vec4(inPos,1.0) * inworldmat;
 	fragWorldPos = worldpos.xyz;
   gl_Position = proj * view * inworldmat * vec4(inPos,1.0);

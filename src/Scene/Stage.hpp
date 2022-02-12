@@ -16,4 +16,6 @@ private:
   std::uint32_t handle_player;
   std::uint32_t handle_enemy;
   std::shared_ptr<nen::texture> white_tex;
+  nen::instancing sprite_instancing;
+  nen::instancing box_instancing;
 };
