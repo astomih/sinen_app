@@ -11,6 +11,7 @@ if(ANDROID)
 	target_link_libraries(main nen)
 	target_include_directories(main PUBLIC ./external/sinen/include)
 elseif(EMSCRIPTEN)
+	add_subdirectory(./external/sinen)
 	set(CMAKE_BUILD_TYPE_INIT "Release")
 	set(CMAKE_C_COMPILER "emcc")
 	file(GLOB SOURCE_FILES
@@ -20,7 +21,6 @@ elseif(EMSCRIPTEN)
 	add_executable(main ${SOURCE_FILES})
 	target_link_directories(main PUBLIC
 		.
-		external/sinen/build/build
 	)
 	target_link_libraries(main nen lua)
 	file(GLOB INCLUDE_DIRS
