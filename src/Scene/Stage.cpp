@@ -99,22 +99,7 @@ void Stage::Setup() {
         }
         nen::instance_data data;
         auto m = a.GetWorldTransform();
-        int l = 0;
-        for (int i = 0; i < 4; i++) {
-          data.world_matrix_1[i] = m.mat[l][i];
-        }
-        l++;
-        for (int i = 0; i < 4; i++) {
-          data.world_matrix_2[i] = m.mat[l][i];
-        }
-        l++;
-        for (int i = 0; i < 4; i++) {
-          data.world_matrix_3[i] = m.mat[l][i];
-        }
-        l++;
-        for (int i = 0; i < 4; i++) {
-          data.world_matrix_4[i] = m.mat[l][i];
-        }
+        sprite_instancing.world_to_instance_data(m, data);
         sprite_instancing.data.push_back(data);
 
         map_actors[i][j] = k;
@@ -135,22 +120,7 @@ void Stage::Setup() {
         }
         nen::instance_data data;
         auto m = a.GetWorldTransform();
-        int l = 0;
-        for (int i = 0; i < 4; i++) {
-          data.world_matrix_1[i] = m.mat[l][i];
-        }
-        l++;
-        for (int i = 0; i < 4; i++) {
-          data.world_matrix_2[i] = m.mat[l][i];
-        }
-        l++;
-        for (int i = 0; i < 4; i++) {
-          data.world_matrix_3[i] = m.mat[l][i];
-        }
-        l++;
-        for (int i = 0; i < 4; i++) {
-          data.world_matrix_4[i] = m.mat[l][i];
-        }
+        box_instancing.world_to_instance_data(m, data);
         box_instancing.data.push_back(data);
         map_actors[i][j] = k;
       }
