@@ -129,6 +129,19 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named nen
+
+# Build rule for target.
+nen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nen
+.PHONY : nen
+
+# fast build rule for target.
+nen/fast:
+	$(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/build
+.PHONY : nen/fast
+
 src/Actor/Camera.o: src/Actor/Camera.cpp.o
 .PHONY : src/Actor/Camera.o
 
@@ -306,6 +319,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... nen"
 	@echo "... src/Actor/Camera.o"
 	@echo "... src/Actor/Camera.i"
 	@echo "... src/Actor/Camera.s"
