@@ -32,6 +32,7 @@ elseif(EMSCRIPTEN)
 	)
 	set(CMAKE_CXX_FLAGS
 		"${CMAKE_CXX_FLAGS} -O2 \
+		-Wno-unused-command-line-argument \
 		-s USE_SDL=2 \
 		-s USE_SDL_IMAGE=2 \
 		-s USE_WEBGL2=1 \

@@ -141,14 +141,6 @@ void Stage::Setup() {
   camera.SetPosition(player.GetPosition() + camera.initial_pos);
   camera.lookAt = player.GetPosition() - camera.initial_lookAt;
   camera.Update(0.f);
-  auto mplus_72 = std::make_shared<nen::font>();
-  if (!mplus_72->LoadFromFile("mplus/mplus-1p-medium.ttf", 72))
-    return;
-  auto &titleText =
-      add_actor<nen::base_actor>().add_component<nen::text_component>();
-  titleText.SetFont(mplus_72);
-  titleText.SetString("AA...", nen::palette::White);
-  titleText.Register();
 }
 
 void Stage::Update(float deltaTime) {
