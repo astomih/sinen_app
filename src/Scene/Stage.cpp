@@ -67,19 +67,10 @@ void Stage::Setup() {
   while (!decide_ppos()) {
   }
   enemy.SetPosition(nen::vector3(scale * 2 * r2, -scale * 2 * r1, 0));
-  auto &enemy_draw3d = enemy.add_component<nen::draw_3d_component>();
-  enemy_draw3d.Create(pt, "spider");
-  enemy_draw3d.Register();
-
-  auto t = std::make_shared<nen::texture>();
-  t->Load("rect.png");
-
-  auto &pc = player.add_component<nen::draw_3d_component>();
-  player.SetScale(nen::vector3(scale / 2.f));
-  pc.Create(pt, "player");
-  pc.Register();
   bool is_once = true;
   bool is_once2 = true;
+  auto t = std::make_shared<nen::texture>();
+  t->Load("rect.png");
 
   for (int i = 0; i < map.size(); i++) {
     for (int j = 0; j < map[i].size(); j++) {
@@ -126,6 +117,14 @@ void Stage::Setup() {
       }
     }
   }
+  auto &enemy_draw3d = enemy.add_component<nen::draw_3d_component>();
+  enemy_draw3d.Create(pt, "spider");
+  enemy_draw3d.Register();
+
+  auto &pc = player.add_component<nen::draw_3d_component>();
+  player.SetScale(nen::vector3(scale / 2.f));
+  pc.Create(pt, "player");
+  pc.Register();
   sprite_instancing._texture = t;
   sprite_instancing.size =
       sizeof(nen::instance_data) * sprite_instancing.data.size();
