@@ -44,6 +44,7 @@ elseif(EMSCRIPTEN)
 		-s USE_SDL_MIXER=2 \
 		-s USE_SDL_NET=2 \
 		--preload-file data \
+		-s WASM=1 \
 		-s ALLOW_MEMORY_GROWTH \
 		-std=c++20"
 	)
