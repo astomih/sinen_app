@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/runner/work/utilis/utilis/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/main.dir/all
+all: CMakeFiles/index.dir/all
 all: external/sinen/all
 .PHONY : all
 
@@ -72,7 +72,7 @@ preinstall: external/sinen/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/index.dir/clean
 clean: external/sinen/clean
 .PHONY : clean
 
@@ -92,30 +92,30 @@ external/sinen/clean: external/sinen/CMakeFiles/nen.dir/clean
 .PHONY : external/sinen/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Target rules for target CMakeFiles/index.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: external/sinen/CMakeFiles/nen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/utilis/utilis/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+CMakeFiles/index.dir/all: external/sinen/CMakeFiles/nen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/utilis/utilis/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target index"
+.PHONY : CMakeFiles/index.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
+CMakeFiles/index.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/utilis/utilis/build/CMakeFiles 66
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/index.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/utilis/utilis/build/CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
+.PHONY : CMakeFiles/index.dir/rule
 
 # Convenience name for target.
-main: CMakeFiles/main.dir/rule
-.PHONY : main
+index: CMakeFiles/index.dir/rule
+.PHONY : index
 
 # clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
+CMakeFiles/index.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/clean
+.PHONY : CMakeFiles/index.dir/clean
 
 #=============================================================================
 # Target rules for target external/sinen/CMakeFiles/nen.dir

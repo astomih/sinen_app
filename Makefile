@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named index
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+index: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 index
+.PHONY : index
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+index/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/build
+.PHONY : index/fast
 
 #=============================================================================
 # Target rules for targets named nen
@@ -147,7 +147,7 @@ src/Actor/Camera.o: src/Actor/Camera.cpp.o
 
 # target to build an object file
 src/Actor/Camera.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Actor/Camera.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Actor/Camera.cpp.o
 .PHONY : src/Actor/Camera.cpp.o
 
 src/Actor/Camera.i: src/Actor/Camera.cpp.i
@@ -155,7 +155,7 @@ src/Actor/Camera.i: src/Actor/Camera.cpp.i
 
 # target to preprocess a source file
 src/Actor/Camera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Actor/Camera.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Actor/Camera.cpp.i
 .PHONY : src/Actor/Camera.cpp.i
 
 src/Actor/Camera.s: src/Actor/Camera.cpp.s
@@ -163,7 +163,7 @@ src/Actor/Camera.s: src/Actor/Camera.cpp.s
 
 # target to generate assembly for a file
 src/Actor/Camera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Actor/Camera.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Actor/Camera.cpp.s
 .PHONY : src/Actor/Camera.cpp.s
 
 src/Actor/enemy.o: src/Actor/enemy.cpp.o
@@ -171,7 +171,7 @@ src/Actor/enemy.o: src/Actor/enemy.cpp.o
 
 # target to build an object file
 src/Actor/enemy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Actor/enemy.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Actor/enemy.cpp.o
 .PHONY : src/Actor/enemy.cpp.o
 
 src/Actor/enemy.i: src/Actor/enemy.cpp.i
@@ -179,7 +179,7 @@ src/Actor/enemy.i: src/Actor/enemy.cpp.i
 
 # target to preprocess a source file
 src/Actor/enemy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Actor/enemy.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Actor/enemy.cpp.i
 .PHONY : src/Actor/enemy.cpp.i
 
 src/Actor/enemy.s: src/Actor/enemy.cpp.s
@@ -187,7 +187,7 @@ src/Actor/enemy.s: src/Actor/enemy.cpp.s
 
 # target to generate assembly for a file
 src/Actor/enemy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Actor/enemy.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Actor/enemy.cpp.s
 .PHONY : src/Actor/enemy.cpp.s
 
 src/Actor/player.o: src/Actor/player.cpp.o
@@ -195,7 +195,7 @@ src/Actor/player.o: src/Actor/player.cpp.o
 
 # target to build an object file
 src/Actor/player.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Actor/player.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Actor/player.cpp.o
 .PHONY : src/Actor/player.cpp.o
 
 src/Actor/player.i: src/Actor/player.cpp.i
@@ -203,7 +203,7 @@ src/Actor/player.i: src/Actor/player.cpp.i
 
 # target to preprocess a source file
 src/Actor/player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Actor/player.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Actor/player.cpp.i
 .PHONY : src/Actor/player.cpp.i
 
 src/Actor/player.s: src/Actor/player.cpp.s
@@ -211,7 +211,7 @@ src/Actor/player.s: src/Actor/player.cpp.s
 
 # target to generate assembly for a file
 src/Actor/player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Actor/player.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Actor/player.cpp.s
 .PHONY : src/Actor/player.cpp.s
 
 src/Scene/Stage.o: src/Scene/Stage.cpp.o
@@ -219,7 +219,7 @@ src/Scene/Stage.o: src/Scene/Stage.cpp.o
 
 # target to build an object file
 src/Scene/Stage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Scene/Stage.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Scene/Stage.cpp.o
 .PHONY : src/Scene/Stage.cpp.o
 
 src/Scene/Stage.i: src/Scene/Stage.cpp.i
@@ -227,7 +227,7 @@ src/Scene/Stage.i: src/Scene/Stage.cpp.i
 
 # target to preprocess a source file
 src/Scene/Stage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Scene/Stage.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Scene/Stage.cpp.i
 .PHONY : src/Scene/Stage.cpp.i
 
 src/Scene/Stage.s: src/Scene/Stage.cpp.s
@@ -235,7 +235,7 @@ src/Scene/Stage.s: src/Scene/Stage.cpp.s
 
 # target to generate assembly for a file
 src/Scene/Stage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Scene/Stage.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Scene/Stage.cpp.s
 .PHONY : src/Scene/Stage.cpp.s
 
 src/Scene/Title.o: src/Scene/Title.cpp.o
@@ -243,7 +243,7 @@ src/Scene/Title.o: src/Scene/Title.cpp.o
 
 # target to build an object file
 src/Scene/Title.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Scene/Title.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Scene/Title.cpp.o
 .PHONY : src/Scene/Title.cpp.o
 
 src/Scene/Title.i: src/Scene/Title.cpp.i
@@ -251,7 +251,7 @@ src/Scene/Title.i: src/Scene/Title.cpp.i
 
 # target to preprocess a source file
 src/Scene/Title.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Scene/Title.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Scene/Title.cpp.i
 .PHONY : src/Scene/Title.cpp.i
 
 src/Scene/Title.s: src/Scene/Title.cpp.s
@@ -259,7 +259,7 @@ src/Scene/Title.s: src/Scene/Title.cpp.s
 
 # target to generate assembly for a file
 src/Scene/Title.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Scene/Title.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Scene/Title.cpp.s
 .PHONY : src/Scene/Title.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -267,7 +267,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -275,7 +275,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -283,7 +283,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/model/model.o: src/model/model.cpp.o
@@ -291,7 +291,7 @@ src/model/model.o: src/model/model.cpp.o
 
 # target to build an object file
 src/model/model.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/model/model.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/model/model.cpp.o
 .PHONY : src/model/model.cpp.o
 
 src/model/model.i: src/model/model.cpp.i
@@ -299,7 +299,7 @@ src/model/model.i: src/model/model.cpp.i
 
 # target to preprocess a source file
 src/model/model.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/model/model.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/model/model.cpp.i
 .PHONY : src/model/model.cpp.i
 
 src/model/model.s: src/model/model.cpp.s
@@ -307,7 +307,7 @@ src/model/model.s: src/model/model.cpp.s
 
 # target to generate assembly for a file
 src/model/model.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/model/model.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/model/model.cpp.s
 .PHONY : src/model/model.cpp.s
 
 # Help Target
@@ -318,7 +318,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main"
+	@echo "... index"
 	@echo "... nen"
 	@echo "... src/Actor/Camera.o"
 	@echo "... src/Actor/Camera.i"
