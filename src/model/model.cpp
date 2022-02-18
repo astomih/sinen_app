@@ -56,7 +56,6 @@ void model::load(std::string_view str) {
     }
   }
   m_array.indexCount = m_array.indices.size();
-  std::cout << "sim version: " + version << std::endl;
 }
 void model::set(std::shared_ptr<nen::renderer> _renderer,
                 std::string_view name) {

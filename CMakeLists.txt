@@ -18,20 +18,20 @@ elseif(EMSCRIPTEN)
 			src/*/*.cpp
 			src/*.cpp
 	)
-	add_executable(main ${SOURCE_FILES})
-	target_link_directories(main PUBLIC
+	add_executable(index ${SOURCE_FILES})
+	target_link_directories(index PUBLIC
 		.
 	)
-	target_link_libraries(main nen lua)
+	target_link_libraries(index nen lua)
 	file(GLOB INCLUDE_DIRS
 		external/sinen/include
 		external/sinen/include/Nen
 		)
-	target_include_directories(main PUBLIC
+	target_include_directories(index PUBLIC
 		${INCLUDE_DIRS}
 	)
 	set(CMAKE_CXX_FLAGS
-		"${CMAKE_CXX_FLAGS} -O2 \
+		"${CMAKE_CXX_FLAGS} \
 		-Wno-unused-command-line-argument \
 		-s USE_SDL=2 \
 		-s USE_SDL_IMAGE=2 \
@@ -43,7 +43,7 @@ elseif(EMSCRIPTEN)
 		-s USE_SDL_TTF=2 \
 		-s USE_SDL_MIXER=2 \
 		-s USE_SDL_NET=2 \
-		--preload-file data \
+		--embed-file data \
 		-s WASM=1 \
 		-s ALLOW_MEMORY_GROWTH \
 		-std=c++20"
@@ -56,7 +56,7 @@ else()
 		set(CMAKE_CXX_FLAGS "-std=c++2a")
 	endif()
 	set(CMAKE_CXX_FLAGS_DEBUG "-D_DEBUG -g -O0")
-	set(CMAKE_CXX_FLAGS_RELEASE "-O3 -s -DNDEBUG -march=native")
+	set(CMAKE_CXX_FLAGS_RELEASE "-O2 -s -DNDEBUG -march=native")
 	set(CMAKE_EXPORT_COMPILE_COMMANDS true)
 
 	find_package(Vulkan REQUIRED)
@@ -79,33 +79,33 @@ else()
 	)
 	if(WIN32)
 		set(LIBRARIES
-		nen
-		${Vulkan_LIBRARIES}	
-		SDL2
-		SDL2main
-		SDL2_image
-		SDL2_mixer
-		SDL2_ttf
-		SDL2_net
-		openal
-		glew32
-		opengl32
-	)
-	else()
-	set(LIBRARIES
-		nen
-		${Vulkan_LIBRARIES}	
-		SDL2
-		SDL2main
-		SDL2_image
-		SDL2_mixer
-		SDL2_ttf
-		SDL2_net
-		openal
-		GLEW
-		GL
-		${CMAKE_DL_LIBS}
-	)
+			nen
+			${Vulkan_LIBRARIES}	
+			SDL2
+			SDL2main
+			SDL2_image
+			SDL2_mixer
+			SDL2_ttf
+			SDL2_net
+			openal
+			glew32
+			opengl32
+		)
+		else()
+		set(LIBRARIES
+			nen
+			${Vulkan_LIBRARIES}	
+			SDL2
+			SDL2main
+			SDL2_image
+			SDL2_mixer
+			SDL2_ttf
+			SDL2_net
+			openal
+			GLEW
+			GL
+			${CMAKE_DL_LIBS}
+		)
 	endif(WIN32)
 	add_subdirectory(./external/sinen)
 
