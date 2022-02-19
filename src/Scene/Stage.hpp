@@ -4,7 +4,9 @@
 #include "../dungeon/map.hpp"
 #include "../model/model.hpp"
 #include "Texture/Texture.hpp"
+#include <cstdint>
 #include <memory>
+#include <vector>
 
 class Stage : public nen::base_scene {
 public:
@@ -30,4 +32,5 @@ private:
   model player_model;
   model spider_model;
   std::shared_ptr<nen::texture> player_texture;
+  std::vector<uint32_t> m_bullets;
 };

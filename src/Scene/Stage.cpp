@@ -35,6 +35,12 @@ void Stage::prepare_model() {
 
   spider_model.load("spider.sim");
   spider_model.set(GetRenderer(), "spider");
+  model wall;
+  wall.load("wall_box.sim");
+  wall.set(GetRenderer(), "wall_box");
+  model bullet_model;
+  bullet_model.load("bullet.sim");
+  bullet_model.set(GetRenderer(), "bullet");
 }
 
 void Stage::prepare_dungeon() {
@@ -110,12 +116,12 @@ void Stage::prepare_actor() {
         a.SetScale(nen::vector3(scale));
         if (is_once2) {
           auto &c = a.add_component<nen::draw_3d_component>();
-          c.Create(t, "BOX");
+          c.Create(player_texture, "wall_box");
           box_instancing.object = c.GetSprite();
           is_once2 = false;
         } else {
           auto &c = a.add_component<nen::draw_3d_component>();
-          c.Create(t, "BOX");
+          c.Create(player_texture, "wall_box");
         }
         nen::instance_data data;
         auto m = a.GetWorldTransform();
@@ -163,4 +169,5 @@ void Stage::Update(float deltaTime) {
   camera.lookAt = player.GetPosition() - camera.initial_lookAt;
   camera.Update(deltaTime);
   player.update_move(deltaTime, map, map_actors);
+  player.update_bullet(m_bullets);
 }

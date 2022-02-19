@@ -1,6 +1,9 @@
 #include "player.hpp"
+#include "Input/KeyCode.hpp"
 #include "Math/Vector3.hpp"
 #include <Nen.hpp>
+#include <cstdint>
+#include <memory>
 
 player_actor::player_actor(nen::base_scene &scene, int x, int y)
     : nen::base_actor(scene) {}
@@ -85,7 +88,7 @@ void player_actor::update_move(float delta_time, const map_t &map,
         collision(GetPosition(), map, map_actors);
       }
     } else if (x && y) {
-      SetPosition(before_pos);
+      SetPosition(nen::vector3(before_pos.x, before_pos.y, before_pos.z));
     }
   } else {
     Move(input_vector.x * scale * 2.f * delta_time, 0, 0);
@@ -100,4 +103,18 @@ void player_actor::update_move(float delta_time, const map_t &map,
         nen::quaternion{nen::vector3::UnitZ,
                         -nen::Math::Atan2(input_vector.x, input_vector.y)}));
   return;
+}
+
+void player_actor::update_bullet(std::vector<uint32_t> &bullets) {
+  if (GetInput().Keyboard.GetKeyState(nen::key_code::Z) ==
+      nen::button_state::Pressed) {
+    uint32_t handle;
+    auto &act = GetScene().add_actor<bullet_actor>(handle, bullets);
+    bullets.push_back(handle);
+    act.set_speed(50.f);
+    act.set_dead_time(0.5f);
+    act.set_this_handle(handle);
+    act.SetPosition(GetPosition());
+    act.SetRotation(GetRotation());
+  }
 }
