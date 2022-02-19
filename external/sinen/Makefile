@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/runner/work/utilis/utilis
+CMAKE_SOURCE_DIR = /home/runner/work/singa/singa
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/runner/work/utilis/utilis/build
+CMAKE_BINARY_DIR = /home/runner/work/singa/singa/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/runner/work/utilis/utilis/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/utilis/utilis/build/CMakeFiles /home/runner/work/utilis/utilis/build/external/sinen//CMakeFiles/progress.marks
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/sinen/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/utilis/utilis/build/CMakeFiles 0
+	cd /home/runner/work/singa/singa/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/singa/singa/build/CMakeFiles /home/runner/work/singa/singa/build/external/sinen//CMakeFiles/progress.marks
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/sinen/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/singa/singa/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/sinen/clean
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/sinen/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/sinen/preinstall
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/sinen/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/sinen/preinstall
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/sinen/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/runner/work/utilis/utilis/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/runner/work/singa/singa/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/sinen/CMakeFiles/nen.dir/rule:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/sinen/CMakeFiles/nen.dir/rule
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/sinen/CMakeFiles/nen.dir/rule
 .PHONY : external/sinen/CMakeFiles/nen.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ nen: external/sinen/CMakeFiles/nen.dir/rule
 
 # fast build rule for target.
 nen/fast:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/build
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/build
 .PHONY : nen/fast
 
 libs/ImGui/source/gles/imgui.o: libs/ImGui/source/gles/imgui.cpp.o
@@ -135,7 +135,7 @@ libs/ImGui/source/gles/imgui.o: libs/ImGui/source/gles/imgui.cpp.o
 
 # target to build an object file
 libs/ImGui/source/gles/imgui.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui.cpp.o
 .PHONY : libs/ImGui/source/gles/imgui.cpp.o
 
 libs/ImGui/source/gles/imgui.i: libs/ImGui/source/gles/imgui.cpp.i
@@ -143,7 +143,7 @@ libs/ImGui/source/gles/imgui.i: libs/ImGui/source/gles/imgui.cpp.i
 
 # target to preprocess a source file
 libs/ImGui/source/gles/imgui.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui.cpp.i
 .PHONY : libs/ImGui/source/gles/imgui.cpp.i
 
 libs/ImGui/source/gles/imgui.s: libs/ImGui/source/gles/imgui.cpp.s
@@ -151,7 +151,7 @@ libs/ImGui/source/gles/imgui.s: libs/ImGui/source/gles/imgui.cpp.s
 
 # target to generate assembly for a file
 libs/ImGui/source/gles/imgui.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui.cpp.s
 .PHONY : libs/ImGui/source/gles/imgui.cpp.s
 
 libs/ImGui/source/gles/imgui_demo.o: libs/ImGui/source/gles/imgui_demo.cpp.o
@@ -159,7 +159,7 @@ libs/ImGui/source/gles/imgui_demo.o: libs/ImGui/source/gles/imgui_demo.cpp.o
 
 # target to build an object file
 libs/ImGui/source/gles/imgui_demo.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_demo.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_demo.cpp.o
 .PHONY : libs/ImGui/source/gles/imgui_demo.cpp.o
 
 libs/ImGui/source/gles/imgui_demo.i: libs/ImGui/source/gles/imgui_demo.cpp.i
@@ -167,7 +167,7 @@ libs/ImGui/source/gles/imgui_demo.i: libs/ImGui/source/gles/imgui_demo.cpp.i
 
 # target to preprocess a source file
 libs/ImGui/source/gles/imgui_demo.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_demo.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_demo.cpp.i
 .PHONY : libs/ImGui/source/gles/imgui_demo.cpp.i
 
 libs/ImGui/source/gles/imgui_demo.s: libs/ImGui/source/gles/imgui_demo.cpp.s
@@ -175,7 +175,7 @@ libs/ImGui/source/gles/imgui_demo.s: libs/ImGui/source/gles/imgui_demo.cpp.s
 
 # target to generate assembly for a file
 libs/ImGui/source/gles/imgui_demo.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_demo.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_demo.cpp.s
 .PHONY : libs/ImGui/source/gles/imgui_demo.cpp.s
 
 libs/ImGui/source/gles/imgui_draw.o: libs/ImGui/source/gles/imgui_draw.cpp.o
@@ -183,7 +183,7 @@ libs/ImGui/source/gles/imgui_draw.o: libs/ImGui/source/gles/imgui_draw.cpp.o
 
 # target to build an object file
 libs/ImGui/source/gles/imgui_draw.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_draw.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_draw.cpp.o
 .PHONY : libs/ImGui/source/gles/imgui_draw.cpp.o
 
 libs/ImGui/source/gles/imgui_draw.i: libs/ImGui/source/gles/imgui_draw.cpp.i
@@ -191,7 +191,7 @@ libs/ImGui/source/gles/imgui_draw.i: libs/ImGui/source/gles/imgui_draw.cpp.i
 
 # target to preprocess a source file
 libs/ImGui/source/gles/imgui_draw.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_draw.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_draw.cpp.i
 .PHONY : libs/ImGui/source/gles/imgui_draw.cpp.i
 
 libs/ImGui/source/gles/imgui_draw.s: libs/ImGui/source/gles/imgui_draw.cpp.s
@@ -199,7 +199,7 @@ libs/ImGui/source/gles/imgui_draw.s: libs/ImGui/source/gles/imgui_draw.cpp.s
 
 # target to generate assembly for a file
 libs/ImGui/source/gles/imgui_draw.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_draw.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_draw.cpp.s
 .PHONY : libs/ImGui/source/gles/imgui_draw.cpp.s
 
 libs/ImGui/source/gles/imgui_impl_opengl3.o: libs/ImGui/source/gles/imgui_impl_opengl3.cpp.o
@@ -207,7 +207,7 @@ libs/ImGui/source/gles/imgui_impl_opengl3.o: libs/ImGui/source/gles/imgui_impl_o
 
 # target to build an object file
 libs/ImGui/source/gles/imgui_impl_opengl3.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_impl_opengl3.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_impl_opengl3.cpp.o
 .PHONY : libs/ImGui/source/gles/imgui_impl_opengl3.cpp.o
 
 libs/ImGui/source/gles/imgui_impl_opengl3.i: libs/ImGui/source/gles/imgui_impl_opengl3.cpp.i
@@ -215,7 +215,7 @@ libs/ImGui/source/gles/imgui_impl_opengl3.i: libs/ImGui/source/gles/imgui_impl_o
 
 # target to preprocess a source file
 libs/ImGui/source/gles/imgui_impl_opengl3.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_impl_opengl3.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_impl_opengl3.cpp.i
 .PHONY : libs/ImGui/source/gles/imgui_impl_opengl3.cpp.i
 
 libs/ImGui/source/gles/imgui_impl_opengl3.s: libs/ImGui/source/gles/imgui_impl_opengl3.cpp.s
@@ -223,7 +223,7 @@ libs/ImGui/source/gles/imgui_impl_opengl3.s: libs/ImGui/source/gles/imgui_impl_o
 
 # target to generate assembly for a file
 libs/ImGui/source/gles/imgui_impl_opengl3.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_impl_opengl3.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_impl_opengl3.cpp.s
 .PHONY : libs/ImGui/source/gles/imgui_impl_opengl3.cpp.s
 
 libs/ImGui/source/gles/imgui_impl_sdl.o: libs/ImGui/source/gles/imgui_impl_sdl.cpp.o
@@ -231,7 +231,7 @@ libs/ImGui/source/gles/imgui_impl_sdl.o: libs/ImGui/source/gles/imgui_impl_sdl.c
 
 # target to build an object file
 libs/ImGui/source/gles/imgui_impl_sdl.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_impl_sdl.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_impl_sdl.cpp.o
 .PHONY : libs/ImGui/source/gles/imgui_impl_sdl.cpp.o
 
 libs/ImGui/source/gles/imgui_impl_sdl.i: libs/ImGui/source/gles/imgui_impl_sdl.cpp.i
@@ -239,7 +239,7 @@ libs/ImGui/source/gles/imgui_impl_sdl.i: libs/ImGui/source/gles/imgui_impl_sdl.c
 
 # target to preprocess a source file
 libs/ImGui/source/gles/imgui_impl_sdl.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_impl_sdl.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_impl_sdl.cpp.i
 .PHONY : libs/ImGui/source/gles/imgui_impl_sdl.cpp.i
 
 libs/ImGui/source/gles/imgui_impl_sdl.s: libs/ImGui/source/gles/imgui_impl_sdl.cpp.s
@@ -247,7 +247,7 @@ libs/ImGui/source/gles/imgui_impl_sdl.s: libs/ImGui/source/gles/imgui_impl_sdl.c
 
 # target to generate assembly for a file
 libs/ImGui/source/gles/imgui_impl_sdl.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_impl_sdl.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_impl_sdl.cpp.s
 .PHONY : libs/ImGui/source/gles/imgui_impl_sdl.cpp.s
 
 libs/ImGui/source/gles/imgui_tables.o: libs/ImGui/source/gles/imgui_tables.cpp.o
@@ -255,7 +255,7 @@ libs/ImGui/source/gles/imgui_tables.o: libs/ImGui/source/gles/imgui_tables.cpp.o
 
 # target to build an object file
 libs/ImGui/source/gles/imgui_tables.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_tables.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_tables.cpp.o
 .PHONY : libs/ImGui/source/gles/imgui_tables.cpp.o
 
 libs/ImGui/source/gles/imgui_tables.i: libs/ImGui/source/gles/imgui_tables.cpp.i
@@ -263,7 +263,7 @@ libs/ImGui/source/gles/imgui_tables.i: libs/ImGui/source/gles/imgui_tables.cpp.i
 
 # target to preprocess a source file
 libs/ImGui/source/gles/imgui_tables.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_tables.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_tables.cpp.i
 .PHONY : libs/ImGui/source/gles/imgui_tables.cpp.i
 
 libs/ImGui/source/gles/imgui_tables.s: libs/ImGui/source/gles/imgui_tables.cpp.s
@@ -271,7 +271,7 @@ libs/ImGui/source/gles/imgui_tables.s: libs/ImGui/source/gles/imgui_tables.cpp.s
 
 # target to generate assembly for a file
 libs/ImGui/source/gles/imgui_tables.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_tables.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_tables.cpp.s
 .PHONY : libs/ImGui/source/gles/imgui_tables.cpp.s
 
 libs/ImGui/source/gles/imgui_widgets.o: libs/ImGui/source/gles/imgui_widgets.cpp.o
@@ -279,7 +279,7 @@ libs/ImGui/source/gles/imgui_widgets.o: libs/ImGui/source/gles/imgui_widgets.cpp
 
 # target to build an object file
 libs/ImGui/source/gles/imgui_widgets.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_widgets.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_widgets.cpp.o
 .PHONY : libs/ImGui/source/gles/imgui_widgets.cpp.o
 
 libs/ImGui/source/gles/imgui_widgets.i: libs/ImGui/source/gles/imgui_widgets.cpp.i
@@ -287,7 +287,7 @@ libs/ImGui/source/gles/imgui_widgets.i: libs/ImGui/source/gles/imgui_widgets.cpp
 
 # target to preprocess a source file
 libs/ImGui/source/gles/imgui_widgets.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_widgets.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_widgets.cpp.i
 .PHONY : libs/ImGui/source/gles/imgui_widgets.cpp.i
 
 libs/ImGui/source/gles/imgui_widgets.s: libs/ImGui/source/gles/imgui_widgets.cpp.s
@@ -295,7 +295,7 @@ libs/ImGui/source/gles/imgui_widgets.s: libs/ImGui/source/gles/imgui_widgets.cpp
 
 # target to generate assembly for a file
 libs/ImGui/source/gles/imgui_widgets.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_widgets.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_widgets.cpp.s
 .PHONY : libs/ImGui/source/gles/imgui_widgets.cpp.s
 
 src/Nen/Actor/Actor.o: src/Nen/Actor/Actor.cpp.o
@@ -303,7 +303,7 @@ src/Nen/Actor/Actor.o: src/Nen/Actor/Actor.cpp.o
 
 # target to build an object file
 src/Nen/Actor/Actor.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Actor/Actor.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Actor/Actor.cpp.o
 .PHONY : src/Nen/Actor/Actor.cpp.o
 
 src/Nen/Actor/Actor.i: src/Nen/Actor/Actor.cpp.i
@@ -311,7 +311,7 @@ src/Nen/Actor/Actor.i: src/Nen/Actor/Actor.cpp.i
 
 # target to preprocess a source file
 src/Nen/Actor/Actor.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Actor/Actor.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Actor/Actor.cpp.i
 .PHONY : src/Nen/Actor/Actor.cpp.i
 
 src/Nen/Actor/Actor.s: src/Nen/Actor/Actor.cpp.s
@@ -319,7 +319,7 @@ src/Nen/Actor/Actor.s: src/Nen/Actor/Actor.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Actor/Actor.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Actor/Actor.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Actor/Actor.cpp.s
 .PHONY : src/Nen/Actor/Actor.cpp.s
 
 src/Nen/Audio/MusicSystem.o: src/Nen/Audio/MusicSystem.cpp.o
@@ -327,7 +327,7 @@ src/Nen/Audio/MusicSystem.o: src/Nen/Audio/MusicSystem.cpp.o
 
 # target to build an object file
 src/Nen/Audio/MusicSystem.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/MusicSystem.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/MusicSystem.cpp.o
 .PHONY : src/Nen/Audio/MusicSystem.cpp.o
 
 src/Nen/Audio/MusicSystem.i: src/Nen/Audio/MusicSystem.cpp.i
@@ -335,7 +335,7 @@ src/Nen/Audio/MusicSystem.i: src/Nen/Audio/MusicSystem.cpp.i
 
 # target to preprocess a source file
 src/Nen/Audio/MusicSystem.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/MusicSystem.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/MusicSystem.cpp.i
 .PHONY : src/Nen/Audio/MusicSystem.cpp.i
 
 src/Nen/Audio/MusicSystem.s: src/Nen/Audio/MusicSystem.cpp.s
@@ -343,7 +343,7 @@ src/Nen/Audio/MusicSystem.s: src/Nen/Audio/MusicSystem.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Audio/MusicSystem.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/MusicSystem.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/MusicSystem.cpp.s
 .PHONY : src/Nen/Audio/MusicSystem.cpp.s
 
 src/Nen/Audio/SoundEvent.o: src/Nen/Audio/SoundEvent.cpp.o
@@ -351,7 +351,7 @@ src/Nen/Audio/SoundEvent.o: src/Nen/Audio/SoundEvent.cpp.o
 
 # target to build an object file
 src/Nen/Audio/SoundEvent.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/SoundEvent.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/SoundEvent.cpp.o
 .PHONY : src/Nen/Audio/SoundEvent.cpp.o
 
 src/Nen/Audio/SoundEvent.i: src/Nen/Audio/SoundEvent.cpp.i
@@ -359,7 +359,7 @@ src/Nen/Audio/SoundEvent.i: src/Nen/Audio/SoundEvent.cpp.i
 
 # target to preprocess a source file
 src/Nen/Audio/SoundEvent.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/SoundEvent.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/SoundEvent.cpp.i
 .PHONY : src/Nen/Audio/SoundEvent.cpp.i
 
 src/Nen/Audio/SoundEvent.s: src/Nen/Audio/SoundEvent.cpp.s
@@ -367,7 +367,7 @@ src/Nen/Audio/SoundEvent.s: src/Nen/Audio/SoundEvent.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Audio/SoundEvent.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/SoundEvent.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/SoundEvent.cpp.s
 .PHONY : src/Nen/Audio/SoundEvent.cpp.s
 
 src/Nen/Audio/SoundSystem.o: src/Nen/Audio/SoundSystem.cpp.o
@@ -375,7 +375,7 @@ src/Nen/Audio/SoundSystem.o: src/Nen/Audio/SoundSystem.cpp.o
 
 # target to build an object file
 src/Nen/Audio/SoundSystem.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/SoundSystem.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/SoundSystem.cpp.o
 .PHONY : src/Nen/Audio/SoundSystem.cpp.o
 
 src/Nen/Audio/SoundSystem.i: src/Nen/Audio/SoundSystem.cpp.i
@@ -383,7 +383,7 @@ src/Nen/Audio/SoundSystem.i: src/Nen/Audio/SoundSystem.cpp.i
 
 # target to preprocess a source file
 src/Nen/Audio/SoundSystem.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/SoundSystem.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/SoundSystem.cpp.i
 .PHONY : src/Nen/Audio/SoundSystem.cpp.i
 
 src/Nen/Audio/SoundSystem.s: src/Nen/Audio/SoundSystem.cpp.s
@@ -391,7 +391,7 @@ src/Nen/Audio/SoundSystem.s: src/Nen/Audio/SoundSystem.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Audio/SoundSystem.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/SoundSystem.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Audio/SoundSystem.cpp.s
 .PHONY : src/Nen/Audio/SoundSystem.cpp.s
 
 src/Nen/Color/Color.o: src/Nen/Color/Color.cpp.o
@@ -399,7 +399,7 @@ src/Nen/Color/Color.o: src/Nen/Color/Color.cpp.o
 
 # target to build an object file
 src/Nen/Color/Color.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Color/Color.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Color/Color.cpp.o
 .PHONY : src/Nen/Color/Color.cpp.o
 
 src/Nen/Color/Color.i: src/Nen/Color/Color.cpp.i
@@ -407,7 +407,7 @@ src/Nen/Color/Color.i: src/Nen/Color/Color.cpp.i
 
 # target to preprocess a source file
 src/Nen/Color/Color.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Color/Color.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Color/Color.cpp.i
 .PHONY : src/Nen/Color/Color.cpp.i
 
 src/Nen/Color/Color.s: src/Nen/Color/Color.cpp.s
@@ -415,7 +415,7 @@ src/Nen/Color/Color.s: src/Nen/Color/Color.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Color/Color.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Color/Color.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Color/Color.cpp.s
 .PHONY : src/Nen/Color/Color.cpp.s
 
 src/Nen/Component/BillboardComponent.o: src/Nen/Component/BillboardComponent.cpp.o
@@ -423,7 +423,7 @@ src/Nen/Component/BillboardComponent.o: src/Nen/Component/BillboardComponent.cpp
 
 # target to build an object file
 src/Nen/Component/BillboardComponent.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/BillboardComponent.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/BillboardComponent.cpp.o
 .PHONY : src/Nen/Component/BillboardComponent.cpp.o
 
 src/Nen/Component/BillboardComponent.i: src/Nen/Component/BillboardComponent.cpp.i
@@ -431,7 +431,7 @@ src/Nen/Component/BillboardComponent.i: src/Nen/Component/BillboardComponent.cpp
 
 # target to preprocess a source file
 src/Nen/Component/BillboardComponent.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/BillboardComponent.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/BillboardComponent.cpp.i
 .PHONY : src/Nen/Component/BillboardComponent.cpp.i
 
 src/Nen/Component/BillboardComponent.s: src/Nen/Component/BillboardComponent.cpp.s
@@ -439,7 +439,7 @@ src/Nen/Component/BillboardComponent.s: src/Nen/Component/BillboardComponent.cpp
 
 # target to generate assembly for a file
 src/Nen/Component/BillboardComponent.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/BillboardComponent.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/BillboardComponent.cpp.s
 .PHONY : src/Nen/Component/BillboardComponent.cpp.s
 
 src/Nen/Component/CircleComponent.o: src/Nen/Component/CircleComponent.cpp.o
@@ -447,7 +447,7 @@ src/Nen/Component/CircleComponent.o: src/Nen/Component/CircleComponent.cpp.o
 
 # target to build an object file
 src/Nen/Component/CircleComponent.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/CircleComponent.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/CircleComponent.cpp.o
 .PHONY : src/Nen/Component/CircleComponent.cpp.o
 
 src/Nen/Component/CircleComponent.i: src/Nen/Component/CircleComponent.cpp.i
@@ -455,7 +455,7 @@ src/Nen/Component/CircleComponent.i: src/Nen/Component/CircleComponent.cpp.i
 
 # target to preprocess a source file
 src/Nen/Component/CircleComponent.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/CircleComponent.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/CircleComponent.cpp.i
 .PHONY : src/Nen/Component/CircleComponent.cpp.i
 
 src/Nen/Component/CircleComponent.s: src/Nen/Component/CircleComponent.cpp.s
@@ -463,7 +463,7 @@ src/Nen/Component/CircleComponent.s: src/Nen/Component/CircleComponent.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Component/CircleComponent.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/CircleComponent.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/CircleComponent.cpp.s
 .PHONY : src/Nen/Component/CircleComponent.cpp.s
 
 src/Nen/Component/Component.o: src/Nen/Component/Component.cpp.o
@@ -471,7 +471,7 @@ src/Nen/Component/Component.o: src/Nen/Component/Component.cpp.o
 
 # target to build an object file
 src/Nen/Component/Component.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Component.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Component.cpp.o
 .PHONY : src/Nen/Component/Component.cpp.o
 
 src/Nen/Component/Component.i: src/Nen/Component/Component.cpp.i
@@ -479,7 +479,7 @@ src/Nen/Component/Component.i: src/Nen/Component/Component.cpp.i
 
 # target to preprocess a source file
 src/Nen/Component/Component.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Component.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Component.cpp.i
 .PHONY : src/Nen/Component/Component.cpp.i
 
 src/Nen/Component/Component.s: src/Nen/Component/Component.cpp.s
@@ -487,7 +487,7 @@ src/Nen/Component/Component.s: src/Nen/Component/Component.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Component/Component.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Component.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Component.cpp.s
 .PHONY : src/Nen/Component/Component.cpp.s
 
 src/Nen/Component/Draw2DComponent.o: src/Nen/Component/Draw2DComponent.cpp.o
@@ -495,7 +495,7 @@ src/Nen/Component/Draw2DComponent.o: src/Nen/Component/Draw2DComponent.cpp.o
 
 # target to build an object file
 src/Nen/Component/Draw2DComponent.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Draw2DComponent.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Draw2DComponent.cpp.o
 .PHONY : src/Nen/Component/Draw2DComponent.cpp.o
 
 src/Nen/Component/Draw2DComponent.i: src/Nen/Component/Draw2DComponent.cpp.i
@@ -503,7 +503,7 @@ src/Nen/Component/Draw2DComponent.i: src/Nen/Component/Draw2DComponent.cpp.i
 
 # target to preprocess a source file
 src/Nen/Component/Draw2DComponent.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Draw2DComponent.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Draw2DComponent.cpp.i
 .PHONY : src/Nen/Component/Draw2DComponent.cpp.i
 
 src/Nen/Component/Draw2DComponent.s: src/Nen/Component/Draw2DComponent.cpp.s
@@ -511,7 +511,7 @@ src/Nen/Component/Draw2DComponent.s: src/Nen/Component/Draw2DComponent.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Component/Draw2DComponent.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Draw2DComponent.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Draw2DComponent.cpp.s
 .PHONY : src/Nen/Component/Draw2DComponent.cpp.s
 
 src/Nen/Component/Draw3DComponent.o: src/Nen/Component/Draw3DComponent.cpp.o
@@ -519,7 +519,7 @@ src/Nen/Component/Draw3DComponent.o: src/Nen/Component/Draw3DComponent.cpp.o
 
 # target to build an object file
 src/Nen/Component/Draw3DComponent.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Draw3DComponent.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Draw3DComponent.cpp.o
 .PHONY : src/Nen/Component/Draw3DComponent.cpp.o
 
 src/Nen/Component/Draw3DComponent.i: src/Nen/Component/Draw3DComponent.cpp.i
@@ -527,7 +527,7 @@ src/Nen/Component/Draw3DComponent.i: src/Nen/Component/Draw3DComponent.cpp.i
 
 # target to preprocess a source file
 src/Nen/Component/Draw3DComponent.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Draw3DComponent.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Draw3DComponent.cpp.i
 .PHONY : src/Nen/Component/Draw3DComponent.cpp.i
 
 src/Nen/Component/Draw3DComponent.s: src/Nen/Component/Draw3DComponent.cpp.s
@@ -535,7 +535,7 @@ src/Nen/Component/Draw3DComponent.s: src/Nen/Component/Draw3DComponent.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Component/Draw3DComponent.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Draw3DComponent.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/Draw3DComponent.cpp.s
 .PHONY : src/Nen/Component/Draw3DComponent.cpp.s
 
 src/Nen/Component/InputComponent.o: src/Nen/Component/InputComponent.cpp.o
@@ -543,7 +543,7 @@ src/Nen/Component/InputComponent.o: src/Nen/Component/InputComponent.cpp.o
 
 # target to build an object file
 src/Nen/Component/InputComponent.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/InputComponent.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/InputComponent.cpp.o
 .PHONY : src/Nen/Component/InputComponent.cpp.o
 
 src/Nen/Component/InputComponent.i: src/Nen/Component/InputComponent.cpp.i
@@ -551,7 +551,7 @@ src/Nen/Component/InputComponent.i: src/Nen/Component/InputComponent.cpp.i
 
 # target to preprocess a source file
 src/Nen/Component/InputComponent.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/InputComponent.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/InputComponent.cpp.i
 .PHONY : src/Nen/Component/InputComponent.cpp.i
 
 src/Nen/Component/InputComponent.s: src/Nen/Component/InputComponent.cpp.s
@@ -559,7 +559,7 @@ src/Nen/Component/InputComponent.s: src/Nen/Component/InputComponent.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Component/InputComponent.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/InputComponent.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/InputComponent.cpp.s
 .PHONY : src/Nen/Component/InputComponent.cpp.s
 
 src/Nen/Component/MoveComponent.o: src/Nen/Component/MoveComponent.cpp.o
@@ -567,7 +567,7 @@ src/Nen/Component/MoveComponent.o: src/Nen/Component/MoveComponent.cpp.o
 
 # target to build an object file
 src/Nen/Component/MoveComponent.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/MoveComponent.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/MoveComponent.cpp.o
 .PHONY : src/Nen/Component/MoveComponent.cpp.o
 
 src/Nen/Component/MoveComponent.i: src/Nen/Component/MoveComponent.cpp.i
@@ -575,7 +575,7 @@ src/Nen/Component/MoveComponent.i: src/Nen/Component/MoveComponent.cpp.i
 
 # target to preprocess a source file
 src/Nen/Component/MoveComponent.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/MoveComponent.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/MoveComponent.cpp.i
 .PHONY : src/Nen/Component/MoveComponent.cpp.i
 
 src/Nen/Component/MoveComponent.s: src/Nen/Component/MoveComponent.cpp.s
@@ -583,7 +583,7 @@ src/Nen/Component/MoveComponent.s: src/Nen/Component/MoveComponent.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Component/MoveComponent.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/MoveComponent.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/MoveComponent.cpp.s
 .PHONY : src/Nen/Component/MoveComponent.cpp.s
 
 src/Nen/Component/ScriptComponent.o: src/Nen/Component/ScriptComponent.cpp.o
@@ -591,7 +591,7 @@ src/Nen/Component/ScriptComponent.o: src/Nen/Component/ScriptComponent.cpp.o
 
 # target to build an object file
 src/Nen/Component/ScriptComponent.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/ScriptComponent.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/ScriptComponent.cpp.o
 .PHONY : src/Nen/Component/ScriptComponent.cpp.o
 
 src/Nen/Component/ScriptComponent.i: src/Nen/Component/ScriptComponent.cpp.i
@@ -599,7 +599,7 @@ src/Nen/Component/ScriptComponent.i: src/Nen/Component/ScriptComponent.cpp.i
 
 # target to preprocess a source file
 src/Nen/Component/ScriptComponent.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/ScriptComponent.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/ScriptComponent.cpp.i
 .PHONY : src/Nen/Component/ScriptComponent.cpp.i
 
 src/Nen/Component/ScriptComponent.s: src/Nen/Component/ScriptComponent.cpp.s
@@ -607,7 +607,7 @@ src/Nen/Component/ScriptComponent.s: src/Nen/Component/ScriptComponent.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Component/ScriptComponent.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/ScriptComponent.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/ScriptComponent.cpp.s
 .PHONY : src/Nen/Component/ScriptComponent.cpp.s
 
 src/Nen/Component/SoundComponent.o: src/Nen/Component/SoundComponent.cpp.o
@@ -615,7 +615,7 @@ src/Nen/Component/SoundComponent.o: src/Nen/Component/SoundComponent.cpp.o
 
 # target to build an object file
 src/Nen/Component/SoundComponent.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/SoundComponent.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/SoundComponent.cpp.o
 .PHONY : src/Nen/Component/SoundComponent.cpp.o
 
 src/Nen/Component/SoundComponent.i: src/Nen/Component/SoundComponent.cpp.i
@@ -623,7 +623,7 @@ src/Nen/Component/SoundComponent.i: src/Nen/Component/SoundComponent.cpp.i
 
 # target to preprocess a source file
 src/Nen/Component/SoundComponent.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/SoundComponent.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/SoundComponent.cpp.i
 .PHONY : src/Nen/Component/SoundComponent.cpp.i
 
 src/Nen/Component/SoundComponent.s: src/Nen/Component/SoundComponent.cpp.s
@@ -631,7 +631,7 @@ src/Nen/Component/SoundComponent.s: src/Nen/Component/SoundComponent.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Component/SoundComponent.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/SoundComponent.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/SoundComponent.cpp.s
 .PHONY : src/Nen/Component/SoundComponent.cpp.s
 
 src/Nen/Component/TextComponent.o: src/Nen/Component/TextComponent.cpp.o
@@ -639,7 +639,7 @@ src/Nen/Component/TextComponent.o: src/Nen/Component/TextComponent.cpp.o
 
 # target to build an object file
 src/Nen/Component/TextComponent.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/TextComponent.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/TextComponent.cpp.o
 .PHONY : src/Nen/Component/TextComponent.cpp.o
 
 src/Nen/Component/TextComponent.i: src/Nen/Component/TextComponent.cpp.i
@@ -647,7 +647,7 @@ src/Nen/Component/TextComponent.i: src/Nen/Component/TextComponent.cpp.i
 
 # target to preprocess a source file
 src/Nen/Component/TextComponent.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/TextComponent.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/TextComponent.cpp.i
 .PHONY : src/Nen/Component/TextComponent.cpp.i
 
 src/Nen/Component/TextComponent.s: src/Nen/Component/TextComponent.cpp.s
@@ -655,7 +655,7 @@ src/Nen/Component/TextComponent.s: src/Nen/Component/TextComponent.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Component/TextComponent.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/TextComponent.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/TextComponent.cpp.s
 .PHONY : src/Nen/Component/TextComponent.cpp.s
 
 src/Nen/Font/Font.o: src/Nen/Font/Font.cpp.o
@@ -663,7 +663,7 @@ src/Nen/Font/Font.o: src/Nen/Font/Font.cpp.o
 
 # target to build an object file
 src/Nen/Font/Font.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Font/Font.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Font/Font.cpp.o
 .PHONY : src/Nen/Font/Font.cpp.o
 
 src/Nen/Font/Font.i: src/Nen/Font/Font.cpp.i
@@ -671,7 +671,7 @@ src/Nen/Font/Font.i: src/Nen/Font/Font.cpp.i
 
 # target to preprocess a source file
 src/Nen/Font/Font.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Font/Font.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Font/Font.cpp.i
 .PHONY : src/Nen/Font/Font.cpp.i
 
 src/Nen/Font/Font.s: src/Nen/Font/Font.cpp.s
@@ -679,7 +679,7 @@ src/Nen/Font/Font.s: src/Nen/Font/Font.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Font/Font.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Font/Font.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Font/Font.cpp.s
 .PHONY : src/Nen/Font/Font.cpp.s
 
 src/Nen/GUI/Button.o: src/Nen/GUI/Button.cpp.o
@@ -687,7 +687,7 @@ src/Nen/GUI/Button.o: src/Nen/GUI/Button.cpp.o
 
 # target to build an object file
 src/Nen/GUI/Button.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/Button.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/Button.cpp.o
 .PHONY : src/Nen/GUI/Button.cpp.o
 
 src/Nen/GUI/Button.i: src/Nen/GUI/Button.cpp.i
@@ -695,7 +695,7 @@ src/Nen/GUI/Button.i: src/Nen/GUI/Button.cpp.i
 
 # target to preprocess a source file
 src/Nen/GUI/Button.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/Button.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/Button.cpp.i
 .PHONY : src/Nen/GUI/Button.cpp.i
 
 src/Nen/GUI/Button.s: src/Nen/GUI/Button.cpp.s
@@ -703,7 +703,7 @@ src/Nen/GUI/Button.s: src/Nen/GUI/Button.cpp.s
 
 # target to generate assembly for a file
 src/Nen/GUI/Button.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/Button.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/Button.cpp.s
 .PHONY : src/Nen/GUI/Button.cpp.s
 
 src/Nen/GUI/DialogBox.o: src/Nen/GUI/DialogBox.cpp.o
@@ -711,7 +711,7 @@ src/Nen/GUI/DialogBox.o: src/Nen/GUI/DialogBox.cpp.o
 
 # target to build an object file
 src/Nen/GUI/DialogBox.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/DialogBox.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/DialogBox.cpp.o
 .PHONY : src/Nen/GUI/DialogBox.cpp.o
 
 src/Nen/GUI/DialogBox.i: src/Nen/GUI/DialogBox.cpp.i
@@ -719,7 +719,7 @@ src/Nen/GUI/DialogBox.i: src/Nen/GUI/DialogBox.cpp.i
 
 # target to preprocess a source file
 src/Nen/GUI/DialogBox.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/DialogBox.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/DialogBox.cpp.i
 .PHONY : src/Nen/GUI/DialogBox.cpp.i
 
 src/Nen/GUI/DialogBox.s: src/Nen/GUI/DialogBox.cpp.s
@@ -727,7 +727,7 @@ src/Nen/GUI/DialogBox.s: src/Nen/GUI/DialogBox.cpp.s
 
 # target to generate assembly for a file
 src/Nen/GUI/DialogBox.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/DialogBox.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/DialogBox.cpp.s
 .PHONY : src/Nen/GUI/DialogBox.cpp.s
 
 src/Nen/GUI/HUD.o: src/Nen/GUI/HUD.cpp.o
@@ -735,7 +735,7 @@ src/Nen/GUI/HUD.o: src/Nen/GUI/HUD.cpp.o
 
 # target to build an object file
 src/Nen/GUI/HUD.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/HUD.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/HUD.cpp.o
 .PHONY : src/Nen/GUI/HUD.cpp.o
 
 src/Nen/GUI/HUD.i: src/Nen/GUI/HUD.cpp.i
@@ -743,7 +743,7 @@ src/Nen/GUI/HUD.i: src/Nen/GUI/HUD.cpp.i
 
 # target to preprocess a source file
 src/Nen/GUI/HUD.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/HUD.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/HUD.cpp.i
 .PHONY : src/Nen/GUI/HUD.cpp.i
 
 src/Nen/GUI/HUD.s: src/Nen/GUI/HUD.cpp.s
@@ -751,7 +751,7 @@ src/Nen/GUI/HUD.s: src/Nen/GUI/HUD.cpp.s
 
 # target to generate assembly for a file
 src/Nen/GUI/HUD.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/HUD.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/HUD.cpp.s
 .PHONY : src/Nen/GUI/HUD.cpp.s
 
 src/Nen/GUI/PauseMenu.o: src/Nen/GUI/PauseMenu.cpp.o
@@ -759,7 +759,7 @@ src/Nen/GUI/PauseMenu.o: src/Nen/GUI/PauseMenu.cpp.o
 
 # target to build an object file
 src/Nen/GUI/PauseMenu.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/PauseMenu.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/PauseMenu.cpp.o
 .PHONY : src/Nen/GUI/PauseMenu.cpp.o
 
 src/Nen/GUI/PauseMenu.i: src/Nen/GUI/PauseMenu.cpp.i
@@ -767,7 +767,7 @@ src/Nen/GUI/PauseMenu.i: src/Nen/GUI/PauseMenu.cpp.i
 
 # target to preprocess a source file
 src/Nen/GUI/PauseMenu.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/PauseMenu.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/PauseMenu.cpp.i
 .PHONY : src/Nen/GUI/PauseMenu.cpp.i
 
 src/Nen/GUI/PauseMenu.s: src/Nen/GUI/PauseMenu.cpp.s
@@ -775,7 +775,7 @@ src/Nen/GUI/PauseMenu.s: src/Nen/GUI/PauseMenu.cpp.s
 
 # target to generate assembly for a file
 src/Nen/GUI/PauseMenu.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/PauseMenu.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/PauseMenu.cpp.s
 .PHONY : src/Nen/GUI/PauseMenu.cpp.s
 
 src/Nen/GUI/UIScreen.o: src/Nen/GUI/UIScreen.cpp.o
@@ -783,7 +783,7 @@ src/Nen/GUI/UIScreen.o: src/Nen/GUI/UIScreen.cpp.o
 
 # target to build an object file
 src/Nen/GUI/UIScreen.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/UIScreen.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/UIScreen.cpp.o
 .PHONY : src/Nen/GUI/UIScreen.cpp.o
 
 src/Nen/GUI/UIScreen.i: src/Nen/GUI/UIScreen.cpp.i
@@ -791,7 +791,7 @@ src/Nen/GUI/UIScreen.i: src/Nen/GUI/UIScreen.cpp.i
 
 # target to preprocess a source file
 src/Nen/GUI/UIScreen.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/UIScreen.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/UIScreen.cpp.i
 .PHONY : src/Nen/GUI/UIScreen.cpp.i
 
 src/Nen/GUI/UIScreen.s: src/Nen/GUI/UIScreen.cpp.s
@@ -799,7 +799,7 @@ src/Nen/GUI/UIScreen.s: src/Nen/GUI/UIScreen.cpp.s
 
 # target to generate assembly for a file
 src/Nen/GUI/UIScreen.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/UIScreen.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/GUI/UIScreen.cpp.s
 .PHONY : src/Nen/GUI/UIScreen.cpp.s
 
 src/Nen/IO/AssetReader.o: src/Nen/IO/AssetReader.cpp.o
@@ -807,7 +807,7 @@ src/Nen/IO/AssetReader.o: src/Nen/IO/AssetReader.cpp.o
 
 # target to build an object file
 src/Nen/IO/AssetReader.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/IO/AssetReader.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/IO/AssetReader.cpp.o
 .PHONY : src/Nen/IO/AssetReader.cpp.o
 
 src/Nen/IO/AssetReader.i: src/Nen/IO/AssetReader.cpp.i
@@ -815,7 +815,7 @@ src/Nen/IO/AssetReader.i: src/Nen/IO/AssetReader.cpp.i
 
 # target to preprocess a source file
 src/Nen/IO/AssetReader.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/IO/AssetReader.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/IO/AssetReader.cpp.i
 .PHONY : src/Nen/IO/AssetReader.cpp.i
 
 src/Nen/IO/AssetReader.s: src/Nen/IO/AssetReader.cpp.s
@@ -823,7 +823,7 @@ src/Nen/IO/AssetReader.s: src/Nen/IO/AssetReader.cpp.s
 
 # target to generate assembly for a file
 src/Nen/IO/AssetReader.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/IO/AssetReader.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/IO/AssetReader.cpp.s
 .PHONY : src/Nen/IO/AssetReader.cpp.s
 
 src/Nen/Input/GameController.o: src/Nen/Input/GameController.cpp.o
@@ -831,7 +831,7 @@ src/Nen/Input/GameController.o: src/Nen/Input/GameController.cpp.o
 
 # target to build an object file
 src/Nen/Input/GameController.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Input/GameController.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Input/GameController.cpp.o
 .PHONY : src/Nen/Input/GameController.cpp.o
 
 src/Nen/Input/GameController.i: src/Nen/Input/GameController.cpp.i
@@ -839,7 +839,7 @@ src/Nen/Input/GameController.i: src/Nen/Input/GameController.cpp.i
 
 # target to preprocess a source file
 src/Nen/Input/GameController.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Input/GameController.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Input/GameController.cpp.i
 .PHONY : src/Nen/Input/GameController.cpp.i
 
 src/Nen/Input/GameController.s: src/Nen/Input/GameController.cpp.s
@@ -847,7 +847,7 @@ src/Nen/Input/GameController.s: src/Nen/Input/GameController.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Input/GameController.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Input/GameController.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Input/GameController.cpp.s
 .PHONY : src/Nen/Input/GameController.cpp.s
 
 src/Nen/Input/InputSystem.o: src/Nen/Input/InputSystem.cpp.o
@@ -855,7 +855,7 @@ src/Nen/Input/InputSystem.o: src/Nen/Input/InputSystem.cpp.o
 
 # target to build an object file
 src/Nen/Input/InputSystem.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Input/InputSystem.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Input/InputSystem.cpp.o
 .PHONY : src/Nen/Input/InputSystem.cpp.o
 
 src/Nen/Input/InputSystem.i: src/Nen/Input/InputSystem.cpp.i
@@ -863,7 +863,7 @@ src/Nen/Input/InputSystem.i: src/Nen/Input/InputSystem.cpp.i
 
 # target to preprocess a source file
 src/Nen/Input/InputSystem.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Input/InputSystem.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Input/InputSystem.cpp.i
 .PHONY : src/Nen/Input/InputSystem.cpp.i
 
 src/Nen/Input/InputSystem.s: src/Nen/Input/InputSystem.cpp.s
@@ -871,63 +871,15 @@ src/Nen/Input/InputSystem.s: src/Nen/Input/InputSystem.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Input/InputSystem.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Input/InputSystem.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Input/InputSystem.cpp.s
 .PHONY : src/Nen/Input/InputSystem.cpp.s
-
-src/Nen/Json/JsonReader.o: src/Nen/Json/JsonReader.cpp.o
-.PHONY : src/Nen/Json/JsonReader.o
-
-# target to build an object file
-src/Nen/Json/JsonReader.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Json/JsonReader.cpp.o
-.PHONY : src/Nen/Json/JsonReader.cpp.o
-
-src/Nen/Json/JsonReader.i: src/Nen/Json/JsonReader.cpp.i
-.PHONY : src/Nen/Json/JsonReader.i
-
-# target to preprocess a source file
-src/Nen/Json/JsonReader.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Json/JsonReader.cpp.i
-.PHONY : src/Nen/Json/JsonReader.cpp.i
-
-src/Nen/Json/JsonReader.s: src/Nen/Json/JsonReader.cpp.s
-.PHONY : src/Nen/Json/JsonReader.s
-
-# target to generate assembly for a file
-src/Nen/Json/JsonReader.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Json/JsonReader.cpp.s
-.PHONY : src/Nen/Json/JsonReader.cpp.s
-
-src/Nen/Json/JsonWriter.o: src/Nen/Json/JsonWriter.cpp.o
-.PHONY : src/Nen/Json/JsonWriter.o
-
-# target to build an object file
-src/Nen/Json/JsonWriter.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Json/JsonWriter.cpp.o
-.PHONY : src/Nen/Json/JsonWriter.cpp.o
-
-src/Nen/Json/JsonWriter.i: src/Nen/Json/JsonWriter.cpp.i
-.PHONY : src/Nen/Json/JsonWriter.i
-
-# target to preprocess a source file
-src/Nen/Json/JsonWriter.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Json/JsonWriter.cpp.i
-.PHONY : src/Nen/Json/JsonWriter.cpp.i
-
-src/Nen/Json/JsonWriter.s: src/Nen/Json/JsonWriter.cpp.s
-.PHONY : src/Nen/Json/JsonWriter.s
-
-# target to generate assembly for a file
-src/Nen/Json/JsonWriter.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Json/JsonWriter.cpp.s
-.PHONY : src/Nen/Json/JsonWriter.cpp.s
 
 src/Nen/Logger/Logger.o: src/Nen/Logger/Logger.cpp.o
 .PHONY : src/Nen/Logger/Logger.o
 
 # target to build an object file
 src/Nen/Logger/Logger.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Logger/Logger.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Logger/Logger.cpp.o
 .PHONY : src/Nen/Logger/Logger.cpp.o
 
 src/Nen/Logger/Logger.i: src/Nen/Logger/Logger.cpp.i
@@ -935,7 +887,7 @@ src/Nen/Logger/Logger.i: src/Nen/Logger/Logger.cpp.i
 
 # target to preprocess a source file
 src/Nen/Logger/Logger.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Logger/Logger.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Logger/Logger.cpp.i
 .PHONY : src/Nen/Logger/Logger.cpp.i
 
 src/Nen/Logger/Logger.s: src/Nen/Logger/Logger.cpp.s
@@ -943,7 +895,7 @@ src/Nen/Logger/Logger.s: src/Nen/Logger/Logger.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Logger/Logger.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Logger/Logger.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Logger/Logger.cpp.s
 .PHONY : src/Nen/Logger/Logger.cpp.s
 
 src/Nen/Math/Math.o: src/Nen/Math/Math.cpp.o
@@ -951,7 +903,7 @@ src/Nen/Math/Math.o: src/Nen/Math/Math.cpp.o
 
 # target to build an object file
 src/Nen/Math/Math.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Math.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Math.cpp.o
 .PHONY : src/Nen/Math/Math.cpp.o
 
 src/Nen/Math/Math.i: src/Nen/Math/Math.cpp.i
@@ -959,7 +911,7 @@ src/Nen/Math/Math.i: src/Nen/Math/Math.cpp.i
 
 # target to preprocess a source file
 src/Nen/Math/Math.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Math.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Math.cpp.i
 .PHONY : src/Nen/Math/Math.cpp.i
 
 src/Nen/Math/Math.s: src/Nen/Math/Math.cpp.s
@@ -967,7 +919,7 @@ src/Nen/Math/Math.s: src/Nen/Math/Math.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Math/Math.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Math.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Math.cpp.s
 .PHONY : src/Nen/Math/Math.cpp.s
 
 src/Nen/Math/Random.o: src/Nen/Math/Random.cpp.o
@@ -975,7 +927,7 @@ src/Nen/Math/Random.o: src/Nen/Math/Random.cpp.o
 
 # target to build an object file
 src/Nen/Math/Random.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Random.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Random.cpp.o
 .PHONY : src/Nen/Math/Random.cpp.o
 
 src/Nen/Math/Random.i: src/Nen/Math/Random.cpp.i
@@ -983,7 +935,7 @@ src/Nen/Math/Random.i: src/Nen/Math/Random.cpp.i
 
 # target to preprocess a source file
 src/Nen/Math/Random.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Random.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Random.cpp.i
 .PHONY : src/Nen/Math/Random.cpp.i
 
 src/Nen/Math/Random.s: src/Nen/Math/Random.cpp.s
@@ -991,7 +943,7 @@ src/Nen/Math/Random.s: src/Nen/Math/Random.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Math/Random.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Random.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Random.cpp.s
 .PHONY : src/Nen/Math/Random.cpp.s
 
 src/Nen/Math/Transform.o: src/Nen/Math/Transform.cpp.o
@@ -999,7 +951,7 @@ src/Nen/Math/Transform.o: src/Nen/Math/Transform.cpp.o
 
 # target to build an object file
 src/Nen/Math/Transform.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Transform.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Transform.cpp.o
 .PHONY : src/Nen/Math/Transform.cpp.o
 
 src/Nen/Math/Transform.i: src/Nen/Math/Transform.cpp.i
@@ -1007,7 +959,7 @@ src/Nen/Math/Transform.i: src/Nen/Math/Transform.cpp.i
 
 # target to preprocess a source file
 src/Nen/Math/Transform.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Transform.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Transform.cpp.i
 .PHONY : src/Nen/Math/Transform.cpp.i
 
 src/Nen/Math/Transform.s: src/Nen/Math/Transform.cpp.s
@@ -1015,7 +967,7 @@ src/Nen/Math/Transform.s: src/Nen/Math/Transform.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Math/Transform.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Transform.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Math/Transform.cpp.s
 .PHONY : src/Nen/Math/Transform.cpp.s
 
 src/Nen/Network/TCPClient.o: src/Nen/Network/TCPClient.cpp.o
@@ -1023,7 +975,7 @@ src/Nen/Network/TCPClient.o: src/Nen/Network/TCPClient.cpp.o
 
 # target to build an object file
 src/Nen/Network/TCPClient.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Network/TCPClient.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Network/TCPClient.cpp.o
 .PHONY : src/Nen/Network/TCPClient.cpp.o
 
 src/Nen/Network/TCPClient.i: src/Nen/Network/TCPClient.cpp.i
@@ -1031,7 +983,7 @@ src/Nen/Network/TCPClient.i: src/Nen/Network/TCPClient.cpp.i
 
 # target to preprocess a source file
 src/Nen/Network/TCPClient.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Network/TCPClient.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Network/TCPClient.cpp.i
 .PHONY : src/Nen/Network/TCPClient.cpp.i
 
 src/Nen/Network/TCPClient.s: src/Nen/Network/TCPClient.cpp.s
@@ -1039,7 +991,7 @@ src/Nen/Network/TCPClient.s: src/Nen/Network/TCPClient.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Network/TCPClient.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Network/TCPClient.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Network/TCPClient.cpp.s
 .PHONY : src/Nen/Network/TCPClient.cpp.s
 
 src/Nen/Network/TCPSocket.o: src/Nen/Network/TCPSocket.cpp.o
@@ -1047,7 +999,7 @@ src/Nen/Network/TCPSocket.o: src/Nen/Network/TCPSocket.cpp.o
 
 # target to build an object file
 src/Nen/Network/TCPSocket.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Network/TCPSocket.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Network/TCPSocket.cpp.o
 .PHONY : src/Nen/Network/TCPSocket.cpp.o
 
 src/Nen/Network/TCPSocket.i: src/Nen/Network/TCPSocket.cpp.i
@@ -1055,7 +1007,7 @@ src/Nen/Network/TCPSocket.i: src/Nen/Network/TCPSocket.cpp.i
 
 # target to preprocess a source file
 src/Nen/Network/TCPSocket.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Network/TCPSocket.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Network/TCPSocket.cpp.i
 .PHONY : src/Nen/Network/TCPSocket.cpp.i
 
 src/Nen/Network/TCPSocket.s: src/Nen/Network/TCPSocket.cpp.s
@@ -1063,7 +1015,7 @@ src/Nen/Network/TCPSocket.s: src/Nen/Network/TCPSocket.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Network/TCPSocket.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Network/TCPSocket.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Network/TCPSocket.cpp.s
 .PHONY : src/Nen/Network/TCPSocket.cpp.s
 
 src/Nen/Physics/Collision.o: src/Nen/Physics/Collision.cpp.o
@@ -1071,7 +1023,7 @@ src/Nen/Physics/Collision.o: src/Nen/Physics/Collision.cpp.o
 
 # target to build an object file
 src/Nen/Physics/Collision.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Physics/Collision.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Physics/Collision.cpp.o
 .PHONY : src/Nen/Physics/Collision.cpp.o
 
 src/Nen/Physics/Collision.i: src/Nen/Physics/Collision.cpp.i
@@ -1079,7 +1031,7 @@ src/Nen/Physics/Collision.i: src/Nen/Physics/Collision.cpp.i
 
 # target to preprocess a source file
 src/Nen/Physics/Collision.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Physics/Collision.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Physics/Collision.cpp.i
 .PHONY : src/Nen/Physics/Collision.cpp.i
 
 src/Nen/Physics/Collision.s: src/Nen/Physics/Collision.cpp.s
@@ -1087,7 +1039,7 @@ src/Nen/Physics/Collision.s: src/Nen/Physics/Collision.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Physics/Collision.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Physics/Collision.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Physics/Collision.cpp.s
 .PHONY : src/Nen/Physics/Collision.cpp.s
 
 src/Nen/Render/OpenGL/GLRenderer.o: src/Nen/Render/OpenGL/GLRenderer.cpp.o
@@ -1095,7 +1047,7 @@ src/Nen/Render/OpenGL/GLRenderer.o: src/Nen/Render/OpenGL/GLRenderer.cpp.o
 
 # target to build an object file
 src/Nen/Render/OpenGL/GLRenderer.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/OpenGL/GLRenderer.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/OpenGL/GLRenderer.cpp.o
 .PHONY : src/Nen/Render/OpenGL/GLRenderer.cpp.o
 
 src/Nen/Render/OpenGL/GLRenderer.i: src/Nen/Render/OpenGL/GLRenderer.cpp.i
@@ -1103,7 +1055,7 @@ src/Nen/Render/OpenGL/GLRenderer.i: src/Nen/Render/OpenGL/GLRenderer.cpp.i
 
 # target to preprocess a source file
 src/Nen/Render/OpenGL/GLRenderer.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/OpenGL/GLRenderer.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/OpenGL/GLRenderer.cpp.i
 .PHONY : src/Nen/Render/OpenGL/GLRenderer.cpp.i
 
 src/Nen/Render/OpenGL/GLRenderer.s: src/Nen/Render/OpenGL/GLRenderer.cpp.s
@@ -1111,7 +1063,7 @@ src/Nen/Render/OpenGL/GLRenderer.s: src/Nen/Render/OpenGL/GLRenderer.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Render/OpenGL/GLRenderer.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/OpenGL/GLRenderer.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/OpenGL/GLRenderer.cpp.s
 .PHONY : src/Nen/Render/OpenGL/GLRenderer.cpp.s
 
 src/Nen/Render/OpenGL/ShaderGL.o: src/Nen/Render/OpenGL/ShaderGL.cpp.o
@@ -1119,7 +1071,7 @@ src/Nen/Render/OpenGL/ShaderGL.o: src/Nen/Render/OpenGL/ShaderGL.cpp.o
 
 # target to build an object file
 src/Nen/Render/OpenGL/ShaderGL.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/OpenGL/ShaderGL.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/OpenGL/ShaderGL.cpp.o
 .PHONY : src/Nen/Render/OpenGL/ShaderGL.cpp.o
 
 src/Nen/Render/OpenGL/ShaderGL.i: src/Nen/Render/OpenGL/ShaderGL.cpp.i
@@ -1127,7 +1079,7 @@ src/Nen/Render/OpenGL/ShaderGL.i: src/Nen/Render/OpenGL/ShaderGL.cpp.i
 
 # target to preprocess a source file
 src/Nen/Render/OpenGL/ShaderGL.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/OpenGL/ShaderGL.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/OpenGL/ShaderGL.cpp.i
 .PHONY : src/Nen/Render/OpenGL/ShaderGL.cpp.i
 
 src/Nen/Render/OpenGL/ShaderGL.s: src/Nen/Render/OpenGL/ShaderGL.cpp.s
@@ -1135,7 +1087,7 @@ src/Nen/Render/OpenGL/ShaderGL.s: src/Nen/Render/OpenGL/ShaderGL.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Render/OpenGL/ShaderGL.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/OpenGL/ShaderGL.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/OpenGL/ShaderGL.cpp.s
 .PHONY : src/Nen/Render/OpenGL/ShaderGL.cpp.s
 
 src/Nen/Render/Renderer.o: src/Nen/Render/Renderer.cpp.o
@@ -1143,7 +1095,7 @@ src/Nen/Render/Renderer.o: src/Nen/Render/Renderer.cpp.o
 
 # target to build an object file
 src/Nen/Render/Renderer.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/Renderer.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/Renderer.cpp.o
 .PHONY : src/Nen/Render/Renderer.cpp.o
 
 src/Nen/Render/Renderer.i: src/Nen/Render/Renderer.cpp.i
@@ -1151,7 +1103,7 @@ src/Nen/Render/Renderer.i: src/Nen/Render/Renderer.cpp.i
 
 # target to preprocess a source file
 src/Nen/Render/Renderer.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/Renderer.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/Renderer.cpp.i
 .PHONY : src/Nen/Render/Renderer.cpp.i
 
 src/Nen/Render/Renderer.s: src/Nen/Render/Renderer.cpp.s
@@ -1159,7 +1111,7 @@ src/Nen/Render/Renderer.s: src/Nen/Render/Renderer.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Render/Renderer.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/Renderer.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Render/Renderer.cpp.s
 .PHONY : src/Nen/Render/Renderer.cpp.s
 
 src/Nen/Scene/Scene.o: src/Nen/Scene/Scene.cpp.o
@@ -1167,7 +1119,7 @@ src/Nen/Scene/Scene.o: src/Nen/Scene/Scene.cpp.o
 
 # target to build an object file
 src/Nen/Scene/Scene.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Scene/Scene.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Scene/Scene.cpp.o
 .PHONY : src/Nen/Scene/Scene.cpp.o
 
 src/Nen/Scene/Scene.i: src/Nen/Scene/Scene.cpp.i
@@ -1175,7 +1127,7 @@ src/Nen/Scene/Scene.i: src/Nen/Scene/Scene.cpp.i
 
 # target to preprocess a source file
 src/Nen/Scene/Scene.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Scene/Scene.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Scene/Scene.cpp.i
 .PHONY : src/Nen/Scene/Scene.cpp.i
 
 src/Nen/Scene/Scene.s: src/Nen/Scene/Scene.cpp.s
@@ -1183,7 +1135,7 @@ src/Nen/Scene/Scene.s: src/Nen/Scene/Scene.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Scene/Scene.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Scene/Scene.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Scene/Scene.cpp.s
 .PHONY : src/Nen/Scene/Scene.cpp.s
 
 src/Nen/Script/Script.o: src/Nen/Script/Script.cpp.o
@@ -1191,7 +1143,7 @@ src/Nen/Script/Script.o: src/Nen/Script/Script.cpp.o
 
 # target to build an object file
 src/Nen/Script/Script.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Script/Script.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Script/Script.cpp.o
 .PHONY : src/Nen/Script/Script.cpp.o
 
 src/Nen/Script/Script.i: src/Nen/Script/Script.cpp.i
@@ -1199,7 +1151,7 @@ src/Nen/Script/Script.i: src/Nen/Script/Script.cpp.i
 
 # target to preprocess a source file
 src/Nen/Script/Script.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Script/Script.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Script/Script.cpp.i
 .PHONY : src/Nen/Script/Script.cpp.i
 
 src/Nen/Script/Script.s: src/Nen/Script/Script.cpp.s
@@ -1207,7 +1159,7 @@ src/Nen/Script/Script.s: src/Nen/Script/Script.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Script/Script.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Script/Script.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Script/Script.cpp.s
 .PHONY : src/Nen/Script/Script.cpp.s
 
 src/Nen/Shader/Shader.o: src/Nen/Shader/Shader.cpp.o
@@ -1215,7 +1167,7 @@ src/Nen/Shader/Shader.o: src/Nen/Shader/Shader.cpp.o
 
 # target to build an object file
 src/Nen/Shader/Shader.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Shader/Shader.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Shader/Shader.cpp.o
 .PHONY : src/Nen/Shader/Shader.cpp.o
 
 src/Nen/Shader/Shader.i: src/Nen/Shader/Shader.cpp.i
@@ -1223,7 +1175,7 @@ src/Nen/Shader/Shader.i: src/Nen/Shader/Shader.cpp.i
 
 # target to preprocess a source file
 src/Nen/Shader/Shader.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Shader/Shader.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Shader/Shader.cpp.i
 .PHONY : src/Nen/Shader/Shader.cpp.i
 
 src/Nen/Shader/Shader.s: src/Nen/Shader/Shader.cpp.s
@@ -1231,7 +1183,7 @@ src/Nen/Shader/Shader.s: src/Nen/Shader/Shader.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Shader/Shader.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Shader/Shader.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Shader/Shader.cpp.s
 .PHONY : src/Nen/Shader/Shader.cpp.s
 
 src/Nen/Texture/Texture.o: src/Nen/Texture/Texture.cpp.o
@@ -1239,7 +1191,7 @@ src/Nen/Texture/Texture.o: src/Nen/Texture/Texture.cpp.o
 
 # target to build an object file
 src/Nen/Texture/Texture.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Texture/Texture.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Texture/Texture.cpp.o
 .PHONY : src/Nen/Texture/Texture.cpp.o
 
 src/Nen/Texture/Texture.i: src/Nen/Texture/Texture.cpp.i
@@ -1247,7 +1199,7 @@ src/Nen/Texture/Texture.i: src/Nen/Texture/Texture.cpp.i
 
 # target to preprocess a source file
 src/Nen/Texture/Texture.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Texture/Texture.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Texture/Texture.cpp.i
 .PHONY : src/Nen/Texture/Texture.cpp.i
 
 src/Nen/Texture/Texture.s: src/Nen/Texture/Texture.cpp.s
@@ -1255,7 +1207,7 @@ src/Nen/Texture/Texture.s: src/Nen/Texture/Texture.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Texture/Texture.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Texture/Texture.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Texture/Texture.cpp.s
 .PHONY : src/Nen/Texture/Texture.cpp.s
 
 src/Nen/Time/Time.o: src/Nen/Time/Time.cpp.o
@@ -1263,7 +1215,7 @@ src/Nen/Time/Time.o: src/Nen/Time/Time.cpp.o
 
 # target to build an object file
 src/Nen/Time/Time.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Time/Time.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Time/Time.cpp.o
 .PHONY : src/Nen/Time/Time.cpp.o
 
 src/Nen/Time/Time.i: src/Nen/Time/Time.cpp.i
@@ -1271,7 +1223,7 @@ src/Nen/Time/Time.i: src/Nen/Time/Time.cpp.i
 
 # target to preprocess a source file
 src/Nen/Time/Time.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Time/Time.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Time/Time.cpp.i
 .PHONY : src/Nen/Time/Time.cpp.i
 
 src/Nen/Time/Time.s: src/Nen/Time/Time.cpp.s
@@ -1279,7 +1231,7 @@ src/Nen/Time/Time.s: src/Nen/Time/Time.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Time/Time.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Time/Time.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Time/Time.cpp.s
 .PHONY : src/Nen/Time/Time.cpp.s
 
 src/Nen/Time/Timer.o: src/Nen/Time/Timer.cpp.o
@@ -1287,7 +1239,7 @@ src/Nen/Time/Timer.o: src/Nen/Time/Timer.cpp.o
 
 # target to build an object file
 src/Nen/Time/Timer.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Time/Timer.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Time/Timer.cpp.o
 .PHONY : src/Nen/Time/Timer.cpp.o
 
 src/Nen/Time/Timer.i: src/Nen/Time/Timer.cpp.i
@@ -1295,7 +1247,7 @@ src/Nen/Time/Timer.i: src/Nen/Time/Timer.cpp.i
 
 # target to preprocess a source file
 src/Nen/Time/Timer.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Time/Timer.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Time/Timer.cpp.i
 .PHONY : src/Nen/Time/Timer.cpp.i
 
 src/Nen/Time/Timer.s: src/Nen/Time/Timer.cpp.s
@@ -1303,7 +1255,7 @@ src/Nen/Time/Timer.s: src/Nen/Time/Timer.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Time/Timer.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Time/Timer.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Time/Timer.cpp.s
 .PHONY : src/Nen/Time/Timer.cpp.s
 
 src/Nen/Utility/Singleton.o: src/Nen/Utility/Singleton.cpp.o
@@ -1311,7 +1263,7 @@ src/Nen/Utility/Singleton.o: src/Nen/Utility/Singleton.cpp.o
 
 # target to build an object file
 src/Nen/Utility/Singleton.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Utility/Singleton.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Utility/Singleton.cpp.o
 .PHONY : src/Nen/Utility/Singleton.cpp.o
 
 src/Nen/Utility/Singleton.i: src/Nen/Utility/Singleton.cpp.i
@@ -1319,7 +1271,7 @@ src/Nen/Utility/Singleton.i: src/Nen/Utility/Singleton.cpp.i
 
 # target to preprocess a source file
 src/Nen/Utility/Singleton.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Utility/Singleton.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Utility/Singleton.cpp.i
 .PHONY : src/Nen/Utility/Singleton.cpp.i
 
 src/Nen/Utility/Singleton.s: src/Nen/Utility/Singleton.cpp.s
@@ -1327,7 +1279,7 @@ src/Nen/Utility/Singleton.s: src/Nen/Utility/Singleton.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Utility/Singleton.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Utility/Singleton.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Utility/Singleton.cpp.s
 .PHONY : src/Nen/Utility/Singleton.cpp.s
 
 src/Nen/Vertex/Vertex.o: src/Nen/Vertex/Vertex.cpp.o
@@ -1335,7 +1287,7 @@ src/Nen/Vertex/Vertex.o: src/Nen/Vertex/Vertex.cpp.o
 
 # target to build an object file
 src/Nen/Vertex/Vertex.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/Vertex.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/Vertex.cpp.o
 .PHONY : src/Nen/Vertex/Vertex.cpp.o
 
 src/Nen/Vertex/Vertex.i: src/Nen/Vertex/Vertex.cpp.i
@@ -1343,7 +1295,7 @@ src/Nen/Vertex/Vertex.i: src/Nen/Vertex/Vertex.cpp.i
 
 # target to preprocess a source file
 src/Nen/Vertex/Vertex.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/Vertex.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/Vertex.cpp.i
 .PHONY : src/Nen/Vertex/Vertex.cpp.i
 
 src/Nen/Vertex/Vertex.s: src/Nen/Vertex/Vertex.cpp.s
@@ -1351,7 +1303,7 @@ src/Nen/Vertex/Vertex.s: src/Nen/Vertex/Vertex.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Vertex/Vertex.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/Vertex.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/Vertex.cpp.s
 .PHONY : src/Nen/Vertex/Vertex.cpp.s
 
 src/Nen/Vertex/VertexArray.o: src/Nen/Vertex/VertexArray.cpp.o
@@ -1359,7 +1311,7 @@ src/Nen/Vertex/VertexArray.o: src/Nen/Vertex/VertexArray.cpp.o
 
 # target to build an object file
 src/Nen/Vertex/VertexArray.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/VertexArray.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/VertexArray.cpp.o
 .PHONY : src/Nen/Vertex/VertexArray.cpp.o
 
 src/Nen/Vertex/VertexArray.i: src/Nen/Vertex/VertexArray.cpp.i
@@ -1367,7 +1319,7 @@ src/Nen/Vertex/VertexArray.i: src/Nen/Vertex/VertexArray.cpp.i
 
 # target to preprocess a source file
 src/Nen/Vertex/VertexArray.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/VertexArray.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/VertexArray.cpp.i
 .PHONY : src/Nen/Vertex/VertexArray.cpp.i
 
 src/Nen/Vertex/VertexArray.s: src/Nen/Vertex/VertexArray.cpp.s
@@ -1375,7 +1327,7 @@ src/Nen/Vertex/VertexArray.s: src/Nen/Vertex/VertexArray.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Vertex/VertexArray.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/VertexArray.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/VertexArray.cpp.s
 .PHONY : src/Nen/Vertex/VertexArray.cpp.s
 
 src/Nen/Vertex/box.o: src/Nen/Vertex/box.cpp.o
@@ -1383,7 +1335,7 @@ src/Nen/Vertex/box.o: src/Nen/Vertex/box.cpp.o
 
 # target to build an object file
 src/Nen/Vertex/box.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/box.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/box.cpp.o
 .PHONY : src/Nen/Vertex/box.cpp.o
 
 src/Nen/Vertex/box.i: src/Nen/Vertex/box.cpp.i
@@ -1391,7 +1343,7 @@ src/Nen/Vertex/box.i: src/Nen/Vertex/box.cpp.i
 
 # target to preprocess a source file
 src/Nen/Vertex/box.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/box.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/box.cpp.i
 .PHONY : src/Nen/Vertex/box.cpp.i
 
 src/Nen/Vertex/box.s: src/Nen/Vertex/box.cpp.s
@@ -1399,7 +1351,7 @@ src/Nen/Vertex/box.s: src/Nen/Vertex/box.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Vertex/box.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/box.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/box.cpp.s
 .PHONY : src/Nen/Vertex/box.cpp.s
 
 src/Nen/Vertex/sprite.o: src/Nen/Vertex/sprite.cpp.o
@@ -1407,7 +1359,7 @@ src/Nen/Vertex/sprite.o: src/Nen/Vertex/sprite.cpp.o
 
 # target to build an object file
 src/Nen/Vertex/sprite.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/sprite.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/sprite.cpp.o
 .PHONY : src/Nen/Vertex/sprite.cpp.o
 
 src/Nen/Vertex/sprite.i: src/Nen/Vertex/sprite.cpp.i
@@ -1415,7 +1367,7 @@ src/Nen/Vertex/sprite.i: src/Nen/Vertex/sprite.cpp.i
 
 # target to preprocess a source file
 src/Nen/Vertex/sprite.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/sprite.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/sprite.cpp.i
 .PHONY : src/Nen/Vertex/sprite.cpp.i
 
 src/Nen/Vertex/sprite.s: src/Nen/Vertex/sprite.cpp.s
@@ -1423,7 +1375,7 @@ src/Nen/Vertex/sprite.s: src/Nen/Vertex/sprite.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Vertex/sprite.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/sprite.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/sprite.cpp.s
 .PHONY : src/Nen/Vertex/sprite.cpp.s
 
 src/Nen/Window/Window.o: src/Nen/Window/Window.cpp.o
@@ -1431,7 +1383,7 @@ src/Nen/Window/Window.o: src/Nen/Window/Window.cpp.o
 
 # target to build an object file
 src/Nen/Window/Window.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Window/Window.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Window/Window.cpp.o
 .PHONY : src/Nen/Window/Window.cpp.o
 
 src/Nen/Window/Window.i: src/Nen/Window/Window.cpp.i
@@ -1439,7 +1391,7 @@ src/Nen/Window/Window.i: src/Nen/Window/Window.cpp.i
 
 # target to preprocess a source file
 src/Nen/Window/Window.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Window/Window.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Window/Window.cpp.i
 .PHONY : src/Nen/Window/Window.cpp.i
 
 src/Nen/Window/Window.s: src/Nen/Window/Window.cpp.s
@@ -1447,7 +1399,7 @@ src/Nen/Window/Window.s: src/Nen/Window/Window.cpp.s
 
 # target to generate assembly for a file
 src/Nen/Window/Window.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Window/Window.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Window/Window.cpp.s
 .PHONY : src/Nen/Window/Window.cpp.s
 
 src/Nen/instancing/instancing.o: src/Nen/instancing/instancing.cpp.o
@@ -1455,7 +1407,7 @@ src/Nen/instancing/instancing.o: src/Nen/instancing/instancing.cpp.o
 
 # target to build an object file
 src/Nen/instancing/instancing.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/instancing/instancing.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/instancing/instancing.cpp.o
 .PHONY : src/Nen/instancing/instancing.cpp.o
 
 src/Nen/instancing/instancing.i: src/Nen/instancing/instancing.cpp.i
@@ -1463,7 +1415,7 @@ src/Nen/instancing/instancing.i: src/Nen/instancing/instancing.cpp.i
 
 # target to preprocess a source file
 src/Nen/instancing/instancing.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/instancing/instancing.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/instancing/instancing.cpp.i
 .PHONY : src/Nen/instancing/instancing.cpp.i
 
 src/Nen/instancing/instancing.s: src/Nen/instancing/instancing.cpp.s
@@ -1471,7 +1423,7 @@ src/Nen/instancing/instancing.s: src/Nen/instancing/instancing.cpp.s
 
 # target to generate assembly for a file
 src/Nen/instancing/instancing.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/instancing/instancing.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/instancing/instancing.cpp.s
 .PHONY : src/Nen/instancing/instancing.cpp.s
 
 src/Nen/manager/manager.o: src/Nen/manager/manager.cpp.o
@@ -1479,7 +1431,7 @@ src/Nen/manager/manager.o: src/Nen/manager/manager.cpp.o
 
 # target to build an object file
 src/Nen/manager/manager.cpp.o:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.o
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.o
 .PHONY : src/Nen/manager/manager.cpp.o
 
 src/Nen/manager/manager.i: src/Nen/manager/manager.cpp.i
@@ -1487,7 +1439,7 @@ src/Nen/manager/manager.i: src/Nen/manager/manager.cpp.i
 
 # target to preprocess a source file
 src/Nen/manager/manager.cpp.i:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.i
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.i
 .PHONY : src/Nen/manager/manager.cpp.i
 
 src/Nen/manager/manager.s: src/Nen/manager/manager.cpp.s
@@ -1495,7 +1447,7 @@ src/Nen/manager/manager.s: src/Nen/manager/manager.cpp.s
 
 # target to generate assembly for a file
 src/Nen/manager/manager.cpp.s:
-	cd /home/runner/work/utilis/utilis/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.s
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.s
 .PHONY : src/Nen/manager/manager.cpp.s
 
 # Help Target
@@ -1600,12 +1552,6 @@ help:
 	@echo "... src/Nen/Input/InputSystem.o"
 	@echo "... src/Nen/Input/InputSystem.i"
 	@echo "... src/Nen/Input/InputSystem.s"
-	@echo "... src/Nen/Json/JsonReader.o"
-	@echo "... src/Nen/Json/JsonReader.i"
-	@echo "... src/Nen/Json/JsonReader.s"
-	@echo "... src/Nen/Json/JsonWriter.o"
-	@echo "... src/Nen/Json/JsonWriter.i"
-	@echo "... src/Nen/Json/JsonWriter.s"
 	@echo "... src/Nen/Logger/Logger.o"
 	@echo "... src/Nen/Logger/Logger.i"
 	@echo "... src/Nen/Logger/Logger.s"
@@ -1689,6 +1635,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/runner/work/utilis/utilis/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/runner/work/singa/singa/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

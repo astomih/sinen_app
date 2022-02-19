@@ -1,8 +1,8 @@
-# Install script for directory: /home/runner/work/utilis/utilis
+# Install script for directory: /home/runner/work/singa/singa
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/runner/work/_temp/d4e13aef-c401-49d0-bfaf-8b9ca4621222/emsdk-main/upstream/emscripten/cache/sysroot")
+  set(CMAKE_INSTALL_PREFIX "/home/runner/work/_temp/9c7cb225-38a8-4b5d-b07e-3c8c2eec3540/emsdk-main/upstream/emscripten/cache/sysroot")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/runner/work/utilis/utilis/build/external/sinen/cmake_install.cmake")
+  include("/home/runner/work/singa/singa/build/external/sinen/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/runner/work/utilis/utilis/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/runner/work/singa/singa/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
