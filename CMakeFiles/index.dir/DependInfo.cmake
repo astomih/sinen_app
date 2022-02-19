@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/runner/work/singa/singa/src/Actor/Camera.cpp" "CMakeFiles/index.dir/src/Actor/Camera.cpp.o" "gcc" "CMakeFiles/index.dir/src/Actor/Camera.cpp.o.d"
+  "/home/runner/work/singa/singa/src/Actor/bullet.cpp" "CMakeFiles/index.dir/src/Actor/bullet.cpp.o" "gcc" "CMakeFiles/index.dir/src/Actor/bullet.cpp.o.d"
   "/home/runner/work/singa/singa/src/Actor/enemy.cpp" "CMakeFiles/index.dir/src/Actor/enemy.cpp.o" "gcc" "CMakeFiles/index.dir/src/Actor/enemy.cpp.o.d"
   "/home/runner/work/singa/singa/src/Actor/player.cpp" "CMakeFiles/index.dir/src/Actor/player.cpp.o" "gcc" "CMakeFiles/index.dir/src/Actor/player.cpp.o.d"
   "/home/runner/work/singa/singa/src/Scene/Stage.cpp" "CMakeFiles/index.dir/src/Scene/Stage.cpp.o" "gcc" "CMakeFiles/index.dir/src/Scene/Stage.cpp.o.d"

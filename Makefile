@@ -166,6 +166,30 @@ src/Actor/Camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Actor/Camera.cpp.s
 .PHONY : src/Actor/Camera.cpp.s
 
+src/Actor/bullet.o: src/Actor/bullet.cpp.o
+.PHONY : src/Actor/bullet.o
+
+# target to build an object file
+src/Actor/bullet.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Actor/bullet.cpp.o
+.PHONY : src/Actor/bullet.cpp.o
+
+src/Actor/bullet.i: src/Actor/bullet.cpp.i
+.PHONY : src/Actor/bullet.i
+
+# target to preprocess a source file
+src/Actor/bullet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Actor/bullet.cpp.i
+.PHONY : src/Actor/bullet.cpp.i
+
+src/Actor/bullet.s: src/Actor/bullet.cpp.s
+.PHONY : src/Actor/bullet.s
+
+# target to generate assembly for a file
+src/Actor/bullet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/src/Actor/bullet.cpp.s
+.PHONY : src/Actor/bullet.cpp.s
+
 src/Actor/enemy.o: src/Actor/enemy.cpp.o
 .PHONY : src/Actor/enemy.o
 
@@ -323,6 +347,9 @@ help:
 	@echo "... src/Actor/Camera.o"
 	@echo "... src/Actor/Camera.i"
 	@echo "... src/Actor/Camera.s"
+	@echo "... src/Actor/bullet.o"
+	@echo "... src/Actor/bullet.i"
+	@echo "... src/Actor/bullet.s"
 	@echo "... src/Actor/enemy.o"
 	@echo "... src/Actor/enemy.i"
 	@echo "... src/Actor/enemy.s"

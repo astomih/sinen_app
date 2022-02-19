@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/index.dir/src/Actor/Camera.cpp.o"
   "CMakeFiles/index.dir/src/Actor/Camera.cpp.o.d"
+  "CMakeFiles/index.dir/src/Actor/bullet.cpp.o"
+  "CMakeFiles/index.dir/src/Actor/bullet.cpp.o.d"
   "CMakeFiles/index.dir/src/Actor/enemy.cpp.o"
   "CMakeFiles/index.dir/src/Actor/enemy.cpp.o.d"
   "CMakeFiles/index.dir/src/Actor/player.cpp.o"

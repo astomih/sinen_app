@@ -1,13 +1,46 @@
-external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.o: \
-  /home/runner/work/singa/singa/external/sinen/src/Nen/manager/manager.cpp \
-  /home/runner/work/singa/singa/external/sinen/include/Nen/Utility/Singleton.hpp \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/functional \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/search.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp.h \
+CMakeFiles/index.dir/src/Actor/bullet.cpp.o: \
+  /home/runner/work/singa/singa/src/Actor/bullet.cpp \
+  /home/runner/work/singa/singa/src/Actor/bullet.hpp \
+  /home/runner/work/singa/singa/external/sinen/include/Nen/Nen.hpp \
+  /home/runner/work/singa/singa/external/sinen/include/Nen/Actor/Actor.hpp \
+  /home/runner/work/singa/singa/external/sinen/include/Nen/Actor/../Component/Component.hpp \
+  /home/runner/work/singa/singa/external/sinen/include/Nen/Actor/../Component/../Input/InputSystem.hpp \
+  /home/runner/work/singa/singa/external/sinen/include/Nen/Actor/../Component/../Input/../Math/Vector2.hpp \
+  /home/runner/work/singa/singa/external/sinen/include/Nen/Actor/../Component/../Input/../Math/Math.hpp \
+  /home/runner/work/singa/singa/external/sinen/include/Nen/Actor/../Component/../Input/../Math/../Time/Time.hpp \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/chrono \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__availability \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__config_site \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/pthread.h \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/compare \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/type_traits \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstddef \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/version \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/lib/clang/15.0.0/include/stddef.h \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__nullptr \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/ctime \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/time.h \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/time.h \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/limits \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__undef_macros \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/ratio \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/climits \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/limits.h \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/lib/clang/15.0.0/include/limits.h \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/limits.h \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstdint \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stdint.h \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/lib/clang/15.0.0/include/stdint.h \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/functional \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/search.h \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iterator_traits.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/incrementable_traits.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/concepts \
@@ -15,12 +48,6 @@ external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.o: \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/weak_result_type.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binary_function.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/unary_function.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/type_traits \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstddef \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/version \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/lib/clang/15.0.0/include/stddef.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__nullptr \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/forward.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional_base \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/operations.h \
@@ -29,21 +56,13 @@ external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.o: \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator_arg_t.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/uses_allocator.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/exception \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__availability \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstdlib \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stdlib.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/stdlib.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/features.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/alloca.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/new \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/typeinfo \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstdint \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stdint.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/lib/clang/15.0.0/include/stdint.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/stdint.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/utility \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__debug \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/iosfwd \
@@ -55,7 +74,6 @@ external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.o: \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/as_const.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/move.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/cmp.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/limits \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/declval.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/exchange.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/in_place.h \
@@ -66,7 +84,6 @@ external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.o: \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/rel_ops.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/swap.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/to_underlying.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/compare \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/initializer_list \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/readable_traits.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binary_negate.h \
@@ -95,16 +112,6 @@ external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.o: \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/strings.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/atomic \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__threading_support \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/chrono \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/ctime \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/time.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/time.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/ratio \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/climits \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/limits.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/lib/clang/15.0.0/include/limits.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/limits.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/limits.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/errno.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/errno.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/errno.h \
@@ -161,7 +168,6 @@ external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.o: \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/pointer_to_unary_function.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/ranges_operations.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/unary_negate.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/list \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/algorithm \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bits \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/adjacent_find.h \
@@ -256,13 +262,6 @@ external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.o: \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/transform.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unique_copy.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unique.h \
-  /home/runner/work/singa/singa/external/sinen/include/Nen/Nen.hpp \
-  /home/runner/work/singa/singa/external/sinen/include/Nen/Actor/Actor.hpp \
-  /home/runner/work/singa/singa/external/sinen/include/Nen/Actor/../Component/Component.hpp \
-  /home/runner/work/singa/singa/external/sinen/include/Nen/Actor/../Component/../Input/InputSystem.hpp \
-  /home/runner/work/singa/singa/external/sinen/include/Nen/Actor/../Component/../Input/../Math/Vector2.hpp \
-  /home/runner/work/singa/singa/external/sinen/include/Nen/Actor/../Component/../Input/../Math/Math.hpp \
-  /home/runner/work/singa/singa/external/sinen/include/Nen/Actor/../Component/../Input/../Math/../Time/Time.hpp \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cmath \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/math.h \
   /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/math.h \
@@ -423,84 +422,12 @@ external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.o: \
   /home/runner/work/singa/singa/external/sinen/include/Nen/Time/Time.hpp \
   /home/runner/work/singa/singa/external/sinen/include/Nen/Time/Timer.hpp \
   /home/runner/work/singa/singa/external/sinen/include/Nen/Utility/NonCopyable.hpp \
+  /home/runner/work/singa/singa/external/sinen/include/Nen/Utility/Singleton.hpp \
+  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/list \
   /home/runner/work/singa/singa/external/sinen/include/Nen/Vertex/Vertex.hpp \
   /home/runner/work/singa/singa/external/sinen/include/Nen/Vertex/VertexArray.hpp \
   /home/runner/work/singa/singa/external/sinen/include/Nen/Window/Window.hpp \
   /home/runner/work/singa/singa/external/sinen/include/Nen/exception/exception.hpp \
   /home/runner/work/singa/singa/external/sinen/include/Nen/instancing/instancing.hpp \
   /home/runner/work/singa/singa/external/sinen/include/Nen/manager/manager.hpp \
-  /home/runner/work/singa/singa/external/sinen/include/Nen/manager/../Render/Renderer.hpp \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/sys/types.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/endian.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/sys/select.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/inttypes.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/lib/clang/15.0.0/include/inttypes.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/inttypes.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/signal.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/signal.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_image.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_net.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_ttf.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/fstream \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/filesystem \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stack \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/deque \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/iomanip \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/emscripten.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/emscripten/emscripten.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/emscripten/em_asm.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/emscripten/em_macros.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/emscripten/em_types.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/emscripten/em_js.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/emscripten/wget.h \
-  /home/runner/work/_temp/e9deb959-6818-4264-806a-12622ee5080b/emsdk-main/upstream/emscripten/cache/sysroot/include/emscripten/version.h
+  /home/runner/work/singa/singa/external/sinen/include/Nen/manager/../Render/Renderer.hpp
