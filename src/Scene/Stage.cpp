@@ -21,6 +21,7 @@
 #include "instancing/instance_data.hpp"
 #include "instancing/instancing.hpp"
 #include <Nen/Nen.hpp>
+#include <cstdint>
 #include <memory>
 #include <string>
 
@@ -28,7 +29,15 @@ const float scale = 5.f;
 
 Stage::Stage() {}
 
-void Stage::Setup() {
+void Stage::prepare_model() {
+  player_model.load("player.sim");
+  player_model.set(GetRenderer(), "player");
+
+  spider_model.load("spider.sim");
+  spider_model.set(GetRenderer(), "spider");
+}
+
+void Stage::prepare_dungeon() {
   nen::random::Init();
   map.resize(map_size.second);
   for (size_t i = 0; i < map.size(); i++) {
@@ -42,16 +51,13 @@ void Stage::Setup() {
     }
     std::cout << std::endl;
   }
+}
+void Stage::prepare_texture() {
+  player_texture = std::make_shared<nen::texture>();
+  player_texture->CreateFromColor(nen::color(1, 1, 1, 1), "none");
+}
 
-  model _model;
-  _model.load("player.sim");
-  _model.set(GetRenderer(), "player");
-  model spider;
-  spider.load("spider.sim");
-  spider.set(GetRenderer(), "spider");
-  auto pt = std::make_shared<nen::texture>();
-  pt->CreateFromColor(nen::color(1, 1, 1, 1), "none");
-
+void Stage::prepare_actor() {
   int r1, r2;
   auto decide_ppos = [&]() {
     r1 = nen::random::GetIntRange(0, map_size.first - 1);
@@ -85,8 +91,10 @@ void Stage::Setup() {
           sprite_instancing.object = c.GetSprite();
           is_once = false;
         } else {
-          auto &c = a.add_component<nen::draw_3d_component>();
+          uint32_t h;
+          auto &c = a.add_component<nen::draw_3d_component>(h);
           c.Create(t);
+          a.remove_component(h);
         }
         nen::instance_data data;
         auto m = a.GetWorldTransform();
@@ -118,12 +126,12 @@ void Stage::Setup() {
     }
   }
   auto &enemy_draw3d = enemy.add_component<nen::draw_3d_component>();
-  enemy_draw3d.Create(pt, "spider");
+  enemy_draw3d.Create(player_texture, "spider");
   enemy_draw3d.Register();
 
   auto &pc = player.add_component<nen::draw_3d_component>();
   player.SetScale(nen::vector3(scale / 2.f));
-  pc.Create(pt, "player");
+  pc.Create(player_texture, "player");
   pc.Register();
   sprite_instancing._texture = t;
   sprite_instancing.size =
@@ -140,6 +148,12 @@ void Stage::Setup() {
   camera.SetPosition(player.GetPosition() + camera.initial_pos);
   camera.lookAt = player.GetPosition() - camera.initial_lookAt;
   camera.Update(0.f);
+}
+void Stage::Setup() {
+  prepare_model();
+  prepare_dungeon();
+  prepare_texture();
+  prepare_actor();
 }
 
 void Stage::Update(float deltaTime) {

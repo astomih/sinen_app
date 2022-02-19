@@ -15,7 +15,7 @@ void Title::Setup() {
   auto &titleText = add_actor<nen::base_actor>(handle_utilis)
                         .add_component<nen::text_component>(c1);
   titleText.SetFont(mplus_72);
-  titleText.SetString("UTILIS", nen::palette::White);
+  titleText.SetString("singa", nen::palette::White);
   titleText.Register();
 
   auto &act1 = add_actor<nen::base_actor>(handle_title);

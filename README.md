@@ -1,4 +1,4 @@
-# utilis
+# singa
 made with sinen
 ## Supported platforms
 [![Windows(MinGW)](https://github.com/astomih/utilis/actions/workflows/mingw.yml/badge.svg)](https://github.com/astomih/utilis/actions/workflows/mingw.yml)

@@ -18,7 +18,7 @@ jobs:
     - name: Install libraries
       run: |
           cd android-project/app/jni
-          ln -s ../../../ ./utilis
+          ln -s ../../../ ./singa
           ln -s ../../../external/sinen ./sinen
           git clone https://github.com/libsdl-org/SDL.git
           git clone https://github.com/libsdl-org/SDL_image.git
