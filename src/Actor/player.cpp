@@ -80,15 +80,19 @@ void player_actor::update_move(float delta_time, const map_t &map,
       if (x) {
         SetPosition(before_pos);
         Move(0, input_vector.y * scale * 2.f * delta_time, 0);
-        collision(GetPosition(), map, map_actors);
+        y = collision(GetPosition(), map, map_actors);
+        if (y)
+          SetPosition(before_pos);
       }
       if (y) {
         SetPosition(before_pos);
         Move(input_vector.x * scale * 2.f * delta_time, 0, 0);
-        collision(GetPosition(), map, map_actors);
+        x = collision(GetPosition(), map, map_actors);
+        if (x)
+          SetPosition(before_pos);
       }
     } else if (x && y) {
-      SetPosition(nen::vector3(before_pos.x, before_pos.y, before_pos.z));
+      SetPosition(nen::vector3(before_pos));
     }
   } else {
     Move(input_vector.x * scale * 2.f * delta_time, 0, 0);
@@ -107,7 +111,7 @@ void player_actor::update_move(float delta_time, const map_t &map,
 
 void player_actor::update_bullet(std::vector<uint32_t> &bullets) {
   if (GetInput().Keyboard.GetKeyState(nen::key_code::Z) ==
-      nen::button_state::Pressed) {
+      nen::button_state::Held) {
     uint32_t handle;
     auto &act = GetScene().add_actor<bullet_actor>(handle, bullets);
     bullets.push_back(handle);
