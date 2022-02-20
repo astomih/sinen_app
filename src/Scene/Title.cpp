@@ -1,6 +1,7 @@
 ﻿#include "Title.hpp"
 #include "Actor/Actor.hpp"
 #include "Stage.hpp"
+#include "Utility/handle_t.hpp"
 #include <Nen/Nen.hpp>
 
 Title::Title() {}
@@ -35,8 +36,10 @@ void Title::Update(float deltaTime) {
     auto mplus_72 = std::make_shared<nen::font>();
     if (!mplus_72->LoadFromFile("mplus/mplus-1p-medium.ttf", 72))
       return;
+    nen::handle_t handle;
     auto &titleText =
-        add_actor<nen::base_actor>().add_component<nen::text_component>();
+        add_actor<nen::base_actor>(handle).add_component<nen::text_component>(
+            handle);
     titleText.SetFont(mplus_72);
     titleText.SetString("Now Loading ...", nen::palette::White);
     titleText.Register();

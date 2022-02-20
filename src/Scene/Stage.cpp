@@ -3,23 +3,6 @@
 #include "../Actor/enemy.hpp"
 #include "../dungeon/generator.hpp"
 #include "../model/model.hpp"
-#include "Actor/Actor.hpp"
-#include "Color/Color.hpp"
-#include "Component/Draw2DComponent.hpp"
-#include "Component/Draw3DComponent.hpp"
-#include "DrawObject/ObjectType.hpp"
-#include "Logger/Logger.hpp"
-#include "Math/Matrix3.hpp"
-#include "Math/Matrix4.hpp"
-#include "Math/Random.hpp"
-#include "Math/Vector3.hpp"
-#include "Scene/Scene.hpp"
-#include "Script/Script.hpp"
-#include "Texture/Texture.hpp"
-#include "Vertex/Vertex.hpp"
-#include "Vertex/VertexArray.hpp"
-#include "instancing/instance_data.hpp"
-#include "instancing/instancing.hpp"
 #include <Nen/Nen.hpp>
 #include <cstdint>
 #include <memory>
@@ -92,7 +75,8 @@ void Stage::prepare_actor() {
         a.SetPosition(nen::vector3(j * scale * 2.f, -i * scale * 2.f, -scale));
         a.SetScale(nen::vector3(scale));
         if (is_once) {
-          auto &c = a.add_component<nen::draw_3d_component>();
+          uint32_t h;
+          auto &c = a.add_component<nen::draw_3d_component>(h);
           c.Create(t);
           sprite_instancing.object = c.GetSprite();
           is_once = false;
@@ -115,12 +99,14 @@ void Stage::prepare_actor() {
         a.SetPosition(nen::vector3(j * scale * 2.f, -i * scale * 2.f, 0.f));
         a.SetScale(nen::vector3(scale));
         if (is_once2) {
-          auto &c = a.add_component<nen::draw_3d_component>();
+          nen::handle_t h;
+          auto &c = a.add_component<nen::draw_3d_component>(h);
           c.Create(player_texture, "wall_box");
           box_instancing.object = c.GetSprite();
           is_once2 = false;
         } else {
-          auto &c = a.add_component<nen::draw_3d_component>();
+          nen::handle_t h;
+          auto &c = a.add_component<nen::draw_3d_component>(h);
           c.Create(player_texture, "wall_box");
         }
         nen::instance_data data;
@@ -131,11 +117,12 @@ void Stage::prepare_actor() {
       }
     }
   }
-  auto &enemy_draw3d = enemy.add_component<nen::draw_3d_component>();
+  nen::handle_t h;
+  auto &enemy_draw3d = enemy.add_component<nen::draw_3d_component>(h);
   enemy_draw3d.Create(player_texture, "spider");
   enemy_draw3d.Register();
 
-  auto &pc = player.add_component<nen::draw_3d_component>();
+  auto &pc = player.add_component<nen::draw_3d_component>(h);
   player.SetScale(nen::vector3(scale / 2.f));
   pc.Create(player_texture, "player");
   pc.Register();
