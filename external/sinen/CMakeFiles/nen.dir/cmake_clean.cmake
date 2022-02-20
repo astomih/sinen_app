@@ -95,6 +95,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/nen.dir/src/Nen/Time/Timer.cpp.o.d"
   "CMakeFiles/nen.dir/src/Nen/Utility/Singleton.cpp.o"
   "CMakeFiles/nen.dir/src/Nen/Utility/Singleton.cpp.o.d"
+  "CMakeFiles/nen.dir/src/Nen/Utility/handler.cpp.o"
+  "CMakeFiles/nen.dir/src/Nen/Utility/handler.cpp.o.d"
   "CMakeFiles/nen.dir/src/Nen/Vertex/Vertex.cpp.o"
   "CMakeFiles/nen.dir/src/Nen/Vertex/Vertex.cpp.o.d"
   "CMakeFiles/nen.dir/src/Nen/Vertex/VertexArray.cpp.o"

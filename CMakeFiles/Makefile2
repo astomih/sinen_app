@@ -103,7 +103,7 @@ CMakeFiles/index.dir/all: external/sinen/CMakeFiles/nen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/index.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/singa/singa/build/CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/singa/singa/build/CMakeFiles 66
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/index.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/singa/singa/build/CMakeFiles 0
 .PHONY : CMakeFiles/index.dir/rule
@@ -124,12 +124,12 @@ CMakeFiles/index.dir/clean:
 external/sinen/CMakeFiles/nen.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/singa/singa/build/CMakeFiles --progress-num=10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Built target nen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/singa/singa/build/CMakeFiles --progress-num=10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66 "Built target nen"
 .PHONY : external/sinen/CMakeFiles/nen.dir/all
 
 # Build rule for subdir invocation for target.
 external/sinen/CMakeFiles/nen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/singa/singa/build/CMakeFiles 56
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/singa/singa/build/CMakeFiles 57
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/sinen/CMakeFiles/nen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/singa/singa/build/CMakeFiles 0
 .PHONY : external/sinen/CMakeFiles/nen.dir/rule

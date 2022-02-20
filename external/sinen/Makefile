@@ -1282,6 +1282,30 @@ src/Nen/Utility/Singleton.cpp.s:
 	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Utility/Singleton.cpp.s
 .PHONY : src/Nen/Utility/Singleton.cpp.s
 
+src/Nen/Utility/handler.o: src/Nen/Utility/handler.cpp.o
+.PHONY : src/Nen/Utility/handler.o
+
+# target to build an object file
+src/Nen/Utility/handler.cpp.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Utility/handler.cpp.o
+.PHONY : src/Nen/Utility/handler.cpp.o
+
+src/Nen/Utility/handler.i: src/Nen/Utility/handler.cpp.i
+.PHONY : src/Nen/Utility/handler.i
+
+# target to preprocess a source file
+src/Nen/Utility/handler.cpp.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Utility/handler.cpp.i
+.PHONY : src/Nen/Utility/handler.cpp.i
+
+src/Nen/Utility/handler.s: src/Nen/Utility/handler.cpp.s
+.PHONY : src/Nen/Utility/handler.s
+
+# target to generate assembly for a file
+src/Nen/Utility/handler.cpp.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Utility/handler.cpp.s
+.PHONY : src/Nen/Utility/handler.cpp.s
+
 src/Nen/Vertex/Vertex.o: src/Nen/Vertex/Vertex.cpp.o
 .PHONY : src/Nen/Vertex/Vertex.o
 
@@ -1603,6 +1627,9 @@ help:
 	@echo "... src/Nen/Utility/Singleton.o"
 	@echo "... src/Nen/Utility/Singleton.i"
 	@echo "... src/Nen/Utility/Singleton.s"
+	@echo "... src/Nen/Utility/handler.o"
+	@echo "... src/Nen/Utility/handler.i"
+	@echo "... src/Nen/Utility/handler.s"
 	@echo "... src/Nen/Vertex/Vertex.o"
 	@echo "... src/Nen/Vertex/Vertex.i"
 	@echo "... src/Nen/Vertex/Vertex.s"

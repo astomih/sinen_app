@@ -56,6 +56,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/runner/work/singa/singa/external/sinen/src/Nen/Time/Time.cpp" "external/sinen/CMakeFiles/nen.dir/src/Nen/Time/Time.cpp.o" "gcc" "external/sinen/CMakeFiles/nen.dir/src/Nen/Time/Time.cpp.o.d"
   "/home/runner/work/singa/singa/external/sinen/src/Nen/Time/Timer.cpp" "external/sinen/CMakeFiles/nen.dir/src/Nen/Time/Timer.cpp.o" "gcc" "external/sinen/CMakeFiles/nen.dir/src/Nen/Time/Timer.cpp.o.d"
   "/home/runner/work/singa/singa/external/sinen/src/Nen/Utility/Singleton.cpp" "external/sinen/CMakeFiles/nen.dir/src/Nen/Utility/Singleton.cpp.o" "gcc" "external/sinen/CMakeFiles/nen.dir/src/Nen/Utility/Singleton.cpp.o.d"
+  "/home/runner/work/singa/singa/external/sinen/src/Nen/Utility/handler.cpp" "external/sinen/CMakeFiles/nen.dir/src/Nen/Utility/handler.cpp.o" "gcc" "external/sinen/CMakeFiles/nen.dir/src/Nen/Utility/handler.cpp.o.d"
   "/home/runner/work/singa/singa/external/sinen/src/Nen/Vertex/Vertex.cpp" "external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/Vertex.cpp.o" "gcc" "external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/Vertex.cpp.o.d"
   "/home/runner/work/singa/singa/external/sinen/src/Nen/Vertex/VertexArray.cpp" "external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/VertexArray.cpp.o" "gcc" "external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/VertexArray.cpp.o.d"
   "/home/runner/work/singa/singa/external/sinen/src/Nen/Vertex/box.cpp" "external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/box.cpp.o" "gcc" "external/sinen/CMakeFiles/nen.dir/src/Nen/Vertex/box.cpp.o.d"
