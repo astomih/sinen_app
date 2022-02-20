@@ -1,7 +1,8 @@
 #pragma once
+#include <Nen.hpp>
+
 #include "../dungeon/map.hpp"
 #include "bullet.hpp"
-#include <Nen/Nen.hpp>
 #include <cstdint>
 #include <memory>
 class player_actor : public nen::base_actor {

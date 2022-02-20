@@ -1,4 +1,6 @@
 #pragma once
+#include <Nen.hpp>
+
 #include "../Actor/Camera.hpp"
 #include "../Actor/player.hpp"
 #include "../dungeon/map.hpp"
@@ -10,7 +12,7 @@
 
 class Stage : public nen::base_scene {
 public:
-  Stage();
+  Stage(class nen::manager &_manager);
   void Setup() override;
   void Update(float deltaTime) override;
 

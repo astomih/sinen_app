@@ -1,12 +1,10 @@
 #include "model.hpp"
-#include "IO/AssetReader.hpp"
-#include "IO/AssetType.hpp"
-#include "Vertex/Vertex.hpp"
 #include <cstddef>
 #include <cstdint>
 #include <cstdio>
 #include <sstream>
 #include <string>
+
 
 enum class load_state { version, vertex, indices };
 
@@ -57,7 +55,6 @@ void model::load(std::string_view str) {
   }
   m_array.indexCount = m_array.indices.size();
 }
-void model::set(std::shared_ptr<nen::renderer> _renderer,
-                std::string_view name) {
-  _renderer->AddVertexArray(m_array, name);
+void model::set(nen::renderer &_renderer, std::string_view name) {
+  _renderer.AddVertexArray(m_array, name);
 }

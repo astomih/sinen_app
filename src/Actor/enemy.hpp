@@ -1,7 +1,8 @@
 #pragma once
+#include <Nen.hpp>
+
 #include "../dungeon/map.hpp"
 #include "player.hpp"
-#include <Nen.hpp>
 
 class enemy_actor : public nen::base_actor {
 public:

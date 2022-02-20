@@ -17,12 +17,12 @@ CameraActor::CameraActor(nen::base_scene &scene)
   lookAt = initial_lookAt;
 
   auto view = nen::matrix4::LookAt(GetPosition(), lookAt, nen::vector3::UnitZ);
-  GetScene().GetRenderer()->SetViewMatrix(view);
+  GetScene().GetRenderer().SetViewMatrix(view);
 }
 
 void CameraActor::Update(float deltaTime) {
   constexpr float speed = 0.1f;
-  auto current_window = GetScene().GetRenderer()->GetWindow();
+  auto &current_window = GetScene().GetRenderer().GetWindow();
   if (GetInput().Keyboard.GetKeyState(nen::key_code::LCTRL) ==
       nen::button_state::Held) {
     if (GetInput().Keyboard.GetKeyState(nen::key_code::UP) ==
@@ -52,5 +52,5 @@ void CameraActor::Update(float deltaTime) {
   up = nen::vector3::Cross(right, direction);
   auto view =
       nen::matrix4::LookAt(GetPosition(), GetPosition() + direction, up);
-  GetScene().GetRenderer()->SetViewMatrix(view);
+  GetScene().GetRenderer().SetViewMatrix(view);
 }

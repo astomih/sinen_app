@@ -3,6 +3,7 @@
 #include "../Actor/enemy.hpp"
 #include "../dungeon/generator.hpp"
 #include "../model/model.hpp"
+#include "Scene/Scene.hpp"
 #include <Nen/Nen.hpp>
 #include <cstdint>
 #include <memory>
@@ -10,7 +11,7 @@
 
 const float scale = 5.f;
 
-Stage::Stage() {}
+Stage::Stage(nen::manager &_manager) : nen::base_scene(_manager) {}
 
 void Stage::prepare_model() {
   player_model.load("player.sim");
@@ -130,12 +131,12 @@ void Stage::prepare_actor() {
   sprite_instancing.size =
       sizeof(nen::instance_data) * sprite_instancing.data.size();
   sprite_instancing.type = nen::object_type::_3D;
-  GetRenderer()->add_instancing(sprite_instancing);
+  GetRenderer().add_instancing(sprite_instancing);
 
   box_instancing._texture = t;
   box_instancing.size = sizeof(nen::instance_data) * box_instancing.data.size();
   box_instancing.type = nen::object_type::_3D;
-  GetRenderer()->add_instancing(box_instancing);
+  GetRenderer().add_instancing(box_instancing);
 
   auto &camera = add_actor<CameraActor>(handle_camera);
   camera.SetPosition(player.GetPosition() + camera.initial_pos);

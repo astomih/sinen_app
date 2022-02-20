@@ -5,7 +5,7 @@
 
 class Title : public nen::base_scene {
 public:
-  Title();
+  Title(class nen::manager &_manager);
   void Setup() override;
   void Update(float deltaTime) override;
 

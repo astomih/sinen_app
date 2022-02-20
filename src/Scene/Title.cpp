@@ -1,10 +1,11 @@
 ﻿#include "Title.hpp"
 #include "Actor/Actor.hpp"
+#include "Scene/Scene.hpp"
 #include "Stage.hpp"
 #include "Utility/handle_t.hpp"
 #include <Nen/Nen.hpp>
 
-Title::Title() {}
+Title::Title(nen::manager &_manager) : nen::base_scene(_manager) {}
 
 void Title::Setup() {
   auto mplus_72 = std::make_shared<nen::font>();
@@ -30,7 +31,8 @@ void Title::Setup() {
 
 void Title::Update(float deltaTime) {
   if (is_prepare_now_loading)
-    nen::ChangeScene(std::make_unique<Stage>());
+    change_scene(std::make_unique<Stage>(get_manager()));
+
   if (GetInput().Keyboard.GetKeyState(nen::key_code::SPACE) ==
       nen::button_state::Pressed) {
     auto mplus_72 = std::make_shared<nen::font>();
