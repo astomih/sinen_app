@@ -17,9 +17,11 @@ public:
                  const map_actors_t &map_actors);
   void update_bullet(std::vector<uint32_t> &bullets);
 
-  nen::aabb m_aabb;
+  void set_aabb(const nen::aabb &aabb) { m_aabb = aabb; }
+  const nen::aabb &get_aabb() const { return m_aabb; }
 
 private:
+  nen::aabb m_aabb;
   nen::vector2 get_input_vector();
   nen::vector3 before_before_pos;
 };

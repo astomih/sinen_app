@@ -3,6 +3,7 @@
 #include "../Actor/enemy.hpp"
 #include "../dungeon/generator.hpp"
 #include "../model/model.hpp"
+#include "Component/rigidbody_component.hpp"
 #include "Scene/Scene.hpp"
 #include <Nen/Nen.hpp>
 #include <cstdint>
@@ -124,8 +125,11 @@ void Stage::prepare_actor() {
   auto &enemy_draw3d = enemy.add_component<nen::draw_3d_component>(h);
   enemy_draw3d.Create(player_texture, "spider");
   enemy_draw3d.Register();
+  auto &rigid_body_handle = enemy.add_component<nen::rigidbody_component>(h);
+  rigid_body_handle.set_local_aabb(spider_model.m_aabb);
+  enemy.rigid_body_handle = h;
 
-  player.m_aabb = player_model.m_aabb;
+  player.set_aabb(player_model.m_aabb);
   auto &pc = player.add_component<nen::draw_3d_component>(h);
   player.SetScale(nen::vector3(scale / 2.f));
   pc.Create(player_texture, "player");
@@ -156,9 +160,11 @@ void Stage::Setup() {
 void Stage::Update(float deltaTime) {
   auto &camera = get_actor<CameraActor>(handle_camera);
   auto &player = get_actor<player_actor>(handle_player);
+  auto &enemy = get_actor<enemy_actor>(handle_enemy);
   camera.SetPosition(player.GetPosition() + camera.initial_pos);
   camera.lookAt = player.GetPosition() - camera.initial_lookAt;
   camera.Update(deltaTime);
   player.update_move(deltaTime, map, map_actors);
   player.update_bullet(m_bullets);
+  enemy.move_to_player(deltaTime, player);
 }
