@@ -4,6 +4,6 @@
 
 int main(int argc, char *argv[]) {
   nen::manager manager;
-  manager.launch(std::make_unique<Stage>(manager));
+  manager.launch(std::make_unique<Title>(manager));
   return 0;
 }

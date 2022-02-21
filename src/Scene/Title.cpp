@@ -1,5 +1,7 @@
 ﻿#include "Title.hpp"
 #include "Actor/Actor.hpp"
+#include "Input/InputSystem.hpp"
+#include "Input/MouseCode.hpp"
 #include "Scene/Scene.hpp"
 #include "Stage.hpp"
 #include "Utility/handle_t.hpp"
@@ -21,11 +23,11 @@ void Title::Setup() {
   titleText.Register();
 
   auto &act1 = add_actor<nen::base_actor>(handle_title);
-  act1.SetPosition(nen::vector3(0, -50, 0));
+  act1.SetPosition(nen::vector3(0, -80, 0));
 
   auto &playtext = act1.add_component<nen::text_component>(c2);
   playtext.SetFont(mplus_);
-  playtext.SetString("START");
+  playtext.SetString("PRESS SPACE OR CLICK TO START", nen::palette::White);
   playtext.Register();
 }
 
@@ -34,7 +36,10 @@ void Title::Update(float deltaTime) {
     change_scene(std::make_unique<Stage>(get_manager()));
 
   if (GetInput().Keyboard.GetKeyState(nen::key_code::SPACE) ==
-      nen::button_state::Pressed) {
+          nen::button_state::Pressed ||
+      GetInput().Mouse.GetButtonState(nen::mouse_code::LEFT) ==
+          nen::button_state::Pressed) {
+
     auto mplus_72 = std::make_shared<nen::font>();
     if (!mplus_72->LoadFromFile("mplus/mplus-1p-medium.ttf", 72))
       return;

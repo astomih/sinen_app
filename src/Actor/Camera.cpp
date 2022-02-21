@@ -11,7 +11,8 @@
 
 CameraActor::CameraActor(nen::base_scene &scene)
     : base_actor(scene), verticalAngle(nen::Math::Pi / 4.f), isfocusing(true) {
-  initial_pos = nen::vector3{0, -15.f, 20.f};
+  // initial_pos = nen::vector3{0, -15.f, 20.f};
+  initial_pos = nen::vector3{0, -15.f, 15.f};
   SetPosition(initial_pos);
   initial_lookAt = nen::vector3{0.f, 5.f, 0};
   lookAt = initial_lookAt;

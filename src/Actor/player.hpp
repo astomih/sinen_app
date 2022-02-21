@@ -2,6 +2,7 @@
 #include <Nen.hpp>
 
 #include "../dungeon/map.hpp"
+#include "Math/Vector2.hpp"
 #include "bullet.hpp"
 #include <cstdint>
 #include <memory>
@@ -16,6 +17,9 @@ public:
                  const map_actors_t &map_actors);
   void update_bullet(std::vector<uint32_t> &bullets);
 
+  nen::aabb m_aabb;
+
 private:
   nen::vector2 get_input_vector();
+  nen::vector3 before_before_pos;
 };

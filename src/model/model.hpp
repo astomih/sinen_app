@@ -9,6 +9,7 @@ public:
 
   void load(std::string_view str);
   void set(nen::renderer &_renderer, std::string_view name);
+  nen::aabb m_aabb;
 
 private:
   nen::vertex_array m_array;

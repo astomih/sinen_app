@@ -5,7 +5,8 @@
 #include <cstdint>
 #include <utility>
 
-constexpr std::pair<std::size_t, std::size_t> map_size = std::make_pair(30, 30);
+constexpr std::pair<std::size_t, std::size_t> map_size =
+    std::make_pair(100, 100);
 
 using map_t = std::vector<std::vector<uint32_t>>;
 using map_actors_t =

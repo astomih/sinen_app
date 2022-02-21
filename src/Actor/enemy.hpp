@@ -11,6 +11,7 @@ public:
   ~enemy_actor() = default;
 
   void Update(float delta_time) override;
+  nen::aabb m_aabb;
 
 private:
   const map_t &map;

@@ -1,12 +1,12 @@
 #include "player.hpp"
-#include "Input/KeyCode.hpp"
-#include "Math/Vector3.hpp"
 #include <Nen.hpp>
 #include <cstdint>
 #include <memory>
 
 player_actor::player_actor(nen::base_scene &scene, int x, int y)
-    : nen::base_actor(scene) {}
+    : nen::base_actor(scene) {
+  before_before_pos = GetPosition();
+}
 
 nen::vector2 player_actor::get_input_vector() {
   nen::vector2 input_vector{};
@@ -42,16 +42,20 @@ nen::vector2 player_actor::get_input_vector() {
 bool player_actor::collision(const nen::vector3 &before_pos, const map_t &map,
                              const map_actors_t &map_actors) {
   bool is_collied = false;
+  nen::aabb player_aabb;
+  player_aabb.max = GetPosition() + GetScale() * m_aabb.max;
+  player_aabb.min = GetPosition() + GetScale() * m_aabb.min;
   for (int i = 0; i < map.size(); i++) {
     for (int j = 0; j < map[i].size(); j++) {
       if (map[i][j] == 0) {
-        int value = nen::collision::IntersectAABB(
-            GetPosition(),
-            GetScene()
-                .get_actor<nen::base_actor>(map_actors[i][j])
-                .GetPosition(),
-            nen::vector3{GetScale().x * 3.f, GetScale().x * 3.f, 0});
-        if (value == 7) {
+        nen::aabb box_aabb;
+        auto &act_e = GetScene().get_actor<nen::base_actor>(map_actors[i][j]);
+
+        box_aabb.max = act_e.GetPosition() + act_e.GetScale();
+        box_aabb.min = act_e.GetPosition() - act_e.GetScale();
+
+        bool value = nen::collision::aabb_aabb(player_aabb, box_aabb);
+        if (value) {
           SetPosition(before_pos);
           is_collied = true;
         }
@@ -66,6 +70,8 @@ void player_actor::update_move(float delta_time, const map_t &map,
   float scale = GetScale().x * 2.f;
   auto input_vector = get_input_vector();
   auto before_pos = GetPosition();
+  if (input_vector.x == 0.f && input_vector.y == 0.f)
+    return;
 
   if (input_vector.x != 0.f && input_vector.y != 0.f) {
     bool x = false, y = false;

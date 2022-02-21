@@ -1,10 +1,10 @@
 #include "model.hpp"
+#include <algorithm>
 #include <cstddef>
 #include <cstdint>
 #include <cstdio>
 #include <sstream>
 #include <string>
-
 
 enum class load_state { version, vertex, indices };
 
@@ -37,6 +37,13 @@ void model::load(std::string_view str) {
              &v.position.x, &v.position.y, &v.position.z, &v.normal.x,
              &v.normal.y, &v.normal.z, &v.uv.x, &v.uv.y, &v.rgba.r, &v.rgba.g,
              &v.rgba.b, &v.rgba.a);
+
+      m_aabb.min.x = std::min(m_aabb.min.x, v.position.x);
+      m_aabb.min.y = std::min(m_aabb.min.y, v.position.y);
+      m_aabb.min.z = std::min(m_aabb.min.z, v.position.z);
+      m_aabb.max.x = std::max(m_aabb.max.x, v.position.x);
+      m_aabb.max.y = std::max(m_aabb.max.y, v.position.y);
+      m_aabb.max.z = std::max(m_aabb.max.z, v.position.z);
 
       m_array.vertices.push_back(v);
     } break;

@@ -35,12 +35,14 @@ void Stage::prepare_dungeon() {
   }
   dungeon_generator<uint32_t> generator;
   generator.generate(map);
+  /*
   for (size_t i = 0; i < map.size(); i++) {
     for (size_t j = 0; j < map[i].size(); j++) {
       std::cout << map[i][j];
     }
     std::cout << std::endl;
   }
+  */
 }
 void Stage::prepare_texture() {
   player_texture = std::make_shared<nen::texture>();
@@ -123,6 +125,7 @@ void Stage::prepare_actor() {
   enemy_draw3d.Create(player_texture, "spider");
   enemy_draw3d.Register();
 
+  player.m_aabb = player_model.m_aabb;
   auto &pc = player.add_component<nen::draw_3d_component>(h);
   player.SetScale(nen::vector3(scale / 2.f));
   pc.Create(player_texture, "player");
