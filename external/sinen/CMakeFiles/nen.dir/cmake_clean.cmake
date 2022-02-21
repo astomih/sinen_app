@@ -43,6 +43,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/nen.dir/src/Nen/Component/SoundComponent.cpp.o.d"
   "CMakeFiles/nen.dir/src/Nen/Component/TextComponent.cpp.o"
   "CMakeFiles/nen.dir/src/Nen/Component/TextComponent.cpp.o.d"
+  "CMakeFiles/nen.dir/src/Nen/Component/rigidbody_component.cpp.o"
+  "CMakeFiles/nen.dir/src/Nen/Component/rigidbody_component.cpp.o.d"
   "CMakeFiles/nen.dir/src/Nen/Font/Font.cpp.o"
   "CMakeFiles/nen.dir/src/Nen/Font/Font.cpp.o.d"
   "CMakeFiles/nen.dir/src/Nen/GUI/Button.cpp.o"

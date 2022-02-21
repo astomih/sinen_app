@@ -658,6 +658,30 @@ src/Nen/Component/TextComponent.cpp.s:
 	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/TextComponent.cpp.s
 .PHONY : src/Nen/Component/TextComponent.cpp.s
 
+src/Nen/Component/rigidbody_component.o: src/Nen/Component/rigidbody_component.cpp.o
+.PHONY : src/Nen/Component/rigidbody_component.o
+
+# target to build an object file
+src/Nen/Component/rigidbody_component.cpp.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/rigidbody_component.cpp.o
+.PHONY : src/Nen/Component/rigidbody_component.cpp.o
+
+src/Nen/Component/rigidbody_component.i: src/Nen/Component/rigidbody_component.cpp.i
+.PHONY : src/Nen/Component/rigidbody_component.i
+
+# target to preprocess a source file
+src/Nen/Component/rigidbody_component.cpp.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/rigidbody_component.cpp.i
+.PHONY : src/Nen/Component/rigidbody_component.cpp.i
+
+src/Nen/Component/rigidbody_component.s: src/Nen/Component/rigidbody_component.cpp.s
+.PHONY : src/Nen/Component/rigidbody_component.s
+
+# target to generate assembly for a file
+src/Nen/Component/rigidbody_component.cpp.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Component/rigidbody_component.cpp.s
+.PHONY : src/Nen/Component/rigidbody_component.cpp.s
+
 src/Nen/Font/Font.o: src/Nen/Font/Font.cpp.o
 .PHONY : src/Nen/Font/Font.o
 
@@ -1549,6 +1573,9 @@ help:
 	@echo "... src/Nen/Component/TextComponent.o"
 	@echo "... src/Nen/Component/TextComponent.i"
 	@echo "... src/Nen/Component/TextComponent.s"
+	@echo "... src/Nen/Component/rigidbody_component.o"
+	@echo "... src/Nen/Component/rigidbody_component.i"
+	@echo "... src/Nen/Component/rigidbody_component.s"
 	@echo "... src/Nen/Font/Font.o"
 	@echo "... src/Nen/Font/Font.i"
 	@echo "... src/Nen/Font/Font.s"
