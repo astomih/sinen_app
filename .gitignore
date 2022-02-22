@@ -64,5 +64,4 @@ android-project/gradle/wrapper/gradle - ショートカット.lnk
 *.mtl
 *.obj
 .clang-format
-*.lua
 build/Assets/.gitkeep

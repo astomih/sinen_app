@@ -1,12 +1,20 @@
 #include "enemy.hpp"
 #include "Component/rigidbody_component.hpp"
+#include "IO/AssetReader.hpp"
+#include "IO/AssetType.hpp"
 #include "Logger/Logger.hpp"
 #include "Math/Matrix4.hpp"
 #include "Math/Quaternion.hpp"
 #include "Math/Vector3.hpp"
-enemy_actor::enemy_actor(nen::base_scene &scene, map_t &map,
-                         map_actors_t &map_actors)
-    : nen::base_actor(scene), map(map), map_actors(map_actors) {}
+enemy_actor::enemy_actor(nen::base_scene &scene, const player_actor &player,
+                         const map_t &map, const map_actors_t &map_actors)
+    : nen::base_actor(scene), player(player), map(map), map_actors(map_actors) {
+
+  auto &lua = GetScene().get_script().get_sol_state();
+  lua["enemy_collision"] = &enemy_actor::collision;
+  lua.new_usertype<enemy_actor>("enemy_t", "collision",
+                                &enemy_actor::collision);
+}
 
 void enemy_actor::Update(float delta_time) {
   float z = nen::Math::Sin0_1(2) * 2;
@@ -16,6 +24,16 @@ void enemy_actor::Update(float delta_time) {
 }
 
 void enemy_actor::move_to_player(float dt, const player_actor &player) {
+  auto &lua = GetScene().get_script().get_sol_state();
+  get_component<nen::rigidbody_component>(rigid_body_handle).Update(dt);
+  lua.require_file("utility", nen::asset_reader::ConvertFilePath(
+                                  "utility.lua", nen::asset_type::Script));
+  lua.script_file(
+      nen::asset_reader::ConvertFilePath("enemy.lua", nen::asset_type::Script));
+  lua["delta_time"] = dt;
+  lua["move_to_player"]();
+  lua["enemy_body"] = this;
+  /*
   auto player_pos = player.GetPosition();
   auto before = GetPosition();
   auto dir = player_pos - before;
@@ -24,19 +42,17 @@ void enemy_actor::move_to_player(float dt, const player_actor &player) {
   nen::quaternion q(nen::vector3::UnitZ, -nen::Math::Atan2(dir.x, dir.y));
   SetRotation(q);
   Move(dir);
-  get_component<nen::rigidbody_component>(rigid_body_handle).Update(dt);
-  if (collision(before, map, map_actors, player)) {
+  if (collision(before)) {
     Move(dir.x, 0, 0);
-    if (!collision(before, map, map_actors, player))
+    if (!collision(before))
       return;
     Move(0, dir.y, 0);
-    collision(before, map, map_actors, player);
+    collision(before);
   }
+  */
 }
 
-bool enemy_actor::collision(const nen::vector3 &before_pos, const map_t &map,
-                            const map_actors_t &map_actors,
-                            const player_actor &player) {
+bool enemy_actor::collision(const nen::vector3 &before_pos) {
   bool is_collied = false;
   nen::aabb enemy_aabb =
       get_component<nen::rigidbody_component>(rigid_body_handle)

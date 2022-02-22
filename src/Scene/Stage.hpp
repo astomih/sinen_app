@@ -21,6 +21,7 @@ private:
   void prepare_dungeon();
   void prepare_texture();
   void prepare_actor();
+  void prepare_script();
   map_t map{};
   map_actors_t map_actors;
   std::uint32_t handle_camera;

@@ -3,8 +3,15 @@
 #include "../Actor/enemy.hpp"
 #include "../dungeon/generator.hpp"
 #include "../model/model.hpp"
+#include "Actor/Actor.hpp"
+#include "Component/ScriptComponent.hpp"
 #include "Component/rigidbody_component.hpp"
+#include "IO/AssetReader.hpp"
+#include "IO/AssetType.hpp"
 #include "Scene/Scene.hpp"
+#include "Script/Script.hpp"
+#include "Utility/handle_t.hpp"
+#include "sol/inheritance.hpp"
 #include <Nen/Nen.hpp>
 #include <cstdint>
 #include <memory>
@@ -62,7 +69,7 @@ void Stage::prepare_actor() {
   auto &player = add_actor<player_actor>(handle_player, 1, 2);
   player.SetPosition(nen::vector3(scale * 2 * r2, -scale * 2 * r1, 0));
 
-  auto &enemy = add_actor<enemy_actor>(handle_enemy, map, map_actors);
+  auto &enemy = add_actor<enemy_actor>(handle_enemy, player, map, map_actors);
   while (!decide_ppos()) {
   }
   enemy.SetPosition(nen::vector3(scale * 2 * r2, -scale * 2 * r1, 0));
@@ -150,22 +157,20 @@ void Stage::prepare_actor() {
   camera.lookAt = player.GetPosition() - camera.initial_lookAt;
   camera.Update(0.f);
 }
-void Stage::Setup() {
+void Stage::prepare_script() {
+
   auto &lua = get_manager().get_script_system().get_sol_state();
-  lua.new_usertype<nen::quaternion>(
-      // type name
-      "quat",
-      // constructor
-      sol::constructors<sol::types<>, sol::types<nen::vector3, float>>(),
-      // member function
-      "concatenate", &nen::quaternion::Concatenate,
-      // data member
-      "x", &nen::quaternion::x, "y", &nen::quaternion::y, "z",
-      &nen::quaternion::z);
+  lua["enemy"] = &get_actor<nen::base_actor>(handle_enemy);
+  lua["player"] = &get_actor<nen::base_actor>(handle_player);
+  lua["map"] = &map;
+  lua["map_actors"] = &map_actors;
+}
+void Stage::Setup() {
   prepare_model();
   prepare_dungeon();
   prepare_texture();
   prepare_actor();
+  prepare_script();
 }
 
 void Stage::Update(float deltaTime) {
