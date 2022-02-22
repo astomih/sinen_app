@@ -74,120 +74,120 @@ CMakeFiles/index.dir/src/Actor/Camera.cpp.o: CMakeFiles/index.dir/includes_CXX.r
 CMakeFiles/index.dir/src/Actor/Camera.cpp.o: ../src/Actor/Camera.cpp
 CMakeFiles/index.dir/src/Actor/Camera.cpp.o: CMakeFiles/index.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/singa/singa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/index.dir/src/Actor/Camera.cpp.o"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/Actor/Camera.cpp.o -MF CMakeFiles/index.dir/src/Actor/Camera.cpp.o.d -o CMakeFiles/index.dir/src/Actor/Camera.cpp.o -c /home/runner/work/singa/singa/src/Actor/Camera.cpp
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/Actor/Camera.cpp.o -MF CMakeFiles/index.dir/src/Actor/Camera.cpp.o.d -o CMakeFiles/index.dir/src/Actor/Camera.cpp.o -c /home/runner/work/singa/singa/src/Actor/Camera.cpp
 
 CMakeFiles/index.dir/src/Actor/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/index.dir/src/Actor/Camera.cpp.i"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/src/Actor/Camera.cpp > CMakeFiles/index.dir/src/Actor/Camera.cpp.i
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/src/Actor/Camera.cpp > CMakeFiles/index.dir/src/Actor/Camera.cpp.i
 
 CMakeFiles/index.dir/src/Actor/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/index.dir/src/Actor/Camera.cpp.s"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/src/Actor/Camera.cpp -o CMakeFiles/index.dir/src/Actor/Camera.cpp.s
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/src/Actor/Camera.cpp -o CMakeFiles/index.dir/src/Actor/Camera.cpp.s
 
 CMakeFiles/index.dir/src/Actor/bullet.cpp.o: CMakeFiles/index.dir/flags.make
 CMakeFiles/index.dir/src/Actor/bullet.cpp.o: CMakeFiles/index.dir/includes_CXX.rsp
 CMakeFiles/index.dir/src/Actor/bullet.cpp.o: ../src/Actor/bullet.cpp
 CMakeFiles/index.dir/src/Actor/bullet.cpp.o: CMakeFiles/index.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/singa/singa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/index.dir/src/Actor/bullet.cpp.o"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/Actor/bullet.cpp.o -MF CMakeFiles/index.dir/src/Actor/bullet.cpp.o.d -o CMakeFiles/index.dir/src/Actor/bullet.cpp.o -c /home/runner/work/singa/singa/src/Actor/bullet.cpp
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/Actor/bullet.cpp.o -MF CMakeFiles/index.dir/src/Actor/bullet.cpp.o.d -o CMakeFiles/index.dir/src/Actor/bullet.cpp.o -c /home/runner/work/singa/singa/src/Actor/bullet.cpp
 
 CMakeFiles/index.dir/src/Actor/bullet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/index.dir/src/Actor/bullet.cpp.i"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/src/Actor/bullet.cpp > CMakeFiles/index.dir/src/Actor/bullet.cpp.i
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/src/Actor/bullet.cpp > CMakeFiles/index.dir/src/Actor/bullet.cpp.i
 
 CMakeFiles/index.dir/src/Actor/bullet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/index.dir/src/Actor/bullet.cpp.s"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/src/Actor/bullet.cpp -o CMakeFiles/index.dir/src/Actor/bullet.cpp.s
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/src/Actor/bullet.cpp -o CMakeFiles/index.dir/src/Actor/bullet.cpp.s
 
 CMakeFiles/index.dir/src/Actor/enemy.cpp.o: CMakeFiles/index.dir/flags.make
 CMakeFiles/index.dir/src/Actor/enemy.cpp.o: CMakeFiles/index.dir/includes_CXX.rsp
 CMakeFiles/index.dir/src/Actor/enemy.cpp.o: ../src/Actor/enemy.cpp
 CMakeFiles/index.dir/src/Actor/enemy.cpp.o: CMakeFiles/index.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/singa/singa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/index.dir/src/Actor/enemy.cpp.o"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/Actor/enemy.cpp.o -MF CMakeFiles/index.dir/src/Actor/enemy.cpp.o.d -o CMakeFiles/index.dir/src/Actor/enemy.cpp.o -c /home/runner/work/singa/singa/src/Actor/enemy.cpp
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/Actor/enemy.cpp.o -MF CMakeFiles/index.dir/src/Actor/enemy.cpp.o.d -o CMakeFiles/index.dir/src/Actor/enemy.cpp.o -c /home/runner/work/singa/singa/src/Actor/enemy.cpp
 
 CMakeFiles/index.dir/src/Actor/enemy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/index.dir/src/Actor/enemy.cpp.i"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/src/Actor/enemy.cpp > CMakeFiles/index.dir/src/Actor/enemy.cpp.i
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/src/Actor/enemy.cpp > CMakeFiles/index.dir/src/Actor/enemy.cpp.i
 
 CMakeFiles/index.dir/src/Actor/enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/index.dir/src/Actor/enemy.cpp.s"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/src/Actor/enemy.cpp -o CMakeFiles/index.dir/src/Actor/enemy.cpp.s
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/src/Actor/enemy.cpp -o CMakeFiles/index.dir/src/Actor/enemy.cpp.s
 
 CMakeFiles/index.dir/src/Actor/player.cpp.o: CMakeFiles/index.dir/flags.make
 CMakeFiles/index.dir/src/Actor/player.cpp.o: CMakeFiles/index.dir/includes_CXX.rsp
 CMakeFiles/index.dir/src/Actor/player.cpp.o: ../src/Actor/player.cpp
 CMakeFiles/index.dir/src/Actor/player.cpp.o: CMakeFiles/index.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/singa/singa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/index.dir/src/Actor/player.cpp.o"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/Actor/player.cpp.o -MF CMakeFiles/index.dir/src/Actor/player.cpp.o.d -o CMakeFiles/index.dir/src/Actor/player.cpp.o -c /home/runner/work/singa/singa/src/Actor/player.cpp
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/Actor/player.cpp.o -MF CMakeFiles/index.dir/src/Actor/player.cpp.o.d -o CMakeFiles/index.dir/src/Actor/player.cpp.o -c /home/runner/work/singa/singa/src/Actor/player.cpp
 
 CMakeFiles/index.dir/src/Actor/player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/index.dir/src/Actor/player.cpp.i"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/src/Actor/player.cpp > CMakeFiles/index.dir/src/Actor/player.cpp.i
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/src/Actor/player.cpp > CMakeFiles/index.dir/src/Actor/player.cpp.i
 
 CMakeFiles/index.dir/src/Actor/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/index.dir/src/Actor/player.cpp.s"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/src/Actor/player.cpp -o CMakeFiles/index.dir/src/Actor/player.cpp.s
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/src/Actor/player.cpp -o CMakeFiles/index.dir/src/Actor/player.cpp.s
 
 CMakeFiles/index.dir/src/Scene/Stage.cpp.o: CMakeFiles/index.dir/flags.make
 CMakeFiles/index.dir/src/Scene/Stage.cpp.o: CMakeFiles/index.dir/includes_CXX.rsp
 CMakeFiles/index.dir/src/Scene/Stage.cpp.o: ../src/Scene/Stage.cpp
 CMakeFiles/index.dir/src/Scene/Stage.cpp.o: CMakeFiles/index.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/singa/singa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/index.dir/src/Scene/Stage.cpp.o"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/Scene/Stage.cpp.o -MF CMakeFiles/index.dir/src/Scene/Stage.cpp.o.d -o CMakeFiles/index.dir/src/Scene/Stage.cpp.o -c /home/runner/work/singa/singa/src/Scene/Stage.cpp
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/Scene/Stage.cpp.o -MF CMakeFiles/index.dir/src/Scene/Stage.cpp.o.d -o CMakeFiles/index.dir/src/Scene/Stage.cpp.o -c /home/runner/work/singa/singa/src/Scene/Stage.cpp
 
 CMakeFiles/index.dir/src/Scene/Stage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/index.dir/src/Scene/Stage.cpp.i"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/src/Scene/Stage.cpp > CMakeFiles/index.dir/src/Scene/Stage.cpp.i
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/src/Scene/Stage.cpp > CMakeFiles/index.dir/src/Scene/Stage.cpp.i
 
 CMakeFiles/index.dir/src/Scene/Stage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/index.dir/src/Scene/Stage.cpp.s"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/src/Scene/Stage.cpp -o CMakeFiles/index.dir/src/Scene/Stage.cpp.s
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/src/Scene/Stage.cpp -o CMakeFiles/index.dir/src/Scene/Stage.cpp.s
 
 CMakeFiles/index.dir/src/Scene/Title.cpp.o: CMakeFiles/index.dir/flags.make
 CMakeFiles/index.dir/src/Scene/Title.cpp.o: CMakeFiles/index.dir/includes_CXX.rsp
 CMakeFiles/index.dir/src/Scene/Title.cpp.o: ../src/Scene/Title.cpp
 CMakeFiles/index.dir/src/Scene/Title.cpp.o: CMakeFiles/index.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/singa/singa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/index.dir/src/Scene/Title.cpp.o"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/Scene/Title.cpp.o -MF CMakeFiles/index.dir/src/Scene/Title.cpp.o.d -o CMakeFiles/index.dir/src/Scene/Title.cpp.o -c /home/runner/work/singa/singa/src/Scene/Title.cpp
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/Scene/Title.cpp.o -MF CMakeFiles/index.dir/src/Scene/Title.cpp.o.d -o CMakeFiles/index.dir/src/Scene/Title.cpp.o -c /home/runner/work/singa/singa/src/Scene/Title.cpp
 
 CMakeFiles/index.dir/src/Scene/Title.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/index.dir/src/Scene/Title.cpp.i"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/src/Scene/Title.cpp > CMakeFiles/index.dir/src/Scene/Title.cpp.i
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/src/Scene/Title.cpp > CMakeFiles/index.dir/src/Scene/Title.cpp.i
 
 CMakeFiles/index.dir/src/Scene/Title.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/index.dir/src/Scene/Title.cpp.s"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/src/Scene/Title.cpp -o CMakeFiles/index.dir/src/Scene/Title.cpp.s
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/src/Scene/Title.cpp -o CMakeFiles/index.dir/src/Scene/Title.cpp.s
 
 CMakeFiles/index.dir/src/main.cpp.o: CMakeFiles/index.dir/flags.make
 CMakeFiles/index.dir/src/main.cpp.o: CMakeFiles/index.dir/includes_CXX.rsp
 CMakeFiles/index.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/index.dir/src/main.cpp.o: CMakeFiles/index.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/singa/singa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/index.dir/src/main.cpp.o"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/main.cpp.o -MF CMakeFiles/index.dir/src/main.cpp.o.d -o CMakeFiles/index.dir/src/main.cpp.o -c /home/runner/work/singa/singa/src/main.cpp
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/main.cpp.o -MF CMakeFiles/index.dir/src/main.cpp.o.d -o CMakeFiles/index.dir/src/main.cpp.o -c /home/runner/work/singa/singa/src/main.cpp
 
 CMakeFiles/index.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/index.dir/src/main.cpp.i"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/src/main.cpp > CMakeFiles/index.dir/src/main.cpp.i
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/src/main.cpp > CMakeFiles/index.dir/src/main.cpp.i
 
 CMakeFiles/index.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/index.dir/src/main.cpp.s"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/src/main.cpp -o CMakeFiles/index.dir/src/main.cpp.s
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/src/main.cpp -o CMakeFiles/index.dir/src/main.cpp.s
 
 CMakeFiles/index.dir/src/model/model.cpp.o: CMakeFiles/index.dir/flags.make
 CMakeFiles/index.dir/src/model/model.cpp.o: CMakeFiles/index.dir/includes_CXX.rsp
 CMakeFiles/index.dir/src/model/model.cpp.o: ../src/model/model.cpp
 CMakeFiles/index.dir/src/model/model.cpp.o: CMakeFiles/index.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/singa/singa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/index.dir/src/model/model.cpp.o"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/model/model.cpp.o -MF CMakeFiles/index.dir/src/model/model.cpp.o.d -o CMakeFiles/index.dir/src/model/model.cpp.o -c /home/runner/work/singa/singa/src/model/model.cpp
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/model/model.cpp.o -MF CMakeFiles/index.dir/src/model/model.cpp.o.d -o CMakeFiles/index.dir/src/model/model.cpp.o -c /home/runner/work/singa/singa/src/model/model.cpp
 
 CMakeFiles/index.dir/src/model/model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/index.dir/src/model/model.cpp.i"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/src/model/model.cpp > CMakeFiles/index.dir/src/model/model.cpp.i
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/src/model/model.cpp > CMakeFiles/index.dir/src/model/model.cpp.i
 
 CMakeFiles/index.dir/src/model/model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/index.dir/src/model/model.cpp.s"
-	/home/runner/work/_temp/b900d627-59fd-4e2a-9557-86830f303c56/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/src/model/model.cpp -o CMakeFiles/index.dir/src/model/model.cpp.s
+	/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/src/model/model.cpp -o CMakeFiles/index.dir/src/model/model.cpp.s
 
 # Object files for target index
 index_OBJECTS = \
