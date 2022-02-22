@@ -151,6 +151,17 @@ void Stage::prepare_actor() {
   camera.Update(0.f);
 }
 void Stage::Setup() {
+  auto &lua = get_manager().get_script_system().get_sol_state();
+  lua.new_usertype<nen::quaternion>(
+      // type name
+      "quat",
+      // constructor
+      sol::constructors<sol::types<>, sol::types<nen::vector3, float>>(),
+      // member function
+      "concatenate", &nen::quaternion::Concatenate,
+      // data member
+      "x", &nen::quaternion::x, "y", &nen::quaternion::y, "z",
+      &nen::quaternion::z);
   prepare_model();
   prepare_dungeon();
   prepare_texture();
