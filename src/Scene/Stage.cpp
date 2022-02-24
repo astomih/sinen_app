@@ -1,17 +1,9 @@
+#if 1
 #include "Stage.hpp"
 #include "../Actor/Camera.hpp"
 #include "../Actor/enemy.hpp"
 #include "../dungeon/generator.hpp"
 #include "../model/model.hpp"
-#include "Actor/Actor.hpp"
-#include "Component/ScriptComponent.hpp"
-#include "Component/rigidbody_component.hpp"
-#include "IO/AssetReader.hpp"
-#include "IO/AssetType.hpp"
-#include "Scene/Scene.hpp"
-#include "Script/Script.hpp"
-#include "Utility/handle_t.hpp"
-#include "sol/inheritance.hpp"
 #include <Nen/Nen.hpp>
 #include <cstdint>
 #include <memory>
@@ -159,11 +151,14 @@ void Stage::prepare_actor() {
 }
 void Stage::prepare_script() {
 
+  /*
   auto &lua = get_manager().get_script_system().get_sol_state();
   lua["enemy"] = &get_actor<nen::base_actor>(handle_enemy);
   lua["player"] = &get_actor<nen::base_actor>(handle_player);
+  lua["camera"] = &get_actor<nen::base_actor>(handle_camera);
   lua["map"] = &map;
   lua["map_actors"] = &map_actors;
+  */
 }
 void Stage::Setup() {
   prepare_model();
@@ -184,3 +179,4 @@ void Stage::Update(float deltaTime) {
   player.update_bullet(m_bullets);
   enemy.move_to_player(deltaTime, player);
 }
+#endif

@@ -1,19 +1,14 @@
 #include "enemy.hpp"
-#include "Component/rigidbody_component.hpp"
-#include "IO/AssetReader.hpp"
-#include "IO/AssetType.hpp"
-#include "Logger/Logger.hpp"
-#include "Math/Matrix4.hpp"
-#include "Math/Quaternion.hpp"
-#include "Math/Vector3.hpp"
 enemy_actor::enemy_actor(nen::base_scene &scene, const player_actor &player,
                          const map_t &map, const map_actors_t &map_actors)
     : nen::base_actor(scene), player(player), map(map), map_actors(map_actors) {
 
-  auto &lua = GetScene().get_script().get_sol_state();
-  lua["enemy_collision"] = &enemy_actor::collision;
-  lua.new_usertype<enemy_actor>("enemy_t", "collision",
-                                &enemy_actor::collision);
+  /*
+auto &lua = GetScene().get_script().get_sol_state();
+lua["enemy_collision"] = &enemy_actor::collision;
+lua.new_usertype<enemy_actor>("enemy_t", "collision",
+                            &enemy_actor::collision);
+                            */
 }
 
 void enemy_actor::Update(float delta_time) {
@@ -24,6 +19,7 @@ void enemy_actor::Update(float delta_time) {
 }
 
 void enemy_actor::move_to_player(float dt, const player_actor &player) {
+  /*
   auto &lua = GetScene().get_script().get_sol_state();
   get_component<nen::rigidbody_component>(rigid_body_handle).Update(dt);
   lua.require_file("utility", nen::asset_reader::ConvertFilePath(
@@ -33,6 +29,7 @@ void enemy_actor::move_to_player(float dt, const player_actor &player) {
   lua["delta_time"] = dt;
   lua["move_to_player"]();
   lua["enemy_body"] = this;
+  */
   /*
   auto player_pos = player.GetPosition();
   auto before = GetPosition();

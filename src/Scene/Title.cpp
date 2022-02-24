@@ -1,15 +1,13 @@
-﻿#include "Title.hpp"
-#include "Actor/Actor.hpp"
-#include "Input/InputSystem.hpp"
-#include "Input/MouseCode.hpp"
-#include "Scene/Scene.hpp"
+﻿#if 1
+#include "Title.hpp"
 #include "Stage.hpp"
-#include "Utility/handle_t.hpp"
 #include <Nen/Nen.hpp>
+#include <sinen_lua.hpp>
 
 Title::Title(nen::manager &_manager) : nen::base_scene(_manager) {}
 
 void Title::Setup() {
+  nen::load_modules(get_script().get_sol_state());
   auto mplus_72 = std::make_shared<nen::font>();
   if (!mplus_72->LoadFromFile("mplus/mplus-1p-medium.ttf", 72))
     return;
@@ -32,8 +30,8 @@ void Title::Setup() {
 }
 
 void Title::Update(float deltaTime) {
-  if (is_prepare_now_loading)
-    change_scene(std::make_unique<Stage>(get_manager()));
+  // if (is_prepare_now_loading)
+  // change_scene(std::make_unique<Stage>(get_manager()));
 
   if (GetInput().Keyboard.GetKeyState(nen::key_code::SPACE) ==
           nen::button_state::Pressed ||
@@ -55,3 +53,4 @@ void Title::Update(float deltaTime) {
     get_actor<nen::base_actor>(handle_title).remove_component(c2);
   }
 }
+#endif

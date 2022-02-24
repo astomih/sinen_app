@@ -1,14 +1,6 @@
 #include "Camera.hpp"
-#include "GUI/Button.hpp"
-#include "Input/InputSystem.hpp"
-#include "Input/KeyCode.hpp"
-#include "Input/MouseCode.hpp"
-#include "Math/Transform.hpp"
-#include "Math/Vector3.hpp"
-#include "Window/Window.hpp"
-#include "Window/WindowState.hpp"
 #include <Nen/Nen.hpp>
-
+#include <sol/sol.hpp>
 CameraActor::CameraActor(nen::base_scene &scene)
     : base_actor(scene), verticalAngle(nen::Math::Pi / 4.f), isfocusing(true) {
   // initial_pos = nen::vector3{0, -15.f, 20.f};

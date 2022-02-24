@@ -1,9 +1,11 @@
-﻿#include "Scene/Stage.hpp"
-#include "Scene/Title.hpp"
-#include <Nen/Nen.hpp>
+﻿#include <Nen/Nen.hpp>
+#include <sinen_lua.hpp>
 
 int main(int argc, char *argv[]) {
   nen::manager manager;
-  manager.launch(std::make_unique<Title>(manager));
+  if (!manager.initialize())
+    return -1;
+  nen::load_modules(manager.get_script_system().get_sol_state());
+  manager.launch();
   return 0;
 }

@@ -8,10 +8,15 @@ if(ANDROID)
 			)
 	add_library(main STATIC ${SOURCE_FILES})
 	find_library(nen nen)
-	target_link_libraries(main nen)
-	target_include_directories(main PUBLIC ./external/sinen/include)
+	find_library(nen_lua nen_lua)
+	target_link_libraries(main nen nen_lua)
+	target_include_directories(main PUBLIC 
+		./external/sinen/include
+		./external/sinen_lua
+	)
 elseif(EMSCRIPTEN)
 	add_subdirectory(./external/sinen)
+	add_subdirectory(./external/sinen_lua)
 	set(CMAKE_BUILD_TYPE_INIT "Release")
 	set(CMAKE_C_COMPILER "emcc")
 	file(GLOB SOURCE_FILES
@@ -22,10 +27,11 @@ elseif(EMSCRIPTEN)
 	target_link_directories(index PUBLIC
 		.
 	)
-	target_link_libraries(index nen lua)
+	target_link_libraries(index nen lua nen_lua)
 	file(GLOB INCLUDE_DIRS
 		external/sinen/include
 		external/sinen/include/Nen
+		./external/sinen_lua
 		)
 	target_include_directories(index PUBLIC
 		${INCLUDE_DIRS}
@@ -73,13 +79,15 @@ else()
 
 	include_directories(
 		./external/sinen/include
+		./external/sinen_lua
 	)
 	link_directories(
-		./external/sinen/build
+		./external/sinen_lua/build
 	)
 	if(WIN32)
 		set(LIBRARIES
 			nen
+			nen_lua
 			${Vulkan_LIBRARIES}	
 			SDL2
 			SDL2main

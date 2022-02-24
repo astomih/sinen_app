@@ -5,7 +5,9 @@ function move_to_player()
     dir = utility.vec3_minus(player_pos, before)
     dir:normalize();
     dir = utility.vec3_multi_float(dir, 10 * delta_time)
+    print(1)
     atan2 = -math.atan(dir.x, dir.y)
+    print(2)
     q = quaternion.new(vector3.new(0, 0, 1), atan2);
     enemy:set_rotation(q);
     enemy:move(dir);
