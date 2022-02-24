@@ -1,8 +1,8 @@
+#if 0
 #include "bullet.hpp"
 #include "Actor/Actor.hpp"
 #include "Component/Draw3DComponent.hpp"
 #include "Scene/Scene.hpp"
-#include "Utility/dynamic_handler.hpp"
 #include <memory>
 #include <vector>
 
@@ -22,3 +22,4 @@ void bullet_actor::Update(float delta_time) {
   }
   Move(GetForward() * m_speed * delta_time);
 }
+#endif

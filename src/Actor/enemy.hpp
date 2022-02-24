@@ -3,9 +3,10 @@
 #include <cstddef>
 
 #include "../dungeon/map.hpp"
-#include "Utility/dynamic_handler.hpp"
 #include "Utility/handle_t.hpp"
+#include "Utility/handler.hpp"
 #include "player.hpp"
+
 
 class enemy_actor : public nen::base_actor {
 public:

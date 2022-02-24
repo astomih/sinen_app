@@ -1,10 +1,16 @@
-#if 1
 #include "Stage.hpp"
+#include <Nen/Nen.hpp>
+Stage::Stage(nen::manager &_manager) : nen::base_scene(_manager) {
+  auto &h = get_actor<nen::base_actor>(add_actor<nen::base_actor>());
+  h.add_component<nen::draw_2d_component>();
+  h.add_component<nen::draw_3d_component>();
+  h.add_component<nen::text_component>();
+}
+#if 0
 #include "../Actor/Camera.hpp"
 #include "../Actor/enemy.hpp"
 #include "../dungeon/generator.hpp"
 #include "../model/model.hpp"
-#include <Nen/Nen.hpp>
 #include <cstdint>
 #include <memory>
 #include <string>
@@ -58,8 +64,8 @@ void Stage::prepare_actor() {
   };
   while (!decide_ppos()) {
   }
-  auto &player = add_actor<player_actor>(handle_player, 1, 2);
-  player.SetPosition(nen::vector3(scale * 2 * r2, -scale * 2 * r1, 0));
+  add_actor<player_actor>(handle_player, 1, 2);
+  // player.SetPosition(nen::vector3(scale * 2 * r2, -scale * 2 * r1, 0));
 
   auto &enemy = add_actor<enemy_actor>(handle_enemy, player, map, map_actors);
   while (!decide_ppos()) {
@@ -74,19 +80,21 @@ void Stage::prepare_actor() {
     for (int j = 0; j < map[i].size(); j++) {
       if (map[i][j] == 1) {
         std::uint32_t k;
-        auto &a = add_actor<nen::base_actor>(k);
+        add_actor<nen::base_actor>(k);
+        /*
         a.SetPosition(nen::vector3(j * scale * 2.f, -i * scale * 2.f, -scale));
         a.SetScale(nen::vector3(scale));
+        */
         if (is_once) {
           uint32_t h;
-          auto &c = a.add_component<nen::draw_3d_component>(h);
-          c.Create(t);
+          a.add_component<nen::draw_3d_component>(h);
+          // c.Create(t);
           sprite_instancing.object = c.GetSprite();
           is_once = false;
         } else {
           uint32_t h;
-          auto &c = a.add_component<nen::draw_3d_component>(h);
-          c.Create(t);
+          a.add_component<nen::draw_3d_component>(h);
+          // c.Create(t);
           a.remove_component(h);
         }
         nen::instance_data data;

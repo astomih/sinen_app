@@ -13,8 +13,8 @@
 class Stage : public nen::base_scene {
 public:
   Stage(class nen::manager &_manager);
-  void Setup() override;
-  void Update(float deltaTime) override;
+  void Setup() override{};
+  void Update(float deltaTime) override{};
 
 private:
   void prepare_model();

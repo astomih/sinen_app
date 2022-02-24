@@ -1,3 +1,4 @@
+#if 0
 #include "player.hpp"
 #include <Nen.hpp>
 #include <cstdint>
@@ -128,3 +129,4 @@ void player_actor::update_bullet(std::vector<uint32_t> &bullets) {
     act.SetRotation(GetRotation());
   }
 }
+#endif

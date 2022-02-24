@@ -1,3 +1,4 @@
+#if 0
 #include "Camera.hpp"
 #include <Nen/Nen.hpp>
 #include <sol/sol.hpp>
@@ -47,3 +48,5 @@ void CameraActor::Update(float deltaTime) {
       nen::matrix4::LookAt(GetPosition(), GetPosition() + direction, up);
   GetScene().GetRenderer().SetViewMatrix(view);
 }
+
+#endif
