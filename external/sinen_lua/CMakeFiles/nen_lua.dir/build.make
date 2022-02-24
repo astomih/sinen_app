@@ -74,15 +74,15 @@ external/sinen_lua/CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.o: external/sinen_lu
 external/sinen_lua/CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.o: ../external/sinen_lua/src/sinen_lua.cpp
 external/sinen_lua/CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.o: external/sinen_lua/CMakeFiles/nen_lua.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/singa/singa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/sinen_lua/CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.o"
-	cd /home/runner/work/singa/singa/build/external/sinen_lua && /home/runner/work/_temp/82b82091-2bae-4ef2-8038-9a11d0829b59/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen_lua/CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.o -MF CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.o.d -o CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.o -c /home/runner/work/singa/singa/external/sinen_lua/src/sinen_lua.cpp
+	cd /home/runner/work/singa/singa/build/external/sinen_lua && /home/runner/work/_temp/e25d925c-3028-4aef-8646-c86952725063/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen_lua/CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.o -MF CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.o.d -o CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.o -c /home/runner/work/singa/singa/external/sinen_lua/src/sinen_lua.cpp
 
 external/sinen_lua/CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.i"
-	cd /home/runner/work/singa/singa/build/external/sinen_lua && /home/runner/work/_temp/82b82091-2bae-4ef2-8038-9a11d0829b59/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/external/sinen_lua/src/sinen_lua.cpp > CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.i
+	cd /home/runner/work/singa/singa/build/external/sinen_lua && /home/runner/work/_temp/e25d925c-3028-4aef-8646-c86952725063/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/singa/singa/external/sinen_lua/src/sinen_lua.cpp > CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.i
 
 external/sinen_lua/CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.s"
-	cd /home/runner/work/singa/singa/build/external/sinen_lua && /home/runner/work/_temp/82b82091-2bae-4ef2-8038-9a11d0829b59/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/external/sinen_lua/src/sinen_lua.cpp -o CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.s
+	cd /home/runner/work/singa/singa/build/external/sinen_lua && /home/runner/work/_temp/e25d925c-3028-4aef-8646-c86952725063/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/singa/singa/external/sinen_lua/src/sinen_lua.cpp -o CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.s
 
 # Object files for target nen_lua
 nen_lua_OBJECTS = \
