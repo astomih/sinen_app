@@ -65,15 +65,18 @@ CMAKE_BINARY_DIR = /home/runner/work/singa/singa/build
 # The main recursive "all" target.
 all: CMakeFiles/index.dir/all
 all: external/sinen/all
+all: external/sinen_lua/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: external/sinen/preinstall
+preinstall: external/sinen_lua/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/index.dir/clean
 clean: external/sinen/clean
+clean: external/sinen_lua/clean
 .PHONY : clean
 
 #=============================================================================
@@ -92,10 +95,26 @@ external/sinen/clean: external/sinen/CMakeFiles/nen.dir/clean
 .PHONY : external/sinen/clean
 
 #=============================================================================
+# Directory level rules for directory external/sinen_lua
+
+# Recursive "all" directory target.
+external/sinen_lua/all: external/sinen_lua/CMakeFiles/nen_lua.dir/all
+.PHONY : external/sinen_lua/all
+
+# Recursive "preinstall" directory target.
+external/sinen_lua/preinstall:
+.PHONY : external/sinen_lua/preinstall
+
+# Recursive "clean" directory target.
+external/sinen_lua/clean: external/sinen_lua/CMakeFiles/nen_lua.dir/clean
+.PHONY : external/sinen_lua/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/index.dir
 
 # All Build rule for target.
 CMakeFiles/index.dir/all: external/sinen/CMakeFiles/nen.dir/all
+CMakeFiles/index.dir/all: external/sinen_lua/CMakeFiles/nen_lua.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.dir/build.make CMakeFiles/index.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/singa/singa/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target index"
@@ -103,7 +122,7 @@ CMakeFiles/index.dir/all: external/sinen/CMakeFiles/nen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/index.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/singa/singa/build/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/singa/singa/build/CMakeFiles 69
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/index.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/singa/singa/build/CMakeFiles 0
 .PHONY : CMakeFiles/index.dir/rule
@@ -142,6 +161,32 @@ nen: external/sinen/CMakeFiles/nen.dir/rule
 external/sinen/CMakeFiles/nen.dir/clean:
 	$(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/clean
 .PHONY : external/sinen/CMakeFiles/nen.dir/clean
+
+#=============================================================================
+# Target rules for target external/sinen_lua/CMakeFiles/nen_lua.dir
+
+# All Build rule for target.
+external/sinen_lua/CMakeFiles/nen_lua.dir/all:
+	$(MAKE) $(MAKESILENT) -f external/sinen_lua/CMakeFiles/nen_lua.dir/build.make external/sinen_lua/CMakeFiles/nen_lua.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/sinen_lua/CMakeFiles/nen_lua.dir/build.make external/sinen_lua/CMakeFiles/nen_lua.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/singa/singa/build/CMakeFiles --progress-num=68,69 "Built target nen_lua"
+.PHONY : external/sinen_lua/CMakeFiles/nen_lua.dir/all
+
+# Build rule for subdir invocation for target.
+external/sinen_lua/CMakeFiles/nen_lua.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/singa/singa/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/sinen_lua/CMakeFiles/nen_lua.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/singa/singa/build/CMakeFiles 0
+.PHONY : external/sinen_lua/CMakeFiles/nen_lua.dir/rule
+
+# Convenience name for target.
+nen_lua: external/sinen_lua/CMakeFiles/nen_lua.dir/rule
+.PHONY : nen_lua
+
+# clean rule for target.
+external/sinen_lua/CMakeFiles/nen_lua.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/sinen_lua/CMakeFiles/nen_lua.dir/build.make external/sinen_lua/CMakeFiles/nen_lua.dir/clean
+.PHONY : external/sinen_lua/CMakeFiles/nen_lua.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

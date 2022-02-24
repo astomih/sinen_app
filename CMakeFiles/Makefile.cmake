@@ -7,13 +7,14 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/cmake/Modules/CMakeSystemSpecificInformation.cmake"
-  "/home/runner/work/_temp/76693f5a-ee1c-405a-b6a0-37db3408a32c/emsdk-main/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+  "/home/runner/work/_temp/82b82091-2bae-4ef2-8038-9a11d0829b59/emsdk-main/upstream/emscripten/cmake/Modules/CMakeSystemSpecificInformation.cmake"
+  "/home/runner/work/_temp/82b82091-2bae-4ef2-8038-9a11d0829b59/emsdk-main/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.22.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.2/CMakeSystem.cmake"
   "../external/sinen/CMakeLists.txt"
+  "../external/sinen_lua/CMakeLists.txt"
   "/usr/local/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in"
   "/usr/local/share/cmake-3.22/Modules/CMakeCInformation.cmake"
   "/usr/local/share/cmake-3.22/Modules/CMakeCXXCompiler.cmake.in"
@@ -53,10 +54,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.22.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "external/sinen/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "external/sinen_lua/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/index.dir/DependInfo.cmake"
   "external/sinen/CMakeFiles/nen.dir/DependInfo.cmake"
+  "external/sinen_lua/CMakeFiles/nen_lua.dir/DependInfo.cmake"
   )

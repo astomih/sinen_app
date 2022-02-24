@@ -1,0 +1,1 @@
+-I/home/runner/work/singa/singa/external/sinen_lua/. -I/home/runner/work/singa/singa/external/sinen_lua/../sinen/include -I/home/runner/work/singa/singa/external/sinen_lua/../sinen/include/Nen -I/home/runner/work/singa/singa/external/sinen_lua/../sinen/libs/sol2/include -I/home/runner/work/singa/singa/external/sinen_lua/../sinen/libs/Lua/include

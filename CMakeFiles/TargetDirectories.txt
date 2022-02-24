@@ -4,3 +4,6 @@
 /home/runner/work/singa/singa/build/external/sinen/CMakeFiles/nen.dir
 /home/runner/work/singa/singa/build/external/sinen/CMakeFiles/edit_cache.dir
 /home/runner/work/singa/singa/build/external/sinen/CMakeFiles/rebuild_cache.dir
+/home/runner/work/singa/singa/build/external/sinen_lua/CMakeFiles/nen_lua.dir
+/home/runner/work/singa/singa/build/external/sinen_lua/CMakeFiles/edit_cache.dir
+/home/runner/work/singa/singa/build/external/sinen_lua/CMakeFiles/rebuild_cache.dir
