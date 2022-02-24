@@ -60,6 +60,7 @@ else()
 		set(CMAKE_CXX_STANDARD 20)
 	else()
 		set(CMAKE_CXX_FLAGS "-std=c++2a")
+		add_subdirectory(./external/sinen_lua)
 	endif()
 	set(CMAKE_CXX_FLAGS_DEBUG "-D_DEBUG -g -O0")
 	set(CMAKE_CXX_FLAGS_RELEASE "-O2 -s -DNDEBUG -march=native")
@@ -99,9 +100,10 @@ else()
 			glew32
 			opengl32
 		)
-		else()
+	else()
 		set(LIBRARIES
 			nen
+			nen_lua
 			${Vulkan_LIBRARIES}	
 			SDL2
 			SDL2main

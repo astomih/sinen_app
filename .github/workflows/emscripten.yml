@@ -22,7 +22,7 @@ jobs:
       - run: git submodule update --init --recursive
       
       - name: Lua build
-        run: wget https://www.lua.org/ftp/lua-5.4.3.tar.gz && tar -zxvf lua-5.4.3.tar.gz && cd lua-5.4.3 && make generic CC="emcc -s WASM=1" && cd src && mv liblua.a ../../ && cd ../../
+        run: wget https://www.lua.org/ftp/lua-5.1.5.tar.gz && tar -zxvf lua-5.1.5.tar.gz && cd lua-5.1.5 && make generic CC="emcc -s WASM=1" && cd src && mv liblua.a ../../ && cd ../../
       
       - name: CMake
         run: emcmake cmake -B build
