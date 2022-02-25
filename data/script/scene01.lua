@@ -1,18 +1,21 @@
 local utility = require("utility")
 
+hello_texture = {}
 function setup()
     print("scene01.lua: setup()")
-    hello_actor = scene:get_base_actor(scene:add_base_actor());
-    hello_component = hello_actor:get_draw2d_component(
-                          hello_actor:add_draw2d_component())
-    hello_actor:set_position(vector3.new(0, 0, 0))
-    hello_texture = add_texture();
-    texture_fill_color(hello_texture, color.new(1, 0, 0, 1), "red")
-    hello_component:create(hello_texture, 1.0, "SPRITE")
-    print(utility.vec3_plus(vector3.new(0, 0, 0), vector3.new(1, 1, 1)).x)
+    hello_texture = create_texture()
+    texture_fill_color(hello_texture, color.new(1, 1, 0, 1), "red")
+
     print("scene01.lua: end setup()")
 end
 
 function update()
-    --    print("scene01.lua: update()") 
+
+    hello_drawer = draw2d_object.new()
+    hello_drawer.texture = hello_texture
+    hello_drawer.position = vector2.new(100, 0)
+    hello_drawer.scale = vector2.new(200, 200)
+    hello_drawer.rotation = 0
+    draw2d.rect(hello_drawer)
+    print("scene01.lua: update()")
 end
