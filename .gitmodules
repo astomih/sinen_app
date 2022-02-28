@@ -1,6 +1,3 @@
 [submodule "external/sinen"]
 	path = external/sinen
 	url = https://github.com/astomih/sinen
-[submodule "external/sinen_lua"]
-	path = external/sinen_lua
-	url = https://github.com/astomih/sinen_lua
