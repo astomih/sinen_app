@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/runner/work/singa/singa/build/external/sinen_lua",
-  "command": "/home/runner/work/_temp/11b7abb3-46ce-42bc-adc7-53f96a8e7538/emsdk-main/upstream/emscripten/em++  @CMakeFiles/nen_lua.dir/includes_CXX.rsp -std=c++2a -o CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.o -c /home/runner/work/singa/singa/external/sinen_lua/src/sinen_lua.cpp",
-  "file": "/home/runner/work/singa/singa/external/sinen_lua/src/sinen_lua.cpp"
-}
-]

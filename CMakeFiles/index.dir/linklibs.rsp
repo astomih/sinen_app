@@ -1,1 +1,1 @@
-  -L/home/runner/work/singa/singa/.  external/sinen/libnen.a -llua external/sinen_lua/libnen_lua.a 
+  -L/home/runner/work/singa/singa/.  external/sinen/libnen.a 

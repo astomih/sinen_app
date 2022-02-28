@@ -142,19 +142,6 @@ nen/fast:
 	$(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/build
 .PHONY : nen/fast
 
-#=============================================================================
-# Target rules for targets named nen_lua
-
-# Build rule for target.
-nen_lua: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nen_lua
-.PHONY : nen_lua
-
-# fast build rule for target.
-nen_lua/fast:
-	$(MAKE) $(MAKESILENT) -f external/sinen_lua/CMakeFiles/nen_lua.dir/build.make external/sinen_lua/CMakeFiles/nen_lua.dir/build
-.PHONY : nen_lua/fast
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -213,7 +200,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... index"
 	@echo "... nen"
-	@echo "... nen_lua"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,2 +1,0 @@
-/home/runner/work/_temp/11b7abb3-46ce-42bc-adc7-53f96a8e7538/emsdk-main/upstream/emscripten/emar qc libnen_lua.a CMakeFiles/nen_lua.dir/src/sinen_lua.cpp.o
-/home/runner/work/_temp/11b7abb3-46ce-42bc-adc7-53f96a8e7538/emsdk-main/upstream/emscripten/emranlib libnen_lua.a

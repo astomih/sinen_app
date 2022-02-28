@@ -298,6 +298,774 @@ libs/ImGui/source/gles/imgui_widgets.cpp.s:
 	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_widgets.cpp.s
 .PHONY : libs/ImGui/source/gles/imgui_widgets.cpp.s
 
+libs/Lua/source/lapi.o: libs/Lua/source/lapi.c.o
+.PHONY : libs/Lua/source/lapi.o
+
+# target to build an object file
+libs/Lua/source/lapi.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lapi.c.o
+.PHONY : libs/Lua/source/lapi.c.o
+
+libs/Lua/source/lapi.i: libs/Lua/source/lapi.c.i
+.PHONY : libs/Lua/source/lapi.i
+
+# target to preprocess a source file
+libs/Lua/source/lapi.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lapi.c.i
+.PHONY : libs/Lua/source/lapi.c.i
+
+libs/Lua/source/lapi.s: libs/Lua/source/lapi.c.s
+.PHONY : libs/Lua/source/lapi.s
+
+# target to generate assembly for a file
+libs/Lua/source/lapi.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lapi.c.s
+.PHONY : libs/Lua/source/lapi.c.s
+
+libs/Lua/source/lauxlib.o: libs/Lua/source/lauxlib.c.o
+.PHONY : libs/Lua/source/lauxlib.o
+
+# target to build an object file
+libs/Lua/source/lauxlib.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lauxlib.c.o
+.PHONY : libs/Lua/source/lauxlib.c.o
+
+libs/Lua/source/lauxlib.i: libs/Lua/source/lauxlib.c.i
+.PHONY : libs/Lua/source/lauxlib.i
+
+# target to preprocess a source file
+libs/Lua/source/lauxlib.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lauxlib.c.i
+.PHONY : libs/Lua/source/lauxlib.c.i
+
+libs/Lua/source/lauxlib.s: libs/Lua/source/lauxlib.c.s
+.PHONY : libs/Lua/source/lauxlib.s
+
+# target to generate assembly for a file
+libs/Lua/source/lauxlib.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lauxlib.c.s
+.PHONY : libs/Lua/source/lauxlib.c.s
+
+libs/Lua/source/lbaselib.o: libs/Lua/source/lbaselib.c.o
+.PHONY : libs/Lua/source/lbaselib.o
+
+# target to build an object file
+libs/Lua/source/lbaselib.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lbaselib.c.o
+.PHONY : libs/Lua/source/lbaselib.c.o
+
+libs/Lua/source/lbaselib.i: libs/Lua/source/lbaselib.c.i
+.PHONY : libs/Lua/source/lbaselib.i
+
+# target to preprocess a source file
+libs/Lua/source/lbaselib.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lbaselib.c.i
+.PHONY : libs/Lua/source/lbaselib.c.i
+
+libs/Lua/source/lbaselib.s: libs/Lua/source/lbaselib.c.s
+.PHONY : libs/Lua/source/lbaselib.s
+
+# target to generate assembly for a file
+libs/Lua/source/lbaselib.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lbaselib.c.s
+.PHONY : libs/Lua/source/lbaselib.c.s
+
+libs/Lua/source/lcode.o: libs/Lua/source/lcode.c.o
+.PHONY : libs/Lua/source/lcode.o
+
+# target to build an object file
+libs/Lua/source/lcode.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lcode.c.o
+.PHONY : libs/Lua/source/lcode.c.o
+
+libs/Lua/source/lcode.i: libs/Lua/source/lcode.c.i
+.PHONY : libs/Lua/source/lcode.i
+
+# target to preprocess a source file
+libs/Lua/source/lcode.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lcode.c.i
+.PHONY : libs/Lua/source/lcode.c.i
+
+libs/Lua/source/lcode.s: libs/Lua/source/lcode.c.s
+.PHONY : libs/Lua/source/lcode.s
+
+# target to generate assembly for a file
+libs/Lua/source/lcode.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lcode.c.s
+.PHONY : libs/Lua/source/lcode.c.s
+
+libs/Lua/source/ldblib.o: libs/Lua/source/ldblib.c.o
+.PHONY : libs/Lua/source/ldblib.o
+
+# target to build an object file
+libs/Lua/source/ldblib.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ldblib.c.o
+.PHONY : libs/Lua/source/ldblib.c.o
+
+libs/Lua/source/ldblib.i: libs/Lua/source/ldblib.c.i
+.PHONY : libs/Lua/source/ldblib.i
+
+# target to preprocess a source file
+libs/Lua/source/ldblib.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ldblib.c.i
+.PHONY : libs/Lua/source/ldblib.c.i
+
+libs/Lua/source/ldblib.s: libs/Lua/source/ldblib.c.s
+.PHONY : libs/Lua/source/ldblib.s
+
+# target to generate assembly for a file
+libs/Lua/source/ldblib.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ldblib.c.s
+.PHONY : libs/Lua/source/ldblib.c.s
+
+libs/Lua/source/ldebug.o: libs/Lua/source/ldebug.c.o
+.PHONY : libs/Lua/source/ldebug.o
+
+# target to build an object file
+libs/Lua/source/ldebug.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ldebug.c.o
+.PHONY : libs/Lua/source/ldebug.c.o
+
+libs/Lua/source/ldebug.i: libs/Lua/source/ldebug.c.i
+.PHONY : libs/Lua/source/ldebug.i
+
+# target to preprocess a source file
+libs/Lua/source/ldebug.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ldebug.c.i
+.PHONY : libs/Lua/source/ldebug.c.i
+
+libs/Lua/source/ldebug.s: libs/Lua/source/ldebug.c.s
+.PHONY : libs/Lua/source/ldebug.s
+
+# target to generate assembly for a file
+libs/Lua/source/ldebug.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ldebug.c.s
+.PHONY : libs/Lua/source/ldebug.c.s
+
+libs/Lua/source/ldo.o: libs/Lua/source/ldo.c.o
+.PHONY : libs/Lua/source/ldo.o
+
+# target to build an object file
+libs/Lua/source/ldo.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ldo.c.o
+.PHONY : libs/Lua/source/ldo.c.o
+
+libs/Lua/source/ldo.i: libs/Lua/source/ldo.c.i
+.PHONY : libs/Lua/source/ldo.i
+
+# target to preprocess a source file
+libs/Lua/source/ldo.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ldo.c.i
+.PHONY : libs/Lua/source/ldo.c.i
+
+libs/Lua/source/ldo.s: libs/Lua/source/ldo.c.s
+.PHONY : libs/Lua/source/ldo.s
+
+# target to generate assembly for a file
+libs/Lua/source/ldo.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ldo.c.s
+.PHONY : libs/Lua/source/ldo.c.s
+
+libs/Lua/source/ldump.o: libs/Lua/source/ldump.c.o
+.PHONY : libs/Lua/source/ldump.o
+
+# target to build an object file
+libs/Lua/source/ldump.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ldump.c.o
+.PHONY : libs/Lua/source/ldump.c.o
+
+libs/Lua/source/ldump.i: libs/Lua/source/ldump.c.i
+.PHONY : libs/Lua/source/ldump.i
+
+# target to preprocess a source file
+libs/Lua/source/ldump.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ldump.c.i
+.PHONY : libs/Lua/source/ldump.c.i
+
+libs/Lua/source/ldump.s: libs/Lua/source/ldump.c.s
+.PHONY : libs/Lua/source/ldump.s
+
+# target to generate assembly for a file
+libs/Lua/source/ldump.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ldump.c.s
+.PHONY : libs/Lua/source/ldump.c.s
+
+libs/Lua/source/lfunc.o: libs/Lua/source/lfunc.c.o
+.PHONY : libs/Lua/source/lfunc.o
+
+# target to build an object file
+libs/Lua/source/lfunc.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lfunc.c.o
+.PHONY : libs/Lua/source/lfunc.c.o
+
+libs/Lua/source/lfunc.i: libs/Lua/source/lfunc.c.i
+.PHONY : libs/Lua/source/lfunc.i
+
+# target to preprocess a source file
+libs/Lua/source/lfunc.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lfunc.c.i
+.PHONY : libs/Lua/source/lfunc.c.i
+
+libs/Lua/source/lfunc.s: libs/Lua/source/lfunc.c.s
+.PHONY : libs/Lua/source/lfunc.s
+
+# target to generate assembly for a file
+libs/Lua/source/lfunc.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lfunc.c.s
+.PHONY : libs/Lua/source/lfunc.c.s
+
+libs/Lua/source/lgc.o: libs/Lua/source/lgc.c.o
+.PHONY : libs/Lua/source/lgc.o
+
+# target to build an object file
+libs/Lua/source/lgc.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lgc.c.o
+.PHONY : libs/Lua/source/lgc.c.o
+
+libs/Lua/source/lgc.i: libs/Lua/source/lgc.c.i
+.PHONY : libs/Lua/source/lgc.i
+
+# target to preprocess a source file
+libs/Lua/source/lgc.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lgc.c.i
+.PHONY : libs/Lua/source/lgc.c.i
+
+libs/Lua/source/lgc.s: libs/Lua/source/lgc.c.s
+.PHONY : libs/Lua/source/lgc.s
+
+# target to generate assembly for a file
+libs/Lua/source/lgc.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lgc.c.s
+.PHONY : libs/Lua/source/lgc.c.s
+
+libs/Lua/source/linit.o: libs/Lua/source/linit.c.o
+.PHONY : libs/Lua/source/linit.o
+
+# target to build an object file
+libs/Lua/source/linit.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/linit.c.o
+.PHONY : libs/Lua/source/linit.c.o
+
+libs/Lua/source/linit.i: libs/Lua/source/linit.c.i
+.PHONY : libs/Lua/source/linit.i
+
+# target to preprocess a source file
+libs/Lua/source/linit.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/linit.c.i
+.PHONY : libs/Lua/source/linit.c.i
+
+libs/Lua/source/linit.s: libs/Lua/source/linit.c.s
+.PHONY : libs/Lua/source/linit.s
+
+# target to generate assembly for a file
+libs/Lua/source/linit.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/linit.c.s
+.PHONY : libs/Lua/source/linit.c.s
+
+libs/Lua/source/liolib.o: libs/Lua/source/liolib.c.o
+.PHONY : libs/Lua/source/liolib.o
+
+# target to build an object file
+libs/Lua/source/liolib.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/liolib.c.o
+.PHONY : libs/Lua/source/liolib.c.o
+
+libs/Lua/source/liolib.i: libs/Lua/source/liolib.c.i
+.PHONY : libs/Lua/source/liolib.i
+
+# target to preprocess a source file
+libs/Lua/source/liolib.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/liolib.c.i
+.PHONY : libs/Lua/source/liolib.c.i
+
+libs/Lua/source/liolib.s: libs/Lua/source/liolib.c.s
+.PHONY : libs/Lua/source/liolib.s
+
+# target to generate assembly for a file
+libs/Lua/source/liolib.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/liolib.c.s
+.PHONY : libs/Lua/source/liolib.c.s
+
+libs/Lua/source/llex.o: libs/Lua/source/llex.c.o
+.PHONY : libs/Lua/source/llex.o
+
+# target to build an object file
+libs/Lua/source/llex.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/llex.c.o
+.PHONY : libs/Lua/source/llex.c.o
+
+libs/Lua/source/llex.i: libs/Lua/source/llex.c.i
+.PHONY : libs/Lua/source/llex.i
+
+# target to preprocess a source file
+libs/Lua/source/llex.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/llex.c.i
+.PHONY : libs/Lua/source/llex.c.i
+
+libs/Lua/source/llex.s: libs/Lua/source/llex.c.s
+.PHONY : libs/Lua/source/llex.s
+
+# target to generate assembly for a file
+libs/Lua/source/llex.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/llex.c.s
+.PHONY : libs/Lua/source/llex.c.s
+
+libs/Lua/source/lmathlib.o: libs/Lua/source/lmathlib.c.o
+.PHONY : libs/Lua/source/lmathlib.o
+
+# target to build an object file
+libs/Lua/source/lmathlib.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lmathlib.c.o
+.PHONY : libs/Lua/source/lmathlib.c.o
+
+libs/Lua/source/lmathlib.i: libs/Lua/source/lmathlib.c.i
+.PHONY : libs/Lua/source/lmathlib.i
+
+# target to preprocess a source file
+libs/Lua/source/lmathlib.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lmathlib.c.i
+.PHONY : libs/Lua/source/lmathlib.c.i
+
+libs/Lua/source/lmathlib.s: libs/Lua/source/lmathlib.c.s
+.PHONY : libs/Lua/source/lmathlib.s
+
+# target to generate assembly for a file
+libs/Lua/source/lmathlib.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lmathlib.c.s
+.PHONY : libs/Lua/source/lmathlib.c.s
+
+libs/Lua/source/lmem.o: libs/Lua/source/lmem.c.o
+.PHONY : libs/Lua/source/lmem.o
+
+# target to build an object file
+libs/Lua/source/lmem.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lmem.c.o
+.PHONY : libs/Lua/source/lmem.c.o
+
+libs/Lua/source/lmem.i: libs/Lua/source/lmem.c.i
+.PHONY : libs/Lua/source/lmem.i
+
+# target to preprocess a source file
+libs/Lua/source/lmem.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lmem.c.i
+.PHONY : libs/Lua/source/lmem.c.i
+
+libs/Lua/source/lmem.s: libs/Lua/source/lmem.c.s
+.PHONY : libs/Lua/source/lmem.s
+
+# target to generate assembly for a file
+libs/Lua/source/lmem.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lmem.c.s
+.PHONY : libs/Lua/source/lmem.c.s
+
+libs/Lua/source/loadlib.o: libs/Lua/source/loadlib.c.o
+.PHONY : libs/Lua/source/loadlib.o
+
+# target to build an object file
+libs/Lua/source/loadlib.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/loadlib.c.o
+.PHONY : libs/Lua/source/loadlib.c.o
+
+libs/Lua/source/loadlib.i: libs/Lua/source/loadlib.c.i
+.PHONY : libs/Lua/source/loadlib.i
+
+# target to preprocess a source file
+libs/Lua/source/loadlib.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/loadlib.c.i
+.PHONY : libs/Lua/source/loadlib.c.i
+
+libs/Lua/source/loadlib.s: libs/Lua/source/loadlib.c.s
+.PHONY : libs/Lua/source/loadlib.s
+
+# target to generate assembly for a file
+libs/Lua/source/loadlib.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/loadlib.c.s
+.PHONY : libs/Lua/source/loadlib.c.s
+
+libs/Lua/source/lobject.o: libs/Lua/source/lobject.c.o
+.PHONY : libs/Lua/source/lobject.o
+
+# target to build an object file
+libs/Lua/source/lobject.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lobject.c.o
+.PHONY : libs/Lua/source/lobject.c.o
+
+libs/Lua/source/lobject.i: libs/Lua/source/lobject.c.i
+.PHONY : libs/Lua/source/lobject.i
+
+# target to preprocess a source file
+libs/Lua/source/lobject.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lobject.c.i
+.PHONY : libs/Lua/source/lobject.c.i
+
+libs/Lua/source/lobject.s: libs/Lua/source/lobject.c.s
+.PHONY : libs/Lua/source/lobject.s
+
+# target to generate assembly for a file
+libs/Lua/source/lobject.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lobject.c.s
+.PHONY : libs/Lua/source/lobject.c.s
+
+libs/Lua/source/lopcodes.o: libs/Lua/source/lopcodes.c.o
+.PHONY : libs/Lua/source/lopcodes.o
+
+# target to build an object file
+libs/Lua/source/lopcodes.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lopcodes.c.o
+.PHONY : libs/Lua/source/lopcodes.c.o
+
+libs/Lua/source/lopcodes.i: libs/Lua/source/lopcodes.c.i
+.PHONY : libs/Lua/source/lopcodes.i
+
+# target to preprocess a source file
+libs/Lua/source/lopcodes.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lopcodes.c.i
+.PHONY : libs/Lua/source/lopcodes.c.i
+
+libs/Lua/source/lopcodes.s: libs/Lua/source/lopcodes.c.s
+.PHONY : libs/Lua/source/lopcodes.s
+
+# target to generate assembly for a file
+libs/Lua/source/lopcodes.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lopcodes.c.s
+.PHONY : libs/Lua/source/lopcodes.c.s
+
+libs/Lua/source/loslib.o: libs/Lua/source/loslib.c.o
+.PHONY : libs/Lua/source/loslib.o
+
+# target to build an object file
+libs/Lua/source/loslib.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/loslib.c.o
+.PHONY : libs/Lua/source/loslib.c.o
+
+libs/Lua/source/loslib.i: libs/Lua/source/loslib.c.i
+.PHONY : libs/Lua/source/loslib.i
+
+# target to preprocess a source file
+libs/Lua/source/loslib.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/loslib.c.i
+.PHONY : libs/Lua/source/loslib.c.i
+
+libs/Lua/source/loslib.s: libs/Lua/source/loslib.c.s
+.PHONY : libs/Lua/source/loslib.s
+
+# target to generate assembly for a file
+libs/Lua/source/loslib.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/loslib.c.s
+.PHONY : libs/Lua/source/loslib.c.s
+
+libs/Lua/source/lparser.o: libs/Lua/source/lparser.c.o
+.PHONY : libs/Lua/source/lparser.o
+
+# target to build an object file
+libs/Lua/source/lparser.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lparser.c.o
+.PHONY : libs/Lua/source/lparser.c.o
+
+libs/Lua/source/lparser.i: libs/Lua/source/lparser.c.i
+.PHONY : libs/Lua/source/lparser.i
+
+# target to preprocess a source file
+libs/Lua/source/lparser.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lparser.c.i
+.PHONY : libs/Lua/source/lparser.c.i
+
+libs/Lua/source/lparser.s: libs/Lua/source/lparser.c.s
+.PHONY : libs/Lua/source/lparser.s
+
+# target to generate assembly for a file
+libs/Lua/source/lparser.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lparser.c.s
+.PHONY : libs/Lua/source/lparser.c.s
+
+libs/Lua/source/lstate.o: libs/Lua/source/lstate.c.o
+.PHONY : libs/Lua/source/lstate.o
+
+# target to build an object file
+libs/Lua/source/lstate.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lstate.c.o
+.PHONY : libs/Lua/source/lstate.c.o
+
+libs/Lua/source/lstate.i: libs/Lua/source/lstate.c.i
+.PHONY : libs/Lua/source/lstate.i
+
+# target to preprocess a source file
+libs/Lua/source/lstate.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lstate.c.i
+.PHONY : libs/Lua/source/lstate.c.i
+
+libs/Lua/source/lstate.s: libs/Lua/source/lstate.c.s
+.PHONY : libs/Lua/source/lstate.s
+
+# target to generate assembly for a file
+libs/Lua/source/lstate.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lstate.c.s
+.PHONY : libs/Lua/source/lstate.c.s
+
+libs/Lua/source/lstring.o: libs/Lua/source/lstring.c.o
+.PHONY : libs/Lua/source/lstring.o
+
+# target to build an object file
+libs/Lua/source/lstring.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lstring.c.o
+.PHONY : libs/Lua/source/lstring.c.o
+
+libs/Lua/source/lstring.i: libs/Lua/source/lstring.c.i
+.PHONY : libs/Lua/source/lstring.i
+
+# target to preprocess a source file
+libs/Lua/source/lstring.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lstring.c.i
+.PHONY : libs/Lua/source/lstring.c.i
+
+libs/Lua/source/lstring.s: libs/Lua/source/lstring.c.s
+.PHONY : libs/Lua/source/lstring.s
+
+# target to generate assembly for a file
+libs/Lua/source/lstring.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lstring.c.s
+.PHONY : libs/Lua/source/lstring.c.s
+
+libs/Lua/source/lstrlib.o: libs/Lua/source/lstrlib.c.o
+.PHONY : libs/Lua/source/lstrlib.o
+
+# target to build an object file
+libs/Lua/source/lstrlib.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lstrlib.c.o
+.PHONY : libs/Lua/source/lstrlib.c.o
+
+libs/Lua/source/lstrlib.i: libs/Lua/source/lstrlib.c.i
+.PHONY : libs/Lua/source/lstrlib.i
+
+# target to preprocess a source file
+libs/Lua/source/lstrlib.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lstrlib.c.i
+.PHONY : libs/Lua/source/lstrlib.c.i
+
+libs/Lua/source/lstrlib.s: libs/Lua/source/lstrlib.c.s
+.PHONY : libs/Lua/source/lstrlib.s
+
+# target to generate assembly for a file
+libs/Lua/source/lstrlib.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lstrlib.c.s
+.PHONY : libs/Lua/source/lstrlib.c.s
+
+libs/Lua/source/ltable.o: libs/Lua/source/ltable.c.o
+.PHONY : libs/Lua/source/ltable.o
+
+# target to build an object file
+libs/Lua/source/ltable.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ltable.c.o
+.PHONY : libs/Lua/source/ltable.c.o
+
+libs/Lua/source/ltable.i: libs/Lua/source/ltable.c.i
+.PHONY : libs/Lua/source/ltable.i
+
+# target to preprocess a source file
+libs/Lua/source/ltable.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ltable.c.i
+.PHONY : libs/Lua/source/ltable.c.i
+
+libs/Lua/source/ltable.s: libs/Lua/source/ltable.c.s
+.PHONY : libs/Lua/source/ltable.s
+
+# target to generate assembly for a file
+libs/Lua/source/ltable.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ltable.c.s
+.PHONY : libs/Lua/source/ltable.c.s
+
+libs/Lua/source/ltablib.o: libs/Lua/source/ltablib.c.o
+.PHONY : libs/Lua/source/ltablib.o
+
+# target to build an object file
+libs/Lua/source/ltablib.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ltablib.c.o
+.PHONY : libs/Lua/source/ltablib.c.o
+
+libs/Lua/source/ltablib.i: libs/Lua/source/ltablib.c.i
+.PHONY : libs/Lua/source/ltablib.i
+
+# target to preprocess a source file
+libs/Lua/source/ltablib.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ltablib.c.i
+.PHONY : libs/Lua/source/ltablib.c.i
+
+libs/Lua/source/ltablib.s: libs/Lua/source/ltablib.c.s
+.PHONY : libs/Lua/source/ltablib.s
+
+# target to generate assembly for a file
+libs/Lua/source/ltablib.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ltablib.c.s
+.PHONY : libs/Lua/source/ltablib.c.s
+
+libs/Lua/source/ltm.o: libs/Lua/source/ltm.c.o
+.PHONY : libs/Lua/source/ltm.o
+
+# target to build an object file
+libs/Lua/source/ltm.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ltm.c.o
+.PHONY : libs/Lua/source/ltm.c.o
+
+libs/Lua/source/ltm.i: libs/Lua/source/ltm.c.i
+.PHONY : libs/Lua/source/ltm.i
+
+# target to preprocess a source file
+libs/Lua/source/ltm.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ltm.c.i
+.PHONY : libs/Lua/source/ltm.c.i
+
+libs/Lua/source/ltm.s: libs/Lua/source/ltm.c.s
+.PHONY : libs/Lua/source/ltm.s
+
+# target to generate assembly for a file
+libs/Lua/source/ltm.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/ltm.c.s
+.PHONY : libs/Lua/source/ltm.c.s
+
+libs/Lua/source/lua.o: libs/Lua/source/lua.c.o
+.PHONY : libs/Lua/source/lua.o
+
+# target to build an object file
+libs/Lua/source/lua.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lua.c.o
+.PHONY : libs/Lua/source/lua.c.o
+
+libs/Lua/source/lua.i: libs/Lua/source/lua.c.i
+.PHONY : libs/Lua/source/lua.i
+
+# target to preprocess a source file
+libs/Lua/source/lua.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lua.c.i
+.PHONY : libs/Lua/source/lua.c.i
+
+libs/Lua/source/lua.s: libs/Lua/source/lua.c.s
+.PHONY : libs/Lua/source/lua.s
+
+# target to generate assembly for a file
+libs/Lua/source/lua.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lua.c.s
+.PHONY : libs/Lua/source/lua.c.s
+
+libs/Lua/source/luac.o: libs/Lua/source/luac.c.o
+.PHONY : libs/Lua/source/luac.o
+
+# target to build an object file
+libs/Lua/source/luac.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/luac.c.o
+.PHONY : libs/Lua/source/luac.c.o
+
+libs/Lua/source/luac.i: libs/Lua/source/luac.c.i
+.PHONY : libs/Lua/source/luac.i
+
+# target to preprocess a source file
+libs/Lua/source/luac.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/luac.c.i
+.PHONY : libs/Lua/source/luac.c.i
+
+libs/Lua/source/luac.s: libs/Lua/source/luac.c.s
+.PHONY : libs/Lua/source/luac.s
+
+# target to generate assembly for a file
+libs/Lua/source/luac.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/luac.c.s
+.PHONY : libs/Lua/source/luac.c.s
+
+libs/Lua/source/lundump.o: libs/Lua/source/lundump.c.o
+.PHONY : libs/Lua/source/lundump.o
+
+# target to build an object file
+libs/Lua/source/lundump.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lundump.c.o
+.PHONY : libs/Lua/source/lundump.c.o
+
+libs/Lua/source/lundump.i: libs/Lua/source/lundump.c.i
+.PHONY : libs/Lua/source/lundump.i
+
+# target to preprocess a source file
+libs/Lua/source/lundump.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lundump.c.i
+.PHONY : libs/Lua/source/lundump.c.i
+
+libs/Lua/source/lundump.s: libs/Lua/source/lundump.c.s
+.PHONY : libs/Lua/source/lundump.s
+
+# target to generate assembly for a file
+libs/Lua/source/lundump.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lundump.c.s
+.PHONY : libs/Lua/source/lundump.c.s
+
+libs/Lua/source/lvm.o: libs/Lua/source/lvm.c.o
+.PHONY : libs/Lua/source/lvm.o
+
+# target to build an object file
+libs/Lua/source/lvm.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lvm.c.o
+.PHONY : libs/Lua/source/lvm.c.o
+
+libs/Lua/source/lvm.i: libs/Lua/source/lvm.c.i
+.PHONY : libs/Lua/source/lvm.i
+
+# target to preprocess a source file
+libs/Lua/source/lvm.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lvm.c.i
+.PHONY : libs/Lua/source/lvm.c.i
+
+libs/Lua/source/lvm.s: libs/Lua/source/lvm.c.s
+.PHONY : libs/Lua/source/lvm.s
+
+# target to generate assembly for a file
+libs/Lua/source/lvm.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lvm.c.s
+.PHONY : libs/Lua/source/lvm.c.s
+
+libs/Lua/source/lzio.o: libs/Lua/source/lzio.c.o
+.PHONY : libs/Lua/source/lzio.o
+
+# target to build an object file
+libs/Lua/source/lzio.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lzio.c.o
+.PHONY : libs/Lua/source/lzio.c.o
+
+libs/Lua/source/lzio.i: libs/Lua/source/lzio.c.i
+.PHONY : libs/Lua/source/lzio.i
+
+# target to preprocess a source file
+libs/Lua/source/lzio.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lzio.c.i
+.PHONY : libs/Lua/source/lzio.c.i
+
+libs/Lua/source/lzio.s: libs/Lua/source/lzio.c.s
+.PHONY : libs/Lua/source/lzio.s
+
+# target to generate assembly for a file
+libs/Lua/source/lzio.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/lzio.c.s
+.PHONY : libs/Lua/source/lzio.c.s
+
+libs/Lua/source/print.o: libs/Lua/source/print.c.o
+.PHONY : libs/Lua/source/print.o
+
+# target to build an object file
+libs/Lua/source/print.c.o:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/print.c.o
+.PHONY : libs/Lua/source/print.c.o
+
+libs/Lua/source/print.i: libs/Lua/source/print.c.i
+.PHONY : libs/Lua/source/print.i
+
+# target to preprocess a source file
+libs/Lua/source/print.c.i:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/print.c.i
+.PHONY : libs/Lua/source/print.c.i
+
+libs/Lua/source/print.s: libs/Lua/source/print.c.s
+.PHONY : libs/Lua/source/print.s
+
+# target to generate assembly for a file
+libs/Lua/source/print.c.s:
+	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/Lua/source/print.c.s
+.PHONY : libs/Lua/source/print.c.s
+
 src/Nen/Audio/MusicSystem.o: src/Nen/Audio/MusicSystem.cpp.o
 .PHONY : src/Nen/Audio/MusicSystem.o
 
@@ -1288,6 +2056,102 @@ help:
 	@echo "... libs/ImGui/source/gles/imgui_widgets.o"
 	@echo "... libs/ImGui/source/gles/imgui_widgets.i"
 	@echo "... libs/ImGui/source/gles/imgui_widgets.s"
+	@echo "... libs/Lua/source/lapi.o"
+	@echo "... libs/Lua/source/lapi.i"
+	@echo "... libs/Lua/source/lapi.s"
+	@echo "... libs/Lua/source/lauxlib.o"
+	@echo "... libs/Lua/source/lauxlib.i"
+	@echo "... libs/Lua/source/lauxlib.s"
+	@echo "... libs/Lua/source/lbaselib.o"
+	@echo "... libs/Lua/source/lbaselib.i"
+	@echo "... libs/Lua/source/lbaselib.s"
+	@echo "... libs/Lua/source/lcode.o"
+	@echo "... libs/Lua/source/lcode.i"
+	@echo "... libs/Lua/source/lcode.s"
+	@echo "... libs/Lua/source/ldblib.o"
+	@echo "... libs/Lua/source/ldblib.i"
+	@echo "... libs/Lua/source/ldblib.s"
+	@echo "... libs/Lua/source/ldebug.o"
+	@echo "... libs/Lua/source/ldebug.i"
+	@echo "... libs/Lua/source/ldebug.s"
+	@echo "... libs/Lua/source/ldo.o"
+	@echo "... libs/Lua/source/ldo.i"
+	@echo "... libs/Lua/source/ldo.s"
+	@echo "... libs/Lua/source/ldump.o"
+	@echo "... libs/Lua/source/ldump.i"
+	@echo "... libs/Lua/source/ldump.s"
+	@echo "... libs/Lua/source/lfunc.o"
+	@echo "... libs/Lua/source/lfunc.i"
+	@echo "... libs/Lua/source/lfunc.s"
+	@echo "... libs/Lua/source/lgc.o"
+	@echo "... libs/Lua/source/lgc.i"
+	@echo "... libs/Lua/source/lgc.s"
+	@echo "... libs/Lua/source/linit.o"
+	@echo "... libs/Lua/source/linit.i"
+	@echo "... libs/Lua/source/linit.s"
+	@echo "... libs/Lua/source/liolib.o"
+	@echo "... libs/Lua/source/liolib.i"
+	@echo "... libs/Lua/source/liolib.s"
+	@echo "... libs/Lua/source/llex.o"
+	@echo "... libs/Lua/source/llex.i"
+	@echo "... libs/Lua/source/llex.s"
+	@echo "... libs/Lua/source/lmathlib.o"
+	@echo "... libs/Lua/source/lmathlib.i"
+	@echo "... libs/Lua/source/lmathlib.s"
+	@echo "... libs/Lua/source/lmem.o"
+	@echo "... libs/Lua/source/lmem.i"
+	@echo "... libs/Lua/source/lmem.s"
+	@echo "... libs/Lua/source/loadlib.o"
+	@echo "... libs/Lua/source/loadlib.i"
+	@echo "... libs/Lua/source/loadlib.s"
+	@echo "... libs/Lua/source/lobject.o"
+	@echo "... libs/Lua/source/lobject.i"
+	@echo "... libs/Lua/source/lobject.s"
+	@echo "... libs/Lua/source/lopcodes.o"
+	@echo "... libs/Lua/source/lopcodes.i"
+	@echo "... libs/Lua/source/lopcodes.s"
+	@echo "... libs/Lua/source/loslib.o"
+	@echo "... libs/Lua/source/loslib.i"
+	@echo "... libs/Lua/source/loslib.s"
+	@echo "... libs/Lua/source/lparser.o"
+	@echo "... libs/Lua/source/lparser.i"
+	@echo "... libs/Lua/source/lparser.s"
+	@echo "... libs/Lua/source/lstate.o"
+	@echo "... libs/Lua/source/lstate.i"
+	@echo "... libs/Lua/source/lstate.s"
+	@echo "... libs/Lua/source/lstring.o"
+	@echo "... libs/Lua/source/lstring.i"
+	@echo "... libs/Lua/source/lstring.s"
+	@echo "... libs/Lua/source/lstrlib.o"
+	@echo "... libs/Lua/source/lstrlib.i"
+	@echo "... libs/Lua/source/lstrlib.s"
+	@echo "... libs/Lua/source/ltable.o"
+	@echo "... libs/Lua/source/ltable.i"
+	@echo "... libs/Lua/source/ltable.s"
+	@echo "... libs/Lua/source/ltablib.o"
+	@echo "... libs/Lua/source/ltablib.i"
+	@echo "... libs/Lua/source/ltablib.s"
+	@echo "... libs/Lua/source/ltm.o"
+	@echo "... libs/Lua/source/ltm.i"
+	@echo "... libs/Lua/source/ltm.s"
+	@echo "... libs/Lua/source/lua.o"
+	@echo "... libs/Lua/source/lua.i"
+	@echo "... libs/Lua/source/lua.s"
+	@echo "... libs/Lua/source/luac.o"
+	@echo "... libs/Lua/source/luac.i"
+	@echo "... libs/Lua/source/luac.s"
+	@echo "... libs/Lua/source/lundump.o"
+	@echo "... libs/Lua/source/lundump.i"
+	@echo "... libs/Lua/source/lundump.s"
+	@echo "... libs/Lua/source/lvm.o"
+	@echo "... libs/Lua/source/lvm.i"
+	@echo "... libs/Lua/source/lvm.s"
+	@echo "... libs/Lua/source/lzio.o"
+	@echo "... libs/Lua/source/lzio.i"
+	@echo "... libs/Lua/source/lzio.s"
+	@echo "... libs/Lua/source/print.o"
+	@echo "... libs/Lua/source/print.i"
+	@echo "... libs/Lua/source/print.s"
 	@echo "... src/Nen/Audio/MusicSystem.o"
 	@echo "... src/Nen/Audio/MusicSystem.i"
 	@echo "... src/Nen/Audio/MusicSystem.s"

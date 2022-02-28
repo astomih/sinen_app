@@ -15,7 +15,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/runner/work/singa/singa/build/external/sinen/CMakeFiles/nen.dir/DependInfo.cmake"
-  "/home/runner/work/singa/singa/build/external/sinen_lua/CMakeFiles/nen_lua.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
