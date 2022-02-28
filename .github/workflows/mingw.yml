@@ -33,14 +33,6 @@ jobs:
           cd build
           ninja
           cd ../../../
-    - name: Build sinen_lua
-      run: |
-          cd external/sinen_lua
-          mkdir build
-          cmake -G "Ninja" -B build
-          cd build
-          ninja
-          cd ../../../
     - name: Configure CMake
       # Configure CMake in a 'build' subdirectory. `CMAKE_BUILD_TYPE` is only required if you are using a single-configuration generator such as make.
       # See https://cmake.org/cmake/help/latest/variable/CMAKE_BUILD_TYPE.html?highlight=cmake_build_type

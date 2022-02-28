@@ -1,5 +1,3 @@
-local utility = require("utility")
-
 local hello_drawer = {}
 local hello_drawer2 = {}
 local hello_drawer3 = {}
