@@ -1186,30 +1186,6 @@ src/Nen/Font/Font.cpp.s:
 	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Font/Font.cpp.s
 .PHONY : src/Nen/Font/Font.cpp.s
 
-src/Nen/Font/font_system.o: src/Nen/Font/font_system.cpp.o
-.PHONY : src/Nen/Font/font_system.o
-
-# target to build an object file
-src/Nen/Font/font_system.cpp.o:
-	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Font/font_system.cpp.o
-.PHONY : src/Nen/Font/font_system.cpp.o
-
-src/Nen/Font/font_system.i: src/Nen/Font/font_system.cpp.i
-.PHONY : src/Nen/Font/font_system.i
-
-# target to preprocess a source file
-src/Nen/Font/font_system.cpp.i:
-	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Font/font_system.cpp.i
-.PHONY : src/Nen/Font/font_system.cpp.i
-
-src/Nen/Font/font_system.s: src/Nen/Font/font_system.cpp.s
-.PHONY : src/Nen/Font/font_system.s
-
-# target to generate assembly for a file
-src/Nen/Font/font_system.cpp.s:
-	cd /home/runner/work/singa/singa/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Font/font_system.cpp.s
-.PHONY : src/Nen/Font/font_system.cpp.s
-
 src/Nen/GUI/Button.o: src/Nen/GUI/Button.cpp.o
 .PHONY : src/Nen/GUI/Button.o
 
@@ -2167,9 +2143,6 @@ help:
 	@echo "... src/Nen/Font/Font.o"
 	@echo "... src/Nen/Font/Font.i"
 	@echo "... src/Nen/Font/Font.s"
-	@echo "... src/Nen/Font/font_system.o"
-	@echo "... src/Nen/Font/font_system.i"
-	@echo "... src/Nen/Font/font_system.s"
 	@echo "... src/Nen/GUI/Button.o"
 	@echo "... src/Nen/GUI/Button.i"
 	@echo "... src/Nen/GUI/Button.s"

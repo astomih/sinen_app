@@ -87,8 +87,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/nen.dir/src/Nen/Color/Color.cpp.o.d"
   "CMakeFiles/nen.dir/src/Nen/Font/Font.cpp.o"
   "CMakeFiles/nen.dir/src/Nen/Font/Font.cpp.o.d"
-  "CMakeFiles/nen.dir/src/Nen/Font/font_system.cpp.o"
-  "CMakeFiles/nen.dir/src/Nen/Font/font_system.cpp.o.d"
   "CMakeFiles/nen.dir/src/Nen/GUI/Button.cpp.o"
   "CMakeFiles/nen.dir/src/Nen/GUI/Button.cpp.o.d"
   "CMakeFiles/nen.dir/src/Nen/GUI/DialogBox.cpp.o"
