@@ -4,10 +4,13 @@ local hello_drawer3 = {}
 local hello_texture = {}
 local hello_texture2 = {}
 local hello_font = {}
+local vmusic = {}
+local vsound = {}
 
 function setup()
     hello_texture = texture()
-    hello_texture:fill_color(color(1, 1, 1, 1))
+    hello_texture:load("rect.png")
+    -- hello_texture:fill_color(color(1, 1, 1, 1))
     hello_texture2 = texture()
     hello_drawer = draw2d(hello_texture2)
     hello_drawer.scale = vector2(1, 1)
@@ -28,22 +31,27 @@ function setup()
     hello_drawer3.position = vector3(1, 0, 0)
     hello_drawer3.scale = vector3(1, 1, 1)
     hello_drawer3.rotation = vector3(0, 0, 0)
+
+    vmusic = music()
+    vmusic:load("Stage1.ogg")
+    vmusic:play()
+
+    vsound = sound()
+    vsound:load("shot.wav")
 end
 
 function update()
-    if keyboard:is_key_down(key_code.SPACE) then
+    if keyboard:is_key_down(keySPACE) then
         hello_drawer.rotation = hello_drawer.rotation + 2 * delta_time
         hello_drawer2.rotation = hello_drawer2.rotation + 5 * delta_time
 
-        hello_drawer3:draw()
+        -- hello_drawer3:draw()
         hello_drawer3.rotation.z = hello_drawer3.rotation.z + 5 * delta_time
         -- body
     end
+    if keyboard:get_key_state(keyZ) == buttonPRESSED then vsound:play() end
     hello_drawer:draw()
-    if mouse:is_button_down(mouse_code.LEFT) then
-        hello_drawer2.position.x = (mouse:get_position().x - 640) * 2
-        hello_drawer2.position.y = -(mouse:get_position().y - 780 / 2) * 2
-    end
+    hello_drawer2.position.x = (mouse:get_position().x - 640) * 2
+    hello_drawer2.position.y = -(mouse:get_position().y - 780 / 2) * 2
     hello_drawer2:draw()
-    print(mouse:is_button_down(mouse_button.LEFT))
 end
