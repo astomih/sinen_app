@@ -45,7 +45,6 @@ Debug
 CMakeFiles
 CMakeCache.txt
 *.data
-*.html
 *.js
 *.wasm
 *.cap
