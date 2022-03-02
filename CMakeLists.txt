@@ -45,9 +45,10 @@ elseif(EMSCRIPTEN)
 		-s USE_SDL_TTF=2 \
 		-s USE_SDL_MIXER=2 \
 		-s USE_SDL_NET=2 \
-		--embed-file data \
+		--preload-file data \
 		-s WASM=1 \
 		-s ALLOW_MEMORY_GROWTH \
+		--shell-file shell_minimum.html \
 		-std=c++20"
 	)
 	set(CMAKE_EXECUTABLE_SUFFIX ".html")
