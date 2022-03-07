@@ -1,5 +1,5 @@
-# singa
-made with sinen
+# sinen app
+sinen application template
 ## Supported platforms
 [![Windows(MinGW)](https://github.com/astomih/utilis/actions/workflows/mingw.yml/badge.svg)](https://github.com/astomih/utilis/actions/workflows/mingw.yml)
 [![Linux](https://github.com/astomih/utilis/actions/workflows/linux.yml/badge.svg)](https://github.com/astomih/utilis/actions/workflows/linux.yml)

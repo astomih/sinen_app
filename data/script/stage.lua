@@ -1,3 +1,3 @@
 function setup() end
 
-function update() end
+function update() print("aa") end

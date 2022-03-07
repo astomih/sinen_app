@@ -10,7 +10,11 @@ function setup()
     hello_font:render_text(hello_texture, "Hello Sinen World!",
                            color(1, 1, 1, 1), 2, color(1, 1, 1, 1))
     hello_drawer.scale = hello_texture:size()
-
+    hello_drawer.position = vector2(1280, 0)
+    print("a")
 end
 
-function update() hello_drawer:draw() end
+function update()
+    hello_drawer:draw()
+    if keyboard:is_key_down(keySPACE) then change_scene("stage") end
+end
