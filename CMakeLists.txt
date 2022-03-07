@@ -48,6 +48,7 @@ elseif(EMSCRIPTEN)
 		--pre-js=pre.js \
 		-s WASM=1 \
 		-s ALLOW_MEMORY_GROWTH \
+		-s FORCE_FILESYSTEM=1 \
 		--shell-file shell_minimum.html \
 		-std=c++20"
 	)
@@ -111,10 +112,10 @@ else()
 	endif(WIN32)
 	add_subdirectory(./external/sinen)
 
-	add_executable(sinen_game
+	add_executable(sinen_app
 		${SOURCE_FILES}
 	)
-	target_link_libraries(sinen_game 
+	target_link_libraries(sinen_app 
 		${LIBRARIES}
 	)
 endif()
