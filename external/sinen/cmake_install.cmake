@@ -1,8 +1,8 @@
-# Install script for directory: /home/runner/work/singa/singa/external/sinen
+# Install script for directory: /home/runner/work/sinen_app/sinen_app/external/sinen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/runner/work/_temp/e99fa8c4-da5d-4d38-a8d1-4f3b2afc965f/emsdk-main/upstream/emscripten/cache/sysroot")
+  set(CMAKE_INSTALL_PREFIX "/home/runner/work/_temp/80e53adc-271b-46da-8cfb-fec966c01be6/emsdk-main/upstream/emscripten/cache/sysroot")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

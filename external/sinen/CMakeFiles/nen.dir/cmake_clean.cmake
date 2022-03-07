@@ -151,6 +151,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/nen.dir/src/Nen/Vertex/sprite.cpp.o.d"
   "CMakeFiles/nen.dir/src/Nen/Window/Window.cpp.o"
   "CMakeFiles/nen.dir/src/Nen/Window/Window.cpp.o.d"
+  "CMakeFiles/nen.dir/src/Nen/draw_object/draw_object_wrapper.cpp.o"
+  "CMakeFiles/nen.dir/src/Nen/draw_object/draw_object_wrapper.cpp.o.d"
   "CMakeFiles/nen.dir/src/Nen/instancing/instancing.cpp.o"
   "CMakeFiles/nen.dir/src/Nen/instancing/instancing.cpp.o.d"
   "CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.o"

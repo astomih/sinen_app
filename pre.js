@@ -1,0 +1,64 @@
+Module['preRun'] = function () {
+    FS.mkdir('/data');
+    FS.mkdir('/data/font');
+    FS.mkdir('/data/font/mplus');
+    FS.mkdir('/data/model');
+    FS.mkdir('/data/music');
+    FS.mkdir('/data/script');
+    FS.mkdir('/data/shader');
+    FS.mkdir('/data/shader/GL');
+    FS.mkdir('/data/sound');
+    FS.mkdir('/data/texture');
+
+    FS.createPreloadedFile(
+        '/data/font/mplus',
+        'mplus-1p-medium.ttf',
+        '/data/font/mplus/mplus-1p-medium.ttf',
+        true,
+        false
+    );
+    FS.createPreloadedFile(
+        '/data/shader/GL',
+        'alpha.frag',
+        '/data/shader/GL/alpha.frag',
+        true,
+        false
+    );
+    FS.createPreloadedFile(
+        '/data/shader/GL',
+        'shader.frag',
+        '/data/shader/GL/shader.frag',
+        true,
+        false
+    );
+    FS.createPreloadedFile(
+        '/data/shader/GL',
+        'shader_instance.vert',
+        '/data/shader/GL/shader_instance.vert',
+        true,
+        false
+    );
+    FS.createPreloadedFile(
+        '/data/shader/GL',
+        'shader.vert',
+        '/data/shader/GL/shader.vert',
+        true,
+        false
+    );
+    FS.createPreloadedFile(
+        '/data/texture',
+        'rect.png',
+        '/data/texture/rect.png',
+        true,
+        false
+    );
+
+    FS.createPreloadedFile(
+        '/data/script',
+        'main.lua',
+        '/data/script/main.lua',
+        true,
+        false
+    );
+
+};
