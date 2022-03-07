@@ -45,10 +45,9 @@ elseif(EMSCRIPTEN)
 		-s USE_SDL_TTF=2 \
 		-s USE_SDL_MIXER=2 \
 		-s USE_SDL_NET=2 \
-		--pre-js=pre.js \
 		-s WASM=1 \
+		--preload-file=./data \
 		-s ALLOW_MEMORY_GROWTH \
-		-s FORCE_FILESYSTEM=1 \
 		--shell-file shell_minimum.html \
 		-std=c++20"
 	)
