@@ -45,7 +45,6 @@ Debug
 CMakeFiles
 CMakeCache.txt
 *.data
-*.js
 *.wasm
 *.cap
 model_converter/build
