@@ -1,3 +1,3 @@
 function setup() end
 
-function update() print("ウンコ") end
+function update() print("") end
