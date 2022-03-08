@@ -10,7 +10,7 @@ enum class load_state { version, vertex, indices };
 
 void model::load(std::string_view str) {
   std::stringstream data;
-  data << nen::asset_reader::LoadAsString(nen::asset_type::Model, str);
+  data << nen::data_io::LoadAsString(nen::asset_type::Model, str);
   std::string line;
   load_state state = load_state::version;
   std::string version;
