@@ -49,6 +49,9 @@ CMakeCache.txt
 *.cap
 model_converter/build
 build
+build_debug
+build_release
+build_web
 cmake_install.cmake
 Makefile
 *.ninja
@@ -58,9 +61,7 @@ Makefile
 api
 imgui.ini
 *.code-workspace
-android-project/gradle/wrapper/gradle - ショートカット.lnk
 *.mtl
 *.obj
 .clang-format
 build/Assets/.gitkeep
-embuild

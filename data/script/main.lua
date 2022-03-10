@@ -15,5 +15,5 @@ end
 
 function update()
     hello_drawer:draw()
-    if keyboard:is_key_down(keySPACE) then change_scene("stage") end
+    if keyboard:is_key_down(keyF10) then change_scene("stage") end
 end
