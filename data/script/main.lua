@@ -8,11 +8,8 @@ function setup()
     hello_font = font()
     hello_font:load(DEFAULT_FONT, 64)
     hello_font:render_text(hello_texture, "Hello Sinen World!",
-                           color(1, 1, 1, 1), 2, color(1, 1, 1, 1))
+                           color(1, 1, 1, 1))
     hello_drawer.scale = hello_texture:size()
-    hello_drawer.position = vector2(0, 0)
 end
 
-function update()
-    hello_drawer:draw()
-end
+function update() hello_drawer:draw() end
