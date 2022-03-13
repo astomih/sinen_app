@@ -206,7 +206,7 @@ Module['FS_createPath']("/data", "script", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/data/font/mplus/mplus-1p-medium.ttf", "start": 0, "end": 1745612}, {"filename": "/data/music/Stage1.ogg", "start": 1745612, "end": 2171666, "audio": 1}, {"filename": "/data/model/bullet.sim", "start": 2171666, "end": 2174445}, {"filename": "/data/model/spider.sim", "start": 2174445, "end": 2193952}, {"filename": "/data/model/player.sim", "start": 2193952, "end": 2219809}, {"filename": "/data/model/wall_box.sim", "start": 2219809, "end": 2222606}, {"filename": "/data/texture/rect.png", "start": 2222606, "end": 2222726}, {"filename": "/data/sound/shot.wav", "start": 2222726, "end": 2349256, "audio": 1}, {"filename": "/data/shader/GL/shader.frag", "start": 2349256, "end": 2350462}, {"filename": "/data/shader/GL/shader.vert", "start": 2350462, "end": 2351098}, {"filename": "/data/shader/GL/shader_instance.vert", "start": 2351098, "end": 2351969}, {"filename": "/data/shader/GL/alpha.frag", "start": 2351969, "end": 2352162}, {"filename": "/data/shader/Vulkan/vkshaderAlpha.frag", "start": 2352162, "end": 2352418}, {"filename": "/data/shader/Vulkan/shader.vert.spv", "start": 2352418, "end": 2355090}, {"filename": "/data/shader/Vulkan/compile.bat", "start": 2355090, "end": 2355475}, {"filename": "/data/shader/Vulkan/vk_shader_instance.vert", "start": 2355475, "end": 2356449}, {"filename": "/data/shader/Vulkan/shader_instance.vert.spv", "start": 2356449, "end": 2359073}, {"filename": "/data/shader/Vulkan/vkshaderPlain.frag", "start": 2359073, "end": 2360365}, {"filename": "/data/shader/Vulkan/vkshader.vert", "start": 2360365, "end": 2361361}, {"filename": "/data/shader/Vulkan/vkshaderOpaque.frag", "start": 2361361, "end": 2362674}, {"filename": "/data/shader/Vulkan/shaderAlpha.frag.spv", "start": 2362674, "end": 2363414}, {"filename": "/data/shader/Vulkan/shaderOpaque.frag.spv", "start": 2363414, "end": 2366934}, {"filename": "/data/shader/Vulkan/shaderPlain.frag.spv", "start": 2366934, "end": 2370274}, {"filename": "/data/script/main.lua", "start": 2370274, "end": 2370767}], "remote_package_size": 2370767, "package_uuid": "7f12799d-b3be-473d-a9a8-bcb49451367c"});
+    loadPackage({"files": [{"filename": "/data/font/mplus/mplus-1p-medium.ttf", "start": 0, "end": 1745612}, {"filename": "/data/music/Stage1.ogg", "start": 1745612, "end": 2171666, "audio": 1}, {"filename": "/data/model/bullet.sim", "start": 2171666, "end": 2174445}, {"filename": "/data/model/spider.sim", "start": 2174445, "end": 2193952}, {"filename": "/data/model/player.sim", "start": 2193952, "end": 2219809}, {"filename": "/data/model/wall_box.sim", "start": 2219809, "end": 2222606}, {"filename": "/data/texture/rect.png", "start": 2222606, "end": 2222726}, {"filename": "/data/sound/shot.wav", "start": 2222726, "end": 2349256, "audio": 1}, {"filename": "/data/shader/GL/shader.frag", "start": 2349256, "end": 2350462}, {"filename": "/data/shader/GL/shader.vert", "start": 2350462, "end": 2351098}, {"filename": "/data/shader/GL/shader_instance.vert", "start": 2351098, "end": 2351969}, {"filename": "/data/shader/GL/alpha.frag", "start": 2351969, "end": 2352162}, {"filename": "/data/shader/Vulkan/vkshaderAlpha.frag", "start": 2352162, "end": 2352418}, {"filename": "/data/shader/Vulkan/shader.vert.spv", "start": 2352418, "end": 2355090}, {"filename": "/data/shader/Vulkan/compile.bat", "start": 2355090, "end": 2355475}, {"filename": "/data/shader/Vulkan/vk_shader_instance.vert", "start": 2355475, "end": 2356449}, {"filename": "/data/shader/Vulkan/shader_instance.vert.spv", "start": 2356449, "end": 2359073}, {"filename": "/data/shader/Vulkan/vkshaderPlain.frag", "start": 2359073, "end": 2360365}, {"filename": "/data/shader/Vulkan/vkshader.vert", "start": 2360365, "end": 2361361}, {"filename": "/data/shader/Vulkan/vkshaderOpaque.frag", "start": 2361361, "end": 2362674}, {"filename": "/data/shader/Vulkan/shaderAlpha.frag.spv", "start": 2362674, "end": 2363414}, {"filename": "/data/shader/Vulkan/shaderOpaque.frag.spv", "start": 2363414, "end": 2366934}, {"filename": "/data/shader/Vulkan/shaderPlain.frag.spv", "start": 2366934, "end": 2370274}, {"filename": "/data/script/main.lua", "start": 2370274, "end": 2370699}], "remote_package_size": 2370699, "package_uuid": "49088fec-e415-4317-b489-d72ac653797d"});
 
   })();
 
@@ -13621,13 +13621,13 @@ var stackRestore = Module["stackRestore"] = createExportWrapper("stackRestore");
 var stackAlloc = Module["stackAlloc"] = createExportWrapper("stackAlloc");
 
 /** @type {function(...*):?} */
-var dynCall_iiji = Module["dynCall_iiji"] = createExportWrapper("dynCall_iiji");
-
-/** @type {function(...*):?} */
 var dynCall_ji = Module["dynCall_ji"] = createExportWrapper("dynCall_ji");
 
 /** @type {function(...*):?} */
 var dynCall_jiji = Module["dynCall_jiji"] = createExportWrapper("dynCall_jiji");
+
+/** @type {function(...*):?} */
+var dynCall_iiji = Module["dynCall_iiji"] = createExportWrapper("dynCall_iiji");
 
 /** @type {function(...*):?} */
 var dynCall_viijii = Module["dynCall_viijii"] = createExportWrapper("dynCall_viijii");
@@ -13653,21 +13653,10 @@ function invoke_vii(index,a1,a2) {
   }
 }
 
-function invoke_viiii(index,a1,a2,a3,a4) {
+function invoke_ii(index,a1) {
   var sp = stackSave();
   try {
-    getWasmTableEntry(index)(a1,a2,a3,a4);
-  } catch(e) {
-    stackRestore(sp);
-    if (e !== e+0) throw e;
-    _setThrew(1, 0);
-  }
-}
-
-function invoke_iii(index,a1,a2) {
-  var sp = stackSave();
-  try {
-    return getWasmTableEntry(index)(a1,a2);
+    return getWasmTableEntry(index)(a1);
   } catch(e) {
     stackRestore(sp);
     if (e !== e+0) throw e;
@@ -13708,10 +13697,10 @@ function invoke_vi(index,a1) {
   }
 }
 
-function invoke_ii(index,a1) {
+function invoke_iii(index,a1,a2) {
   var sp = stackSave();
   try {
-    return getWasmTableEntry(index)(a1);
+    return getWasmTableEntry(index)(a1,a2);
   } catch(e) {
     stackRestore(sp);
     if (e !== e+0) throw e;
@@ -13767,6 +13756,17 @@ function invoke_i(index) {
   var sp = stackSave();
   try {
     return getWasmTableEntry(index)();
+  } catch(e) {
+    stackRestore(sp);
+    if (e !== e+0) throw e;
+    _setThrew(1, 0);
+  }
+}
+
+function invoke_viiii(index,a1,a2,a3,a4) {
+  var sp = stackSave();
+  try {
+    getWasmTableEntry(index)(a1,a2,a3,a4);
   } catch(e) {
     stackRestore(sp);
     if (e !== e+0) throw e;
