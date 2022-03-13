@@ -1,34 +1,29 @@
 cmake_minimum_required(VERSION 3.7)
-project(utilis)
+project(sinen_app)
+file(GLOB SOURCE_FILES
+	src/*/*.cpp
+	src/*.cpp
+)
+file(GLOB INCLUDE_DIRS
+	external/sinen/include
+	external/sinen/include/Nen
+)
 if(ANDROID)
 	set(CMAKE_CXX_FLAGS "-std=c++20")
-	file(GLOB SOURCE_FILES
-			./src/*/*.cpp
-			./src/*.cpp
-			)
 	add_library(main STATIC ${SOURCE_FILES})
 	find_library(nen nen)
 	target_link_libraries(main nen)
 	target_include_directories(main PUBLIC 
-		./external/sinen/include
+		${INCLUDE_DIRS}
 	)
 elseif(EMSCRIPTEN)
 	add_subdirectory(./external/sinen)
-	set(CMAKE_BUILD_TYPE_INIT "Release")
 	set(CMAKE_C_COMPILER "emcc")
-	file(GLOB SOURCE_FILES
-			src/*/*.cpp
-			src/*.cpp
-	)
 	add_executable(index ${SOURCE_FILES})
 	target_link_directories(index PUBLIC
 		.
 	)
 	target_link_libraries(index nen)
-	file(GLOB INCLUDE_DIRS
-		external/sinen/include
-		external/sinen/include/Nen
-		)
 	target_include_directories(index PUBLIC
 		${INCLUDE_DIRS}
 	)
@@ -58,7 +53,6 @@ else()
 	else()
 		set(CMAKE_CXX_FLAGS "-std=c++2a")
 	endif()
-	set(CMAKE_BUILD_TYPE "Release")
 	set(CMAKE_CXX_FLAGS "-O2 -march=native")
 	set(CMAKE_EXPORT_COMPILE_COMMANDS true)
 
@@ -67,18 +61,6 @@ else()
 	find_package(GLEW REQUIRED)
 	find_package(SDL2 REQUIRED)
 	find_package(OpenAL REQUIRED)
-
-
-	file(GLOB SOURCE_FILES
-		./src/*/*.cpp 
-		./src/*.cpp
-	)
-
-	include_directories(
-		./external/sinen/include
-	)
-	link_directories(
-	)
 	if(WIN32)
 		set(LIBRARIES
 			nen
@@ -113,6 +95,9 @@ else()
 
 	add_executable(sinen_app
 		${SOURCE_FILES}
+	)
+	target_include_directories(sinen_app PUBLIC
+		${INCLUDE_DIRS}
 	)
 	target_link_libraries(sinen_app 
 		${LIBRARIES}
