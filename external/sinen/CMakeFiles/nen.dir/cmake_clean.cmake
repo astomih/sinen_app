@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_tables.cpp.o.d"
   "CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_widgets.cpp.o"
   "CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_widgets.cpp.o.d"
+  "CMakeFiles/nen.dir/libs/ImGuiColorTextEdit/TextEditor.cpp.o"
+  "CMakeFiles/nen.dir/libs/ImGuiColorTextEdit/TextEditor.cpp.o.d"
   "CMakeFiles/nen.dir/libs/Lua/source/lapi.c.o"
   "CMakeFiles/nen.dir/libs/Lua/source/lapi.c.o.d"
   "CMakeFiles/nen.dir/libs/Lua/source/lauxlib.c.o"

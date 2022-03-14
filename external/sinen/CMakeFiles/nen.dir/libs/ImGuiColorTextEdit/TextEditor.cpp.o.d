@@ -1,105 +1,29 @@
-external/sinen/CMakeFiles/nen.dir/src/Nen/Texture/texture_system.cpp.o: \
-  /home/runner/work/sinen_app/sinen_app/external/sinen/src/Nen/Texture/texture_system.cpp \
-  /home/runner/work/sinen_app/sinen_app/external/sinen/src/Nen/Texture/texture_system.hpp \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_main.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_stdinc.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_platform.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/begin_code.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/close_code.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_config_emscripten.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/sys/types.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/features.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/endian.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/sys/select.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stdio.h \
+external/sinen/CMakeFiles/nen.dir/libs/ImGuiColorTextEdit/TextEditor.cpp.o: \
+  /home/runner/work/sinen_app/sinen_app/external/sinen/libs/ImGuiColorTextEdit/TextEditor.cpp \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/algorithm \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__config_site \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/pthread.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/stdio.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__debug \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/iosfwd \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/wchar.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/wchar.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stddef.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/lib/clang/15.0.0/include/stddef.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__nullptr \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stdint.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/lib/clang/15.0.0/include/stdint.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/stdint.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stdlib.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/stdlib.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/alloca.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/lib/clang/15.0.0/include/stdarg.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bits \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__undef_macros \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstddef \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/version \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstring \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/string.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/string.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/string.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/strings.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/wchar.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/wchar.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/wchar.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/inttypes.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/lib/clang/15.0.0/include/inttypes.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/inttypes.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/ctype.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/ctype.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/ctype.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/math.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/math.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/math.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/type_traits \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstddef \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/version \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/limits \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__undef_macros \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_assert.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/signal.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/signal.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_audio.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_endian.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mutex.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_thread.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_clipboard.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_cpuinfo.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_events.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_video.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_pixels.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rect.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_surface.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_blendmode.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keyboard.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_keycode.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_scancode.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_mouse.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_joystick.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_quit.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gesture.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_filesystem.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_haptic.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hidapi.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_hints.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_loadso.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_log.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_messagebox.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_metal.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_power.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_render.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_shape.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_system.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_timer.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
-  /home/runner/work/sinen_app/sinen_app/external/sinen/include/Nen/Utility/handler.hpp \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/functional \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/search.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp.h \
@@ -110,6 +34,7 @@ external/sinen/CMakeFiles/nen.dir/src/Nen/Texture/texture_system.cpp.o: \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/weak_result_type.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binary_function.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/unary_function.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/type_traits \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/forward.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional_base \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/operations.h \
@@ -120,16 +45,23 @@ external/sinen/CMakeFiles/nen.dir/src/Nen/Texture/texture_system.cpp.o: \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/exception \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__availability \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstdlib \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stdlib.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/alloca.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/new \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/typeinfo \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstdint \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stdint.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/lib/clang/15.0.0/include/stdint.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/utility \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__debug \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/iosfwd \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/as_const.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/move.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/cmp.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/limits \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/declval.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/exchange.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/in_place.h \
@@ -162,7 +94,6 @@ external/sinen/CMakeFiles/nen.dir/src/Nen/Texture/texture_system.cpp.o: \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stdexcept \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/unique_ptr.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/hash.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstring \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/atomic \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__threading_support \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/chrono \
@@ -178,6 +109,7 @@ external/sinen/CMakeFiles/nen.dir/src/Nen/Texture/texture_system.cpp.o: \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/errno.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/errno.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/errno.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/wasi/api.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/sched.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/semaphore.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/fcntl.h \
@@ -230,11 +162,6 @@ external/sinen/CMakeFiles/nen.dir/src/Nen/Texture/texture_system.cpp.o: \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/pointer_to_unary_function.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/ranges_operations.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/unary_negate.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/unordered_map \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/is_transparent.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__hash_table \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bits \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/algorithm \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/adjacent_find.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/all_of.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/any_of.h \
@@ -328,16 +255,54 @@ external/sinen/CMakeFiles/nen.dir/src/Nen/Texture/texture_system.cpp.o: \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unique_copy.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unique.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cmath \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__node_handle \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/optional \
-  /home/runner/work/sinen_app/sinen_app/external/sinen/include/Nen/Utility/handle_t.hpp \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/string_view \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/enable_view.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__string \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/math.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/math.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/regex \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__locale \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/string \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstdio \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stdio.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/stdio.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cwchar \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cwctype \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cctype \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/ctype.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/ctype.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/ctype.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/wctype.h \
   /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/wctype.h \
-  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/wctype.h
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/wctype.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/string_view \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/enable_view.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__string \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/mutex \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__mutex_base \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/system_error \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__errc \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cerrno \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/locale.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/locale.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/xlocale.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/deque \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__split_buffer \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/vector \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bit_reference \
+  /home/runner/work/sinen_app/sinen_app/external/sinen/libs/ImGuiColorTextEdit/TextEditor.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/array \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/unordered_set \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/is_transparent.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__hash_table \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__node_handle \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/optional \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/unordered_map \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/map \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tree \
+  /home/runner/work/sinen_app/sinen_app/external/sinen/libs/ImGui/include/imgui.h \
+  /home/runner/work/sinen_app/sinen_app/external/sinen/libs/ImGui/include/imconfig.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/float.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/lib/clang/15.0.0/include/float.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/float.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/lib/clang/15.0.0/include/stdarg.h \
+  /home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/cache/sysroot/include/assert.h

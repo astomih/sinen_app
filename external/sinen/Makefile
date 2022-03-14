@@ -298,6 +298,30 @@ libs/ImGui/source/gles/imgui_widgets.cpp.s:
 	cd /home/runner/work/sinen_app/sinen_app/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGui/source/gles/imgui_widgets.cpp.s
 .PHONY : libs/ImGui/source/gles/imgui_widgets.cpp.s
 
+libs/ImGuiColorTextEdit/TextEditor.o: libs/ImGuiColorTextEdit/TextEditor.cpp.o
+.PHONY : libs/ImGuiColorTextEdit/TextEditor.o
+
+# target to build an object file
+libs/ImGuiColorTextEdit/TextEditor.cpp.o:
+	cd /home/runner/work/sinen_app/sinen_app/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGuiColorTextEdit/TextEditor.cpp.o
+.PHONY : libs/ImGuiColorTextEdit/TextEditor.cpp.o
+
+libs/ImGuiColorTextEdit/TextEditor.i: libs/ImGuiColorTextEdit/TextEditor.cpp.i
+.PHONY : libs/ImGuiColorTextEdit/TextEditor.i
+
+# target to preprocess a source file
+libs/ImGuiColorTextEdit/TextEditor.cpp.i:
+	cd /home/runner/work/sinen_app/sinen_app/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGuiColorTextEdit/TextEditor.cpp.i
+.PHONY : libs/ImGuiColorTextEdit/TextEditor.cpp.i
+
+libs/ImGuiColorTextEdit/TextEditor.s: libs/ImGuiColorTextEdit/TextEditor.cpp.s
+.PHONY : libs/ImGuiColorTextEdit/TextEditor.s
+
+# target to generate assembly for a file
+libs/ImGuiColorTextEdit/TextEditor.cpp.s:
+	cd /home/runner/work/sinen_app/sinen_app/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/libs/ImGuiColorTextEdit/TextEditor.cpp.s
+.PHONY : libs/ImGuiColorTextEdit/TextEditor.cpp.s
+
 libs/Lua/source/lapi.o: libs/Lua/source/lapi.c.o
 .PHONY : libs/Lua/source/lapi.o
 
@@ -2056,6 +2080,9 @@ help:
 	@echo "... libs/ImGui/source/gles/imgui_widgets.o"
 	@echo "... libs/ImGui/source/gles/imgui_widgets.i"
 	@echo "... libs/ImGui/source/gles/imgui_widgets.s"
+	@echo "... libs/ImGuiColorTextEdit/TextEditor.o"
+	@echo "... libs/ImGuiColorTextEdit/TextEditor.i"
+	@echo "... libs/ImGuiColorTextEdit/TextEditor.s"
 	@echo "... libs/Lua/source/lapi.o"
 	@echo "... libs/Lua/source/lapi.i"
 	@echo "... libs/Lua/source/lapi.s"
