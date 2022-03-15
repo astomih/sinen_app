@@ -14,7 +14,3 @@ end
 function update()
 	hello_drawer:draw()
 end
-
-
-
-
