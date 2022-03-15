@@ -87,7 +87,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/runner/work/sinen_app/sinen_app/external/sinen/src/Nen/Window/Window.cpp" "external/sinen/CMakeFiles/nen.dir/src/Nen/Window/Window.cpp.o" "gcc" "external/sinen/CMakeFiles/nen.dir/src/Nen/Window/Window.cpp.o.d"
   "/home/runner/work/sinen_app/sinen_app/external/sinen/src/Nen/draw_object/draw_object_wrapper.cpp" "external/sinen/CMakeFiles/nen.dir/src/Nen/draw_object/draw_object_wrapper.cpp.o" "gcc" "external/sinen/CMakeFiles/nen.dir/src/Nen/draw_object/draw_object_wrapper.cpp.o.d"
   "/home/runner/work/sinen_app/sinen_app/external/sinen/src/Nen/instancing/instancing.cpp" "external/sinen/CMakeFiles/nen.dir/src/Nen/instancing/instancing.cpp.o" "gcc" "external/sinen/CMakeFiles/nen.dir/src/Nen/instancing/instancing.cpp.o.d"
+  "/home/runner/work/sinen_app/sinen_app/external/sinen/src/Nen/instancing/instancing_wrapper.cpp" "external/sinen/CMakeFiles/nen.dir/src/Nen/instancing/instancing_wrapper.cpp.o" "gcc" "external/sinen/CMakeFiles/nen.dir/src/Nen/instancing/instancing_wrapper.cpp.o.d"
   "/home/runner/work/sinen_app/sinen_app/external/sinen/src/Nen/manager/manager.cpp" "external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.o" "gcc" "external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.o.d"
+  "/home/runner/work/sinen_app/sinen_app/external/sinen/src/Nen/model/model.cpp" "external/sinen/CMakeFiles/nen.dir/src/Nen/model/model.cpp.o" "gcc" "external/sinen/CMakeFiles/nen.dir/src/Nen/model/model.cpp.o.d"
   )
 
 # Targets to which this target links.

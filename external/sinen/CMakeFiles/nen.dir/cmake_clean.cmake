@@ -157,8 +157,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/nen.dir/src/Nen/draw_object/draw_object_wrapper.cpp.o.d"
   "CMakeFiles/nen.dir/src/Nen/instancing/instancing.cpp.o"
   "CMakeFiles/nen.dir/src/Nen/instancing/instancing.cpp.o.d"
+  "CMakeFiles/nen.dir/src/Nen/instancing/instancing_wrapper.cpp.o"
+  "CMakeFiles/nen.dir/src/Nen/instancing/instancing_wrapper.cpp.o.d"
   "CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.o"
   "CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.o.d"
+  "CMakeFiles/nen.dir/src/Nen/model/model.cpp.o"
+  "CMakeFiles/nen.dir/src/Nen/model/model.cpp.o.d"
   "libnen.a"
   "libnen.pdb"
 )

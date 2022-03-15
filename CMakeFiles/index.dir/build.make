@@ -74,47 +74,30 @@ CMakeFiles/index.dir/src/main.cpp.o: CMakeFiles/index.dir/includes_CXX.rsp
 CMakeFiles/index.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/index.dir/src/main.cpp.o: CMakeFiles/index.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen_app/sinen_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/index.dir/src/main.cpp.o"
-	/home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/main.cpp.o -MF CMakeFiles/index.dir/src/main.cpp.o.d -o CMakeFiles/index.dir/src/main.cpp.o -c /home/runner/work/sinen_app/sinen_app/src/main.cpp
+	/home/runner/work/_temp/c2259a37-eaf0-4c1d-bc2a-1f38e440c65c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/main.cpp.o -MF CMakeFiles/index.dir/src/main.cpp.o.d -o CMakeFiles/index.dir/src/main.cpp.o -c /home/runner/work/sinen_app/sinen_app/src/main.cpp
 
 CMakeFiles/index.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/index.dir/src/main.cpp.i"
-	/home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen_app/sinen_app/src/main.cpp > CMakeFiles/index.dir/src/main.cpp.i
+	/home/runner/work/_temp/c2259a37-eaf0-4c1d-bc2a-1f38e440c65c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen_app/sinen_app/src/main.cpp > CMakeFiles/index.dir/src/main.cpp.i
 
 CMakeFiles/index.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/index.dir/src/main.cpp.s"
-	/home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen_app/sinen_app/src/main.cpp -o CMakeFiles/index.dir/src/main.cpp.s
-
-CMakeFiles/index.dir/src/model/model.cpp.o: CMakeFiles/index.dir/flags.make
-CMakeFiles/index.dir/src/model/model.cpp.o: CMakeFiles/index.dir/includes_CXX.rsp
-CMakeFiles/index.dir/src/model/model.cpp.o: ../src/model/model.cpp
-CMakeFiles/index.dir/src/model/model.cpp.o: CMakeFiles/index.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen_app/sinen_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/index.dir/src/model/model.cpp.o"
-	/home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/src/model/model.cpp.o -MF CMakeFiles/index.dir/src/model/model.cpp.o.d -o CMakeFiles/index.dir/src/model/model.cpp.o -c /home/runner/work/sinen_app/sinen_app/src/model/model.cpp
-
-CMakeFiles/index.dir/src/model/model.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/index.dir/src/model/model.cpp.i"
-	/home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen_app/sinen_app/src/model/model.cpp > CMakeFiles/index.dir/src/model/model.cpp.i
-
-CMakeFiles/index.dir/src/model/model.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/index.dir/src/model/model.cpp.s"
-	/home/runner/work/_temp/200b1d88-a073-4014-becd-d9fbc62c72fb/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen_app/sinen_app/src/model/model.cpp -o CMakeFiles/index.dir/src/model/model.cpp.s
+	/home/runner/work/_temp/c2259a37-eaf0-4c1d-bc2a-1f38e440c65c/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen_app/sinen_app/src/main.cpp -o CMakeFiles/index.dir/src/main.cpp.s
 
 # Object files for target index
 index_OBJECTS = \
-"CMakeFiles/index.dir/src/main.cpp.o" \
-"CMakeFiles/index.dir/src/model/model.cpp.o"
+"CMakeFiles/index.dir/src/main.cpp.o"
 
 # External object files for target index
 index_EXTERNAL_OBJECTS =
 
 index.html: CMakeFiles/index.dir/src/main.cpp.o
-index.html: CMakeFiles/index.dir/src/model/model.cpp.o
 index.html: CMakeFiles/index.dir/build.make
 index.html: external/sinen/libnen.a
 index.html: CMakeFiles/index.dir/linklibs.rsp
 index.html: CMakeFiles/index.dir/objects1.rsp
 index.html: CMakeFiles/index.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/work/sinen_app/sinen_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable index.html"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/work/sinen_app/sinen_app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable index.html"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/index.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -2026,6 +2026,30 @@ src/Nen/instancing/instancing.cpp.s:
 	cd /home/runner/work/sinen_app/sinen_app/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/instancing/instancing.cpp.s
 .PHONY : src/Nen/instancing/instancing.cpp.s
 
+src/Nen/instancing/instancing_wrapper.o: src/Nen/instancing/instancing_wrapper.cpp.o
+.PHONY : src/Nen/instancing/instancing_wrapper.o
+
+# target to build an object file
+src/Nen/instancing/instancing_wrapper.cpp.o:
+	cd /home/runner/work/sinen_app/sinen_app/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/instancing/instancing_wrapper.cpp.o
+.PHONY : src/Nen/instancing/instancing_wrapper.cpp.o
+
+src/Nen/instancing/instancing_wrapper.i: src/Nen/instancing/instancing_wrapper.cpp.i
+.PHONY : src/Nen/instancing/instancing_wrapper.i
+
+# target to preprocess a source file
+src/Nen/instancing/instancing_wrapper.cpp.i:
+	cd /home/runner/work/sinen_app/sinen_app/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/instancing/instancing_wrapper.cpp.i
+.PHONY : src/Nen/instancing/instancing_wrapper.cpp.i
+
+src/Nen/instancing/instancing_wrapper.s: src/Nen/instancing/instancing_wrapper.cpp.s
+.PHONY : src/Nen/instancing/instancing_wrapper.s
+
+# target to generate assembly for a file
+src/Nen/instancing/instancing_wrapper.cpp.s:
+	cd /home/runner/work/sinen_app/sinen_app/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/instancing/instancing_wrapper.cpp.s
+.PHONY : src/Nen/instancing/instancing_wrapper.cpp.s
+
 src/Nen/manager/manager.o: src/Nen/manager/manager.cpp.o
 .PHONY : src/Nen/manager/manager.o
 
@@ -2049,6 +2073,30 @@ src/Nen/manager/manager.s: src/Nen/manager/manager.cpp.s
 src/Nen/manager/manager.cpp.s:
 	cd /home/runner/work/sinen_app/sinen_app/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/manager/manager.cpp.s
 .PHONY : src/Nen/manager/manager.cpp.s
+
+src/Nen/model/model.o: src/Nen/model/model.cpp.o
+.PHONY : src/Nen/model/model.o
+
+# target to build an object file
+src/Nen/model/model.cpp.o:
+	cd /home/runner/work/sinen_app/sinen_app/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/model/model.cpp.o
+.PHONY : src/Nen/model/model.cpp.o
+
+src/Nen/model/model.i: src/Nen/model/model.cpp.i
+.PHONY : src/Nen/model/model.i
+
+# target to preprocess a source file
+src/Nen/model/model.cpp.i:
+	cd /home/runner/work/sinen_app/sinen_app/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/model/model.cpp.i
+.PHONY : src/Nen/model/model.cpp.i
+
+src/Nen/model/model.s: src/Nen/model/model.cpp.s
+.PHONY : src/Nen/model/model.s
+
+# target to generate assembly for a file
+src/Nen/model/model.cpp.s:
+	cd /home/runner/work/sinen_app/sinen_app/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/model/model.cpp.s
+.PHONY : src/Nen/model/model.cpp.s
 
 # Help Target
 help:
@@ -2296,9 +2344,15 @@ help:
 	@echo "... src/Nen/instancing/instancing.o"
 	@echo "... src/Nen/instancing/instancing.i"
 	@echo "... src/Nen/instancing/instancing.s"
+	@echo "... src/Nen/instancing/instancing_wrapper.o"
+	@echo "... src/Nen/instancing/instancing_wrapper.i"
+	@echo "... src/Nen/instancing/instancing_wrapper.s"
 	@echo "... src/Nen/manager/manager.o"
 	@echo "... src/Nen/manager/manager.i"
 	@echo "... src/Nen/manager/manager.s"
+	@echo "... src/Nen/model/model.o"
+	@echo "... src/Nen/model/model.i"
+	@echo "... src/Nen/model/model.s"
 .PHONY : help
 
 

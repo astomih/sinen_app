@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/index.dir/src/main.cpp.o"
   "CMakeFiles/index.dir/src/main.cpp.o.d"
-  "CMakeFiles/index.dir/src/model/model.cpp.o"
-  "CMakeFiles/index.dir/src/model/model.cpp.o.d"
   "index.html"
   "index.pdb"
 )
