@@ -1978,6 +1978,30 @@ src/Nen/Window/Window.cpp.s:
 	cd /home/runner/work/sinen_app/sinen_app/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/Window/Window.cpp.s
 .PHONY : src/Nen/Window/Window.cpp.s
 
+src/Nen/camera/camera.o: src/Nen/camera/camera.cpp.o
+.PHONY : src/Nen/camera/camera.o
+
+# target to build an object file
+src/Nen/camera/camera.cpp.o:
+	cd /home/runner/work/sinen_app/sinen_app/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/camera/camera.cpp.o
+.PHONY : src/Nen/camera/camera.cpp.o
+
+src/Nen/camera/camera.i: src/Nen/camera/camera.cpp.i
+.PHONY : src/Nen/camera/camera.i
+
+# target to preprocess a source file
+src/Nen/camera/camera.cpp.i:
+	cd /home/runner/work/sinen_app/sinen_app/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/camera/camera.cpp.i
+.PHONY : src/Nen/camera/camera.cpp.i
+
+src/Nen/camera/camera.s: src/Nen/camera/camera.cpp.s
+.PHONY : src/Nen/camera/camera.s
+
+# target to generate assembly for a file
+src/Nen/camera/camera.cpp.s:
+	cd /home/runner/work/sinen_app/sinen_app/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/Nen/camera/camera.cpp.s
+.PHONY : src/Nen/camera/camera.cpp.s
+
 src/Nen/draw_object/draw_object_wrapper.o: src/Nen/draw_object/draw_object_wrapper.cpp.o
 .PHONY : src/Nen/draw_object/draw_object_wrapper.o
 
@@ -2338,6 +2362,9 @@ help:
 	@echo "... src/Nen/Window/Window.o"
 	@echo "... src/Nen/Window/Window.i"
 	@echo "... src/Nen/Window/Window.s"
+	@echo "... src/Nen/camera/camera.o"
+	@echo "... src/Nen/camera/camera.i"
+	@echo "... src/Nen/camera/camera.s"
 	@echo "... src/Nen/draw_object/draw_object_wrapper.o"
 	@echo "... src/Nen/draw_object/draw_object_wrapper.i"
 	@echo "... src/Nen/draw_object/draw_object_wrapper.s"
