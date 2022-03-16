@@ -88,7 +88,7 @@ void resetModelNodes(Model &model) {
 void Model::LoadFromFile(std::string_view filePath) {
   Assimp::Importer importer;
 
-  auto path = asset_reader::LoadAsString(asset_type::Model, filePath);
+  auto path = data_io::LoadAsString(asset_type::Model, filePath);
   auto pos = std::string(filePath).find_last_of(".");
   auto hint =
       std::string(filePath).substr(pos + 1, std::string(filePath).size());
@@ -99,7 +99,7 @@ void Model::LoadFromFile(std::string_view filePath) {
           aiProcess_JoinIdenticalVertices | aiProcess_OptimizeMeshes |
           aiProcess_LimitBoneWeights | aiProcess_RemoveRedundantMaterials);
   if (!scene) {
-    logger::Error("%s", importer.GetErrorString());
+    logger::error("%s", importer.GetErrorString());
   }
 
   this->node = createNode(scene->mRootNode, scene->mMeshes);
