@@ -60,8 +60,8 @@ else()
 	find_package(OpenGL REQUIRED)
 	find_package(GLEW REQUIRED)
 	find_package(SDL2 REQUIRED)
-	find_package(OpenAL REQUIRED)
 	if(WIN32)
+		set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS} -mwindows")
 		set(LIBRARIES
 			nen
 			${Vulkan_LIBRARIES}	
@@ -71,7 +71,6 @@ else()
 			SDL2_mixer
 			SDL2_ttf
 			SDL2_net
-			openal
 			glew32
 			opengl32
 		)
@@ -85,7 +84,6 @@ else()
 			SDL2_mixer
 			SDL2_ttf
 			SDL2_net
-			openal
 			GLEW
 			GL
 			${CMAKE_DL_LIBS}
