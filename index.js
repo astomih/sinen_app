@@ -131,10 +131,10 @@ var Module = typeof Module != 'undefined' ? Module : {};
 Module['FS_createPath']("/", "data", true, true);
 Module['FS_createPath']("/data", "font", true, true);
 Module['FS_createPath']("/data/font", "mplus", true, true);
-Module['FS_createPath']("/data", "script", true, true);
 Module['FS_createPath']("/data", "shader", true, true);
-Module['FS_createPath']("/data/shader", "Vulkan", true, true);
 Module['FS_createPath']("/data/shader", "GL", true, true);
+Module['FS_createPath']("/data/shader", "Vulkan", true, true);
+Module['FS_createPath']("/data", "script", true, true);
 
       /** @constructor */
       function DataRequest(start, end, audio) {
@@ -202,7 +202,7 @@ Module['FS_createPath']("/data/shader", "GL", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/data/font/mplus/mplus-1p-medium.ttf", "start": 0, "end": 1745612}, {"filename": "/data/script/main.lua", "start": 1745612, "end": 1745993}, {"filename": "/data/shader/Vulkan/shaderPlain.frag.spv", "start": 1745993, "end": 1749333}, {"filename": "/data/shader/Vulkan/vk_shader_instance.vert", "start": 1749333, "end": 1750307}, {"filename": "/data/shader/Vulkan/vkshaderPlain.frag", "start": 1750307, "end": 1751599}, {"filename": "/data/shader/Vulkan/shaderOpaque.frag.spv", "start": 1751599, "end": 1755119}, {"filename": "/data/shader/Vulkan/vkshaderOpaque.frag", "start": 1755119, "end": 1756432}, {"filename": "/data/shader/Vulkan/vkshader.vert", "start": 1756432, "end": 1757428}, {"filename": "/data/shader/Vulkan/shader_instance.vert.spv", "start": 1757428, "end": 1760052}, {"filename": "/data/shader/Vulkan/shader.vert.spv", "start": 1760052, "end": 1762724}, {"filename": "/data/shader/Vulkan/compile.bat", "start": 1762724, "end": 1763109}, {"filename": "/data/shader/Vulkan/vkshaderAlpha.frag", "start": 1763109, "end": 1763365}, {"filename": "/data/shader/Vulkan/shaderAlpha.frag.spv", "start": 1763365, "end": 1764105}, {"filename": "/data/shader/GL/shader.frag", "start": 1764105, "end": 1765311}, {"filename": "/data/shader/GL/shader.vert", "start": 1765311, "end": 1765947}, {"filename": "/data/shader/GL/alpha.frag", "start": 1765947, "end": 1766140}, {"filename": "/data/shader/GL/shader_instance.vert", "start": 1766140, "end": 1767011}], "remote_package_size": 1767011, "package_uuid": "6530d5df-a3e9-4c75-b5e7-3d8a0a3be102"});
+    loadPackage({"files": [{"filename": "/data/font/mplus/mplus-1p-medium.ttf", "start": 0, "end": 1745612}, {"filename": "/data/shader/GL/alpha.frag", "start": 1745612, "end": 1745805}, {"filename": "/data/shader/GL/shader_instance.vert", "start": 1745805, "end": 1746676}, {"filename": "/data/shader/GL/shader.vert", "start": 1746676, "end": 1747312}, {"filename": "/data/shader/GL/shader.frag", "start": 1747312, "end": 1748518}, {"filename": "/data/shader/Vulkan/shader.vert.spv", "start": 1748518, "end": 1751190}, {"filename": "/data/shader/Vulkan/shaderOpaque.frag.spv", "start": 1751190, "end": 1754710}, {"filename": "/data/shader/Vulkan/shaderAlpha.frag.spv", "start": 1754710, "end": 1755450}, {"filename": "/data/shader/Vulkan/vkshaderAlpha.frag", "start": 1755450, "end": 1755706}, {"filename": "/data/shader/Vulkan/vk_shader_instance.vert", "start": 1755706, "end": 1756680}, {"filename": "/data/shader/Vulkan/shaderPlain.frag.spv", "start": 1756680, "end": 1760020}, {"filename": "/data/shader/Vulkan/shader_instance.vert.spv", "start": 1760020, "end": 1762644}, {"filename": "/data/shader/Vulkan/compile.bat", "start": 1762644, "end": 1763029}, {"filename": "/data/shader/Vulkan/vkshaderPlain.frag", "start": 1763029, "end": 1764321}, {"filename": "/data/shader/Vulkan/vkshader.vert", "start": 1764321, "end": 1765317}, {"filename": "/data/shader/Vulkan/vkshaderOpaque.frag", "start": 1765317, "end": 1766630}, {"filename": "/data/script/main.lua", "start": 1766630, "end": 1767011}], "remote_package_size": 1767011, "package_uuid": "bcd1e6da-2072-4b98-b0c5-7c07744610c5"});
 
   })();
 
