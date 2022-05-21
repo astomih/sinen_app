@@ -1282,29 +1282,29 @@ src/input/game_controller.cpp.s:
 	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/input/game_controller.cpp.s
 .PHONY : src/input/game_controller.cpp.s
 
-src/input/input_system.o: src/input/input_system.cpp.o
-.PHONY : src/input/input_system.o
+src/input/input.o: src/input/input.cpp.o
+.PHONY : src/input/input.o
 
 # target to build an object file
-src/input/input_system.cpp.o:
-	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/input/input_system.cpp.o
-.PHONY : src/input/input_system.cpp.o
+src/input/input.cpp.o:
+	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/input/input.cpp.o
+.PHONY : src/input/input.cpp.o
 
-src/input/input_system.i: src/input/input_system.cpp.i
-.PHONY : src/input/input_system.i
+src/input/input.i: src/input/input.cpp.i
+.PHONY : src/input/input.i
 
 # target to preprocess a source file
-src/input/input_system.cpp.i:
-	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/input/input_system.cpp.i
-.PHONY : src/input/input_system.cpp.i
+src/input/input.cpp.i:
+	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/input/input.cpp.i
+.PHONY : src/input/input.cpp.i
 
-src/input/input_system.s: src/input/input_system.cpp.s
-.PHONY : src/input/input_system.s
+src/input/input.s: src/input/input.cpp.s
+.PHONY : src/input/input.s
 
 # target to generate assembly for a file
-src/input/input_system.cpp.s:
-	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/input/input_system.cpp.s
-.PHONY : src/input/input_system.cpp.s
+src/input/input.cpp.s:
+	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/input/input.cpp.s
+.PHONY : src/input/input.cpp.s
 
 src/instancing/instancing.o: src/instancing/instancing.cpp.o
 .PHONY : src/instancing/instancing.o
@@ -2155,9 +2155,9 @@ help:
 	@echo "... src/input/game_controller.o"
 	@echo "... src/input/game_controller.i"
 	@echo "... src/input/game_controller.s"
-	@echo "... src/input/input_system.o"
-	@echo "... src/input/input_system.i"
-	@echo "... src/input/input_system.s"
+	@echo "... src/input/input.o"
+	@echo "... src/input/input.i"
+	@echo "... src/input/input.s"
 	@echo "... src/instancing/instancing.o"
 	@echo "... src/instancing/instancing.i"
 	@echo "... src/instancing/instancing.s"
