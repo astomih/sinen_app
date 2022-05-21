@@ -74,1170 +74,1170 @@ external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.o: extern
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.o: ../external/sinen/external/ImGui/source/gles/imgui.cpp
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.o -MF CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.o.d -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.o -MF CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.o.d -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui.cpp
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui.cpp > CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui.cpp > CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui.cpp -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui.cpp -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.o: ../external/sinen/external/ImGui/source/gles/imgui_demo.cpp
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.o -MF CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.o.d -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_demo.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.o -MF CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.o.d -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_demo.cpp
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_demo.cpp > CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_demo.cpp > CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_demo.cpp -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_demo.cpp -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_demo.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.o: ../external/sinen/external/ImGui/source/gles/imgui_draw.cpp
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.o -MF CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.o.d -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_draw.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.o -MF CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.o.d -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_draw.cpp
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_draw.cpp > CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_draw.cpp > CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_draw.cpp -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_draw.cpp -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_draw.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.o: ../external/sinen/external/ImGui/source/gles/imgui_impl_opengl3.cpp
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.o -MF CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_impl_opengl3.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.o -MF CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_impl_opengl3.cpp
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_impl_opengl3.cpp > CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_impl_opengl3.cpp > CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_impl_opengl3.cpp -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_impl_opengl3.cpp -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_opengl3.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.o: ../external/sinen/external/ImGui/source/gles/imgui_impl_sdl.cpp
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.o -MF CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.o.d -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_impl_sdl.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.o -MF CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.o.d -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_impl_sdl.cpp
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_impl_sdl.cpp > CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_impl_sdl.cpp > CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_impl_sdl.cpp -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_impl_sdl.cpp -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_impl_sdl.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.o: ../external/sinen/external/ImGui/source/gles/imgui_tables.cpp
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.o -MF CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.o.d -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_tables.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.o -MF CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.o.d -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_tables.cpp
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_tables.cpp > CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_tables.cpp > CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_tables.cpp -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_tables.cpp -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_tables.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.o: ../external/sinen/external/ImGui/source/gles/imgui_widgets.cpp
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.o -MF CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.o.d -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_widgets.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.o -MF CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.o.d -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_widgets.cpp
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_widgets.cpp > CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_widgets.cpp > CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_widgets.cpp -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/ImGui/source/gles/imgui_widgets.cpp -o CMakeFiles/nen.dir/external/ImGui/source/gles/imgui_widgets.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.o: ../external/sinen/external/ImGuiColorTextEdit/TextEditor.cpp
 external/sinen/CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object external/sinen/CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.o -MF CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.o.d -o CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/ImGuiColorTextEdit/TextEditor.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.o -MF CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.o.d -o CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/ImGuiColorTextEdit/TextEditor.cpp
 
 external/sinen/CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/ImGuiColorTextEdit/TextEditor.cpp > CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/ImGuiColorTextEdit/TextEditor.cpp > CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/ImGuiColorTextEdit/TextEditor.cpp -o CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/ImGuiColorTextEdit/TextEditor.cpp -o CMakeFiles/nen.dir/external/ImGuiColorTextEdit/TextEditor.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lapi.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lapi.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lapi.c.o: ../external/sinen/external/Lua/source/lapi.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lapi.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lapi.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lapi.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lapi.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lapi.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lapi.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lapi.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lapi.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lapi.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lapi.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lapi.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lapi.c > CMakeFiles/nen.dir/external/Lua/source/lapi.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lapi.c > CMakeFiles/nen.dir/external/Lua/source/lapi.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lapi.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lapi.c -o CMakeFiles/nen.dir/external/Lua/source/lapi.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lapi.c -o CMakeFiles/nen.dir/external/Lua/source/lapi.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.o: ../external/sinen/external/Lua/source/lauxlib.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lauxlib.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lauxlib.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lauxlib.c > CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lauxlib.c > CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lauxlib.c -o CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lauxlib.c -o CMakeFiles/nen.dir/external/Lua/source/lauxlib.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.o: ../external/sinen/external/Lua/source/lbaselib.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lbaselib.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lbaselib.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lbaselib.c > CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lbaselib.c > CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lbaselib.c -o CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lbaselib.c -o CMakeFiles/nen.dir/external/Lua/source/lbaselib.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lcode.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lcode.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lcode.c.o: ../external/sinen/external/Lua/source/lcode.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lcode.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lcode.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lcode.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lcode.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lcode.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lcode.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lcode.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lcode.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lcode.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lcode.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lcode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lcode.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lcode.c > CMakeFiles/nen.dir/external/Lua/source/lcode.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lcode.c > CMakeFiles/nen.dir/external/Lua/source/lcode.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lcode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lcode.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lcode.c -o CMakeFiles/nen.dir/external/Lua/source/lcode.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lcode.c -o CMakeFiles/nen.dir/external/Lua/source/lcode.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldblib.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldblib.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldblib.c.o: ../external/sinen/external/Lua/source/ldblib.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldblib.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldblib.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldblib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/ldblib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/ldblib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldblib.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldblib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/ldblib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/ldblib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldblib.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldblib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/ldblib.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldblib.c > CMakeFiles/nen.dir/external/Lua/source/ldblib.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldblib.c > CMakeFiles/nen.dir/external/Lua/source/ldblib.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldblib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/ldblib.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldblib.c -o CMakeFiles/nen.dir/external/Lua/source/ldblib.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldblib.c -o CMakeFiles/nen.dir/external/Lua/source/ldblib.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldebug.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldebug.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldebug.c.o: ../external/sinen/external/Lua/source/ldebug.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldebug.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldebug.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldebug.c.o -MF CMakeFiles/nen.dir/external/Lua/source/ldebug.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/ldebug.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldebug.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldebug.c.o -MF CMakeFiles/nen.dir/external/Lua/source/ldebug.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/ldebug.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldebug.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldebug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/ldebug.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldebug.c > CMakeFiles/nen.dir/external/Lua/source/ldebug.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldebug.c > CMakeFiles/nen.dir/external/Lua/source/ldebug.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldebug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/ldebug.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldebug.c -o CMakeFiles/nen.dir/external/Lua/source/ldebug.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldebug.c -o CMakeFiles/nen.dir/external/Lua/source/ldebug.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldo.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldo.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldo.c.o: ../external/sinen/external/Lua/source/ldo.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldo.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldo.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldo.c.o -MF CMakeFiles/nen.dir/external/Lua/source/ldo.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/ldo.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldo.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldo.c.o -MF CMakeFiles/nen.dir/external/Lua/source/ldo.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/ldo.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldo.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/ldo.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldo.c > CMakeFiles/nen.dir/external/Lua/source/ldo.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldo.c > CMakeFiles/nen.dir/external/Lua/source/ldo.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/ldo.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldo.c -o CMakeFiles/nen.dir/external/Lua/source/ldo.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldo.c -o CMakeFiles/nen.dir/external/Lua/source/ldo.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldump.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldump.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldump.c.o: ../external/sinen/external/Lua/source/ldump.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldump.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldump.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldump.c.o -MF CMakeFiles/nen.dir/external/Lua/source/ldump.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/ldump.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldump.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldump.c.o -MF CMakeFiles/nen.dir/external/Lua/source/ldump.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/ldump.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldump.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldump.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/ldump.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldump.c > CMakeFiles/nen.dir/external/Lua/source/ldump.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldump.c > CMakeFiles/nen.dir/external/Lua/source/ldump.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ldump.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/ldump.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldump.c -o CMakeFiles/nen.dir/external/Lua/source/ldump.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ldump.c -o CMakeFiles/nen.dir/external/Lua/source/ldump.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lfunc.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lfunc.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lfunc.c.o: ../external/sinen/external/Lua/source/lfunc.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lfunc.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lfunc.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lfunc.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lfunc.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lfunc.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lfunc.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lfunc.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lfunc.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lfunc.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lfunc.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lfunc.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lfunc.c > CMakeFiles/nen.dir/external/Lua/source/lfunc.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lfunc.c > CMakeFiles/nen.dir/external/Lua/source/lfunc.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lfunc.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lfunc.c -o CMakeFiles/nen.dir/external/Lua/source/lfunc.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lfunc.c -o CMakeFiles/nen.dir/external/Lua/source/lfunc.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lgc.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lgc.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lgc.c.o: ../external/sinen/external/Lua/source/lgc.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lgc.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lgc.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lgc.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lgc.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lgc.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lgc.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lgc.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lgc.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lgc.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lgc.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lgc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lgc.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lgc.c > CMakeFiles/nen.dir/external/Lua/source/lgc.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lgc.c > CMakeFiles/nen.dir/external/Lua/source/lgc.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lgc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lgc.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lgc.c -o CMakeFiles/nen.dir/external/Lua/source/lgc.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lgc.c -o CMakeFiles/nen.dir/external/Lua/source/lgc.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/linit.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/linit.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/linit.c.o: ../external/sinen/external/Lua/source/linit.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/linit.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/linit.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/linit.c.o -MF CMakeFiles/nen.dir/external/Lua/source/linit.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/linit.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/linit.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/linit.c.o -MF CMakeFiles/nen.dir/external/Lua/source/linit.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/linit.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/linit.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/linit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/linit.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/linit.c > CMakeFiles/nen.dir/external/Lua/source/linit.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/linit.c > CMakeFiles/nen.dir/external/Lua/source/linit.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/linit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/linit.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/linit.c -o CMakeFiles/nen.dir/external/Lua/source/linit.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/linit.c -o CMakeFiles/nen.dir/external/Lua/source/linit.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/liolib.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/liolib.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/liolib.c.o: ../external/sinen/external/Lua/source/liolib.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/liolib.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/liolib.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/liolib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/liolib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/liolib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/liolib.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/liolib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/liolib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/liolib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/liolib.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/liolib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/liolib.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/liolib.c > CMakeFiles/nen.dir/external/Lua/source/liolib.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/liolib.c > CMakeFiles/nen.dir/external/Lua/source/liolib.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/liolib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/liolib.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/liolib.c -o CMakeFiles/nen.dir/external/Lua/source/liolib.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/liolib.c -o CMakeFiles/nen.dir/external/Lua/source/liolib.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/llex.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/llex.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/llex.c.o: ../external/sinen/external/Lua/source/llex.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/llex.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/llex.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/llex.c.o -MF CMakeFiles/nen.dir/external/Lua/source/llex.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/llex.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/llex.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/llex.c.o -MF CMakeFiles/nen.dir/external/Lua/source/llex.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/llex.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/llex.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/llex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/llex.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/llex.c > CMakeFiles/nen.dir/external/Lua/source/llex.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/llex.c > CMakeFiles/nen.dir/external/Lua/source/llex.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/llex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/llex.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/llex.c -o CMakeFiles/nen.dir/external/Lua/source/llex.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/llex.c -o CMakeFiles/nen.dir/external/Lua/source/llex.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.o: ../external/sinen/external/Lua/source/lmathlib.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lmathlib.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lmathlib.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lmathlib.c > CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lmathlib.c > CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lmathlib.c -o CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lmathlib.c -o CMakeFiles/nen.dir/external/Lua/source/lmathlib.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmem.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmem.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmem.c.o: ../external/sinen/external/Lua/source/lmem.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmem.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmem.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmem.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lmem.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lmem.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lmem.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmem.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lmem.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lmem.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lmem.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lmem.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lmem.c > CMakeFiles/nen.dir/external/Lua/source/lmem.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lmem.c > CMakeFiles/nen.dir/external/Lua/source/lmem.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lmem.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lmem.c -o CMakeFiles/nen.dir/external/Lua/source/lmem.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lmem.c -o CMakeFiles/nen.dir/external/Lua/source/lmem.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/loadlib.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/loadlib.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/loadlib.c.o: ../external/sinen/external/Lua/source/loadlib.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/loadlib.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/loadlib.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/loadlib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/loadlib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/loadlib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/loadlib.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/loadlib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/loadlib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/loadlib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/loadlib.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/loadlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/loadlib.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/loadlib.c > CMakeFiles/nen.dir/external/Lua/source/loadlib.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/loadlib.c > CMakeFiles/nen.dir/external/Lua/source/loadlib.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/loadlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/loadlib.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/loadlib.c -o CMakeFiles/nen.dir/external/Lua/source/loadlib.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/loadlib.c -o CMakeFiles/nen.dir/external/Lua/source/loadlib.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lobject.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lobject.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lobject.c.o: ../external/sinen/external/Lua/source/lobject.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lobject.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lobject.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lobject.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lobject.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lobject.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lobject.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lobject.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lobject.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lobject.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lobject.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lobject.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lobject.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lobject.c > CMakeFiles/nen.dir/external/Lua/source/lobject.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lobject.c > CMakeFiles/nen.dir/external/Lua/source/lobject.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lobject.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lobject.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lobject.c -o CMakeFiles/nen.dir/external/Lua/source/lobject.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lobject.c -o CMakeFiles/nen.dir/external/Lua/source/lobject.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.o: ../external/sinen/external/Lua/source/lopcodes.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lopcodes.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lopcodes.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lopcodes.c > CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lopcodes.c > CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lopcodes.c -o CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lopcodes.c -o CMakeFiles/nen.dir/external/Lua/source/lopcodes.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/loslib.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/loslib.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/loslib.c.o: ../external/sinen/external/Lua/source/loslib.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/loslib.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/loslib.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/loslib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/loslib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/loslib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/loslib.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/loslib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/loslib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/loslib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/loslib.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/loslib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/loslib.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/loslib.c > CMakeFiles/nen.dir/external/Lua/source/loslib.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/loslib.c > CMakeFiles/nen.dir/external/Lua/source/loslib.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/loslib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/loslib.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/loslib.c -o CMakeFiles/nen.dir/external/Lua/source/loslib.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/loslib.c -o CMakeFiles/nen.dir/external/Lua/source/loslib.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lparser.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lparser.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lparser.c.o: ../external/sinen/external/Lua/source/lparser.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lparser.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lparser.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lparser.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lparser.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lparser.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lparser.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lparser.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lparser.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lparser.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lparser.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lparser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lparser.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lparser.c > CMakeFiles/nen.dir/external/Lua/source/lparser.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lparser.c > CMakeFiles/nen.dir/external/Lua/source/lparser.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lparser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lparser.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lparser.c -o CMakeFiles/nen.dir/external/Lua/source/lparser.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lparser.c -o CMakeFiles/nen.dir/external/Lua/source/lparser.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstate.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstate.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstate.c.o: ../external/sinen/external/Lua/source/lstate.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstate.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstate.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstate.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lstate.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lstate.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstate.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstate.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lstate.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lstate.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstate.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lstate.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstate.c > CMakeFiles/nen.dir/external/Lua/source/lstate.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstate.c > CMakeFiles/nen.dir/external/Lua/source/lstate.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lstate.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstate.c -o CMakeFiles/nen.dir/external/Lua/source/lstate.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstate.c -o CMakeFiles/nen.dir/external/Lua/source/lstate.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstring.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstring.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstring.c.o: ../external/sinen/external/Lua/source/lstring.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstring.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstring.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstring.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lstring.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lstring.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstring.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstring.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lstring.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lstring.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstring.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstring.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lstring.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstring.c > CMakeFiles/nen.dir/external/Lua/source/lstring.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstring.c > CMakeFiles/nen.dir/external/Lua/source/lstring.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstring.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lstring.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstring.c -o CMakeFiles/nen.dir/external/Lua/source/lstring.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstring.c -o CMakeFiles/nen.dir/external/Lua/source/lstring.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.o: ../external/sinen/external/Lua/source/lstrlib.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstrlib.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstrlib.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstrlib.c > CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstrlib.c > CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstrlib.c -o CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lstrlib.c -o CMakeFiles/nen.dir/external/Lua/source/lstrlib.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltable.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltable.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltable.c.o: ../external/sinen/external/Lua/source/ltable.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltable.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltable.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltable.c.o -MF CMakeFiles/nen.dir/external/Lua/source/ltable.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/ltable.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltable.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltable.c.o -MF CMakeFiles/nen.dir/external/Lua/source/ltable.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/ltable.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltable.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltable.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/ltable.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltable.c > CMakeFiles/nen.dir/external/Lua/source/ltable.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltable.c > CMakeFiles/nen.dir/external/Lua/source/ltable.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/ltable.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltable.c -o CMakeFiles/nen.dir/external/Lua/source/ltable.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltable.c -o CMakeFiles/nen.dir/external/Lua/source/ltable.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltablib.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltablib.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltablib.c.o: ../external/sinen/external/Lua/source/ltablib.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltablib.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltablib.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltablib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/ltablib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/ltablib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltablib.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltablib.c.o -MF CMakeFiles/nen.dir/external/Lua/source/ltablib.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/ltablib.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltablib.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltablib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/ltablib.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltablib.c > CMakeFiles/nen.dir/external/Lua/source/ltablib.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltablib.c > CMakeFiles/nen.dir/external/Lua/source/ltablib.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltablib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/ltablib.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltablib.c -o CMakeFiles/nen.dir/external/Lua/source/ltablib.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltablib.c -o CMakeFiles/nen.dir/external/Lua/source/ltablib.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltm.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltm.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltm.c.o: ../external/sinen/external/Lua/source/ltm.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltm.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltm.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltm.c.o -MF CMakeFiles/nen.dir/external/Lua/source/ltm.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/ltm.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltm.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltm.c.o -MF CMakeFiles/nen.dir/external/Lua/source/ltm.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/ltm.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltm.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/ltm.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltm.c > CMakeFiles/nen.dir/external/Lua/source/ltm.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltm.c > CMakeFiles/nen.dir/external/Lua/source/ltm.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/ltm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/ltm.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltm.c -o CMakeFiles/nen.dir/external/Lua/source/ltm.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/ltm.c -o CMakeFiles/nen.dir/external/Lua/source/ltm.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lua.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lua.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lua.c.o: ../external/sinen/external/Lua/source/lua.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lua.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lua.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lua.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lua.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lua.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lua.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lua.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lua.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lua.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lua.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lua.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lua.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lua.c > CMakeFiles/nen.dir/external/Lua/source/lua.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lua.c > CMakeFiles/nen.dir/external/Lua/source/lua.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lua.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lua.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lua.c -o CMakeFiles/nen.dir/external/Lua/source/lua.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lua.c -o CMakeFiles/nen.dir/external/Lua/source/lua.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/luac.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/luac.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/luac.c.o: ../external/sinen/external/Lua/source/luac.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/luac.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/luac.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/luac.c.o -MF CMakeFiles/nen.dir/external/Lua/source/luac.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/luac.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/luac.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/luac.c.o -MF CMakeFiles/nen.dir/external/Lua/source/luac.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/luac.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/luac.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/luac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/luac.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/luac.c > CMakeFiles/nen.dir/external/Lua/source/luac.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/luac.c > CMakeFiles/nen.dir/external/Lua/source/luac.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/luac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/luac.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/luac.c -o CMakeFiles/nen.dir/external/Lua/source/luac.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/luac.c -o CMakeFiles/nen.dir/external/Lua/source/luac.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lundump.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lundump.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lundump.c.o: ../external/sinen/external/Lua/source/lundump.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lundump.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lundump.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lundump.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lundump.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lundump.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lundump.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lundump.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lundump.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lundump.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lundump.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lundump.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lundump.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lundump.c > CMakeFiles/nen.dir/external/Lua/source/lundump.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lundump.c > CMakeFiles/nen.dir/external/Lua/source/lundump.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lundump.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lundump.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lundump.c -o CMakeFiles/nen.dir/external/Lua/source/lundump.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lundump.c -o CMakeFiles/nen.dir/external/Lua/source/lundump.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lvm.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lvm.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lvm.c.o: ../external/sinen/external/Lua/source/lvm.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lvm.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lvm.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lvm.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lvm.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lvm.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lvm.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lvm.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lvm.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lvm.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lvm.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lvm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lvm.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lvm.c > CMakeFiles/nen.dir/external/Lua/source/lvm.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lvm.c > CMakeFiles/nen.dir/external/Lua/source/lvm.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lvm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lvm.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lvm.c -o CMakeFiles/nen.dir/external/Lua/source/lvm.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lvm.c -o CMakeFiles/nen.dir/external/Lua/source/lvm.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lzio.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lzio.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lzio.c.o: ../external/sinen/external/Lua/source/lzio.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lzio.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/lzio.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lzio.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lzio.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lzio.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lzio.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/lzio.c.o -MF CMakeFiles/nen.dir/external/Lua/source/lzio.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/lzio.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lzio.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lzio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/lzio.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lzio.c > CMakeFiles/nen.dir/external/Lua/source/lzio.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lzio.c > CMakeFiles/nen.dir/external/Lua/source/lzio.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/lzio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/lzio.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lzio.c -o CMakeFiles/nen.dir/external/Lua/source/lzio.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/lzio.c -o CMakeFiles/nen.dir/external/Lua/source/lzio.c.s
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/print.c.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/print.c.o: external/sinen/CMakeFiles/nen.dir/includes_C.rsp
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/print.c.o: ../external/sinen/external/Lua/source/print.c
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/print.c.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object external/sinen/CMakeFiles/nen.dir/external/Lua/source/print.c.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/print.c.o -MF CMakeFiles/nen.dir/external/Lua/source/print.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/print.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/print.c
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/external/Lua/source/print.c.o -MF CMakeFiles/nen.dir/external/Lua/source/print.c.o.d -o CMakeFiles/nen.dir/external/Lua/source/print.c.o -c /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/print.c
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/print.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nen.dir/external/Lua/source/print.c.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/print.c > CMakeFiles/nen.dir/external/Lua/source/print.c.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/print.c > CMakeFiles/nen.dir/external/Lua/source/print.c.i
 
 external/sinen/CMakeFiles/nen.dir/external/Lua/source/print.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nen.dir/external/Lua/source/print.c.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/print.c -o CMakeFiles/nen.dir/external/Lua/source/print.c.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/external/Lua/source/print.c -o CMakeFiles/nen.dir/external/Lua/source/print.c.s
 
 external/sinen/CMakeFiles/nen.dir/src/audio/music_system.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/audio/music_system.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/audio/music_system.cpp.o: ../external/sinen/src/audio/music_system.cpp
 external/sinen/CMakeFiles/nen.dir/src/audio/music_system.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/audio/music_system.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/audio/music_system.cpp.o -MF CMakeFiles/nen.dir/src/audio/music_system.cpp.o.d -o CMakeFiles/nen.dir/src/audio/music_system.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/audio/music_system.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/audio/music_system.cpp.o -MF CMakeFiles/nen.dir/src/audio/music_system.cpp.o.d -o CMakeFiles/nen.dir/src/audio/music_system.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/audio/music_system.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/audio/music_system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/audio/music_system.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/audio/music_system.cpp > CMakeFiles/nen.dir/src/audio/music_system.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/audio/music_system.cpp > CMakeFiles/nen.dir/src/audio/music_system.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/audio/music_system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/audio/music_system.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/audio/music_system.cpp -o CMakeFiles/nen.dir/src/audio/music_system.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/audio/music_system.cpp -o CMakeFiles/nen.dir/src/audio/music_system.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/audio/sound_event.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/audio/sound_event.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/audio/sound_event.cpp.o: ../external/sinen/src/audio/sound_event.cpp
 external/sinen/CMakeFiles/nen.dir/src/audio/sound_event.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/audio/sound_event.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/audio/sound_event.cpp.o -MF CMakeFiles/nen.dir/src/audio/sound_event.cpp.o.d -o CMakeFiles/nen.dir/src/audio/sound_event.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/audio/sound_event.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/audio/sound_event.cpp.o -MF CMakeFiles/nen.dir/src/audio/sound_event.cpp.o.d -o CMakeFiles/nen.dir/src/audio/sound_event.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/audio/sound_event.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/audio/sound_event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/audio/sound_event.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/audio/sound_event.cpp > CMakeFiles/nen.dir/src/audio/sound_event.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/audio/sound_event.cpp > CMakeFiles/nen.dir/src/audio/sound_event.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/audio/sound_event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/audio/sound_event.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/audio/sound_event.cpp -o CMakeFiles/nen.dir/src/audio/sound_event.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/audio/sound_event.cpp -o CMakeFiles/nen.dir/src/audio/sound_event.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/audio/sound_system.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/audio/sound_system.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/audio/sound_system.cpp.o: ../external/sinen/src/audio/sound_system.cpp
 external/sinen/CMakeFiles/nen.dir/src/audio/sound_system.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/audio/sound_system.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/audio/sound_system.cpp.o -MF CMakeFiles/nen.dir/src/audio/sound_system.cpp.o.d -o CMakeFiles/nen.dir/src/audio/sound_system.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/audio/sound_system.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/audio/sound_system.cpp.o -MF CMakeFiles/nen.dir/src/audio/sound_system.cpp.o.d -o CMakeFiles/nen.dir/src/audio/sound_system.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/audio/sound_system.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/audio/sound_system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/audio/sound_system.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/audio/sound_system.cpp > CMakeFiles/nen.dir/src/audio/sound_system.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/audio/sound_system.cpp > CMakeFiles/nen.dir/src/audio/sound_system.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/audio/sound_system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/audio/sound_system.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/audio/sound_system.cpp -o CMakeFiles/nen.dir/src/audio/sound_system.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/audio/sound_system.cpp -o CMakeFiles/nen.dir/src/audio/sound_system.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/camera/camera.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/camera/camera.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/camera/camera.cpp.o: ../external/sinen/src/camera/camera.cpp
 external/sinen/CMakeFiles/nen.dir/src/camera/camera.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/camera/camera.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/camera/camera.cpp.o -MF CMakeFiles/nen.dir/src/camera/camera.cpp.o.d -o CMakeFiles/nen.dir/src/camera/camera.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/camera/camera.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/camera/camera.cpp.o -MF CMakeFiles/nen.dir/src/camera/camera.cpp.o.d -o CMakeFiles/nen.dir/src/camera/camera.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/camera/camera.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/camera/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/camera/camera.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/camera/camera.cpp > CMakeFiles/nen.dir/src/camera/camera.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/camera/camera.cpp > CMakeFiles/nen.dir/src/camera/camera.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/camera/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/camera/camera.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/camera/camera.cpp -o CMakeFiles/nen.dir/src/camera/camera.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/camera/camera.cpp -o CMakeFiles/nen.dir/src/camera/camera.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/color/color.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/color/color.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/color/color.cpp.o: ../external/sinen/src/color/color.cpp
 external/sinen/CMakeFiles/nen.dir/src/color/color.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/color/color.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/color/color.cpp.o -MF CMakeFiles/nen.dir/src/color/color.cpp.o.d -o CMakeFiles/nen.dir/src/color/color.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/color/color.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/color/color.cpp.o -MF CMakeFiles/nen.dir/src/color/color.cpp.o.d -o CMakeFiles/nen.dir/src/color/color.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/color/color.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/color/color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/color/color.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/color/color.cpp > CMakeFiles/nen.dir/src/color/color.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/color/color.cpp > CMakeFiles/nen.dir/src/color/color.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/color/color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/color/color.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/color/color.cpp -o CMakeFiles/nen.dir/src/color/color.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/color/color.cpp -o CMakeFiles/nen.dir/src/color/color.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.o: ../external/sinen/src/draw_object/draw_object_wrapper.cpp
 external/sinen/CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.o -MF CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.o.d -o CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/draw_object/draw_object_wrapper.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.o -MF CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.o.d -o CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/draw_object/draw_object_wrapper.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/draw_object/draw_object_wrapper.cpp > CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/draw_object/draw_object_wrapper.cpp > CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/draw_object/draw_object_wrapper.cpp -o CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/draw_object/draw_object_wrapper.cpp -o CMakeFiles/nen.dir/src/draw_object/draw_object_wrapper.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/font/font.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/font/font.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/font/font.cpp.o: ../external/sinen/src/font/font.cpp
 external/sinen/CMakeFiles/nen.dir/src/font/font.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/font/font.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/font/font.cpp.o -MF CMakeFiles/nen.dir/src/font/font.cpp.o.d -o CMakeFiles/nen.dir/src/font/font.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/font/font.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/font/font.cpp.o -MF CMakeFiles/nen.dir/src/font/font.cpp.o.d -o CMakeFiles/nen.dir/src/font/font.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/font/font.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/font/font.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/font/font.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/font/font.cpp > CMakeFiles/nen.dir/src/font/font.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/font/font.cpp > CMakeFiles/nen.dir/src/font/font.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/font/font.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/font/font.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/font/font.cpp -o CMakeFiles/nen.dir/src/font/font.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/font/font.cpp -o CMakeFiles/nen.dir/src/font/font.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/input/game_controller.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/input/game_controller.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/input/game_controller.cpp.o: ../external/sinen/src/input/game_controller.cpp
 external/sinen/CMakeFiles/nen.dir/src/input/game_controller.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/input/game_controller.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/input/game_controller.cpp.o -MF CMakeFiles/nen.dir/src/input/game_controller.cpp.o.d -o CMakeFiles/nen.dir/src/input/game_controller.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/input/game_controller.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/input/game_controller.cpp.o -MF CMakeFiles/nen.dir/src/input/game_controller.cpp.o.d -o CMakeFiles/nen.dir/src/input/game_controller.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/input/game_controller.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/input/game_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/input/game_controller.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/input/game_controller.cpp > CMakeFiles/nen.dir/src/input/game_controller.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/input/game_controller.cpp > CMakeFiles/nen.dir/src/input/game_controller.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/input/game_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/input/game_controller.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/input/game_controller.cpp -o CMakeFiles/nen.dir/src/input/game_controller.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/input/game_controller.cpp -o CMakeFiles/nen.dir/src/input/game_controller.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/input/input.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/input/input.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/input/input.cpp.o: ../external/sinen/src/input/input.cpp
 external/sinen/CMakeFiles/nen.dir/src/input/input.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/input/input.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/input/input.cpp.o -MF CMakeFiles/nen.dir/src/input/input.cpp.o.d -o CMakeFiles/nen.dir/src/input/input.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/input/input.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/input/input.cpp.o -MF CMakeFiles/nen.dir/src/input/input.cpp.o.d -o CMakeFiles/nen.dir/src/input/input.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/input/input.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/input/input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/input/input.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/input/input.cpp > CMakeFiles/nen.dir/src/input/input.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/input/input.cpp > CMakeFiles/nen.dir/src/input/input.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/input/input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/input/input.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/input/input.cpp -o CMakeFiles/nen.dir/src/input/input.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/input/input.cpp -o CMakeFiles/nen.dir/src/input/input.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/instancing/instancing.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/instancing/instancing.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/instancing/instancing.cpp.o: ../external/sinen/src/instancing/instancing.cpp
 external/sinen/CMakeFiles/nen.dir/src/instancing/instancing.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/instancing/instancing.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/instancing/instancing.cpp.o -MF CMakeFiles/nen.dir/src/instancing/instancing.cpp.o.d -o CMakeFiles/nen.dir/src/instancing/instancing.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/instancing/instancing.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/instancing/instancing.cpp.o -MF CMakeFiles/nen.dir/src/instancing/instancing.cpp.o.d -o CMakeFiles/nen.dir/src/instancing/instancing.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/instancing/instancing.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/instancing/instancing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/instancing/instancing.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/instancing/instancing.cpp > CMakeFiles/nen.dir/src/instancing/instancing.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/instancing/instancing.cpp > CMakeFiles/nen.dir/src/instancing/instancing.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/instancing/instancing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/instancing/instancing.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/instancing/instancing.cpp -o CMakeFiles/nen.dir/src/instancing/instancing.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/instancing/instancing.cpp -o CMakeFiles/nen.dir/src/instancing/instancing.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.o: ../external/sinen/src/instancing/instancing_wrapper.cpp
 external/sinen/CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.o -MF CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.o.d -o CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/instancing/instancing_wrapper.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.o -MF CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.o.d -o CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/instancing/instancing_wrapper.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/instancing/instancing_wrapper.cpp > CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/instancing/instancing_wrapper.cpp > CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/instancing/instancing_wrapper.cpp -o CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/instancing/instancing_wrapper.cpp -o CMakeFiles/nen.dir/src/instancing/instancing_wrapper.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/io/dstream.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/io/dstream.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/io/dstream.cpp.o: ../external/sinen/src/io/dstream.cpp
 external/sinen/CMakeFiles/nen.dir/src/io/dstream.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/io/dstream.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/io/dstream.cpp.o -MF CMakeFiles/nen.dir/src/io/dstream.cpp.o.d -o CMakeFiles/nen.dir/src/io/dstream.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/io/dstream.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/io/dstream.cpp.o -MF CMakeFiles/nen.dir/src/io/dstream.cpp.o.d -o CMakeFiles/nen.dir/src/io/dstream.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/io/dstream.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/io/dstream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/io/dstream.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/io/dstream.cpp > CMakeFiles/nen.dir/src/io/dstream.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/io/dstream.cpp > CMakeFiles/nen.dir/src/io/dstream.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/io/dstream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/io/dstream.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/io/dstream.cpp -o CMakeFiles/nen.dir/src/io/dstream.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/io/dstream.cpp -o CMakeFiles/nen.dir/src/io/dstream.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/logger/logger.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/logger/logger.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/logger/logger.cpp.o: ../external/sinen/src/logger/logger.cpp
 external/sinen/CMakeFiles/nen.dir/src/logger/logger.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/logger/logger.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/logger/logger.cpp.o -MF CMakeFiles/nen.dir/src/logger/logger.cpp.o.d -o CMakeFiles/nen.dir/src/logger/logger.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/logger/logger.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/logger/logger.cpp.o -MF CMakeFiles/nen.dir/src/logger/logger.cpp.o.d -o CMakeFiles/nen.dir/src/logger/logger.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/logger/logger.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/logger/logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/logger/logger.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/logger/logger.cpp > CMakeFiles/nen.dir/src/logger/logger.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/logger/logger.cpp > CMakeFiles/nen.dir/src/logger/logger.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/logger/logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/logger/logger.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/logger/logger.cpp -o CMakeFiles/nen.dir/src/logger/logger.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/logger/logger.cpp -o CMakeFiles/nen.dir/src/logger/logger.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/manager/manager.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/manager/manager.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/manager/manager.cpp.o: ../external/sinen/src/manager/manager.cpp
 external/sinen/CMakeFiles/nen.dir/src/manager/manager.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/manager/manager.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/manager/manager.cpp.o -MF CMakeFiles/nen.dir/src/manager/manager.cpp.o.d -o CMakeFiles/nen.dir/src/manager/manager.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/manager/manager.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/manager/manager.cpp.o -MF CMakeFiles/nen.dir/src/manager/manager.cpp.o.d -o CMakeFiles/nen.dir/src/manager/manager.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/manager/manager.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/manager/manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/manager/manager.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/manager/manager.cpp > CMakeFiles/nen.dir/src/manager/manager.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/manager/manager.cpp > CMakeFiles/nen.dir/src/manager/manager.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/manager/manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/manager/manager.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/manager/manager.cpp -o CMakeFiles/nen.dir/src/manager/manager.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/manager/manager.cpp -o CMakeFiles/nen.dir/src/manager/manager.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/math/math.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/math/math.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/math/math.cpp.o: ../external/sinen/src/math/math.cpp
 external/sinen/CMakeFiles/nen.dir/src/math/math.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/math/math.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/math/math.cpp.o -MF CMakeFiles/nen.dir/src/math/math.cpp.o.d -o CMakeFiles/nen.dir/src/math/math.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/math/math.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/math/math.cpp.o -MF CMakeFiles/nen.dir/src/math/math.cpp.o.d -o CMakeFiles/nen.dir/src/math/math.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/math/math.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/math/math.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/math/math.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/math/math.cpp > CMakeFiles/nen.dir/src/math/math.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/math/math.cpp > CMakeFiles/nen.dir/src/math/math.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/math/math.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/math/math.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/math/math.cpp -o CMakeFiles/nen.dir/src/math/math.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/math/math.cpp -o CMakeFiles/nen.dir/src/math/math.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/math/random.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/math/random.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/math/random.cpp.o: ../external/sinen/src/math/random.cpp
 external/sinen/CMakeFiles/nen.dir/src/math/random.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/math/random.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/math/random.cpp.o -MF CMakeFiles/nen.dir/src/math/random.cpp.o.d -o CMakeFiles/nen.dir/src/math/random.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/math/random.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/math/random.cpp.o -MF CMakeFiles/nen.dir/src/math/random.cpp.o.d -o CMakeFiles/nen.dir/src/math/random.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/math/random.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/math/random.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/math/random.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/math/random.cpp > CMakeFiles/nen.dir/src/math/random.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/math/random.cpp > CMakeFiles/nen.dir/src/math/random.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/math/random.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/math/random.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/math/random.cpp -o CMakeFiles/nen.dir/src/math/random.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/math/random.cpp -o CMakeFiles/nen.dir/src/math/random.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/math/transform.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/math/transform.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/math/transform.cpp.o: ../external/sinen/src/math/transform.cpp
 external/sinen/CMakeFiles/nen.dir/src/math/transform.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/math/transform.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/math/transform.cpp.o -MF CMakeFiles/nen.dir/src/math/transform.cpp.o.d -o CMakeFiles/nen.dir/src/math/transform.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/math/transform.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/math/transform.cpp.o -MF CMakeFiles/nen.dir/src/math/transform.cpp.o.d -o CMakeFiles/nen.dir/src/math/transform.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/math/transform.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/math/transform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/math/transform.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/math/transform.cpp > CMakeFiles/nen.dir/src/math/transform.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/math/transform.cpp > CMakeFiles/nen.dir/src/math/transform.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/math/transform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/math/transform.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/math/transform.cpp -o CMakeFiles/nen.dir/src/math/transform.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/math/transform.cpp -o CMakeFiles/nen.dir/src/math/transform.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/model/model.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/model/model.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/model/model.cpp.o: ../external/sinen/src/model/model.cpp
 external/sinen/CMakeFiles/nen.dir/src/model/model.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/model/model.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/model/model.cpp.o -MF CMakeFiles/nen.dir/src/model/model.cpp.o.d -o CMakeFiles/nen.dir/src/model/model.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/model/model.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/model/model.cpp.o -MF CMakeFiles/nen.dir/src/model/model.cpp.o.d -o CMakeFiles/nen.dir/src/model/model.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/model/model.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/model/model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/model/model.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/model/model.cpp > CMakeFiles/nen.dir/src/model/model.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/model/model.cpp > CMakeFiles/nen.dir/src/model/model.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/model/model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/model/model.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/model/model.cpp -o CMakeFiles/nen.dir/src/model/model.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/model/model.cpp -o CMakeFiles/nen.dir/src/model/model.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/network/tcp_client.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/network/tcp_client.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/network/tcp_client.cpp.o: ../external/sinen/src/network/tcp_client.cpp
 external/sinen/CMakeFiles/nen.dir/src/network/tcp_client.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/network/tcp_client.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/network/tcp_client.cpp.o -MF CMakeFiles/nen.dir/src/network/tcp_client.cpp.o.d -o CMakeFiles/nen.dir/src/network/tcp_client.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/network/tcp_client.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/network/tcp_client.cpp.o -MF CMakeFiles/nen.dir/src/network/tcp_client.cpp.o.d -o CMakeFiles/nen.dir/src/network/tcp_client.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/network/tcp_client.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/network/tcp_client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/network/tcp_client.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/network/tcp_client.cpp > CMakeFiles/nen.dir/src/network/tcp_client.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/network/tcp_client.cpp > CMakeFiles/nen.dir/src/network/tcp_client.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/network/tcp_client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/network/tcp_client.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/network/tcp_client.cpp -o CMakeFiles/nen.dir/src/network/tcp_client.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/network/tcp_client.cpp -o CMakeFiles/nen.dir/src/network/tcp_client.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/network/tcp_socket.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/network/tcp_socket.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/network/tcp_socket.cpp.o: ../external/sinen/src/network/tcp_socket.cpp
 external/sinen/CMakeFiles/nen.dir/src/network/tcp_socket.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/network/tcp_socket.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/network/tcp_socket.cpp.o -MF CMakeFiles/nen.dir/src/network/tcp_socket.cpp.o.d -o CMakeFiles/nen.dir/src/network/tcp_socket.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/network/tcp_socket.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/network/tcp_socket.cpp.o -MF CMakeFiles/nen.dir/src/network/tcp_socket.cpp.o.d -o CMakeFiles/nen.dir/src/network/tcp_socket.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/network/tcp_socket.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/network/tcp_socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/network/tcp_socket.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/network/tcp_socket.cpp > CMakeFiles/nen.dir/src/network/tcp_socket.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/network/tcp_socket.cpp > CMakeFiles/nen.dir/src/network/tcp_socket.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/network/tcp_socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/network/tcp_socket.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/network/tcp_socket.cpp -o CMakeFiles/nen.dir/src/network/tcp_socket.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/network/tcp_socket.cpp -o CMakeFiles/nen.dir/src/network/tcp_socket.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/physics/collision.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/physics/collision.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/physics/collision.cpp.o: ../external/sinen/src/physics/collision.cpp
 external/sinen/CMakeFiles/nen.dir/src/physics/collision.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/physics/collision.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/physics/collision.cpp.o -MF CMakeFiles/nen.dir/src/physics/collision.cpp.o.d -o CMakeFiles/nen.dir/src/physics/collision.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/physics/collision.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/physics/collision.cpp.o -MF CMakeFiles/nen.dir/src/physics/collision.cpp.o.d -o CMakeFiles/nen.dir/src/physics/collision.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/physics/collision.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/physics/collision.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/physics/collision.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/physics/collision.cpp > CMakeFiles/nen.dir/src/physics/collision.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/physics/collision.cpp > CMakeFiles/nen.dir/src/physics/collision.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/physics/collision.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/physics/collision.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/physics/collision.cpp -o CMakeFiles/nen.dir/src/physics/collision.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/physics/collision.cpp -o CMakeFiles/nen.dir/src/physics/collision.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.o: ../external/sinen/src/render/opengl/gl_renderer.cpp
 external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.o -MF CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.o.d -o CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/render/opengl/gl_renderer.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.o -MF CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.o.d -o CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/render/opengl/gl_renderer.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/render/opengl/gl_renderer.cpp > CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/render/opengl/gl_renderer.cpp > CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/render/opengl/gl_renderer.cpp -o CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/render/opengl/gl_renderer.cpp -o CMakeFiles/nen.dir/src/render/opengl/gl_renderer.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.o: ../external/sinen/src/render/opengl/gl_shader.cpp
 external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.o -MF CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.o.d -o CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/render/opengl/gl_shader.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.o -MF CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.o.d -o CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/render/opengl/gl_shader.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/render/opengl/gl_shader.cpp > CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/render/opengl/gl_shader.cpp > CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/render/opengl/gl_shader.cpp -o CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/render/opengl/gl_shader.cpp -o CMakeFiles/nen.dir/src/render/opengl/gl_shader.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/render/renderer.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/render/renderer.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/render/renderer.cpp.o: ../external/sinen/src/render/renderer.cpp
 external/sinen/CMakeFiles/nen.dir/src/render/renderer.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/render/renderer.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/render/renderer.cpp.o -MF CMakeFiles/nen.dir/src/render/renderer.cpp.o.d -o CMakeFiles/nen.dir/src/render/renderer.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/render/renderer.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/render/renderer.cpp.o -MF CMakeFiles/nen.dir/src/render/renderer.cpp.o.d -o CMakeFiles/nen.dir/src/render/renderer.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/render/renderer.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/render/renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/render/renderer.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/render/renderer.cpp > CMakeFiles/nen.dir/src/render/renderer.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/render/renderer.cpp > CMakeFiles/nen.dir/src/render/renderer.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/render/renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/render/renderer.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/render/renderer.cpp -o CMakeFiles/nen.dir/src/render/renderer.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/render/renderer.cpp -o CMakeFiles/nen.dir/src/render/renderer.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/scene/scene.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/scene/scene.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/scene/scene.cpp.o: ../external/sinen/src/scene/scene.cpp
 external/sinen/CMakeFiles/nen.dir/src/scene/scene.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/scene/scene.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/scene/scene.cpp.o -MF CMakeFiles/nen.dir/src/scene/scene.cpp.o.d -o CMakeFiles/nen.dir/src/scene/scene.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/scene/scene.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/scene/scene.cpp.o -MF CMakeFiles/nen.dir/src/scene/scene.cpp.o.d -o CMakeFiles/nen.dir/src/scene/scene.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/scene/scene.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/scene/scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/scene/scene.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/scene/scene.cpp > CMakeFiles/nen.dir/src/scene/scene.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/scene/scene.cpp > CMakeFiles/nen.dir/src/scene/scene.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/scene/scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/scene/scene.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/scene/scene.cpp -o CMakeFiles/nen.dir/src/scene/scene.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/scene/scene.cpp -o CMakeFiles/nen.dir/src/scene/scene.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/script/script.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/script/script.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/script/script.cpp.o: ../external/sinen/src/script/script.cpp
 external/sinen/CMakeFiles/nen.dir/src/script/script.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/script/script.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/script/script.cpp.o -MF CMakeFiles/nen.dir/src/script/script.cpp.o.d -o CMakeFiles/nen.dir/src/script/script.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/script/script.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/script/script.cpp.o -MF CMakeFiles/nen.dir/src/script/script.cpp.o.d -o CMakeFiles/nen.dir/src/script/script.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/script/script.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/script/script.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/script/script.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/script/script.cpp > CMakeFiles/nen.dir/src/script/script.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/script/script.cpp > CMakeFiles/nen.dir/src/script/script.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/script/script.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/script/script.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/script/script.cpp -o CMakeFiles/nen.dir/src/script/script.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/script/script.cpp -o CMakeFiles/nen.dir/src/script/script.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/shader/shader.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/shader/shader.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/shader/shader.cpp.o: ../external/sinen/src/shader/shader.cpp
 external/sinen/CMakeFiles/nen.dir/src/shader/shader.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/shader/shader.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/shader/shader.cpp.o -MF CMakeFiles/nen.dir/src/shader/shader.cpp.o.d -o CMakeFiles/nen.dir/src/shader/shader.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/shader/shader.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/shader/shader.cpp.o -MF CMakeFiles/nen.dir/src/shader/shader.cpp.o.d -o CMakeFiles/nen.dir/src/shader/shader.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/shader/shader.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/shader/shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/shader/shader.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/shader/shader.cpp > CMakeFiles/nen.dir/src/shader/shader.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/shader/shader.cpp > CMakeFiles/nen.dir/src/shader/shader.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/shader/shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/shader/shader.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/shader/shader.cpp -o CMakeFiles/nen.dir/src/shader/shader.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/shader/shader.cpp -o CMakeFiles/nen.dir/src/shader/shader.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/texture/texture.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/texture/texture.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/texture/texture.cpp.o: ../external/sinen/src/texture/texture.cpp
 external/sinen/CMakeFiles/nen.dir/src/texture/texture.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/texture/texture.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/texture/texture.cpp.o -MF CMakeFiles/nen.dir/src/texture/texture.cpp.o.d -o CMakeFiles/nen.dir/src/texture/texture.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/texture/texture.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/texture/texture.cpp.o -MF CMakeFiles/nen.dir/src/texture/texture.cpp.o.d -o CMakeFiles/nen.dir/src/texture/texture.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/texture/texture.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/texture/texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/texture/texture.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/texture/texture.cpp > CMakeFiles/nen.dir/src/texture/texture.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/texture/texture.cpp > CMakeFiles/nen.dir/src/texture/texture.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/texture/texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/texture/texture.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/texture/texture.cpp -o CMakeFiles/nen.dir/src/texture/texture.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/texture/texture.cpp -o CMakeFiles/nen.dir/src/texture/texture.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/texture/texture_system.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/texture/texture_system.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/texture/texture_system.cpp.o: ../external/sinen/src/texture/texture_system.cpp
 external/sinen/CMakeFiles/nen.dir/src/texture/texture_system.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/texture/texture_system.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/texture/texture_system.cpp.o -MF CMakeFiles/nen.dir/src/texture/texture_system.cpp.o.d -o CMakeFiles/nen.dir/src/texture/texture_system.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/texture/texture_system.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/texture/texture_system.cpp.o -MF CMakeFiles/nen.dir/src/texture/texture_system.cpp.o.d -o CMakeFiles/nen.dir/src/texture/texture_system.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/texture/texture_system.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/texture/texture_system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/texture/texture_system.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/texture/texture_system.cpp > CMakeFiles/nen.dir/src/texture/texture_system.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/texture/texture_system.cpp > CMakeFiles/nen.dir/src/texture/texture_system.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/texture/texture_system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/texture/texture_system.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/texture/texture_system.cpp -o CMakeFiles/nen.dir/src/texture/texture_system.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/texture/texture_system.cpp -o CMakeFiles/nen.dir/src/texture/texture_system.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/time/time.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/time/time.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/time/time.cpp.o: ../external/sinen/src/time/time.cpp
 external/sinen/CMakeFiles/nen.dir/src/time/time.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/time/time.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/time/time.cpp.o -MF CMakeFiles/nen.dir/src/time/time.cpp.o.d -o CMakeFiles/nen.dir/src/time/time.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/time/time.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/time/time.cpp.o -MF CMakeFiles/nen.dir/src/time/time.cpp.o.d -o CMakeFiles/nen.dir/src/time/time.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/time/time.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/time/time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/time/time.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/time/time.cpp > CMakeFiles/nen.dir/src/time/time.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/time/time.cpp > CMakeFiles/nen.dir/src/time/time.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/time/time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/time/time.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/time/time.cpp -o CMakeFiles/nen.dir/src/time/time.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/time/time.cpp -o CMakeFiles/nen.dir/src/time/time.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/time/timer.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/time/timer.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/time/timer.cpp.o: ../external/sinen/src/time/timer.cpp
 external/sinen/CMakeFiles/nen.dir/src/time/timer.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/time/timer.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/time/timer.cpp.o -MF CMakeFiles/nen.dir/src/time/timer.cpp.o.d -o CMakeFiles/nen.dir/src/time/timer.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/time/timer.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/time/timer.cpp.o -MF CMakeFiles/nen.dir/src/time/timer.cpp.o.d -o CMakeFiles/nen.dir/src/time/timer.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/time/timer.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/time/timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/time/timer.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/time/timer.cpp > CMakeFiles/nen.dir/src/time/timer.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/time/timer.cpp > CMakeFiles/nen.dir/src/time/timer.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/time/timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/time/timer.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/time/timer.cpp -o CMakeFiles/nen.dir/src/time/timer.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/time/timer.cpp -o CMakeFiles/nen.dir/src/time/timer.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/utility/handler.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/utility/handler.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/utility/handler.cpp.o: ../external/sinen/src/utility/handler.cpp
 external/sinen/CMakeFiles/nen.dir/src/utility/handler.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/utility/handler.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/utility/handler.cpp.o -MF CMakeFiles/nen.dir/src/utility/handler.cpp.o.d -o CMakeFiles/nen.dir/src/utility/handler.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/utility/handler.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/utility/handler.cpp.o -MF CMakeFiles/nen.dir/src/utility/handler.cpp.o.d -o CMakeFiles/nen.dir/src/utility/handler.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/utility/handler.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/utility/handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/utility/handler.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/utility/handler.cpp > CMakeFiles/nen.dir/src/utility/handler.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/utility/handler.cpp > CMakeFiles/nen.dir/src/utility/handler.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/utility/handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/utility/handler.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/utility/handler.cpp -o CMakeFiles/nen.dir/src/utility/handler.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/utility/handler.cpp -o CMakeFiles/nen.dir/src/utility/handler.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/utility/singleton.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/utility/singleton.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/utility/singleton.cpp.o: ../external/sinen/src/utility/singleton.cpp
 external/sinen/CMakeFiles/nen.dir/src/utility/singleton.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/utility/singleton.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/utility/singleton.cpp.o -MF CMakeFiles/nen.dir/src/utility/singleton.cpp.o.d -o CMakeFiles/nen.dir/src/utility/singleton.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/utility/singleton.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/utility/singleton.cpp.o -MF CMakeFiles/nen.dir/src/utility/singleton.cpp.o.d -o CMakeFiles/nen.dir/src/utility/singleton.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/utility/singleton.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/utility/singleton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/utility/singleton.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/utility/singleton.cpp > CMakeFiles/nen.dir/src/utility/singleton.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/utility/singleton.cpp > CMakeFiles/nen.dir/src/utility/singleton.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/utility/singleton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/utility/singleton.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/utility/singleton.cpp -o CMakeFiles/nen.dir/src/utility/singleton.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/utility/singleton.cpp -o CMakeFiles/nen.dir/src/utility/singleton.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/vertex/box.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/vertex/box.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/vertex/box.cpp.o: ../external/sinen/src/vertex/box.cpp
 external/sinen/CMakeFiles/nen.dir/src/vertex/box.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/vertex/box.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/vertex/box.cpp.o -MF CMakeFiles/nen.dir/src/vertex/box.cpp.o.d -o CMakeFiles/nen.dir/src/vertex/box.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/box.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/vertex/box.cpp.o -MF CMakeFiles/nen.dir/src/vertex/box.cpp.o.d -o CMakeFiles/nen.dir/src/vertex/box.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/box.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/vertex/box.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/vertex/box.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/box.cpp > CMakeFiles/nen.dir/src/vertex/box.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/box.cpp > CMakeFiles/nen.dir/src/vertex/box.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/vertex/box.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/vertex/box.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/box.cpp -o CMakeFiles/nen.dir/src/vertex/box.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/box.cpp -o CMakeFiles/nen.dir/src/vertex/box.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/vertex/sprite.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/vertex/sprite.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/vertex/sprite.cpp.o: ../external/sinen/src/vertex/sprite.cpp
 external/sinen/CMakeFiles/nen.dir/src/vertex/sprite.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/vertex/sprite.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/vertex/sprite.cpp.o -MF CMakeFiles/nen.dir/src/vertex/sprite.cpp.o.d -o CMakeFiles/nen.dir/src/vertex/sprite.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/sprite.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/vertex/sprite.cpp.o -MF CMakeFiles/nen.dir/src/vertex/sprite.cpp.o.d -o CMakeFiles/nen.dir/src/vertex/sprite.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/sprite.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/vertex/sprite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/vertex/sprite.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/sprite.cpp > CMakeFiles/nen.dir/src/vertex/sprite.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/sprite.cpp > CMakeFiles/nen.dir/src/vertex/sprite.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/vertex/sprite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/vertex/sprite.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/sprite.cpp -o CMakeFiles/nen.dir/src/vertex/sprite.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/sprite.cpp -o CMakeFiles/nen.dir/src/vertex/sprite.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/vertex/vertex.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/vertex/vertex.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/vertex/vertex.cpp.o: ../external/sinen/src/vertex/vertex.cpp
 external/sinen/CMakeFiles/nen.dir/src/vertex/vertex.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/vertex/vertex.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/vertex/vertex.cpp.o -MF CMakeFiles/nen.dir/src/vertex/vertex.cpp.o.d -o CMakeFiles/nen.dir/src/vertex/vertex.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/vertex.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/vertex/vertex.cpp.o -MF CMakeFiles/nen.dir/src/vertex/vertex.cpp.o.d -o CMakeFiles/nen.dir/src/vertex/vertex.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/vertex.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/vertex/vertex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/vertex/vertex.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/vertex.cpp > CMakeFiles/nen.dir/src/vertex/vertex.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/vertex.cpp > CMakeFiles/nen.dir/src/vertex/vertex.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/vertex/vertex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/vertex/vertex.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/vertex.cpp -o CMakeFiles/nen.dir/src/vertex/vertex.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/vertex.cpp -o CMakeFiles/nen.dir/src/vertex/vertex.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.o: ../external/sinen/src/vertex/vertex_array.cpp
 external/sinen/CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.o -MF CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.o.d -o CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/vertex_array.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.o -MF CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.o.d -o CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/vertex_array.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/vertex_array.cpp > CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/vertex_array.cpp > CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/vertex_array.cpp -o CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/vertex/vertex_array.cpp -o CMakeFiles/nen.dir/src/vertex/vertex_array.cpp.s
 
 external/sinen/CMakeFiles/nen.dir/src/window/window.cpp.o: external/sinen/CMakeFiles/nen.dir/flags.make
 external/sinen/CMakeFiles/nen.dir/src/window/window.cpp.o: external/sinen/CMakeFiles/nen.dir/includes_CXX.rsp
 external/sinen/CMakeFiles/nen.dir/src/window/window.cpp.o: ../external/sinen/src/window/window.cpp
 external/sinen/CMakeFiles/nen.dir/src/window/window.cpp.o: external/sinen/CMakeFiles/nen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/sinen/sinen/example/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object external/sinen/CMakeFiles/nen.dir/src/window/window.cpp.o"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/window/window.cpp.o -MF CMakeFiles/nen.dir/src/window/window.cpp.o.d -o CMakeFiles/nen.dir/src/window/window.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/window/window.cpp
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/sinen/CMakeFiles/nen.dir/src/window/window.cpp.o -MF CMakeFiles/nen.dir/src/window/window.cpp.o.d -o CMakeFiles/nen.dir/src/window/window.cpp.o -c /home/runner/work/sinen/sinen/example/external/sinen/src/window/window.cpp
 
 external/sinen/CMakeFiles/nen.dir/src/window/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nen.dir/src/window/window.cpp.i"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/window/window.cpp > CMakeFiles/nen.dir/src/window/window.cpp.i
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/sinen/sinen/example/external/sinen/src/window/window.cpp > CMakeFiles/nen.dir/src/window/window.cpp.i
 
 external/sinen/CMakeFiles/nen.dir/src/window/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nen.dir/src/window/window.cpp.s"
-	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/74c14bc4-6b8c-46a5-a1ad-c5d01a194389/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/window/window.cpp -o CMakeFiles/nen.dir/src/window/window.cpp.s
+	cd /home/runner/work/sinen/sinen/example/build/external/sinen && /home/runner/work/_temp/be00764c-85c7-4536-bb2e-69875586a22f/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/sinen/sinen/example/external/sinen/src/window/window.cpp -o CMakeFiles/nen.dir/src/window/window.cpp.s
 
 # Object files for target nen
 nen_OBJECTS = \
