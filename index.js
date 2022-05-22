@@ -202,7 +202,7 @@ Module['FS_createPath']("/data", "script", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/data/font/mplus/mplus-1p-medium.ttf", "start": 0, "end": 1745612}, {"filename": "/data/shader/Vulkan/shaderAlpha.frag.spv", "start": 1745612, "end": 1746352}, {"filename": "/data/shader/Vulkan/shader_instance.vert.spv", "start": 1746352, "end": 1748976}, {"filename": "/data/shader/Vulkan/shader.vert.spv", "start": 1748976, "end": 1751648}, {"filename": "/data/shader/Vulkan/vk_shader_instance.vert", "start": 1751648, "end": 1752622}, {"filename": "/data/shader/Vulkan/compile.bat", "start": 1752622, "end": 1753007}, {"filename": "/data/shader/Vulkan/shaderPlain.frag.spv", "start": 1753007, "end": 1756347}, {"filename": "/data/shader/Vulkan/vkshaderPlain.frag", "start": 1756347, "end": 1757639}, {"filename": "/data/shader/Vulkan/vkshaderAlpha.frag", "start": 1757639, "end": 1757895}, {"filename": "/data/shader/Vulkan/vkshaderOpaque.frag", "start": 1757895, "end": 1759208}, {"filename": "/data/shader/Vulkan/shaderOpaque.frag.spv", "start": 1759208, "end": 1762728}, {"filename": "/data/shader/Vulkan/vkshader.vert", "start": 1762728, "end": 1763724}, {"filename": "/data/shader/GL/shader_instance.vert", "start": 1763724, "end": 1764595}, {"filename": "/data/shader/GL/shader.vert", "start": 1764595, "end": 1765231}, {"filename": "/data/shader/GL/alpha.frag", "start": 1765231, "end": 1765424}, {"filename": "/data/shader/GL/shader.frag", "start": 1765424, "end": 1766630}, {"filename": "/data/script/main.lua", "start": 1766630, "end": 1767011}], "remote_package_size": 1767011, "package_uuid": "b5eb57d5-38ff-4a72-b78e-71e799086710"});
+    loadPackage({"files": [{"filename": "/data/font/mplus/mplus-1p-medium.ttf", "start": 0, "end": 1745612}, {"filename": "/data/shader/Vulkan/shaderAlpha.frag.spv", "start": 1745612, "end": 1746352}, {"filename": "/data/shader/Vulkan/shader_instance.vert.spv", "start": 1746352, "end": 1748976}, {"filename": "/data/shader/Vulkan/shader.vert.spv", "start": 1748976, "end": 1751648}, {"filename": "/data/shader/Vulkan/vk_shader_instance.vert", "start": 1751648, "end": 1752622}, {"filename": "/data/shader/Vulkan/compile.bat", "start": 1752622, "end": 1753007}, {"filename": "/data/shader/Vulkan/shaderPlain.frag.spv", "start": 1753007, "end": 1756347}, {"filename": "/data/shader/Vulkan/vkshaderPlain.frag", "start": 1756347, "end": 1757639}, {"filename": "/data/shader/Vulkan/vkshaderAlpha.frag", "start": 1757639, "end": 1757895}, {"filename": "/data/shader/Vulkan/vkshaderOpaque.frag", "start": 1757895, "end": 1759208}, {"filename": "/data/shader/Vulkan/shaderOpaque.frag.spv", "start": 1759208, "end": 1762728}, {"filename": "/data/shader/Vulkan/vkshader.vert", "start": 1762728, "end": 1763724}, {"filename": "/data/shader/GL/shader_instance.vert", "start": 1763724, "end": 1764595}, {"filename": "/data/shader/GL/shader.vert", "start": 1764595, "end": 1765231}, {"filename": "/data/shader/GL/alpha.frag", "start": 1765231, "end": 1765424}, {"filename": "/data/shader/GL/shader.frag", "start": 1765424, "end": 1766630}, {"filename": "/data/script/main.lua", "start": 1766630, "end": 1767383}], "remote_package_size": 1767383, "package_uuid": "605d3f29-a1b8-4a19-aa3e-fb11eaf426c6"});
 
   })();
 
@@ -13561,13 +13561,13 @@ var stackAlloc = Module["stackAlloc"] = createExportWrapper("stackAlloc");
 var ___cxa_is_pointer_type = Module["___cxa_is_pointer_type"] = createExportWrapper("__cxa_is_pointer_type");
 
 /** @type {function(...*):?} */
-var dynCall_iiji = Module["dynCall_iiji"] = createExportWrapper("dynCall_iiji");
-
-/** @type {function(...*):?} */
 var dynCall_ji = Module["dynCall_ji"] = createExportWrapper("dynCall_ji");
 
 /** @type {function(...*):?} */
 var dynCall_jiji = Module["dynCall_jiji"] = createExportWrapper("dynCall_jiji");
+
+/** @type {function(...*):?} */
+var dynCall_iiji = Module["dynCall_iiji"] = createExportWrapper("dynCall_iiji");
 
 /** @type {function(...*):?} */
 var dynCall_viijii = Module["dynCall_viijii"] = createExportWrapper("dynCall_viijii");
@@ -13593,21 +13593,10 @@ function invoke_vii(index,a1,a2) {
   }
 }
 
-function invoke_viiii(index,a1,a2,a3,a4) {
+function invoke_ii(index,a1) {
   var sp = stackSave();
   try {
-    getWasmTableEntry(index)(a1,a2,a3,a4);
-  } catch(e) {
-    stackRestore(sp);
-    if (e !== e+0) throw e;
-    _setThrew(1, 0);
-  }
-}
-
-function invoke_iii(index,a1,a2) {
-  var sp = stackSave();
-  try {
-    return getWasmTableEntry(index)(a1,a2);
+    return getWasmTableEntry(index)(a1);
   } catch(e) {
     stackRestore(sp);
     if (e !== e+0) throw e;
@@ -13648,10 +13637,10 @@ function invoke_vi(index,a1) {
   }
 }
 
-function invoke_ii(index,a1) {
+function invoke_iii(index,a1,a2) {
   var sp = stackSave();
   try {
-    return getWasmTableEntry(index)(a1);
+    return getWasmTableEntry(index)(a1,a2);
   } catch(e) {
     stackRestore(sp);
     if (e !== e+0) throw e;
@@ -13707,6 +13696,17 @@ function invoke_i(index) {
   var sp = stackSave();
   try {
     return getWasmTableEntry(index)();
+  } catch(e) {
+    stackRestore(sp);
+    if (e !== e+0) throw e;
+    _setThrew(1, 0);
+  }
+}
+
+function invoke_viiii(index,a1,a2,a3,a4) {
+  var sp = stackSave();
+  try {
+    getWasmTableEntry(index)(a1,a2,a3,a4);
   } catch(e) {
     stackRestore(sp);
     if (e !== e+0) throw e;
