@@ -1090,53 +1090,53 @@ external/Lua/source/print.c.s:
 	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/external/Lua/source/print.c.s
 .PHONY : external/Lua/source/print.c.s
 
-src/audio/music_system.o: src/audio/music_system.cpp.o
-.PHONY : src/audio/music_system.o
+src/audio/music.o: src/audio/music.cpp.o
+.PHONY : src/audio/music.o
 
 # target to build an object file
-src/audio/music_system.cpp.o:
-	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/audio/music_system.cpp.o
-.PHONY : src/audio/music_system.cpp.o
+src/audio/music.cpp.o:
+	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/audio/music.cpp.o
+.PHONY : src/audio/music.cpp.o
 
-src/audio/music_system.i: src/audio/music_system.cpp.i
-.PHONY : src/audio/music_system.i
+src/audio/music.i: src/audio/music.cpp.i
+.PHONY : src/audio/music.i
 
 # target to preprocess a source file
-src/audio/music_system.cpp.i:
-	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/audio/music_system.cpp.i
-.PHONY : src/audio/music_system.cpp.i
+src/audio/music.cpp.i:
+	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/audio/music.cpp.i
+.PHONY : src/audio/music.cpp.i
 
-src/audio/music_system.s: src/audio/music_system.cpp.s
-.PHONY : src/audio/music_system.s
+src/audio/music.s: src/audio/music.cpp.s
+.PHONY : src/audio/music.s
 
 # target to generate assembly for a file
-src/audio/music_system.cpp.s:
-	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/audio/music_system.cpp.s
-.PHONY : src/audio/music_system.cpp.s
+src/audio/music.cpp.s:
+	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/audio/music.cpp.s
+.PHONY : src/audio/music.cpp.s
 
-src/audio/sound_event.o: src/audio/sound_event.cpp.o
-.PHONY : src/audio/sound_event.o
+src/audio/sound.o: src/audio/sound.cpp.o
+.PHONY : src/audio/sound.o
 
 # target to build an object file
-src/audio/sound_event.cpp.o:
-	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/audio/sound_event.cpp.o
-.PHONY : src/audio/sound_event.cpp.o
+src/audio/sound.cpp.o:
+	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/audio/sound.cpp.o
+.PHONY : src/audio/sound.cpp.o
 
-src/audio/sound_event.i: src/audio/sound_event.cpp.i
-.PHONY : src/audio/sound_event.i
+src/audio/sound.i: src/audio/sound.cpp.i
+.PHONY : src/audio/sound.i
 
 # target to preprocess a source file
-src/audio/sound_event.cpp.i:
-	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/audio/sound_event.cpp.i
-.PHONY : src/audio/sound_event.cpp.i
+src/audio/sound.cpp.i:
+	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/audio/sound.cpp.i
+.PHONY : src/audio/sound.cpp.i
 
-src/audio/sound_event.s: src/audio/sound_event.cpp.s
-.PHONY : src/audio/sound_event.s
+src/audio/sound.s: src/audio/sound.cpp.s
+.PHONY : src/audio/sound.s
 
 # target to generate assembly for a file
-src/audio/sound_event.cpp.s:
-	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/audio/sound_event.cpp.s
-.PHONY : src/audio/sound_event.cpp.s
+src/audio/sound.cpp.s:
+	cd /home/runner/work/sinen/sinen/example/build && $(MAKE) $(MAKESILENT) -f external/sinen/CMakeFiles/nen.dir/build.make external/sinen/CMakeFiles/nen.dir/src/audio/sound.cpp.s
+.PHONY : src/audio/sound.cpp.s
 
 src/audio/sound_system.o: src/audio/sound_system.cpp.o
 .PHONY : src/audio/sound_system.o
@@ -2131,12 +2131,12 @@ help:
 	@echo "... external/Lua/source/print.o"
 	@echo "... external/Lua/source/print.i"
 	@echo "... external/Lua/source/print.s"
-	@echo "... src/audio/music_system.o"
-	@echo "... src/audio/music_system.i"
-	@echo "... src/audio/music_system.s"
-	@echo "... src/audio/sound_event.o"
-	@echo "... src/audio/sound_event.i"
-	@echo "... src/audio/sound_event.s"
+	@echo "... src/audio/music.o"
+	@echo "... src/audio/music.i"
+	@echo "... src/audio/music.s"
+	@echo "... src/audio/sound.o"
+	@echo "... src/audio/sound.i"
+	@echo "... src/audio/sound.s"
 	@echo "... src/audio/sound_system.o"
 	@echo "... src/audio/sound_system.i"
 	@echo "... src/audio/sound_system.s"
