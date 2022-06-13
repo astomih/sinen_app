@@ -202,7 +202,7 @@ Module['FS_createPath']("/data/shader", "Vulkan", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/data/font/mplus/mplus-1p-medium.ttf", "start": 0, "end": 1745612}, {"filename": "/data/script/main.lua", "start": 1745612, "end": 1746365}, {"filename": "/data/shader/GL/shader_instance.vert", "start": 1746365, "end": 1747236}, {"filename": "/data/shader/GL/shader.vert", "start": 1747236, "end": 1747872}, {"filename": "/data/shader/GL/alpha.frag", "start": 1747872, "end": 1748065}, {"filename": "/data/shader/GL/shader.frag", "start": 1748065, "end": 1749271}, {"filename": "/data/shader/Vulkan/shaderOpaque.frag.spv", "start": 1749271, "end": 1752791}, {"filename": "/data/shader/Vulkan/compile.bat", "start": 1752791, "end": 1753176}, {"filename": "/data/shader/Vulkan/shaderAlpha.frag.spv", "start": 1753176, "end": 1753916}, {"filename": "/data/shader/Vulkan/vkshaderAlpha.frag", "start": 1753916, "end": 1754172}, {"filename": "/data/shader/Vulkan/vk_shader_instance.vert", "start": 1754172, "end": 1755146}, {"filename": "/data/shader/Vulkan/vkshaderOpaque.frag", "start": 1755146, "end": 1756459}, {"filename": "/data/shader/Vulkan/vkshader.vert", "start": 1756459, "end": 1757455}, {"filename": "/data/shader/Vulkan/shaderPlain.frag.spv", "start": 1757455, "end": 1760795}, {"filename": "/data/shader/Vulkan/shader.vert.spv", "start": 1760795, "end": 1763467}, {"filename": "/data/shader/Vulkan/shader_instance.vert.spv", "start": 1763467, "end": 1766091}, {"filename": "/data/shader/Vulkan/vkshaderPlain.frag", "start": 1766091, "end": 1767383}], "remote_package_size": 1767383, "package_uuid": "5517725a-cb2e-4b75-9b9a-c8f564c464d8"});
+    loadPackage({"files": [{"filename": "/data/font/mplus/mplus-1p-medium.ttf", "start": 0, "end": 1745612}, {"filename": "/data/script/main.lua", "start": 1745612, "end": 1746365}, {"filename": "/data/shader/GL/shader_instance.vert", "start": 1746365, "end": 1747236}, {"filename": "/data/shader/GL/shader.vert", "start": 1747236, "end": 1747872}, {"filename": "/data/shader/GL/alpha.frag", "start": 1747872, "end": 1748065}, {"filename": "/data/shader/GL/shader.frag", "start": 1748065, "end": 1749271}, {"filename": "/data/shader/Vulkan/shaderOpaque.frag.spv", "start": 1749271, "end": 1752791}, {"filename": "/data/shader/Vulkan/compile.bat", "start": 1752791, "end": 1753176}, {"filename": "/data/shader/Vulkan/shaderAlpha.frag.spv", "start": 1753176, "end": 1753916}, {"filename": "/data/shader/Vulkan/vkshaderAlpha.frag", "start": 1753916, "end": 1754172}, {"filename": "/data/shader/Vulkan/vk_shader_instance.vert", "start": 1754172, "end": 1755146}, {"filename": "/data/shader/Vulkan/vkshaderOpaque.frag", "start": 1755146, "end": 1756459}, {"filename": "/data/shader/Vulkan/vkshader.vert", "start": 1756459, "end": 1757455}, {"filename": "/data/shader/Vulkan/shaderPlain.frag.spv", "start": 1757455, "end": 1760795}, {"filename": "/data/shader/Vulkan/shader.vert.spv", "start": 1760795, "end": 1763467}, {"filename": "/data/shader/Vulkan/shader_instance.vert.spv", "start": 1763467, "end": 1766091}, {"filename": "/data/shader/Vulkan/vkshaderPlain.frag", "start": 1766091, "end": 1767383}], "remote_package_size": 1767383, "package_uuid": "0047891d-c92b-4123-9038-13c640276783"});
 
   })();
 
@@ -13618,21 +13618,10 @@ function invoke_vii(index,a1,a2) {
   }
 }
 
-function invoke_viiii(index,a1,a2,a3,a4) {
+function invoke_ii(index,a1) {
   var sp = stackSave();
   try {
-    getWasmTableEntry(index)(a1,a2,a3,a4);
-  } catch(e) {
-    stackRestore(sp);
-    if (e !== e+0) throw e;
-    _setThrew(1, 0);
-  }
-}
-
-function invoke_iii(index,a1,a2) {
-  var sp = stackSave();
-  try {
-    return getWasmTableEntry(index)(a1,a2);
+    return getWasmTableEntry(index)(a1);
   } catch(e) {
     stackRestore(sp);
     if (e !== e+0) throw e;
@@ -13673,10 +13662,10 @@ function invoke_vi(index,a1) {
   }
 }
 
-function invoke_ii(index,a1) {
+function invoke_iii(index,a1,a2) {
   var sp = stackSave();
   try {
-    return getWasmTableEntry(index)(a1);
+    return getWasmTableEntry(index)(a1,a2);
   } catch(e) {
     stackRestore(sp);
     if (e !== e+0) throw e;
@@ -13732,6 +13721,17 @@ function invoke_i(index) {
   var sp = stackSave();
   try {
     return getWasmTableEntry(index)();
+  } catch(e) {
+    stackRestore(sp);
+    if (e !== e+0) throw e;
+    _setThrew(1, 0);
+  }
+}
+
+function invoke_viiii(index,a1,a2,a3,a4) {
+  var sp = stackSave();
+  try {
+    getWasmTableEntry(index)(a1,a2,a3,a4);
   } catch(e) {
     stackRestore(sp);
     if (e !== e+0) throw e;
